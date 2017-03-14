@@ -6,7 +6,7 @@
 \usepackage{array}
 \usepackage{tikz}
 \usepackage{apacite}
-\usepackage{pgfgantt}
+\usepackage{url}
 \usepackage[left=3.00cm, right=3.00cm, top=3.00cm, bottom=3.00cm]{geometry}
 %\usepackage[printwatermark]{xwatermark}
 %\usepackage{xcolor}
@@ -58,6 +58,8 @@
 		
 		\subsection{POS-Tagging}
 		
+		\subsection{NER-Tagging}
+		
 		\subsection{Dependency parsing}
 	
 	\section{Extracting entities and aspects}
@@ -86,6 +88,8 @@
 	\section{State of the project}
 	We build and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects, because it is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation.
 	
+	Use pre-trained word embeddings from the GloVe project.
+	
 	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet.
 	
 	We will utilize the sentiment lexicon by Bing Liu, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
@@ -98,6 +102,12 @@
 
 	\newpage
 
-	%\bibliography{rp}
-	%\bibliographystyle{apacite}
+	\nocite{DBLP:journals/corr/AndorAWSPGPC16}
+	\nocite{Liu12sentimentanalysis}
+	\nocite{Zhang2014}
+	\nocite{pennington2014glove}
+	\nocite{syntaxnet}
+
+	\bibliography{rp}
+	\bibliographystyle{apacite}
 \end{document}
