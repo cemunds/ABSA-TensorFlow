@@ -66,33 +66,78 @@
 	
 	Extract the posts' text into separate files.
 	
+	we will use a method proposed by Hu and Liu (2004) to extract entities and aspects.
+	
 	Annotate all files with POS-Tags.
 	
 	Identify frequent nouns and noun phrases with a POS-Tagger. Frequency threshold is chosen experimentally. People commenting on aspects of a product usually use a limited vocabulary. Thus, frequent nouns and noun phrases are most likely important aspects.
 	
-	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words (Zhang et al., 2016).
+	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words.
 	
 	\section{Determining sentiment polarities}
-	lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
+	We will focus on two approaches
 	
-	We will apply a method by Ding, Liu and Yu (2008), which has the following steps: First, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon.
+		\subsection{LSTM-Network}
+		
+		\subsection{Lexicon-based approach}
+		lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
+		
+		We will apply a method by Ding, Liu and Yu (2008), which has the following steps: First, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon.
+		
+		Second, sentiment shifters will be applied.
+		
+		Third, but-clauses must be handled.
+		
+		Fourth, opinions need to be aggregated.
 	
-	Second, sentiment shifters will be applied.
-	
-	Third, but-clauses must be handled.
-	
-	Fourth, opinions need to be aggregated.
-
-	This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words (Bing Liu, 2012).
+		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words (Bing Liu, 2012).
 
 	\section{State of the project}
-	We build and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects, because it is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation.
+	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects, because it is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation.
 	
 	Use pre-trained word embeddings from the GloVe project.
 	
 	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet.
 	
 	We will utilize the sentiment lexicon by Bing Liu, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
+	
+	\begin{table}[h]
+		\centering
+		\caption{Per-token accuracy of different POS-Taggers}
+		\label{tab:posaccuracy}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			Model & News & Web & Questions \\
+			\hline
+			Ling et al. (2015) & 97.44 & 94.03 & 96.18 \\
+			\hline
+			Andor et al. (2016) & 97.77 & 94.80 & 96.86 \\
+			\hline
+			Parsey McParseface & 97.52 & 94.24 & 96.45 \\
+			\hline
+		\end{tabular}
+	\end{table}
+	
+	\begin{table}[h]
+		\centering
+		\caption{Accuracy of different dependency parsers}
+		\label{tab:parseraccuracy}
+		\begin{tabular}{|l|l|l|l|}
+			\hline
+			Model & News & Web & Questions \\
+			\hline
+			Martins et al. (2013) & 93.10 & 88.23 & 94.21 \\
+			\hline
+			Zhang and McDonald (2014) & 93.32 & 88.65 & 93.37 \\
+			\hline
+			Weiss et al. (2015) & 93.91 & 89.29 & 94.17 \\
+			\hline
+			Andor et al. (2016) & 94.44 & 90.17 & 95.40 \\
+			\hline
+			Parsey McParseface & 94.15 & 89.98 & 94.77 \\
+			\hline
+		\end{tabular}
+	\end{table}
 
 	\section{Goals and schedule}
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity, $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on, $s_{ijkl}$ is the sentiment polarity, $h_k$ the opinion holder and $t_l$ the time at which the opinion was expressed.
@@ -107,6 +152,8 @@
 	\nocite{Zhang2014}
 	\nocite{pennington2014glove}
 	\nocite{syntaxnet}
+	\nocite{Ding:2008:HLA:1341531.1341561}
+	\nocite{Hu:2004:MSC:1014052.1014073}
 
 	\bibliography{rp}
 	\bibliographystyle{apacite}
