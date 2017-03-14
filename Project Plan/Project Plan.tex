@@ -1,0 +1,103 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[parfill]{parskip}
+\usepackage[section]{placeins}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{tikz}
+\usepackage{apacite}
+\usepackage{pgfgantt}
+\usepackage[left=3.00cm, right=3.00cm, top=3.00cm, bottom=3.00cm]{geometry}
+%\usepackage[printwatermark]{xwatermark}
+%\usepackage{xcolor}
+
+%\newwatermark[allpages,color=red!40,angle=45,scale=4,xpos=0,ypos=0]{DRAFT}
+
+\title{{\Huge Customer Experience Text Analytics for Social Media}}
+\author{Christoph Emunds, Benedikt Heinrichs, Dominik Nerger, Richard Polzin}
+\date{\today}
+
+\begin{document}
+	\maketitle
+	
+	\section{Introduction}
+	The project presented in this project plan focusses on finding and analyzing customers' opinions on products and their aspects from social media posts.
+	
+	This project plan describes related work and the principals that we are going to build upon. We present the current state of the project explain what has been done so far. Finally, we define the goals for our project and give a schedule for the upcoming tasks. 
+	
+	\section{Related work}
+		\subsection{Word embeddings}
+		%Word vectors are numeric representations of words where similar words have similar vectors. Word vectors are often used as input to deep learning systems. This process is sometimes called pretraining.
+		
+		More concise than the \textit{bag of words} model with one-hot encoded vectors, which, depending on the amount of words in the vocabulary, have a huge dimensionality, while only one of the vector's components is set to 1 and the rest to 0. Such simple models also fail to incorporate meaning of and similarities between words. For example in the sentences
+		\begin{quote}
+			the cat got squashed in the garden on friday
+		\end{quote}
+		\begin{quote}
+			the dog got flattened in the yard on monday
+		\end{quote}
+		simple language models do not capture the similarities between the word pairs \textit{cat/dog}, \textit{squashed/flattened}, \textit{garden/yard} and \textit{friday/monday}.
+		
+		Today, word embeddings are used in a lot of natural language processing (NLP) tasks.
+		
+		A famous example for the expressive power of word embeddings is the following:
+		
+		\begin{displaymath}
+			king-man+woman \approx queen
+		\end{displaymath}
+		
+		This equation shows that if one were to subtract the vector representation for the word \textit{man} from the vector for \textit{king} and add the vector for \textit{woman}, this would result in a point near to the vector for the word \textit{queen}.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.8\linewidth]{data/man_woman}
+			\caption{Representation of words relating to the differentiation between man and woman}
+		\end{figure}
+		
+		The high dimensional vector representations of the words can be processed with the \textit{t-SNE} dimensionality reduction algorithm to be able to plot them in a two dimensional vector space.
+		
+		\subsection{POS-Tagging}
+		
+		\subsection{Dependency parsing}
+	
+	\section{Extracting entities and aspects}
+	
+	Extract the posts' text into separate files.
+	
+	Annotate all files with POS-Tags.
+	
+	Identify frequent nouns and noun phrases with a POS-Tagger. Frequency threshold is chosen experimentally. People commenting on aspects of a product usually use a limited vocabulary. Thus, frequent nouns and noun phrases are most likely important aspects.
+	
+	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words (Zhang et al., 2016).
+	
+	\section{Determining sentiment polarities}
+	lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
+	
+	We will apply a method by Ding, Liu and Yu (2008), which has the following steps: First, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon.
+	
+	Second, sentiment shifters will be applied.
+	
+	Third, but-clauses must be handled.
+	
+	Fourth, opinions need to be aggregated.
+
+	This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words (Bing Liu, 2012).
+
+	\section{State of the project}
+	We build and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects, because it is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation.
+	
+	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet.
+	
+	We will utilize the sentiment lexicon by Bing Liu, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
+
+	\section{Goals and schedule}
+	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity, $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on, $s_{ijkl}$ is the sentiment polarity, $h_k$ the opinion holder and $t_l$ the time at which the opinion was expressed.
+	
+	Build a database with opinions and statistics on products and their aspects.
+	Visualization via dashboard.
+
+	\newpage
+
+	%\bibliography{rp}
+	%\bibliographystyle{apacite}
+\end{document}
