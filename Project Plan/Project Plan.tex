@@ -57,6 +57,22 @@
 		The high dimensional vector representations of the words can be processed with the \textit{t-SNE} dimensionality reduction algorithm to be able to plot them in a two dimensional vector space.
 		
 		\subsection{POS-Tagging}
+
+		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying partical parts of speech like nouns or verbs. 
+
+		Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
+
+		Frequent nouns or noun phrases often describe aspects of products and the vocabulary that is used to describe those usually converges. With such an approach many important aspects can easily be found, but on a more general scheme grammatic based relationships can be used to extract important aspects.
+
+		For example words that express opinion on something, like 'great' or 'bad' can be incorporated in rules to extract aspects. To sum it up POS-Tagging is an important part of sentiment analysis.
+		
+		While being important POS-Tagging is also a complex problem. Word-forms in natural language are often ambiguous. For example the word 'dogs' in usually thought of as a plural noun, but can be used as a verb as well:
+
+		\begin{quote}
+			The sailor dogs the hatch.
+		\end{quote}
+
+		Due to the complexity machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm, the Brill tagger or the Baum-Welch algorithm work with techniques such as dynamic programming, supervised learning or hidden markov models.
 		
 		\subsection{NER-Tagging}
 		

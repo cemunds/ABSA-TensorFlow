@@ -17,6 +17,7 @@ for root, directory, filenames in os.walk(subdir):
         for filename in filenames:
             if '.tab' in filename and 'comments' in filename:
                 fullfilename = os.path.join(root, filename)
+                print("Processing file {}".format(fullfilename))
                 with open(fullfilename, 'r') as fin:
                     for idx, line in enumerate(fin.readlines()):
                         if filter is None:
