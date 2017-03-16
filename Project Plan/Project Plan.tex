@@ -77,6 +77,24 @@
 		\subsection{NER-Tagging}
 		
 		\subsection{Dependency parsing}
+		
+		Dependency parsing is a method of building up context in a sentence.
+		It looks on the relations each word has with the other words and tries to create a meaning out of a sentence by that.
+		
+		For example the sentence "I saw a girl with a telescope" has two times the combination of an object with the word "a". 
+		The word "girl" is specified by the verb "saw" and the object "telescope" is specified by the word "with" with references to the verb "saw". 
+		The verb "saw" relates then to the noun "I" as it is the subject. 		
+		A visualization can be seen in the following.
+		This is however just one method of analyzing this sentence.
+		Another way of seeing this sentence would be to relate the word "with" with the object "girl" which is possible in the language and gives the whole sentence a different meaning.
+		
+		\begin{figure}[h]
+			\includegraphics[width=\linewidth]{data/dependency}
+			\caption{The dependency parsing example}
+			\label{fig:dependency}
+		\end{figure}
+		
+		This example has been taken from \cite{dependency}.
 	
 	\section{Extracting entities and aspects}
 	
