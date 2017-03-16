@@ -76,6 +76,18 @@
 		
 		\subsection{NER-Tagging}
 		
+		Named-Entity recognition (NER) is a task that seeks to locate and classify specific information in text. This information is called a named entity and can refer to categories such as the names of persons, locations, times or many others.
+
+		An annotated sentence could look like this :
+
+		\begin{quote}
+			[Tim Cook]$_{[Person]}$ has a Net worth of [785 million USD]$_{[Monetary Value]}$ as of [March 16. 2017]$_{[Time]}$.
+		\end{quote}
+		
+		Often the task of NER-Tagging is separated into two. In the first part names are detected and in the second part these names are classified. 
+		
+		While state-of-the-art NER Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
+
 		\subsection{Dependency parsing}
 		
 		Dependency parsing is a method of building up context in a sentence.
