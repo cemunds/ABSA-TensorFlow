@@ -119,15 +119,20 @@
 		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of Hong and Fang (2015). However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network.
 		
 		\subsection{Lexicon-based approach}
-		lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
+		Because supervised learning is dependent on training data and a model that is trained on one domain does not perform on the same level in 
+other domains, the LSTM-network approach, which is supervised, might have difficulties to be applied to other domains.
+Therefore, another approach to determine sentiment polarities is the lexicon-based approach which will also be investigated.
+% 		lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
 		
-		We will apply a method by Ding, Liu and Yu (2008), which has the following steps: First, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon.
+		We will apply a method by Ding, Liu and Yu (2008), which can be broken down to the following four steps: 
 		
-		Second, sentiment shifters will be applied.
+		In the first step, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
 		
-		Third, but-clauses must be handled.
+		In the second step, sentiment shifters will be applied. A sentiment shifter can be described as a word that negates the value that has been applied in the first step, changing its value from positive to negative or the other way around. Typically, these words are negation words like \textit{not}. 
 		
-		Fourth, opinions need to be aggregated.
+		In the third step, but-clauses and further contrary words are handled. With these contrary words, sentences can be split up into two parts. Depending on the value of the sentiments mentioned in the first part, the sentiments in the second part receive the opposite value.
+		
+		In the fourth and last step, the opinions need to be aggregated.
 	
 		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words (Bing Liu, 2012).
 
