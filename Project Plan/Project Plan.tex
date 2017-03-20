@@ -34,7 +34,7 @@
 		\begin{quote}
 			the dog got flattened in the yard on monday
 		\end{quote}
-		simple language models do not capture the similarities between the word pairs \textit{cat/dog}, \textit{squashed/flattened}, \textit{garden/yard} and \textit{friday/monday}.
+		simple language models do not capture the similarities between the word pairs \textit{cat/dog}, \textit{squashed/ flattened}, \textit{garden/yard} and \textit{friday/monday}.
 		
 		A famous example for the expressive power of word embeddings is the following:
 		\begin{displaymath}
@@ -62,7 +62,7 @@
 
 		For example words that express opinion on something, like 'great' or 'bad' can be incorporated in rules to extract aspects. To sum it up POS-Tagging is an important part of sentiment analysis.
 		
-		While being important POS-Tagging is also a complex problem. Word-forms in natural language are often ambiguous. For example the word 'dogs' in usually thought of as a plural noun, but can be used as a verb as well:
+		While being important POS-Tagging is also a complex problem. Word-forms in natural language are often ambiguous. For example the word 'dogs' is usually thought of as a plural noun, but can be used as a verb as well:
 
 		\begin{quote}
 			The sailor dogs the hatch.
@@ -106,7 +106,7 @@
 		This example has been taken from \cite{dependency}.
 	
 	\section{Extracting entities and aspects}
-	To be able to determine the customers' opinions on certain entities and their aspects, we first need to extract possible entities and aspects from the given dataset. For this task, we will use a method proposed by Hu and Liu (2004), which consists of the following two steps:
+	To be able to determine the customers' opinions on certain entities and their aspects, we first need to extract possible entities and aspects from the given dataset. For this task, we will use a method proposed by \cite{Hu:2004:MSC:1014052.1014073}, which consists of the following two steps:
 	
 	First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
 	
@@ -116,15 +116,21 @@
 	For determining the sentiment polarities, we will focus on two approaches. The first one will be a supervised method, while the second is an unsupervised approach.
 	
 		\subsection{LSTM-Network}
-		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of Hong and Fang (2015). However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network.
+		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of \cite{hongsentiment}. However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{data/lstm}
+			\caption{Feeding a sentence into the LSTM-Network and predicting its label.}
+			\label{fig:lstm}
+		\end{figure}
+		
+		Figure \ref{fig:lstm} shows ... The illustration has been taken from \cite{hongsentiment}.
 		
 		\subsection{Lexicon-based approach}
-		Because supervised learning is dependent on training data and a model that is trained on one domain does not perform on the same level in 
-other domains, the LSTM-network approach, which is supervised, might have difficulties to be applied to other domains.
-Therefore, another approach to determine sentiment polarities is the lexicon-based approach which will also be investigated.
-% 		lexicon-based approach, because it is unsupervised and generally more powerful than supervised learning(?)
+		Because supervised learning is dependent on training data and a model that is trained on one domain does not perform on the same level in other domains, the LSTM-network approach, which is supervised, might have difficulties to be applied to other domains. Therefore, another approach to determine sentiment polarities is the lexicon-based approach which will also be investigated.
 		
-		We will apply a method by Ding, Liu and Yu (2008), which can be broken down to the following four steps: 
+		We will apply a method by \cite{Ding:2008:HLA:1341531.1341561}, which can be broken down to the following four steps: 
 		
 		In the first step, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
 		
@@ -132,58 +138,20 @@ Therefore, another approach to determine sentiment polarities is the lexicon-bas
 		
 		In the third step, but-clauses and further contrary words are handled. With these contrary words, sentences can be split up into two parts. Depending on the value of the sentiments mentioned in the first part, the sentiments in the second part receive the opposite value.
 		
-		In the fourth and last step, the opinions need to be aggregated.
+		In the fourth and last step, the opinions need to be aggregated according to the following function:
+		\begin{displaymath}
+			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
+		\end{displaymath}
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$. If the final score is positive, then the opinion on aspect $a_i$ in $s$ is positive. If the final score is negative, then the sentiment on the aspect is negative. It is neutral otherwise.
 	
-		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words (Bing Liu, 2012).
+		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}.
 
 	\section{State of the project}
-	So far, we built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation.
+	So far, we built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
 	
-	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet.
+	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
 	
-	Table \ref{tab:parseraccuracy} shows a comparison of several dependency parser models in terms of per-token accuracy.
-	
-	We will use pre-trained word embeddings from the GloVe project.
-	
-	We will use the sentiment lexicon by Bing Liu, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
-	
-	\begin{table}[h]
-		\centering
-		\caption{Per-token accuracy of different POS-Taggers}
-		\label{tab:posaccuracy}
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			Model & News & Web & Questions \\
-			\hline
-			Ling et al. (2015) & 97.44 & 94.03 & 96.18 \\
-			\hline
-			Andor et al. (2016) & 97.77 & 94.80 & 96.86 \\
-			\hline
-			Parsey McParseface & 97.52 & 94.24 & 96.45 \\
-			\hline
-		\end{tabular}
-	\end{table}
-	
-	\begin{table}[h]
-		\centering
-		\caption{Accuracy of different dependency parsers}
-		\label{tab:parseraccuracy}
-		\begin{tabular}{|l|l|l|l|}
-			\hline
-			Model & News & Web & Questions \\
-			\hline
-			Martins et al. (2013) & 93.10 & 88.23 & 94.21 \\
-			\hline
-			Zhang and McDonald (2014) & 93.32 & 88.65 & 93.37 \\
-			\hline
-			Weiss et al. (2015) & 93.91 & 89.29 & 94.17 \\
-			\hline
-			Andor et al. (2016) & 94.44 & 90.17 & 95.40 \\
-			\hline
-			Parsey McParseface & 94.15 & 89.98 & 94.77 \\
-			\hline
-		\end{tabular}
-	\end{table}
+	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project.
 
 	\section{Goals and schedule}
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
@@ -193,13 +161,13 @@ Therefore, another approach to determine sentiment polarities is the lexicon-bas
 	Based on these goals we will be concerned with the following research questions:
 
 	\begin{itemize}
-	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts (The data set provided by Tesco) ?
-	\item How do supervised (LSTM) and unsupervised (Lexicon-based) techniques for sentiment analysis compare ?
-	\begin{itemize}
-	\item Is it possible to apply the LSTM approach proposed by Hong and Fang (2015) on a sentence level, rather then document level ?
-	\item Which technique offers better results, how does it compare to the effort required to use that technique ?
-	\item How does a combination of the techniques affect performance
-	\end{itemize}
+	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts (The data set provided by Tesco)?
+	\item How do supervised (LSTM) and unsupervised (Lexicon-based) techniques for sentiment analysis compare?
+		\begin{itemize}
+		\item Is it possible to apply the LSTM approach proposed by Hong and Fang (2015) on a sentence level, rather then document level?
+		\item Which technique offers better results, how does it compare to the effort required to use that technique?
+		\item How does a combination of the techniques affect performance?
+		\end{itemize}
 	\end{itemize}
 
 	\newpage
@@ -210,8 +178,6 @@ Therefore, another approach to determine sentiment polarities is the lexicon-bas
 	\nocite{pennington2014glove}
 	\nocite{syntaxnet}
 	\nocite{Ding:2008:HLA:1341531.1341561}
-	\nocite{Hu:2004:MSC:1014052.1014073}
-	\nocite{hongsentiment}
 
 	\bibliography{rp}
 	\bibliographystyle{apacite}
