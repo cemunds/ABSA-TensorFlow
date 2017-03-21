@@ -142,7 +142,8 @@
 		\begin{displaymath}
 			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
 		\end{displaymath}
-		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$. If the final score is positive, then the opinion on aspect $a_i$ in $s$ is positive. If the final score is negative, then the sentiment on the aspect is negative. It is neutral otherwise.
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$. 
+Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
 	
 		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}.
 
