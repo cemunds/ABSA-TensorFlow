@@ -106,6 +106,7 @@
 		This example has been taken from \cite{dependency}.
 	
 	\section{Extracting entities and aspects}
+	\label{sec:extraction}
 	To be able to determine the customers' opinions on certain entities and their aspects, we first need to extract possible entities and aspects from the given dataset. For this task, we will use a method proposed by \cite{Hu:2004:MSC:1014052.1014073}, which consists of the following two steps:
 	
 	First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
@@ -116,7 +117,8 @@
 	For determining the sentiment polarities, we will focus on two approaches. The first one will be a supervised method, while the second is an unsupervised approach.
 	
 		\subsection{LSTM-Network}
-		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of \cite{hongsentiment}. However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network.
+		\label{sec:lstm}
+		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of \cite{hongsentiment}. However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network. The bootstrapping method is explained in more depth in \cite{bootstrapping}.
 		
 		\begin{figure}[h]
 			\centering
@@ -125,7 +127,7 @@
 			\label{fig:lstm}
 		\end{figure}
 		
-		Figure \ref{fig:lstm} shows ... The illustration has been taken from \cite{hongsentiment}.
+		Figure \ref{fig:lstm} shows a sentence that is fed into the LSTM-Network to predict its label. Specifically, this LSTM-Network only uses the activations of the last layer to determine the sentiment polarity. The illustration has been taken from \cite{hongsentiment}.
 		
 		\subsection{Lexicon-based approach}
 		Because supervised learning is dependent on training data and a model that is trained on one domain does not perform on the same level in other domains, the LSTM-network approach, which is supervised, might have difficulties to be applied to other domains. Therefore, another approach to determine sentiment polarities is the lexicon-based approach which will also be investigated.
@@ -142,8 +144,7 @@
 		\begin{displaymath}
 			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
 		\end{displaymath}
-		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$. 
-Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
 	
 		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}.
 
@@ -170,6 +171,17 @@ Depending on the score, it can be determined whether the opinion on the aspect $
 		\item How does a combination of the techniques affect performance?
 		\end{itemize}
 	\end{itemize}
+	
+	Figure \ref{fig:gantt} shows a Gantt chart of our scheduled tasks for the second block. At first, we will need to extract entities and aspects from the post data. This is done in three steps: First, we use the POS-Tagger and the dependency parse in SyntaxNet to annotate the posts. Second, we start finding entities and aspects by extracting frequent nouns and noun phrases. Third, we identify infrequent entities and aspects as mentioned in Section \ref{sec:extraction}. After the second step, we can already start building a database of the found entities and aspects.
+	
+	Once we have the database, we will focus on the lexicon-based sentiment analysis first. The results of this analysis, together with the bootstrapping approach mentioned in Section \ref{sec:lstm}, will then be used to start training the LSTM-Network.
+	
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\linewidth]{data/gantt}
+		\caption{Schedule for the second block}
+		\label{fig:gantt}
+	\end{figure}
 
 	\newpage
 
