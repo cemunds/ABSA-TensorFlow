@@ -54,7 +54,7 @@
 		
 		\subsection{POS-Tagging}
 
-		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying partical parts of speech like nouns or verbs. 
+		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. 
 
 		Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
 
@@ -68,7 +68,7 @@
 			The sailor dogs the hatch.
 		\end{quote}
 
-		Due to the complexity, machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm, the Brill tagger or the Baum-Welch algorithm work with techniques such as dynamic programming, supervised learning or hidden markov models.
+		Due to the complexity, machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm, the Brill tagger or the Baum-Welch algorithm work with techniques such as dynamic programming, supervised learning or hidden Markov models.
 		
 		\subsection{NER-Tagging}
 		
@@ -82,7 +82,7 @@
 		
 		Often the task of NER-Tagging is separated into two. In the first part names are detected and in the second part these names are classified. 
 		
-		While state-of-the-art NER Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
+		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
 
 		\subsection{Dependency parsing}
 		
@@ -118,7 +118,7 @@
 	
 		\subsection{LSTM-Network}
 		\label{sec:lstm}
-		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-network similar to the one of \cite{hongsentiment}. However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabelled sentences and a set of emotions and annotates the unlabelled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-network. The bootstrapping method is explained in more depth in \cite{bootstrapping}.
+		A recurrent neural network with long short-term memory (LSTM) cells is able to build a model over sequential data, which can be used for prediction. We will build an LSTM-Network similar to the one of \cite{hongsentiment}. However, training a recurrent neural network is a supervised task that requires some labeled input. Therefore, we need to apply a bootstrapping process first, which receives a collection of unlabeled sentences and a set of emotions and annotates the unlabeled sentences with the emotions expressed in each sentence. This should give us a labeled dataset of sufficient size to train the LSTM-Network. The bootstrapping method is explained in more depth in \cite{bootstrapping}.
 		
 		\begin{figure}[h]
 			\centering
@@ -153,7 +153,7 @@
 	
 	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
 	
-	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project.
+	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project \cite{pennington2014glove}.
 
 	\section{Goals and schedule}
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
@@ -163,10 +163,10 @@
 	Based on these goals we will be concerned with the following research questions:
 
 	\begin{itemize}
-	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts (The data set provided by Tesco)?
-	\item How do supervised (LSTM) and unsupervised (Lexicon-based) techniques for sentiment analysis compare?
+	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts?
+	\item How do supervised (LSTM-Network) and unsupervised (Lexicon-based) techniques for sentiment analysis compare?
 		\begin{itemize}
-		\item Is it possible to apply the LSTM approach proposed by Hong and Fang (2015) on a sentence level, rather then document level?
+		\item Is it possible to apply the LSTM-Network approach proposed by \cite{hongsentiment} on an aspect level, rather than document level?
 		\item Which technique offers better results, how does it compare to the effort required to use that technique?
 		\item How does a combination of the techniques affect performance?
 		\end{itemize}
@@ -184,13 +184,9 @@
 	\end{figure}
 
 	\newpage
-
-	\nocite{DBLP:journals/corr/AndorAWSPGPC16}
-	\nocite{Liu12sentimentanalysis}
+	
 	\nocite{Zhang2014}
-	\nocite{pennington2014glove}
 	\nocite{syntaxnet}
-	\nocite{Ding:2008:HLA:1341531.1341561}
 
 	\bibliography{rp}
 	\bibliographystyle{apacite}
