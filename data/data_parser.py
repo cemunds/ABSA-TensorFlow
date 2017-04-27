@@ -25,6 +25,7 @@ def define_filter(line):
 
 for root, directory, filenames in os.walk(subdir):
     with open(outfile, 'w') as fout:
+        final_result = []
         for filename in filenames:
             if '.tab' in filename and 'fullstats' in filename:
                 fullfilename = os.path.join(root, filename)
@@ -41,7 +42,8 @@ for root, directory, filenames in os.walk(subdir):
                             result = {}
                             for i, f in enumerate(filter):
                                 result[filter_names[i]] = line[f]
-                            json.dump(result, fout, indent=2)
+                            final_result.append(result)
+        json.dump(final_result, fout, indent=2)
 
 
                             
