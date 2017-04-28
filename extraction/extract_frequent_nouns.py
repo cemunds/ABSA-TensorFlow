@@ -1,5 +1,4 @@
 import json
-import numpy as np
 from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 
@@ -21,14 +20,12 @@ with open(INFILE, "r") as inf:
 		noun_phrases = []
 		for post in posts:
 			for noun_phrase in post["noun_phrases"]:
-				# (NP a/DT massive/JJ big/JJ thank/NN)
-				# a massive big thank
-				temp = noun_phrase[4:-1]
+				# Transform "a/DT massive/JJ big/JJ thank/NN" to "a massive big thank"
 				temp = temp.split()
 				temp = [x.split("/") for x in temp]
 
 				temp2 = []
-				for array in filter(lambda x: not("DT" in x or "JJ" in x), temp):
+				for array in filter(lambda x: not("DT" in x or "JJ" in x or "PP" in x), temp):
 					for string in array:
 						if string not in TAGS:
 							if stemming_flag:
