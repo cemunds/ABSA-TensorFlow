@@ -57,5 +57,4 @@ with open(INFILE, "r") as inf:
 		print("All noun phrases: {}".format(len(noun_phrases)))
 		print("Noun phrases with frequency >= {}: {}".format(THRESHOLD, len(frequent_nouns)))
 
-		for noun in frequent_nouns:
-			outf.write(noun + "\n")
+		json.dump(frequent_nouns, outf, indent=2)

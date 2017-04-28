@@ -1,552 +1,554 @@
-..
-access
-account
-act
-address
-adult
-advance
-advert
-advertising
-advice
-afternoon
-age
-air
-aisle
-alarm
-alcohol
-alert
-alternative
-am
-amount
-andrew
-answer
-anyone
-anything
-apology
-app
-apple
-are
-area
-asap
-asda
-assistant
-attention
-attitude
-baby
-back
-bacon
-badge
-bag
-bakery
-bank
-basis
-basket
-battery
-bay
-beatbot belle
-bed
-beef
-been
-beer
-bill
-bin
-birthday
-bit
-black friday
-book
-boost
-bottle
-bottom
-box
-boy
-branch
-brand
-bread
-break
-breakfast
-bunch
-bunny
-bus
-business
-butter
-cafe
-cake
-call
-car
-card
-care
-carpark
-case
-cash
-cashier
-cat
-catalogue
-cctv
-centre
-chance
-change
-charge
-charity
-chat
-check
-checkout
-chicken
-child
-chocolate
-choice
-christmas
-click
-clothing
-club
-clubcard
-coat
-code
-coffee
-cola
-cold
-colleague
-collect
-collection
-colour
-come
-community
-company
-compensation
-complaint
-computer
-confirmation
-contact
-control
-convenience
-conversation
-cost
-could
-couldn
-counter
-country
-couple
-course
-cream
-credit
-crisp
-custom
-customer
-dad
-dairy
-date
-daughter
-day
-deal
-dear tesco
-dec
-december
-delivery
-department
-desk
-didn
-difference
-dinner
-direct
-disappointment
-discount
-disease
-dishwasher
-display
-doesn
-dog
-don
-door
-drink
-drive
-driver
-duty
-earth
-ebay
-egg
-email
-employee
-end
-error
-etc
-evening
-event
-everyone
-everything
-exchange
-experience
-explanation
-express
-extra
-eye
-face
-facebook
-fact
-family
-fault
-faulty
-feedback
-feel
-fire
-fish
-floor
-food
-form
-friday
-fridge
-friend
-front
-fruit
-fuel
-future
-game
-gentleman
-get
-gf
-gift
-girl
-gluten
-go
-god
-got
-great
-grocery
-group
-guarantee
-guard
-guy
-had
-hair
-half
-halloween
-ham
-hand
-hatchimal
-head
-health
-hello
-help
-hey tesco
-hi
-hi tesco
-hold
-home
-hope
-hospital
-hour
-house
-hr
-http
-hummus
-husband
-ice
-id
-idea
-im
-imagine
-inconvenience
-increase
-info
-information
-insurance
-internet
-isle
-isn
-issue
-item
-ive
-job
-joke
-journey
-juice
-kind
-kindness
-label
-lack
-lad
-lady
-let
-letter
-life
-light
-line
-list
-loaf
-look
-lot
-lunch
-machine
-man
-management
-manager
-market
-match
-matter
-mattress
-meal
-mean
-meat
-member
-message
-middle
-midnight
-mile
-milk
-mince
-mind
-mine
-mini
-minute
-mistake
-moment
-monday
-money
-month
-morning
-morrisons
-mother
-mouth
-mum
-name
-need
-news
-night
-nightmare
-nobody
-non
-none
-not
-nothing
-notice
-nov
-november
-number
-october
-offer
-office
-oil
-one
-onion
-online
-opening
-option
-order
-pack
-packaging
-packet
-page
-pair
-paper
-parcel
-parent
-park
-parking
-part
-partner
-party
-pas
-password
-patroller
-pay
-payment
-penny
-person
-petrol
-pharmacy
-phone
-pie
-piece
-pizza
-place
-plan
-plastic
-please
-plenty
-pm
-pocket
-point
-police
-policy
-pork
-post
-poster
-pound
-pram
-prescription
-present
-price
-priority
-problem
-process
-produce
-product
-promotion
-ps4
-pump
-purchase
-quality
-query
-question
-queue
-rain
-range
-realise
-reason
-receipt
-recipe
-refund
-replacement
-reply
-respect
-response
-rest
-rice
-right
-road
-roll
-room
-round
-row
-rude
-sainsbury
-sale
-sandwich
-santa
-saturday
-sausage
-saver
-scanner
-scheme
-school
-screen
-seat
-section
-security
-selection
-self
-sense
-service
-shame
-share
-shelf
-shop
-shopper
-shopping
-show
-side
-sign
-site
-situation
-size
-slot
-smell
-somebody
-someone
-something
-son
-sorry
-sort
-soup
-soya
-space
-spent
-staff
-stand
-standard
-star
-start
-state
-statement
-station
-stock
-store
-story
-street
-stuff
-sugar
-sunday
-supermarket
-supplier
-support
-surprise
-system
-table
-tablet
-tag
-taste
-tea
-team
-tesco
-tesco direct
-tesco express
-tescos
-text
-thank
-thankyou
-thing
-thinking
-thought
-thursday
-ticket
-till
-time
-tin
-today
-toilet
-tom
-tomorrow
-tonight
-top
-total
-touch
-town
-toy
-traffic
-training
-transaction
-treat
-treatment
-tree
-trip
-trolley
-trouble
-tuesday
-turn
-tv
-uk
-use
-value
-van
-veg
-visit
-voucher
-wait
-warehouse
-warning
-was
-wasn
-waste
-water
-way
-web
-website
-wednesday
-week
-weekend
-well
-went
-wheelchair
-while
-whilst
-wife
-wine
-winter
-woman
-word
-work
-world
-worth
-xbox
-xmas
-xx
-year
-yesterday
+[
+  "..", 
+  "access", 
+  "account", 
+  "act", 
+  "address", 
+  "adult", 
+  "advance", 
+  "advert", 
+  "advertising", 
+  "advice", 
+  "afternoon", 
+  "age", 
+  "air", 
+  "aisle", 
+  "alarm", 
+  "alcohol", 
+  "alert", 
+  "alternative", 
+  "am", 
+  "amount", 
+  "andrew", 
+  "answer", 
+  "anyone", 
+  "anything", 
+  "apology", 
+  "app", 
+  "apple", 
+  "are", 
+  "area", 
+  "asap", 
+  "asda", 
+  "assistant", 
+  "attention", 
+  "attitude", 
+  "baby", 
+  "back", 
+  "bacon", 
+  "badge", 
+  "bag", 
+  "bakery", 
+  "bank", 
+  "basis", 
+  "basket", 
+  "battery", 
+  "bay", 
+  "beatbot belle", 
+  "bed", 
+  "beef", 
+  "been", 
+  "beer", 
+  "bill", 
+  "bin", 
+  "birthday", 
+  "bit", 
+  "black friday", 
+  "book", 
+  "boost", 
+  "bottle", 
+  "bottom", 
+  "box", 
+  "boy", 
+  "branch", 
+  "brand", 
+  "bread", 
+  "break", 
+  "breakfast", 
+  "bunch", 
+  "bunny", 
+  "bus", 
+  "business", 
+  "butter", 
+  "cafe", 
+  "cake", 
+  "call", 
+  "car", 
+  "card", 
+  "care", 
+  "carpark", 
+  "case", 
+  "cash", 
+  "cashier", 
+  "cat", 
+  "catalogue", 
+  "cctv", 
+  "centre", 
+  "chance", 
+  "change", 
+  "charge", 
+  "charity", 
+  "chat", 
+  "check", 
+  "checkout", 
+  "chicken", 
+  "child", 
+  "chocolate", 
+  "choice", 
+  "christmas", 
+  "click", 
+  "clothing", 
+  "club", 
+  "clubcard", 
+  "coat", 
+  "code", 
+  "coffee", 
+  "cola", 
+  "cold", 
+  "colleague", 
+  "collect", 
+  "collection", 
+  "colour", 
+  "come", 
+  "community", 
+  "company", 
+  "compensation", 
+  "complaint", 
+  "computer", 
+  "confirmation", 
+  "contact", 
+  "control", 
+  "convenience", 
+  "conversation", 
+  "cost", 
+  "could", 
+  "couldn", 
+  "counter", 
+  "country", 
+  "couple", 
+  "course", 
+  "cream", 
+  "credit", 
+  "crisp", 
+  "custom", 
+  "customer", 
+  "dad", 
+  "dairy", 
+  "date", 
+  "daughter", 
+  "day", 
+  "deal", 
+  "dear tesco", 
+  "dec", 
+  "december", 
+  "delivery", 
+  "department", 
+  "desk", 
+  "didn", 
+  "difference", 
+  "dinner", 
+  "direct", 
+  "disappointment", 
+  "discount", 
+  "disease", 
+  "dishwasher", 
+  "display", 
+  "doesn", 
+  "dog", 
+  "don", 
+  "door", 
+  "drink", 
+  "drive", 
+  "driver", 
+  "duty", 
+  "earth", 
+  "ebay", 
+  "egg", 
+  "email", 
+  "employee", 
+  "end", 
+  "error", 
+  "etc", 
+  "evening", 
+  "event", 
+  "everyone", 
+  "everything", 
+  "exchange", 
+  "experience", 
+  "explanation", 
+  "express", 
+  "extra", 
+  "eye", 
+  "face", 
+  "facebook", 
+  "fact", 
+  "family", 
+  "fault", 
+  "faulty", 
+  "feedback", 
+  "feel", 
+  "fire", 
+  "fish", 
+  "floor", 
+  "food", 
+  "form", 
+  "friday", 
+  "fridge", 
+  "friend", 
+  "front", 
+  "fruit", 
+  "fuel", 
+  "future", 
+  "game", 
+  "gentleman", 
+  "get", 
+  "gf", 
+  "gift", 
+  "girl", 
+  "gluten", 
+  "go", 
+  "god", 
+  "got", 
+  "great", 
+  "grocery", 
+  "group", 
+  "guarantee", 
+  "guard", 
+  "guy", 
+  "had", 
+  "hair", 
+  "half", 
+  "halloween", 
+  "ham", 
+  "hand", 
+  "hatchimal", 
+  "head", 
+  "health", 
+  "hello", 
+  "help", 
+  "hey tesco", 
+  "hi", 
+  "hi tesco", 
+  "hold", 
+  "home", 
+  "hope", 
+  "hospital", 
+  "hour", 
+  "house", 
+  "hr", 
+  "http", 
+  "hummus", 
+  "husband", 
+  "ice", 
+  "id", 
+  "idea", 
+  "im", 
+  "imagine", 
+  "inconvenience", 
+  "increase", 
+  "info", 
+  "information", 
+  "insurance", 
+  "internet", 
+  "isle", 
+  "isn", 
+  "issue", 
+  "item", 
+  "ive", 
+  "job", 
+  "joke", 
+  "journey", 
+  "juice", 
+  "kind", 
+  "kindness", 
+  "label", 
+  "lack", 
+  "lad", 
+  "lady", 
+  "let", 
+  "letter", 
+  "life", 
+  "light", 
+  "line", 
+  "list", 
+  "loaf", 
+  "look", 
+  "lot", 
+  "lunch", 
+  "machine", 
+  "man", 
+  "management", 
+  "manager", 
+  "market", 
+  "match", 
+  "matter", 
+  "mattress", 
+  "meal", 
+  "mean", 
+  "meat", 
+  "member", 
+  "message", 
+  "middle", 
+  "midnight", 
+  "mile", 
+  "milk", 
+  "mince", 
+  "mind", 
+  "mine", 
+  "mini", 
+  "minute", 
+  "mistake", 
+  "moment", 
+  "monday", 
+  "money", 
+  "month", 
+  "morning", 
+  "morrisons", 
+  "mother", 
+  "mouth", 
+  "mum", 
+  "name", 
+  "need", 
+  "news", 
+  "night", 
+  "nightmare", 
+  "nobody", 
+  "non", 
+  "none", 
+  "not", 
+  "nothing", 
+  "notice", 
+  "nov", 
+  "november", 
+  "number", 
+  "october", 
+  "offer", 
+  "office", 
+  "oil", 
+  "one", 
+  "onion", 
+  "online", 
+  "opening", 
+  "option", 
+  "order", 
+  "pack", 
+  "packaging", 
+  "packet", 
+  "page", 
+  "pair", 
+  "paper", 
+  "parcel", 
+  "parent", 
+  "park", 
+  "parking", 
+  "part", 
+  "partner", 
+  "party", 
+  "pas", 
+  "password", 
+  "patroller", 
+  "pay", 
+  "payment", 
+  "penny", 
+  "person", 
+  "petrol", 
+  "pharmacy", 
+  "phone", 
+  "pie", 
+  "piece", 
+  "pizza", 
+  "place", 
+  "plan", 
+  "plastic", 
+  "please", 
+  "plenty", 
+  "pm", 
+  "pocket", 
+  "point", 
+  "police", 
+  "policy", 
+  "pork", 
+  "post", 
+  "poster", 
+  "pound", 
+  "pram", 
+  "prescription", 
+  "present", 
+  "price", 
+  "priority", 
+  "problem", 
+  "process", 
+  "produce", 
+  "product", 
+  "promotion", 
+  "ps4", 
+  "pump", 
+  "purchase", 
+  "quality", 
+  "query", 
+  "question", 
+  "queue", 
+  "rain", 
+  "range", 
+  "realise", 
+  "reason", 
+  "receipt", 
+  "recipe", 
+  "refund", 
+  "replacement", 
+  "reply", 
+  "respect", 
+  "response", 
+  "rest", 
+  "rice", 
+  "right", 
+  "road", 
+  "roll", 
+  "room", 
+  "round", 
+  "row", 
+  "rude", 
+  "sainsbury", 
+  "sale", 
+  "sandwich", 
+  "santa", 
+  "saturday", 
+  "sausage", 
+  "saver", 
+  "scanner", 
+  "scheme", 
+  "school", 
+  "screen", 
+  "seat", 
+  "section", 
+  "security", 
+  "selection", 
+  "self", 
+  "sense", 
+  "service", 
+  "shame", 
+  "share", 
+  "shelf", 
+  "shop", 
+  "shopper", 
+  "shopping", 
+  "show", 
+  "side", 
+  "sign", 
+  "site", 
+  "situation", 
+  "size", 
+  "slot", 
+  "smell", 
+  "somebody", 
+  "someone", 
+  "something", 
+  "son", 
+  "sorry", 
+  "sort", 
+  "soup", 
+  "soya", 
+  "space", 
+  "spent", 
+  "staff", 
+  "stand", 
+  "standard", 
+  "star", 
+  "start", 
+  "state", 
+  "statement", 
+  "station", 
+  "stock", 
+  "store", 
+  "story", 
+  "street", 
+  "stuff", 
+  "sugar", 
+  "sunday", 
+  "supermarket", 
+  "supplier", 
+  "support", 
+  "surprise", 
+  "system", 
+  "table", 
+  "tablet", 
+  "tag", 
+  "taste", 
+  "tea", 
+  "team", 
+  "tesco", 
+  "tesco direct", 
+  "tesco express", 
+  "tescos", 
+  "text", 
+  "thank", 
+  "thankyou", 
+  "thing", 
+  "thinking", 
+  "thought", 
+  "thursday", 
+  "ticket", 
+  "till", 
+  "time", 
+  "tin", 
+  "today", 
+  "toilet", 
+  "tom", 
+  "tomorrow", 
+  "tonight", 
+  "top", 
+  "total", 
+  "touch", 
+  "town", 
+  "toy", 
+  "traffic", 
+  "training", 
+  "transaction", 
+  "treat", 
+  "treatment", 
+  "tree", 
+  "trip", 
+  "trolley", 
+  "trouble", 
+  "tuesday", 
+  "turn", 
+  "tv", 
+  "uk", 
+  "use", 
+  "value", 
+  "van", 
+  "veg", 
+  "visit", 
+  "voucher", 
+  "wait", 
+  "warehouse", 
+  "warning", 
+  "was", 
+  "wasn", 
+  "waste", 
+  "water", 
+  "way", 
+  "web", 
+  "website", 
+  "wednesday", 
+  "week", 
+  "weekend", 
+  "well", 
+  "went", 
+  "wheelchair", 
+  "while", 
+  "whilst", 
+  "wife", 
+  "wine", 
+  "winter", 
+  "woman", 
+  "word", 
+  "work", 
+  "world", 
+  "worth", 
+  "xbox", 
+  "xmas", 
+  "xx", 
+  "year", 
+  "yesterday"
+]
