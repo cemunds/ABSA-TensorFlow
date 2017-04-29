@@ -49,4 +49,4 @@ if __name__=="__main__":
                 except:
                     logging.warning("Could not extract post data")
                 result.append(post)
-        json.dump(result, fout)
+            json.dump(result, fout)
