@@ -38,4 +38,4 @@ with open(INFILE, "r") as inf:
 						temp.append((token, 0))
 				post["post_message_marked_sentiment_words"].append(temp)
 			print("Processed post {}".format(idx))
-		json.dump(posts, outf, indent=2)
+		json.dump(posts, outf, indent=2, separators=(',', ': '))
