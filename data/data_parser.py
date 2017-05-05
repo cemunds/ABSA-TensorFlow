@@ -1,51 +1,34 @@
 #!/usr/bin/python3
 import os
-import json
-subdir = 'Tesco'
-outfile = 'out.json'
-filter = None
-filter_names = None
+import logging
 
-def define_filter(line):
-    global filter, filter_names
-    headers = []
-    names = []
-    for idx, h in enumerate(line.split()):
-        names.append(h)
-        print("{} {}".format(idx+1, h))
-    print("Enter indices that should be included in the result file:")
-    indices = input()
-    indices = indices.split()
-    filter, filter_names = [], []
-    for ind in indices:
-        if ind.isdigit():
-            i = int(ind)-1
-            filter.append(i)
-            filter_names.append(names[i])
+logging.basicConfig(level=logging.INFO)
+SUBDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Tesco')
 
+datafilter = [0, 2, 4, 11]
+filter_names = ["type", "post_id", "post_message", "post_published_sql"]
 
-for root, directory, filenames in os.walk(subdir):
-    with open(outfile, 'w') as fout:
-        final_result = []
+def parse_data():
+    logging.info("Parsing data")
+    logging.debug("nparse_data path : {}".format(SUBDIR))
+    final_result = []
+    for root, directory, filenames in os.walk(SUBDIR):
         for filename in filenames:
             if '.tab' in filename and 'fullstats' in filename:
                 fullfilename = os.path.join(root, filename)
-                print("Processing file {}".format(fullfilename))
+                logging.debug("Processing file {}".format(fullfilename))
                 with open(fullfilename, 'r') as fin:
                     for idx, line in enumerate(fin.readlines()):
-                        if filter is None:
-                            define_filter(line)
-                            print("Writing to file {}".format(outfile))
+                        if idx == 0:
+                            continue
                         else:
-                            if idx == 0:
-                                continue
                             line = line.split("\t")
                             result = {}
-                            for i, f in enumerate(filter):
+                            for i, f in enumerate(datafilter):
                                 result[filter_names[i]] = line[f]
                             final_result.append(result)
-        json.dump(final_result, fout, indent=2)
+    return final_result
 
 
-                            
-                        
+
+
