@@ -8,14 +8,14 @@ OUTFILE = 'posts_pos_parsey.json'
 SYNTAXNET_DIR = r"/Users/Benedikt/Documents/researchProj2/models/syntaxnet"
 PARSER_EVAL = r"/Users/Benedikt/Documents/researchProj2/models/syntaxnet/bazel-bin/syntaxnet/parser_eval"
 MODEL_DIR = r"/Users/Benedikt/Documents/researchProj2/models/syntaxnet/syntaxnet/models/parsey_mcparseface"
-postAfter = 8000
+postAfter = 4900
 logging.basicConfig(level=logging.INFO)
 
 def parse_sentence(sentence):
     os.chdir(SYNTAXNET_DIR)
     cmd = "echo \"{2}\" | {1} --input=stdin --output=stdout-conll --hidden_layer_sizes=64 --arg_prefix=brain_tagger --graph_builder=structured --task_context={0}/context.pbtxt --model_path={0}/tagger-params --slim_model --batch_size=1024 --alsologtostderr".format(MODEL_DIR, PARSER_EVAL, sentence)
     parse = subprocess.check_output([cmd], shell = True, stderr = subprocess.STDOUT)
-#    print cmd
+    print cmd
     return parse
 
 def process_parse(parse):
@@ -52,6 +52,7 @@ if __name__=="__main__":
                     combMessage = combMessage.replace('`', '')
                     parse = parse_sentence(combMessage)
                     pos = process_parse(parse.replace('_', ''))
+                    post["post_message"] = combMessage
                     post["post_message_pos_parsey"] = pos
                     result.append(post)
                     posts = [message]
