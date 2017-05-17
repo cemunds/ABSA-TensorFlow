@@ -67,11 +67,4 @@ if __name__=="__main__":
                 post["post_message_pos_parsey"] = pos
                 result.append(post)
                 posts = []
-            logging.info("{}/{}\tProcessing {}".format(i,len(data),post["post_id"]))
-            message = ' '.join(posts)
-            message = message.replace('`', '')
-            parse = parse_sentence(message)
-            pos = process_parse(parse.replace('_', ''))
-            post["post_message_pos_parsey"] = pos
-            result.append(post)
             json.dump(result, fout)
