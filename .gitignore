@@ -226,3 +226,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+stanford-corenlp-python/model-tree-train+dev.obj
