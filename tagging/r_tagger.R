@@ -14,7 +14,7 @@ directory <- "~/GitHub/ABSA-Tensorflow"
 dir.create(directory, recursive = TRUE, showWarnings = FALSE)
 setwd(directory)
 
-json_data <- fromJSON(file= "data/posts_preprocessed.json")
+json_data <- rjson::fromJSON(file= "data/posts_preprocessed.json")
 data_frame <- bind_rows(json_data)
 
 tagPOS <-  function(x, ...) {
