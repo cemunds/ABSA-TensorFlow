@@ -1,4 +1,6 @@
-#install.packages(c("rjson","dplyr","NLP","openNLP"))
+#install.packages(c("rjson","dplyr","NLP","openNLP","jsonlite","stringr","dplyr"))
+#also needs OpenNLPmodels.en from <http://datacube.wu.ac.at/>
+#install.packages("openNLPmodels.en", repos = "http://datacube.wu.ac.at/", type = "source")
 options(java.parameters = "- Xmx1024m")
 library(rjson)
 library(dplyr)
