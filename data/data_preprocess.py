@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import logging
+import json
 
 logging.basicConfig(level=logging.INFO)
 INFILE = 'posts.json'
@@ -18,4 +19,9 @@ def preprocess(data):
             results.append(post)
     return results
                     
-                        
+if __name__ == "__main__":
+    with open(INFILE, "r") as inf:
+        with open(OUTFILE, "w") as outf:
+            posts = json.load(inf)
+            result = preprocess(posts)
+            json.dump(result, outf, indent=2)
