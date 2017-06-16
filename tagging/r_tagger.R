@@ -34,13 +34,11 @@ for (i in 1:nrow(data_frame)){
   data_frame$pos_tagged[i] <- tagPOS(data_frame$post_message[i])$POStagged
 }
 
-data_frame$pos_tagged[5]
-sink("tagging/complete_tagged.json")
+
+
+sink("tagging/pos_tagged.json")
 cat(jsonlite::toJSON(data_frame, pretty = TRUE))
 sink()
-
-jsonlite::toJSON(data_frame, pretty = TRUE)
-
 
 word_ann <- Maxent_Word_Token_Annotator()
 sent_ann <- Maxent_Sent_Token_Annotator()
@@ -82,8 +80,10 @@ for (i in 1:nrow(data_frame)){
   data_frame$date[i]<-paste(entities(doc, kind = "date"), collapse = ";")
   data_frame$money[i]<-paste(entities(doc, kind = "money"), collapse = ";")
   
-  data_frame$sents[i] <- sents(doc)
+  #data_frame$sents[i] <- sents(doc)
   
 }
 
-
+sink("tagging/complete_tagged.json")
+cat(jsonlite::toJSON(data_frame, pretty = TRUE))
+sink()
