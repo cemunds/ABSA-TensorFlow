@@ -4,6 +4,10 @@ library(rjson)
 library(dplyr)
 library(NLP)
 library(openNLP)
+library(jsonlite)
+library(stringr)
+library(dplyr)
+
 directory <- "~/GitHub/ABSA-Tensorflow"
 dir.create(directory, recursive = TRUE, showWarnings = FALSE)
 setwd(directory)
@@ -29,4 +33,55 @@ for (i in 1:nrow(data_frame)){
 }
 
 data_frame$pos_tagged[5]
+sink("tagging/complete_tagged.json")
+cat(jsonlite::toJSON(data_frame, pretty = TRUE))
+sink()
+
+jsonlite::toJSON(data_frame, pretty = TRUE)
+
+
+word_ann <- Maxent_Word_Token_Annotator()
+sent_ann <- Maxent_Sent_Token_Annotator()
+person_ann <- Maxent_Entity_Annotator(kind = "person")
+location_ann <- Maxent_Entity_Annotator(kind = "location")
+organization_ann <- Maxent_Entity_Annotator(kind = "organization")
+date_ann <- Maxent_Entity_Annotator(kind = "date")
+money_ann <- Maxent_Entity_Annotator(kind = "money")
+
+
+pipeline <- list(sent_ann,
+                 word_ann,
+                 person_ann,
+                 location_ann,
+                 organization_ann, date_ann, money_ann)
+
+# Extract entities from an AnnotatedPlainTextDocument
+entities <- function(doc, kind) {
+  s <- doc$content
+  a <- annotations(doc)[[1]]
+  if(hasArg(kind)) {
+    k <- sapply(a$features, `[[`, "kind")
+    s[a[k == kind]]
+  } else {
+    s[a[a$type == "entity"]]
+  }
+}
+
+
+namevector <-c('person','location','organization','sents', 'date', 'money')
+data_frame[,"sents"] <- NULL
+
+for (i in 1:nrow(data_frame)){
+  annotations <- annotate(data_frame$post_message[i], pipeline)
+  doc <- AnnotatedPlainTextDocument(data_frame$post_message[i], annotations)
+  data_frame$organization[i] <- paste(entities(doc, kind = "organization"), collapse = ";")
+  data_frame$location[i] <-paste(entities(doc, kind = "location"), collapse = ";")
+  data_frame$person[i]<-paste(entities(doc, kind = "person"), collapse = ";")
+  data_frame$date[i]<-paste(entities(doc, kind = "date"), collapse = ";")
+  data_frame$money[i]<-paste(entities(doc, kind = "money"), collapse = ";")
+  
+  data_frame$sents[i] <- sents(doc)
+  
+}
+
 
