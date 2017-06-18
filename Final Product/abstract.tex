@@ -1,1 +1,17 @@
-The project presented in this document focusses on finding and analyzing customers' opinions on products and their aspects from social media posts. The work describes the required background knowledge and the related work that we were using for this project. We present the current state of the project and explain what we did. Finally, we define the goals for our project and talk about which we accomplished and which we did not.
+The project with the title "Sentiment Analysis for Social Media comments" focusses on finding and analyzing customers' opinions on products and their aspects from social media posts.
+
+For accomplishing this task many different subtasks have to be executed.
+
+The different posts have to undergo a preprocessing routine which filters posts which do not contain analyzable data and removes them from the post collection.
+
+The next step is to apply POS tagging on the preprocessed posts. 
+With these POS tags the structure of the post sentences can be described.
+
+For some entity recognition NER is applied which gives information on what is e.g. a person and what is an organization.
+
+After that the writers emotions and feelings towards some products or services have to be analyzed. 
+For this sentiment analysis is applied which gives a post a certain score.
+
+To describe a certain feeling towards a product, triplets are extracted which describe the feeling someone has to something.
+
+For each of the applied techniques different approaches and implementations are tried and compared.
