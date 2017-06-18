@@ -3,7 +3,7 @@ from nltk.stem.porter import PorterStemmer
 from nltk.stem import WordNetLemmatizer
 
 INFILE = "../tagging/posts_ner_tagged.json"
-OUTFILE = "extracted_entities.json"
+OUTFILE = "extracted_frequent_nouns.json"
 TAGS = ["DT", "PP", "JJ", "NN", "NNP"]
 THRESHOLD = 8
 
