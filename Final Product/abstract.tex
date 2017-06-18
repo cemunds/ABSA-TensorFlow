@@ -1,17 +1,7 @@
-The project with the title "Sentiment Analysis for Social Media comments" focusses on finding and analyzing customers' opinions on products and their aspects from social media posts.
+Analyzing customer experience is an important application in commerce. Especially in e-commerce, where users write reviews about products and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strength and weaknesses of the product or service.
 
-For accomplishing this task many different subtasks have to be executed.
+Our work focuses on applying aspect-based sentiment analysis to social media posts to measure the customer experience. The dataset consists of a year's worth of Facebook wall posts of two supermarket chains (Tesco and Sainsbury). The goal is to extract as many triplets $(e_i, a_{ij}, s)$ as possible, where $e_i$ is an entity (product or service), $a_{ij}$ is an aspect of this entity, and $s$ is the sentiment polarity label.
 
-The different posts have to undergo a preprocessing routine which filters posts which do not contain analyzable data and removes them from the post collection.
+To accomplish this task, many different subtasks need to be solved. After the rudimentary preprocessing, the posts need to be POS tagged, which can be difficult for social media texts, as a significant number of them do not follow the grammatical rules very well or contain a lot of misspellings. Named Entity Recognition (NER) is applied to identify potential products and services and some handwritten rules try to find aspects of those entities. The last part consists of identifying the posts' sentiment words and scoring each mention of an entity together with an aspect according to another set of rules.
 
-The next step is to apply POS tagging on the preprocessed posts. 
-With these POS tags the structure of the post sentences can be described.
-
-For some entity recognition NER is applied which gives information on what is e.g. a person and what is an organization.
-
-After that the writers emotions and feelings towards some products or services have to be analyzed. 
-For this sentiment analysis is applied which gives a post a certain score.
-
-To describe a certain feeling towards a product, triplets are extracted which describe the feeling someone has to something.
-
-For each of the applied techniques different approaches and implementations are tried and compared.
+The results obtained from this analysis are visualized to get a better understanding of the customers' feelings towards these products, services, and their aspects. The visualization helps product designers to decide if it is worth to improve a certain aspect or how to improve it. Due to this, it is understandable that companies are highly interested in this sort of customer experience analysis, as it allows them to make decisions faster and with lower cost.
