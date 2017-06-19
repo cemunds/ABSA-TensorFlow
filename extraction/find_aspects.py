@@ -7,7 +7,7 @@ OUTFILE = "products_and_aspects.json"
 
 def find_aspects(product, posts):
 	aspects = {}
-	threshold = 0.1
+	threshold = 0.2
 	contains_product_count = 0
 
 	for post in posts:
@@ -36,6 +36,29 @@ def find_aspects(product, posts):
 
 	return aspects
 
+def merge_similar_entities(entities):
+	from nltk.stem import WordNetLemmatizer
+	lemmatizer = WordNetLemmatizer()
+	result = {}
+
+	for product, aspects in entities.items():
+		parts = product.split()
+		temp = " ".join(lemmatizer.lemmatize(part) for part in parts)
+		if temp not in result:
+			result[temp] = []
+		result[temp] += aspects
+
+	for product, aspects in result.items():
+		merged_aspects = []
+		for aspect in aspects:
+			parts = aspect.split()
+			temp = " ".join(lemmatizer.lemmatize(part) for part in parts)
+			if temp not in merged_aspects:
+				merged_aspects.append(temp)
+		result[product] = merged_aspects
+
+	return result
+
 if __name__ == "__main__":
 	dictionary = dict()
 
@@ -49,4 +72,6 @@ if __name__ == "__main__":
 				dictionary[product] = ["general"]
 				dictionary[product] += find_aspects(product, posts)
 				print("Processed product {}".format(idx))
+			
+			dictionary = merge_similar_entities(dictionary)
 			json.dump(dictionary, outf, indent=2)
