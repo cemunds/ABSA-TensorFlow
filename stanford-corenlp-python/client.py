@@ -1,5 +1,6 @@
 #!/usr/bin/python2
 import json
+import time
 import nltk
 import logging
 import os
@@ -11,7 +12,7 @@ from nltk.tokenize.moses import MosesDetokenizer
 import sys
 
 reload(sys)
-sys.setdefaultencoding('utf8')
+#sys.setdefaultencoding('utf8')
 
 SUBDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Tesco')
 
@@ -39,17 +40,34 @@ def parse_data():
                             final_result.append(result)
     return final_result
 
+MIN_TEXT_LENGTH = 20
+
+
+def preprocess(data):
+    logging.info("Preprocessing data")
+    results = []
+    for post in data:
+        if len(post['post_message']) < MIN_TEXT_LENGTH or post['type'] == "photo":
+            logging.debug("removed post {}".format(post["post_id"]))
+            continue
+        else:
+            results.append(post)
+    return results
+
 data = parse_data()
+data = preprocess(data)
 
 logging.basicConfig(level=logging.INFO)
 INFILE = "../data/posts_preprocessed.json"
 OUTFILE = "posts_co-referenced.json"
 
+import jsonrpclib
+
 class StanfordNLP:
     def __init__(self):
         self.server = ServerProxy(JsonRpc20(),
                                   TransportTcpIp(addr=("127.0.0.1", 8080)))
-    
+
     def parse(self, text):
         return json.loads(self.server.parse(text))
 
@@ -61,6 +79,11 @@ logging.info("Co-refing data")
 results = []
 for idx, post in enumerate(data):
     nlp = StanfordNLP()
+#    post["post_message"] =  post["post_message"].encode('utf-8')
+    post["post_message"] = unicode(post["post_message"], errors='ignore')
+    if(len(post["post_message"]) > 750):
+        continue
+    pprint(post["post_message"])
     sentences = nltk.sent_tokenize(post["post_message"])
     words = [nltk.word_tokenize(s) for s in sentences]
     try:
@@ -82,10 +105,18 @@ for idx, post in enumerate(data):
             pprint(tmp['coref'])
             pprint(post["post_message"])
             pprint(newPost)
+            post["post_message"] = newPost
+            post["coref-changed"] = 1
             print('')
     except KeyboardInterrupt:
         sys.exit()
     except:
         pprint(post["post_message"])
+        post["coref-changed"] = 0
         print('error occurred')
         print('')
+        time.sleep(0.5)
+    data[idx] = post
+
+with open(OUTFILE, 'w') as outfile:
+    json.dump(data, outfile)
