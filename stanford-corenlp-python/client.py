@@ -1,5 +1,6 @@
 #!/usr/bin/python2
 import json
+import time
 import nltk
 import logging
 import os
@@ -11,7 +12,7 @@ from nltk.tokenize.moses import MosesDetokenizer
 import sys
 
 reload(sys)
-sys.setdefaultencoding('utf8')
+#sys.setdefaultencoding('utf8')
 
 SUBDIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'Tesco')
 
@@ -39,17 +40,34 @@ def parse_data():
                             final_result.append(result)
     return final_result
 
+MIN_TEXT_LENGTH = 20
+
+
+def preprocess(data):
+    logging.info("Preprocessing data")
+    results = []
+    for post in data:
+        if len(post['post_message']) < MIN_TEXT_LENGTH or post['type'] == "photo":
+            logging.debug("removed post {}".format(post["post_id"]))
+            continue
+        else:
+            results.append(post)
+    return results
+
 data = parse_data()
+data = preprocess(data)
 
 logging.basicConfig(level=logging.INFO)
 INFILE = "../data/posts_preprocessed.json"
 OUTFILE = "posts_co-referenced.json"
 
+import jsonrpclib
+
 class StanfordNLP:
     def __init__(self):
         self.server = ServerProxy(JsonRpc20(),
                                   TransportTcpIp(addr=("127.0.0.1", 8080)))
-    
+
     def parse(self, text):
         return json.loads(self.server.parse(text))
 
@@ -57,14 +75,28 @@ class StanfordNLP:
 nlp = StanfordNLP()
 detokenizer = MosesDetokenizer()
 
+excludeArr = ["Hi Tesco. Currently sat outside your Andover Extra store that s been evacuated because of a power failure affecting the local area. Completely understand that this is outside your control however can t understand why such a large store doesn t posess an emergency generator  especially as all your refrigeration has gone off as well?"]
+
 logging.info("Co-refing data")
 results = []
+
+sizeData = len(data)
+count = 1
+
 for idx, post in enumerate(data):
+    pprint(str(count) + " / " + str(sizeData))
+    count = count + 1
     nlp = StanfordNLP()
-    sentences = nltk.sent_tokenize(post["post_message"])
+#    post["post_message"] =  post["post_message"].encode('utf-8')
+    post["coref_post_message"] = unicode(post["post_message"], errors='ignore')
+    if(len(post["coref_post_message"]) > 750 or post["coref_post_message"].strip() in excludeArr):
+        post["coref-changed"] = 0
+        continue
+    pprint(post["coref_post_message"])
+    sentences = nltk.sent_tokenize(post["coref_post_message"])
     words = [nltk.word_tokenize(s) for s in sentences]
     try:
-        tmp = nlp.parse(post["post_message"])
+        tmp = nlp.parse(post["coref_post_message"])
         if('coref' in tmp):
             for arr in tmp['coref']:
                 for arr2 in arr:
@@ -80,12 +112,20 @@ for idx, post in enumerate(data):
                 newSentences.append(detokenizer.detokenize(wordArrs, return_str=True))
             newPost = detokenizer.detokenize(newSentences, return_str=True)
             pprint(tmp['coref'])
-            pprint(post["post_message"])
+            pprint(post["coref_post_message"])
             pprint(newPost)
+            post["coref_post_message"] = newPost
+            post["coref-changed"] = 1
             print('')
     except KeyboardInterrupt:
         sys.exit()
     except:
         pprint(post["post_message"])
+        post["coref-changed"] = 0
         print('error occurred')
         print('')
+        time.sleep(0.5)
+    data[idx] = post
+
+with open(OUTFILE, 'w') as outfile:
+    json.dump(data, outfile)
