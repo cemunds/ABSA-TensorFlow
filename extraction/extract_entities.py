@@ -15,9 +15,12 @@ if __name__ == "__main__":
                 for organization in organizations:
                     if organization.isspace() or len(organization) == 0:
                         continue
-                    if organization not in products:
-                        products[organization] = 0
-                    products[organization] += 1
+
+                    # Not lowercased on purpose
+                    product = " ".join(organization.strip().split())
+                    if product not in products:
+                        products[product] = 0
+                    products[product] += 1
             
             products = sorted(products, key=lambda x: products[x])[::-1]
             json.dump(products, outf, indent=2)
