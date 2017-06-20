@@ -60,6 +60,41 @@ Vue.component("sentiment-chart", {
     }
 });
 
+Vue.component("post", {
+    template: "<div v-html='text'></div>",
+    props: ["data", "sentimentwords", "product"],
+    data: function() {
+        return {
+            text: ""
+        }
+    },
+    mounted: function() {
+        var tokens = this.data.split(" ");
+        var text = "";
+        aspects = _.map(this.product.aspects, function(aspect) {
+            return aspect.name;
+        });
+
+        for(var i = 0; i < tokens.length; i++) {
+            token = tokens[i].toLowerCase();
+
+            if(this.sentimentwords.positive.indexOf(token) !== -1) {
+                text += "<span class='positive'>" + tokens[i] + "</span> ";
+            } else if(this.sentimentwords.negative.indexOf(token) !== -1) {
+                text += "<span class='negative'>" + tokens[i] + "</span> ";
+            } else if(token === this.product.name.toLowerCase()) {
+                text += "<span class='product'>" + tokens[i] + "</span> ";
+            } else if(aspects.indexOf(token) !== -1) {
+                text += "<span class='aspect'>" + tokens[i] + "</span> ";
+            } else {
+                text += token + " "
+            }
+        }
+
+        this.text = text;
+    }
+});
+
 new Vue({
     el: "#app",
     data: {
@@ -83,16 +118,22 @@ new Vue({
                                 value: 2
                             }
                         ],
-                        "posts": ["[...] the battery does not last long enough [...]"]
+                        "posts": ["[...] the battery of the iPhone does not last long enough, this is really bad [...]"]
                     }
                 ]
             }
-        ]
-    },
-    methods: {
-
-    },
-    mounted: function() {
-
+        ],
+        sentimentwords: {
+            "positive": [
+                "great",
+                "love",
+                "fantastic"
+            ],
+            "negative": [
+                "bad",
+                "hate",
+                "disgusting"
+            ]
+        }
     }
 })

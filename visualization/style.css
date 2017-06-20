@@ -12,3 +12,19 @@
     stroke: #000;
     shape-rendering: crispEdges;
 }
+
+.positive {
+	background-color: #00ff00;
+}
+
+.negative {
+	background-color: #ff0000;
+}
+
+.product {
+	background-color: orange;
+}
+
+.aspect {
+	background-color: orange;
+}
