@@ -16,7 +16,6 @@ def preprocess(data):
             logging.debug("removed post {}".format(post["post_id"]))
             continue
         else:
-            post["post_message_lowered"] = post["post_message"].lower()
             results.append(post)
     return results
                     

@@ -1,0 +1,1057 @@
+[
+  {
+    "type": "status",
+    "post_id": "112463368812803_1078033618922435",
+    "post_message": "Dear Tesco  Today I recieved some pretty horrific customer service from an optician in your Bishop Auckland store. When I arrived it was a frantic atmosphere  I was soon told by one of the assistants that yesterday their manager took ill and had to have his/her appendix removed  (I didn t catch if it was a man or woman)  so that explained the rush. The lady who arranged my appointment who was truly wonderful  a credit to your store  squashed me in that afternoon and took a pre test straight away so it was even quicker for me. When I returned the same lady greeted me  she talked me through the different frames you offer and again she was great. Then the optician called me through  from the moment I sat down he did not seem to have the time of day for me  I explained what I needed my glasses for and how I had been having migranes recently  but I furthur explained how I had been working a lot more and tried to make light of things with little jokes  which were not well recieved. During the appointment he was very rushed and seemed to be accusing me of faking eye-sight problems. He was changing lens  asking me if I could see a difference when I was answering honestlty he kept asking me if I was sure  and then the icing on his rude cake he said the line a health professional should never say   Are you sure  because we all love to say yes.  Overall he made me feel as though he did not have time for me  he did not want to help me  and he did not belive that I needed my glasses  (which I have been recieving on prescription from Tesco for 4 years). Sadly he was not wearing a name badge  lucky for him as I would most certainly name drop. I bought my glasses as I was in a rush  but I will not be visiting your opticians again.",
+    "post_published_sql": "2016-04-12 20:06:50",
+    "pos_tagged": "Dear/NNP Tesco/NNP Today/NN I/PRP recieved/VBD some/DT pretty/RB horrific/JJ customer/NN service/NN from/IN an/DT optician/NN in/IN your/PRP$ Bishop/NNP Auckland/NNP store/NN ./. When/WRB I/PRP arrived/VBD it/PRP was/VBD a/DT frantic/JJ atmosphere/NN I/PRP was/VBD soon/RB told/VBN by/IN one/CD of/IN the/DT assistants/NNS that/IN yesterday/NN their/PRP$ manager/NN took/VBD ill/JJ and/CC had/VBD to/TO have/VB his/her/PRP$ appendix/NN removed/VBD (/-LRB- I/PRP didn/VBD t/IN catch/NN if/IN it/PRP was/VBD a/DT man/NN or/CC woman/NN )/-RRB- so/RB that/IN explained/VBD the/DT rush/NN ./. The/DT lady/NN who/WP arranged/VBD my/PRP$ appointment/NN who/WP was/VBD truly/RB wonderful/JJ a/DT credit/NN to/TO your/PRP$ store/NN squashed/VBN me/PRP in/IN that/DT afternoon/NN and/CC took/VBD a/DT pre/NN test/NN straight/JJ away/RB so/IN it/PRP was/VBD even/RB quicker/JJR for/IN me/PRP ./. When/WRB I/PRP returned/VBD the/DT same/JJ lady/NN greeted/VBD me/PRP she/PRP talked/VBD me/PRP through/IN the/DT different/JJ frames/NNS you/PRP offer/VBP and/CC again/RB she/PRP was/VBD great/JJ ./. Then/RB the/DT optician/NN called/VBD me/PRP through/IN from/IN the/DT moment/NN I/PRP sat/VBD down/IN he/PRP did/VBD not/RB seem/VB to/TO have/VB the/DT time/NN of/IN day/NN for/IN me/PRP I/PRP explained/VBD what/WP I/PRP needed/VBD my/PRP$ glasses/NNS for/IN and/CC how/WRB I/PRP had/VBD been/VBN having/VBG migranes/NNS recently/RB but/CC I/PRP furthur/RB explained/VBD how/WRB I/PRP had/VBD been/VBN working/VBG a/DT lot/NN more/RBR and/CC tried/VBD to/TO make/VB light/NN of/IN things/NNS with/IN little/JJ jokes/NNS which/WDT were/VBD not/RB well/RB recieved/VBN ./. During/IN the/DT appointment/NN he/PRP was/VBD very/RB rushed/VBN and/CC seemed/VBN to/TO be/VB accusing/VBG me/PRP of/IN faking/VBG eye-sight/JJ problems/NNS ./. He/PRP was/VBD changing/VBG lens/NN asking/VBG me/PRP if/IN I/PRP could/MD see/VB a/DT difference/NN when/WRB I/PRP was/VBD answering/VBG honestlty/NN he/PRP kept/VBD asking/VBG me/PRP if/IN I/PRP was/VBD sure/JJ and/CC then/RB the/DT icing/NN on/IN his/PRP$ rude/JJ cake/NN he/PRP said/VBD the/DT line/NN a/DT health/NN professional/NN should/MD never/RB say/VB Are/VBP you/PRP sure/JJ because/IN we/PRP all/DT love/NN to/TO say/VB yes/UH ./. Overall/RB he/PRP made/VBD me/PRP feel/VB as/IN though/IN he/PRP did/VBD not/RB have/VB time/NN for/IN me/PRP he/PRP did/VBD not/RB want/VB to/TO help/VB me/PRP and/CC he/PRP did/VBD not/RB belive/VB that/IN I/PRP needed/VBD my/PRP$ glasses/NNS (/-LRB- which/WDT I/PRP have/VBP been/VBN recieving/VBG on/IN prescription/NN from/IN Tesco/NNP for/IN 4/CD years/NNS )/-RRB- ./. Sadly/RB he/PRP was/VBD not/RB wearing/VBG a/DT name/NN badge/NN lucky/JJ for/IN him/PRP as/IN I/PRP would/MD most/RBS certainly/RB name/NN drop/NN ./. I/PRP bought/VBD my/PRP$ glasses/NNS as/IN I/PRP was/VBD in/IN a/DT rush/NN but/CC I/PRP will/MD not/RB be/VB visiting/VBG your/PRP$ opticians/NNS again/RB ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "Today;yesterday",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1077797155612748",
+    "post_message": "I would like to register my dissatisfaction with the customer service we have received from Tesco following damage to our property when a Tesco delivery driver delivered our shopping 3 weeks ago.  The driver accidentally snapped off the waste pipe that leads from our bathroom to the outside drain.  I appreciate that accidents happen and anticipated that Tesco would work quickly to agree a plan for fixing the damage caused.  However  despite phone calls by my husband chasing a resolution we have been passed from pillar to post with none of your managers willing to take responsibility.  On 2 April it was confirmed to us that the matter had been  escalated  to Head Office  but more than a week on  and 3 weeks after the incident we have received no communication from Head Office.  As a loyal Tesco customer spending an average of \u00a3500 - \u00a3600 in Tesco stores every month I am disgusted with this level of customer service and look forward to hearing from you with a suitable resolution to this situation.",
+    "post_published_sql": "2016-04-12 11:35:54",
+    "pos_tagged": "I/PRP would/MD like/VB to/TO register/VB my/PRP$ dissatisfaction/NN with/IN the/DT customer/NN service/NN we/PRP have/VBP received/VBN from/IN Tesco/NNP following/VBG damage/NN to/TO our/PRP$ property/NN when/WRB a/DT Tesco/NNP delivery/NN driver/NN delivered/VBN our/PRP$ shopping/NN 3/CD weeks/NNS ago/RB ./. The/DT driver/NN accidentally/RB snapped/VBD off/RP the/DT waste/NN pipe/NN that/WDT leads/VBZ from/IN our/PRP$ bathroom/NN to/TO the/DT outside/JJ drain/NN ./. I/PRP appreciate/VBP that/DT accidents/NNS happen/VB and/CC anticipated/VBN that/IN Tesco/NNP would/MD work/VB quickly/RB to/TO agree/VB a/DT plan/NN for/IN fixing/VBG the/DT damage/NN caused/VBD ./. However/RB despite/IN phone/NN calls/NNS by/IN my/PRP$ husband/NN chasing/VBG a/DT resolution/NN we/PRP have/VBP been/VBN passed/VBN from/IN pillar/NN to/TO post/VB with/IN none/NN of/IN your/PRP$ managers/NNS willing/JJ to/TO take/VB responsibility/NN ./. On/IN 2/CD April/NNP it/PRP was/VBD confirmed/VBN to/TO us/PRP that/IN the/DT matter/NN had/VBD been/VBN escalated/VBN to/TO Head/NNP Office/NNP but/CC more/JJR than/IN a/DT week/NN on/IN and/CC 3/CD weeks/NNS after/IN the/DT incident/NN we/PRP have/VBP received/VBN no/DT communication/NN from/IN Head/NNP Office/NNP ./. As/IN a/DT loyal/JJ Tesco/NNP customer/NN spending/VBG an/DT average/NN of/IN \u00a3500/CD -/: \u00a3600/CD in/IN Tesco/NNP stores/NNS every/DT month/NN I/PRP am/VBP disgusted/VBN with/IN this/DT level/NN of/IN customer/NN service/NN and/CC look/VBP forward/RB to/TO hearing/VBG from/IN you/PRP with/IN a/DT suitable/JJ resolution/NN to/TO this/DT situation/NN ./.",
+    "organization": "",
+    "location": "Head;Head",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1077512378974559",
+    "post_message": "Tesco apparently do not give a record of when an item returned to store by online shopping- This is odd as I have had these in past up to 2 weeks ago  the refund confirmation as thought it was the law  for many many weeks however a young man explained to me very rudely in customer services that apparently they don t need to confirm that the store received the returned items or that they will be refunding the amount  won t give his name but I should just take it on his word a verbal reply that the items will be refunded? Edinburgh based. Very unhappy. So no confirmation the items made it back to store (as delivery driver had no reader with him and n paper for me to sign to say I received order)  and no confirmation at all the items would be refunded and apparently this is exactly how it should be because the manager of Corstorphne store Edinburgh says apparently and the young man in Tesco customer services that Tesco has no obligation to confirm the items were received back at store or that a refund would take place- the vegetables delivered  that were returned had gone slimy in the packet and were out of date the next day on a 10pm delivery.",
+    "post_published_sql": "2016-04-11 22:56:03",
+    "pos_tagged": "Tesco/NNP apparently/RB do/VBP not/RB give/VB a/DT record/NN of/IN when/WRB an/DT item/NN returned/VBD to/TO store/VB by/IN online/JJ shopping-/NNS This/DT is/VBZ odd/JJ as/IN I/PRP have/VBP had/VBD these/DT in/IN past/NN up/IN to/TO 2/CD weeks/NNS ago/IN the/DT refund/NN confirmation/NN as/IN thought/NN it/PRP was/VBD the/DT law/NN for/IN many/JJ many/JJ weeks/NNS however/RB a/DT young/JJ man/NN explained/VBD to/TO me/PRP very/RB rudely/RB in/IN customer/NN services/NNS that/WDT apparently/RB they/PRP don/VBP t/JJ need/NN to/TO confirm/VB that/IN the/DT store/NN received/VBD the/DT returned/VBN items/NNS or/CC that/IN they/PRP will/MD be/VB refunding/VBG the/DT amount/NN won/VBD t/RB give/VB his/PRP$ name/NN but/CC I/PRP should/MD just/RB take/VB it/PRP on/IN his/PRP$ word/NN a/DT verbal/JJ reply/NN that/IN the/DT items/NNS will/MD be/VB refunded/VBN ?/. Edinburgh/NNP based/VBN ./. Very/RB unhappy/JJ ./. So/IN no/DT confirmation/NN the/DT items/NNS made/VBD it/PRP back/RB to/TO store/NN (/-LRB- as/IN delivery/NN driver/NN had/VBD no/DT reader/NN with/IN him/PRP and/CC n/RB paper/NN for/IN me/PRP to/TO sign/VB to/TO say/VB I/PRP received/VBD order/NN )/-RRB- and/CC no/DT confirmation/NN at/IN all/DT the/DT items/NNS would/MD be/VB refunded/VBN and/CC apparently/RB this/DT is/VBZ exactly/RB how/WRB it/PRP should/MD be/VB because/IN the/DT manager/NN of/IN Corstorphne/NNP store/NN Edinburgh/NNP says/VBZ apparently/RB and/CC the/DT young/JJ man/NN in/IN Tesco/NNP customer/NN services/NNS that/IN Tesco/NNP has/VBZ no/DT obligation/NN to/TO confirm/VB the/DT items/NNS were/VBD received/VBN back/RB at/IN store/NN or/CC that/IN a/DT refund/NN would/MD take/VB place/NN -/: the/DT vegetables/NNS delivered/VBN that/IN were/VBD returned/VBN had/VBD gone/VBN slimy/RB in/IN the/DT packet/NN and/CC were/VBD out/IN of/IN date/NN the/DT next/JJ day/NN on/IN a/DT 10pm/JJ delivery/NN ./.",
+    "organization": "Tesco",
+    "location": "Corstorphne;Edinburgh",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1077382008987596",
+    "post_message": "HI  Apologies if this is not quite relevant to this page. Having looked on the Tesco Direct website this morning for a cordless power drill  I found one on offer with yourselves at the bargain price of \u00a319. Great!  After using the *stock in your local store* button  I established there were stock available in your Stalybridge store. Great! So off I went to the Stalybridge store  searched high and low for said drill and couldn\u2019t find it. I asked a member of staff who informed me that the Stalybridge store does not stock this item. Erm\u2026.what about available stock showing online? Not so great!  I decided to look for another store which had stock in by using the *stock in your local area* button  I noticed Oldham  Huddersfield Road had some showing in stock. So off we went  parked up and in I went. Yey I found the item I wanted on the shelf with about 10 others. Took it to the till to see \u00a333 on the self serve screen\u2026hmm I thought this item was \u00a319? After asking a member of staff about the price difference I was told that this was an online offer not store offer and to speak to customer services. Nowhere online does it mention it is an online offer only and if this was the case  why have the option to search local stores for stock at this price??  I went to customer services and explained the price issue to the lady stood behind the counter. She said also it was an online offer and not available in store. So why was I allowed to search for local stores in the area that stocked this item??? At this price??? She explained I could buy it now with click and collect and come back tomorrow after 3pm to collect it  but would have to pay \u00a32 extra\u2026..what?? \u00a32 for what exactly? So if I have to pay \u00a32 extra  then the drill is not \u00a319 as clearly stated online  but it is in fact \u00a321! What is the difference between me picking the item up today and tomorrow? They were in stock! The woman on the customer service desk was less than helpful with such an attitude. I understand she can only give me information she has  but manners and compassion wouldn\u2019t have hurt her! If that\u2019s what she calls customer service  geez id hate to see what her bad customer service is like! I have never experienced customer service like this.  I am a loyal customer of Tescos and have been for many years  im going to reconsider this! Thanks for wasting my time today tescos!  An answer to this would be appreciated asap\u2026",
+    "post_published_sql": "2016-04-11 18:22:18",
+    "pos_tagged": "HI/PRP$ Apologies/NNP if/IN this/DT is/VBZ not/RB quite/RB relevant/JJ to/TO this/DT page/NN ./. Having/VBG looked/VBN on/IN the/DT Tesco/NNP Direct/NNP website/NN this/DT morning/NN for/IN a/DT cordless/JJ power/NN drill/NN I/PRP found/VBD one/CD on/IN offer/NN with/IN yourselves/PRP at/IN the/DT bargain/NN price/NN of/IN \u00a319/CD ./. Great/NNP !/. After/IN using/VBG the/DT *stock/NN in/IN your/PRP$ local/JJ store*/NN button/NN I/PRP established/VBD there/EX were/VBD stock/NN available/JJ in/IN your/PRP$ Stalybridge/NNP store/NN ./. Great/NNP !/. So/RB off/IN I/PRP went/VBD to/TO the/DT Stalybridge/NNP store/NN searched/VBD high/JJ and/CC low/JJ for/IN said/VBD drill/NN and/CC could/MD n\u2019t/RB find/VB it/PRP ./. I/PRP asked/VBD a/DT member/NN of/IN staff/NN who/WP informed/VBD me/PRP that/IN the/DT Stalybridge/NNP store/NN does/VBZ not/RB stock/VB this/DT item/NN ./. Erm\u2026.what/RB about/IN available/JJ stock/NN showing/VBG online/NNP ?/. Not/RB so/RB great/JJ !/. I/PRP decided/VBD to/TO look/VB for/IN another/DT store/NN which/WDT had/VBD stock/NN in/IN by/IN using/VBG the/DT *stock/NN in/IN your/PRP$ local/JJ area*/NN button/NN I/PRP noticed/VBD Oldham/NNP Huddersfield/NNP Road/NNP had/VBD some/DT showing/VBG in/IN stock/NN ./. So/RB off/IN we/PRP went/VBD parked/VBN up/RB and/CC in/IN I/PRP went/VBD ./. Yey/NNP I/PRP found/VBD the/DT item/NN I/PRP wanted/VBD on/IN the/DT shelf/NN with/IN about/IN 10/CD others/NNS ./. Took/NN it/PRP to/TO the/DT till/IN to/TO see/VB \u00a333/CD on/IN the/DT self/NN serve/VBP screen\u2026hmm/NN I/PRP thought/VBD this/DT item/NN was/VBD \u00a319/CD ?/. After/IN asking/VBG a/DT member/NN of/IN staff/NN about/IN the/DT price/NN difference/NN I/PRP was/VBD told/VBN that/IN this/DT was/VBD an/DT online/JJ offer/NN not/RB store/NN offer/NN and/CC to/TO speak/VB to/TO customer/NN services/NNS ./. Nowhere/RB online/NNP does/VBZ it/PRP mention/VB it/PRP is/VBZ an/DT online/JJ offer/NN only/RB and/CC if/IN this/DT was/VBD the/DT case/NN why/WRB have/VBP the/DT option/NN to/TO search/VB local/JJ stores/NNS for/IN stock/NN at/IN this/DT price/NN ?/. ?/. I/PRP went/VBD to/TO customer/NN services/NNS and/CC explained/VBD the/DT price/NN issue/NN to/TO the/DT lady/NN stood/VBD behind/IN the/DT counter/NN ./. She/PRP said/VBD also/RB it/PRP was/VBD an/DT online/JJ offer/NN and/CC not/RB available/JJ in/IN store/NN ./. So/RB why/WRB was/VBD I/PRP allowed/VBN to/TO search/VB for/IN local/JJ stores/NNS in/IN the/DT area/NN that/IN stocked/VBD this/DT item/NN ?/. ?/. ?/. At/IN this/DT price/NN ?/. ?/. ?/. She/PRP explained/VBD I/PRP could/MD buy/VB it/PRP now/RB with/IN click/NN and/CC collect/VB and/CC come/VB back/RB tomorrow/RB after/IN 3pm/PRP to/TO collect/VB it/PRP but/CC would/MD have/VB to/TO pay/VB \u00a32/DT extra\u2026..what/NN ?/. ?/. \u00a32/VBD for/IN what/WP exactly/RB ?/. So/IN if/IN I/PRP have/VBP to/TO pay/VB \u00a32/DT extra/JJ then/RB the/DT drill/NN is/VBZ not/RB \u00a319/VB as/RB clearly/RB stated/VBN online/JJ but/CC it/PRP is/VBZ in/IN fact/NN \u00a321/. !/. What/WP is/VBZ the/DT difference/NN between/IN me/PRP picking/VBG the/DT item/NN up/IN today/NN and/CC tomorrow/NN ?/. They/PRP were/VBD in/IN stock/NN !/. The/DT woman/NN on/IN the/DT customer/NN service/NN desk/NN was/VBD less/JJR than/IN helpful/JJ with/IN such/PDT an/DT attitude/NN ./. I/PRP understand/VBP she/PRP can/MD only/RB give/VB me/PRP information/NN she/PRP has/VBZ but/CC manners/NNS and/CC compassion/NN would/MD n\u2019t/RB have/VB hurt/VBN her/PRP$ !/. If/IN that/DT \u2019s/VBZ what/WP she/PRP calls/VBZ customer/NN service/NN geez/NN id/JJ hate/NN to/TO see/VB what/WP her/PRP bad/JJ customer/NN service/NN is/VBZ like/JJ !/. I/PRP have/VBP never/RB experienced/VBN customer/NN service/NN like/IN this/DT ./. I/PRP am/VBP a/DT loyal/JJ customer/NN of/IN Tescos/NNP and/CC have/VBP been/VBN for/IN many/JJ years/NNS im/PRP going/VBG to/TO reconsider/VB this/DT !/. Thanks/NNS for/IN wasting/VBG my/PRP$ time/NN today/NN tescos/NNS !/. An/DT answer/NN to/TO this/DT would/MD be/VB appreciated/VBN asap\u2026/IN",
+    "organization": "Tesco Direct",
+    "location": "Stalybridge",
+    "person": "",
+    "date": "tomorrow;today;tomorrow;today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1077340515658412",
+    "post_message": "I bought a chicken for Tesco Failsworth  which I returned due to being unfit to eat  I was given my money back \u00a35.50 and told the chicken would be tested and sent back to the suppliers  four weeks down the line I am still waiting to here after inititally refusing their \u00a310.00 gift card  I returned the said gift card with a letter and email  still nothing  so now if I dont hear anything by tomorrow i will post picture of the said chicken  its disgusting and no they didnt even send back to supplier  I was asked shall we do it for you now  dont think the store will still have it after 3 weeks do you? Very bad customer service Tesco",
+    "post_published_sql": "2016-04-11 16:56:52",
+    "pos_tagged": "I/PRP bought/VBD a/DT chicken/NN for/IN Tesco/NNP Failsworth/NNP which/WDT I/PRP returned/VBD due/JJ to/TO being/VBG unfit/JJ to/TO eat/VB I/PRP was/VBD given/VBN my/PRP$ money/NN back/RB \u00a35.50/CD and/CC told/VBD the/DT chicken/NN would/MD be/VB tested/VBN and/CC sent/VBN back/RB to/TO the/DT suppliers/NNS four/CD weeks/NNS down/IN the/DT line/NN I/PRP am/VBP still/RB waiting/VBG to/TO here/RB after/IN inititally/RB refusing/VBG their/PRP$ \u00a310.00/CD gift/NN card/NN I/PRP returned/VBD the/DT said/VBD gift/NN card/NN with/IN a/DT letter/NN and/CC email/NN still/RB nothing/NN so/RB now/RB if/IN I/PRP dont/VBP hear/VB anything/NN by/IN tomorrow/NN i/NN will/MD post/VB picture/NN of/IN the/DT said/VBN chicken/NN its/PRP$ disgusting/NN and/CC no/DT they/PRP didnt/VBP even/RB send/VB back/RB to/TO supplier/NN I/PRP was/VBD asked/VBN shall/MD we/PRP do/VB it/PRP for/IN you/PRP now/RB dont/VBP think/VB the/DT store/NN will/MD still/RB have/VB it/PRP after/IN 3/CD weeks/NNS do/VBP you/PRP ?/. Very/RB bad/JJ customer/NN service/NN Tesco/NNP",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "\u00a310.00;tomorrow",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1076582345734229",
+    "post_message": "Absolutely disgusted with treatment I have received regarding a home delivery from your Port Glasgow store and the attitude of your representative from your customer service team. I pay for delivery saver each month and have been for almost 2 years. I had a delivery booked for deliver between 1pm and 2 pm and it hasn t arrived and when I call up I get told there s been a  serious incident  in store and will not be getting my delivery for at least another hour but no definitive delivery time. So if this incident is so bad then someone should have contacted your telephone team and then contacted the customers. I now have to rearrange my day to wait in for a delivery that may never come. As for the attitude of the customers services agent who basically said tough there s nothing that can be done. I would be sacked if I spoke to my customers that way. Technically Tescos are in breach of contract I will be cancelling my Direct debit and will be shopping with Asda from now on.",
+    "post_published_sql": "2016-04-10 15:32:08",
+    "pos_tagged": "Absolutely/RB disgusted/JJ with/IN treatment/NN I/PRP have/VBP received/VBN regarding/VBG a/DT home/NN delivery/NN from/IN your/PRP$ Port/NNP Glasgow/NNP store/NN and/CC the/DT attitude/NN of/IN your/PRP$ representative/NN from/IN your/PRP$ customer/NN service/NN team/NN ./. I/PRP pay/VBP for/IN delivery/NN saver/IN each/DT month/NN and/CC have/VBP been/VBN for/IN almost/RB 2/CD years/NNS ./. I/PRP had/VBD a/DT delivery/NN booked/VBN for/IN deliver/VB between/IN 1pm/JJ and/CC 2/CD pm/NN and/CC it/PRP hasn/VBZ t/NN arrived/VBN and/CC when/WRB I/PRP call/VBP up/RP I/PRP get/VBP told/VBN there/EX s/VBZ been/VBN a/DT serious/JJ incident/NN in/IN store/NN and/CC will/MD not/RB be/VB getting/VBG my/PRP$ delivery/NN for/IN at/IN least/JJS another/DT hour/NN but/CC no/DT definitive/JJ delivery/NN time/NN ./. So/RB if/IN this/DT incident/NN is/VBZ so/RB bad/JJ then/RB someone/NN should/MD have/VB contacted/VBN your/PRP$ telephone/NN team/NN and/CC then/RB contacted/VBD the/DT customers/NNS ./. I/PRP now/RB have/VBP to/TO rearrange/VB my/PRP$ day/NN to/TO wait/VB in/IN for/IN a/DT delivery/NN that/WDT may/MD never/RB come/VB ./. As/IN for/IN the/DT attitude/NN of/IN the/DT customers/NNS services/NNS agent/NN who/WP basically/RB said/VBD tough/JJ there/RB s/VBZ nothing/NN that/WDT can/MD be/VB done/VBN ./. I/PRP would/MD be/VB sacked/VBN if/IN I/PRP spoke/VBD to/TO my/PRP$ customers/NNS that/IN way/NN ./. Technically/RB Tescos/NNP are/VBP in/IN breach/NN of/IN contract/NN I/PRP will/MD be/VB cancelling/VBG my/PRP$ Direct/JJ debit/NN and/CC will/MD be/VB shopping/VBG with/IN Asda/NNP from/IN now/RB on/IN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1075952522463878",
+    "post_message": "Why is it if I try to order Mythos Lager it says out of stock down South  yet they sell it off the shelf in the North? I even went to Customer service in Gillingham as was suggested to get some ordered and sent  as was advised by Tesco and they said they don t do that.",
+    "post_published_sql": "2016-04-09 17:00:58",
+    "pos_tagged": "Why/WRB is/VBZ it/PRP if/IN I/PRP try/VBP to/TO order/VB Mythos/NNP Lager/NNP it/PRP says/VBZ out/IN of/IN stock/NN down/IN South/NNP yet/CC they/PRP sell/VBP it/PRP off/RP the/DT shelf/NN in/IN the/DT North/NNP ?/. I/PRP even/RB went/VBD to/TO Customer/NNP service/NN in/IN Gillingham/NNP as/IN was/VBD suggested/VBN to/TO get/VB some/DT ordered/VBN and/CC sent/VBN as/RB was/VBD advised/VBN by/IN Tesco/NNP and/CC they/PRP said/VBD they/PRP don/VBP t/NN do/VBP that/DT ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1075941675798296",
+    "post_message": "What a shame Tesco don t ensure there customer service employees are smart and clean. Was served today by a man with his jacket covered in grey hair and dandruff. Glad I wasn t buying any food or I would have left it at the till. Won t be food shopping at that Tesco Superstore. YUK!",
+    "post_published_sql": "2016-04-09 16:34:39",
+    "pos_tagged": "What/WP a/DT shame/NN Tesco/NNP don/IN t/NN ensure/VB there/EX customer/NN service/NN employees/NNS are/VBP smart/JJ and/CC clean/JJ ./. Was/VBD served/VBN today/NN by/IN a/DT man/NN with/IN his/PRP$ jacket/NN covered/VBN in/IN grey/JJ hair/NN and/CC dandruff/NN ./. Glad/'' I/PRP wasn/VBD t/IN buying/VBG any/DT food/NN or/CC I/PRP would/MD have/VB left/VBN it/PRP at/IN the/DT till/IN ./. Won/NNP t/VBD be/VB food/NN shopping/NN at/IN that/DT Tesco/NNP Superstore/NNP ./. YUK!/''",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1075060629219734",
+    "post_message": "Why do Tesco apologise through customer services and not get the person and store manager in question to write a written apology for humiliating me and embarrassing my children in the Littlehampton store? Common courtesy goes a long time a long way!",
+    "post_published_sql": "2016-04-08 08:23:34",
+    "pos_tagged": "Why/WRB do/VBP Tesco/NNP apologise/VB through/IN customer/NN services/NNS and/CC not/RB get/VB the/DT person/NN and/CC store/NN manager/NN in/IN question/NN to/TO write/VB a/DT written/VBN apology/NN for/IN humiliating/VBG me/PRP and/CC embarrassing/VBG my/PRP$ children/NNS in/IN the/DT Littlehampton/NNP store/NN ?/. Common/JJ courtesy/NN goes/VBZ a/DT long/JJ time/NN a/DT long/JJ way/NN !/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074831339242663",
+    "post_message": "Dear Tesco   I booked to have my grocery delivery between 7pm and 8pm tonight. By 8.30pm it hadn t arrived so I called customer services. A very helpful lady looked into the issue and said the delivery driver had tried and failed to deliver at 7.03pm  and had left a card. I can assure you both my husband and I were in at that time and in fact  I had been in the house all day. The doorbell works and there is a door that can be knocked on too. No card was left nor was any delivery attempted at my house. The customer services lady then contacted the delivery driver on our behalf who said he d try again at the end of his other deliveries and that she d call back at 9.30pm to see if we had received our groceries. At 9.30pm I got my call  from a man at the depot this time  who said they were organising another driver to meet the original one  collect our order and deliver it to us. Great  we thought  only two hours late but at least it s on its way. 10.10pm and we were still waiting for our order so I called the man back to see how things were going. This time I was told they can t deliver and will bring it tomorrow instead.  It is way past my bedtime  Tesco  and I wish this had been the solution originally rather than making me wait up all this time. Would I still be waiting now  had I not made that phone call? Now I sincerely hope  Tesco  that 1) I will not incur another delivery charge  since I understand that is the practice if the customer misses their original delivery slot  as I was actually at home at 7.03pm and 2) my delivery does indeed arrive tomorrow.  Yours faithfully  a tired customer.",
+    "post_published_sql": "2016-04-07 23:22:18",
+    "pos_tagged": "Dear/NNP Tesco/NNP I/PRP booked/VBD to/TO have/VB my/PRP$ grocery/NN delivery/NN between/IN 7pm/NNP and/CC 8pm/VB tonight/RB ./. By/IN 8.30pm/VBG it/PRP hadn/JJ t/NN arrived/VBD so/RB I/PRP called/VBD customer/NN services/NNS ./. A/DT very/RB helpful/JJ lady/NN looked/VBD into/IN the/DT issue/NN and/CC said/VBD the/DT delivery/NN driver/NN had/VBD tried/VBN and/CC failed/VBN to/TO deliver/VB at/IN 7.03pm/JJ and/CC had/VBD left/VBN a/DT card/NN ./. I/PRP can/MD assure/VB you/PRP both/DT my/PRP$ husband/NN and/CC I/PRP were/VBD in/IN at/IN that/DT time/NN and/CC in/IN fact/NN I/PRP had/VBD been/VBN in/IN the/DT house/NN all/DT day/NN ./. The/DT doorbell/NN works/VBZ and/CC there/EX is/VBZ a/DT door/NN that/WDT can/MD be/VB knocked/VBN on/IN too/RB ./. No/DT card/NN was/VBD left/VBN nor/CC was/VBD any/DT delivery/NN attempted/VBN at/IN my/PRP$ house/NN ./. The/DT customer/NN services/NNS lady/NN then/RB contacted/VBD the/DT delivery/NN driver/NN on/IN our/PRP$ behalf/NN who/WP said/VBD he/PRP d/VBD try/VB again/RB at/IN the/DT end/NN of/IN his/PRP$ other/JJ deliveries/NNS and/CC that/IN she/PRP d/VBD call/VB back/RB at/IN 9.30pm/PRP to/TO see/VB if/IN we/PRP had/VBD received/VBN our/PRP$ groceries/NNS ./. At/IN 9.30pm/NNP I/PRP got/VBD my/PRP$ call/NN from/IN a/DT man/NN at/IN the/DT depot/NN this/DT time/NN who/WP said/VBD they/PRP were/VBD organising/VBG another/DT driver/NN to/TO meet/VB the/DT original/JJ one/CD collect/VBP our/PRP$ order/NN and/CC deliver/VB it/PRP to/TO us/PRP ./. Great/NNP we/PRP thought/VBD only/RB two/CD hours/NNS late/JJ but/CC at/IN least/JJS it/PRP s/VBZ on/IN its/PRP$ way/NN ./. 10.10pm/'' and/CC we/PRP were/VBD still/RB waiting/VBG for/IN our/PRP$ order/NN so/IN I/PRP called/VBD the/DT man/NN back/RB to/TO see/VB how/WRB things/NNS were/VBD going/VBG ./. This/DT time/NN I/PRP was/VBD told/VBN they/PRP can/MD t/VB deliver/VB and/CC will/MD bring/VB it/PRP tomorrow/RB instead/RB ./. It/PRP is/VBZ way/RB past/IN my/PRP$ bedtime/NN Tesco/NNP and/CC I/PRP wish/VBP this/DT had/VBD been/VBN the/DT solution/NN originally/RB rather/RB than/IN making/VBG me/PRP wait/VB up/RP all/PDT this/DT time/NN ./. Would/MD I/PRP still/RB be/VB waiting/VBG now/RB had/VBD I/PRP not/RB made/VBD that/DT phone/NN call/NN ?/. Now/RB I/PRP sincerely/RB hope/VBP Tesco/NNP that/IN 1/CD )/-RRB- I/PRP will/MD not/RB incur/VB another/DT delivery/NN charge/NN since/IN I/PRP understand/VBP that/DT is/VBZ the/DT practice/NN if/IN the/DT customer/NN misses/VBZ their/PRP$ original/JJ delivery/NN slot/NN as/IN I/PRP was/VBD actually/RB at/IN home/NN at/IN 7.03pm/NNP and/CC 2/CD )/-RRB- my/PRP$ delivery/NN does/VBZ indeed/RB arrive/VB tomorrow/NN ./. Yours/PRP faithfully/RB a/DT tired/JJ customer/NN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "tomorrow;tomorrow",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074758772583253",
+    "post_message": "Very helpful when I knew I would be late back for my delivery. Customer services were great and so was the delivery guy! 5*",
+    "post_published_sql": "2016-04-07 21:24:38",
+    "pos_tagged": "Very/RB helpful/JJ when/WRB I/PRP knew/VBD I/PRP would/MD be/VB late/JJ back/NN for/IN my/PRP$ delivery/NN ./. Customer/NN services/NNS were/VBD great/JJ and/CC so/RB was/VBD the/DT delivery/NN guy/NN !/. 5*/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074724409253356",
+    "post_message": "I m still waiting to hear about my 5-6pm food delivery for YESTERDAY!! I ve called customer service yesterday and today who have tried to get hold of the managers at the store but couldn t and not heard anything back.  The worse thing is  you ve taken the money out my account!!!!!!!!!!!",
+    "post_published_sql": "2016-04-07 19:59:52",
+    "pos_tagged": "I/PRP m/MD still/RB waiting/VBG to/TO hear/VB about/IN my/PRP$ 5-6pm/JJ food/NN delivery/NN for/IN YESTERDAY/NN !/. !/. I/PRP ve/VBP called/VBN customer/NN service/NN yesterday/NN and/CC today/NN who/WP have/VBP tried/VBN to/TO get/VB hold/NN of/IN the/DT managers/NNS at/IN the/DT store/NN but/CC couldn/JJ t/NN and/CC not/RB heard/VBN anything/NN back/RB ./. The/DT worse/JJR thing/NN is/VBZ you/PRP ve/VB taken/VBN the/DT money/NN out/IN my/PRP$ account/NN !/. !/. !/. !/. !/. !/. !/. !/. !/. !/. !/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "yesterday;today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074481935944270",
+    "post_message": "Hi  I have sent this through to your customer services email but wanted to post on here  just to make sure the people mentioned get the feedback they deserve. I attended your Pontardawe store around lunch time on Thursday 31st March and would like to say thank you for the great customer service I received. This what happened:- It was my daughter s 5th birthday in 2 days so I had to go shopping for food for her birthday party and had to take my 2 children with me (age 2 and 4 at the time). Shopping with children can be stressful at the best of times  let alone when you have something important like a party to plan for. I had already been to 2 shops previously to visiting your Pontardawe store and had been out of the house with my children for 3 hours already so by this point I was slowly losing my patience and they were understandably bored. My son had started to throw a temper tantrum in the trolley and was screaming  I had a few looks off people judging me  who obviously didn t know the whole story. This wasn t what Peter did instead he asked my son what was the matter. And although my son didn t answer  he immediately stopped crying  which broke the tension. Peter was very friendly and carried on interacting with both of my children and by the time we walked away my children were much happier. At the time I didn t thank Peter as I was very stressed and in my own little world. I then proceeded to the self service checkout while I was scanning my items Gerry was talking to my children and kept them amused while I finished scanning my items. This is when I realised I should have thanked Peter for his earlier intervention. By the time I left your store I was much less stressed and my children were in a better mood too  which is very unusual for a shopping trip with children. People are very quick to complain (myself included) but forget to say thank you for good service. Peter and Gerry provided exceptional customer service and what may not have seemed like a big deal to them made a huge difference to my day!",
+    "post_published_sql": "2016-04-07 12:05:17",
+    "pos_tagged": "Hi/UH I/PRP have/VBP sent/VBN this/DT through/IN to/TO your/PRP$ customer/NN services/NNS email/NN but/CC wanted/VBD to/TO post/VB on/IN here/RB just/RB to/TO make/VB sure/JJ the/DT people/NNS mentioned/VBN get/VB the/DT feedback/NN they/PRP deserve/VBP ./. I/PRP attended/VBD your/PRP$ Pontardawe/NNP store/NN around/IN lunch/NN time/NN on/IN Thursday/NNP 31st/IN March/NNP and/CC would/MD like/VB to/TO say/VB thank/VB you/PRP for/IN the/DT great/JJ customer/NN service/NN I/PRP received/VBD ./. This/DT what/WP happened:/VBD -/: It/PRP was/VBD my/PRP$ daughter/NN s/VBZ 5th/JJ birthday/NN in/IN 2/CD days/NNS so/IN I/PRP had/VBD to/TO go/VB shopping/NN for/IN food/NN for/IN her/PRP$ birthday/NN party/NN and/CC had/VBD to/TO take/VB my/PRP$ 2/CD children/NNS with/IN me/PRP (/-LRB- age/NN 2/CD and/CC 4/CD at/IN the/DT time/NN )/-RRB- ./. Shopping/NNP with/IN children/NNS can/MD be/VB stressful/JJ at/IN the/DT best/JJS of/IN times/NNS let/VB alone/RB when/WRB you/PRP have/VBP something/NN important/JJ like/IN a/DT party/NN to/TO plan/VB for/IN ./. I/PRP had/VBD already/RB been/VBN to/TO 2/CD shops/NNS previously/RB to/TO visiting/VBG your/PRP$ Pontardawe/NNP store/NN and/CC had/VBD been/VBN out/IN of/IN the/DT house/NN with/IN my/PRP$ children/NNS for/IN 3/CD hours/NNS already/RB so/RB by/IN this/DT point/NN I/PRP was/VBD slowly/RB losing/VBG my/PRP$ patience/NN and/CC they/PRP were/VBD understandably/RB bored/JJ ./. My/PRP$ son/NN had/VBD started/VBN to/TO throw/VB a/DT temper/NN tantrum/NN in/IN the/DT trolley/NN and/CC was/VBD screaming/VBG I/PRP had/VBD a/DT few/JJ looks/NNS off/IN people/NNS judging/VBG me/PRP who/WP obviously/RB didn/VBP t/NN know/VBP the/DT whole/JJ story/NN ./. This/DT wasn/NN t/IN what/WP Peter/NNP did/VBD instead/RB he/PRP asked/VBD my/PRP$ son/NN what/WP was/VBD the/DT matter/NN ./. And/CC although/IN my/PRP$ son/NN didn/VBD t/JJ answer/NN he/PRP immediately/RB stopped/VBD crying/VBG which/WDT broke/VBD the/DT tension/NN ./. Peter/NNP was/VBD very/RB friendly/JJ and/CC carried/VBD on/IN interacting/NN with/IN both/DT of/IN my/PRP$ children/NNS and/CC by/IN the/DT time/NN we/PRP walked/VBD away/RB my/PRP$ children/NNS were/VBD much/RB happier/JJR ./. At/IN the/DT time/NN I/PRP didn/VBD t/NN thank/VB Peter/NNP as/IN I/PRP was/VBD very/RB stressed/VBN and/CC in/IN my/PRP$ own/JJ little/JJ world/NN ./. I/PRP then/RB proceeded/VBD to/TO the/DT self/NN service/NN checkout/NN while/IN I/PRP was/VBD scanning/VBG my/PRP$ items/NNS Gerry/NNP was/VBD talking/VBG to/TO my/PRP$ children/NNS and/CC kept/VBD them/PRP amused/VBN while/IN I/PRP finished/VBD scanning/VBG my/PRP$ items/NNS ./. This/DT is/VBZ when/WRB I/PRP realised/VBD I/PRP should/MD have/VB thanked/VBD Peter/NNP for/IN his/PRP$ earlier/JJR intervention/NN ./. By/IN the/DT time/NN I/PRP left/VBD your/PRP$ store/NN I/PRP was/VBD much/RB less/JJR stressed/VBN and/CC my/PRP$ children/NNS were/VBD in/IN a/DT better/JJR mood/NN too/RB which/WDT is/VBZ very/RB unusual/JJ for/IN a/DT shopping/NN trip/NN with/IN children/NNS ./. People/NNS are/VBP very/RB quick/JJ to/TO complain/VB (/-LRB- myself/PRP included/VBD )/-RRB- but/CC forget/VB to/TO say/VB thank/VB you/PRP for/IN good/JJ service/NN ./. Peter/NNP and/CC Gerry/NNP provided/VBD exceptional/JJ customer/NN service/NN and/CC what/WP may/MD not/RB have/VB seemed/VBN like/IN a/DT big/JJ deal/NN to/TO them/PRP made/VBD a/DT huge/JJ difference/NN to/TO my/PRP$ day/NN !/.",
+    "organization": "",
+    "location": "Pontardawe",
+    "person": "Peter;Peter;Peter;Gerry;Peter;Peter;Gerry",
+    "date": "Thursday 31st March",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074467199279077",
+    "post_message": "My delivery driver left 10 crates on the path outside my house 3 days ago..  I have phoned customer services 3 times now and been told they will contact Osterley store and they will be picked up by a delivery van.  I have seen numerous vans in the area and funnily ebough they crates are still sitting there!  They are causing an obstruction and it s a busy road.  It won t be long before they end up in the road and/or full of rubbish.  Can someone actually sort it out please before I ring Ealing council and report it.",
+    "post_published_sql": "2016-04-07 11:29:29",
+    "pos_tagged": "My/PRP$ delivery/NN driver/NN left/VBD 10/CD crates/NNS on/IN the/DT path/NN outside/IN my/PRP$ house/NN 3/CD days/NNS ago./RB ./. I/PRP have/VBP phoned/VBN customer/NN services/NNS 3/CD times/NNS now/RB and/CC been/VBN told/VBN they/PRP will/MD contact/VB Osterley/NNP store/NN and/CC they/PRP will/MD be/VB picked/VBN up/RP by/IN a/DT delivery/NN van/NN ./. I/PRP have/VBP seen/VBN numerous/JJ vans/NNS in/IN the/DT area/NN and/CC funnily/JJ ebough/IN they/PRP crates/NNS are/VBP still/RB sitting/VBG there/RB !/. They/PRP are/VBP causing/VBG an/DT obstruction/NN and/CC it/PRP s/VBZ a/DT busy/JJ road/NN ./. It/PRP won/VBD t/NN be/VB long/RB before/IN they/PRP end/VBP up/RP in/IN the/DT road/NN and/or/CC full/JJ of/IN rubbish/NN ./. Can/MD someone/NN actually/RB sort/VB it/PRP out/RP please/VB before/IN I/PRP ring/VBP Ealing/JJ council/NN and/CC report/NN it/PRP ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1074097895982674",
+    "post_message": "Dear Tesco Customer Service  Probably just over a month ago  my husband rang customer services to ask how we would go about sending our TV back as the picture has begun to have motion blurr. We were asked to take photos of the  blurr   which we did and to send them to an email address given to us over the phone. We heard nothing from you  so we rang again. We were then told they had not received any photos. This was possibility because we had sent too many photos  so could we send just two! This we did. Since then we have emailed to ask what is happening as its been along time since we contacted you. And guess what no reply still. The TV was bought in October so it s still under guarantee. We just want a reply please. Unsatisfactory and incredibly bad customer service. Kind regards Unhappy customers.",
+    "post_published_sql": "2016-04-06 20:33:28",
+    "pos_tagged": "Dear/NNP Tesco/NNP Customer/NNP Service/NNP Probably/RB just/RB over/IN a/DT month/NN ago/IN my/PRP$ husband/NN rang/VBD customer/NN services/NNS to/TO ask/VB how/WRB we/PRP would/MD go/VB about/IN sending/VBG our/PRP$ TV/NN back/RP as/IN the/DT picture/NN has/VBZ begun/VBN to/TO have/VB motion/NN blurr/JJ ./. We/PRP were/VBD asked/VBN to/TO take/VB photos/NNS of/IN the/DT blurr/NN which/WDT we/PRP did/VBD and/CC to/TO send/VB them/PRP to/TO an/DT email/NN address/NN given/VBN to/TO us/PRP over/IN the/DT phone/NN ./. We/PRP heard/VBD nothing/NN from/IN you/PRP so/RB we/PRP rang/VBD again/RB ./. We/PRP were/VBD then/RB told/VBN they/PRP had/VBD not/RB received/VBN any/DT photos/NNS ./. This/DT was/VBD possibility/NN because/IN we/PRP had/VBD sent/VBN too/RB many/JJ photos/NNS so/RB could/MD we/PRP send/VB just/RB two/CD !/. This/DT we/PRP did/VBD ./. Since/IN then/RB we/PRP have/VBP emailed/VBN to/TO ask/VB what/WP is/VBZ happening/VBG as/IN its/PRP$ been/VBN along/IN time/NN since/IN we/PRP contacted/VBD you/PRP ./. And/CC guess/VB what/WP no/DT reply/NN still/RB ./. The/DT TV/NN was/VBD bought/VBN in/IN October/NNP so/IN it/PRP s/VBZ still/RB under/IN guarantee/NN ./. We/PRP just/RB want/VBP a/DT reply/NN please/VB ./. Unsatisfactory/NNP and/CC incredibly/RB bad/JJ customer/NN service/NN ./. Kind/NN regards/VBZ Unhappy/JJ customers/NNS ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "a month ago;October",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1073793426013121",
+    "post_message": "I am appalled at Tesco so called Customer Service. Sent a complaint at the beginning of March regarding a Hudl. They agreed to refund \u00a330. Completed a BACS form on the 7th March  chased it up on the 17th March to be told that I had missed a digit and to phone. I phoned and got a very rude man who told me that he couldn t take any bank details over the phone and I had to fill in another form  which I did. The error I had made the first time was actually due to the form not allowing 0 to be the first digit  so I wrote this on my email. Was told in an automated reply that it would take 10 working days. Nothing happened so I sent an email  no reply. Asked through private message on here  and was told you had checked and it was going to be 14 working days which was today. Nothing in my account so I sent another message only to be told you have no record of my form being returned  despite being told last week that my 14 days was up on the 6th. Where did that info come from if you have no record of my form !!!",
+    "post_published_sql": "2016-04-06 10:25:48",
+    "pos_tagged": "I/PRP am/VBP appalled/VBN at/IN Tesco/NNP so/RB called/VBD Customer/NNP Service/NNP ./. Sent/NNP a/DT complaint/NN at/IN the/DT beginning/NN of/IN March/NNP regarding/VBG a/DT Hudl/NNP ./. They/PRP agreed/VBD to/TO refund/VB \u00a330/CD ./. Completed/NNP a/DT BACS/NNP form/NN on/IN the/DT 7th/NNP March/NNP chased/VBD it/PRP up/RP on/IN the/DT 17th/JJ March/NNP to/TO be/VB told/VBN that/IN I/PRP had/VBD missed/VBN a/DT digit/JJ and/CC to/TO phone/VB ./. I/PRP phoned/VBD and/CC got/VBD a/DT very/RB rude/JJ man/NN who/WP told/VBD me/PRP that/IN he/PRP couldn/MD t/RB take/VB any/DT bank/NN details/NNS over/IN the/DT phone/NN and/CC I/PRP had/VBD to/TO fill/VB in/IN another/DT form/NN which/WDT I/PRP did/VBD ./. The/DT error/NN I/PRP had/VBD made/VBN the/DT first/JJ time/NN was/VBD actually/RB due/JJ to/TO the/DT form/NN not/RB allowing/VBG 0/CD to/TO be/VB the/DT first/JJ digit/NN so/IN I/PRP wrote/VBD this/DT on/IN my/PRP$ email/NN ./. Was/VBD told/VBN in/IN an/DT automated/JJ reply/NN that/IN it/PRP would/MD take/VB 10/CD working/JJ days/NNS ./. Nothing/NN happened/VBD so/IN I/PRP sent/VBD an/DT email/NN no/DT reply/NN ./. Asked/VBD through/IN private/JJ message/NN on/IN here/RB and/CC was/VBD told/VBN you/PRP had/VBD checked/VBN and/CC it/PRP was/VBD going/VBG to/TO be/VB 14/CD working/JJ days/NNS which/WDT was/VBD today/NN ./. Nothing/NN in/IN my/PRP$ account/NN so/IN I/PRP sent/VBD another/DT message/NN only/RB to/TO be/VB told/VBN you/PRP have/VBP no/DT record/NN of/IN my/PRP$ form/NN being/VBG returned/VBN despite/IN being/VBG told/VBN last/JJ week/NN that/IN my/PRP$ 14/CD days/NNS was/VBD up/RB on/IN the/DT 6th/JJ ./. Where/WRB did/VBD that/IN info/NN come/VBN from/IN if/IN you/PRP have/VBP no/DT record/NN of/IN my/PRP$ form/NN !/. !/. !/.",
+    "organization": "Customer Service",
+    "location": "",
+    "person": "",
+    "date": "March;March;March;today;last week",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1073362166056247",
+    "post_message": "Your customer service for home delivery is absolutely bloody shocking! Im fuming!",
+    "post_published_sql": "2016-04-05 18:41:30",
+    "pos_tagged": "Your/PRP$ customer/NN service/NN for/IN home/NN delivery/NN is/VBZ absolutely/RB bloody/JJ shocking/JJ !/. Im/NNP fuming/VBG !/.",
+    "organization": "Your",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1073200742739056",
+    "post_message": "I have to say I very disappointed with the customer service I am receiving with the regards to a dangerous dryer purchased from Tesco and Hotpoint. I contacted Hotpoint two and a half months ago and was assured that I would receive a date for an engineer to visit within 8 weeks. It was hard enough to get in contact with Hotpoint as they don t answer their phone lines. Needless to say  Hotpoint failed to get in contact with me to arrange the engineer. As my dryer was purchased from Tesco Direct  I also contacted them to express my concerns about the dangerous dryer over 6 weeks ago. I was informed that I would be passed to a customer service agent who would be in contact with me within 24 hours. This never happened. I feel very disappointed that Tesco and Hotpoint appear to be acting in a negligent way towards their customers. Neither company appears to be taking responsibility for the products they are producing/selling.",
+    "post_published_sql": "2016-04-05 13:46:32",
+    "pos_tagged": "I/PRP have/VBP to/TO say/VB I/PRP very/RB disappointed/VBD with/IN the/DT customer/NN service/NN I/PRP am/VBP receiving/VBG with/IN the/DT regards/NNS to/TO a/DT dangerous/JJ dryer/NN purchased/VBN from/IN Tesco/NNP and/CC Hotpoint/NNP ./. I/PRP contacted/VBD Hotpoint/NNP two/CD and/CC a/DT half/JJ months/NNS ago/RB and/CC was/VBD assured/VBN that/IN I/PRP would/MD receive/VB a/DT date/NN for/IN an/DT engineer/NN to/TO visit/VB within/IN 8/CD weeks/NNS ./. It/PRP was/VBD hard/JJ enough/RB to/TO get/VB in/IN contact/NN with/IN Hotpoint/NNP as/IN they/PRP don/VBP t/JJ answer/NN their/PRP$ phone/NN lines/NNS ./. Needless/NNP to/TO say/VB Hotpoint/NNP failed/VBD to/TO get/VB in/IN contact/NN with/IN me/PRP to/TO arrange/VB the/DT engineer/NN ./. As/IN my/PRP$ dryer/NN was/VBD purchased/VBN from/IN Tesco/NNP Direct/NNP I/PRP also/RB contacted/VBD them/PRP to/TO express/VB my/PRP$ concerns/NNS about/IN the/DT dangerous/JJ dryer/NN over/IN 6/CD weeks/NNS ago/RB ./. I/PRP was/VBD informed/VBN that/IN I/PRP would/MD be/VB passed/VBN to/TO a/DT customer/NN service/NN agent/NN who/WP would/MD be/VB in/IN contact/NN with/IN me/PRP within/IN 24/CD hours/NNS ./. This/DT never/RB happened/VBN ./. I/PRP feel/VBP very/RB disappointed/JJ that/IN Tesco/NNP and/CC Hotpoint/NNP appear/VBP to/TO be/VB acting/VBG in/IN a/DT negligent/JJ way/NN towards/IN their/PRP$ customers/NNS ./. Neither/DT company/NN appears/VBZ to/TO be/VB taking/VBG responsibility/NN for/IN the/DT products/NNS they/PRP are/VBP producing/selling/VBG ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1073195469406250",
+    "post_message": "My 11-12 grocery delivery has just pulled up outside. I rang customer services at 12.15 to find out where it was & the poor lad couldn t get hold of the driver  the store  or the duty manager. In fact at one point someone answered but immediately hung up on him. I do now have my shopping but what s the point in me  the customer  contacting customer services when all other points of contact are avoiding their calls? Poor.",
+    "post_published_sql": "2016-04-05 13:33:26",
+    "pos_tagged": "My/PRP$ 11-12/CD grocery/NN delivery/NN has/VBZ just/RB pulled/VBN up/RP outside/IN ./. I/PRP rang/VBD customer/NN services/NNS at/IN 12.15/CD to/TO find/VB out/RP where/WRB it/PRP was/VBD &/CC the/DT poor/JJ lad/NN couldn/IN t/NN get/VBP hold/NN of/IN the/DT driver/NN the/DT store/NN or/CC the/DT duty/NN manager/NN ./. In/IN fact/NN at/IN one/CD point/NN someone/NN answered/VBD but/CC immediately/RB hung/VBD up/RP on/IN him/PRP ./. I/PRP do/VBP now/RB have/VB my/PRP$ shopping/NN but/CC what/WP s/VBZ the/DT point/NN in/IN me/PRP the/DT customer/NN contacting/VBG customer/NN services/NNS when/WRB all/DT other/JJ points/NNS of/IN contact/NN are/VBP avoiding/VBG their/PRP$ calls/NNS ?/. Poor/NNP ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "11-12;12.15",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1072836499442147",
+    "post_message": "Tesco Hardengreen ....not impressed with customer service I go into this store minimum of 4 times a week and I can garentee everytime they have switched off the scan as you go by 9.20pm when it s ment to be open till 10pm I have repeatedly asked why it is of and told them how inconvenient this is for me as this is the time I finish work to do my shopping and the reason I get is they are short Staffed and this has been happening for the best part of a year ........so my question is why have a notice saying open till 10pm when in reality it s only open till 9.20pm ?",
+    "post_published_sql": "2016-04-05 01:16:06",
+    "pos_tagged": "Tesco/NNP Hardengreen/NNP ....not/RB impressed/VBD with/IN customer/NN service/NN I/PRP go/VBP into/IN this/DT store/NN minimum/NN of/IN 4/CD times/NNS a/DT week/NN and/CC I/PRP can/MD garentee/VB everytime/NN they/PRP have/VBP switched/VBN off/RP the/DT scan/NN as/IN you/PRP go/VBP by/IN 9.20pm/NNP when/WRB it/PRP s/VBZ ment/NN to/TO be/VB open/JJ till/IN 10pm/IN I/PRP have/VBP repeatedly/RB asked/VBN why/WRB it/PRP is/VBZ of/IN and/CC told/VBD them/PRP how/WRB inconvenient/JJ this/DT is/VBZ for/IN me/PRP as/IN this/DT is/VBZ the/DT time/NN I/PRP finish/VBP work/NN to/TO do/VB my/PRP$ shopping/NN and/CC the/DT reason/NN I/PRP get/VBP is/VBZ they/PRP are/VBP short/JJ Staffed/NNP and/CC this/DT has/VBZ been/VBN happening/VBG for/IN the/DT best/JJS part/NN of/IN a/DT year/NN ........so/IN my/PRP$ question/NN is/VBZ why/WRB have/VBP a/DT notice/NN saying/VBG open/JJ till/IN 10pm/PRP when/WRB in/IN reality/NN it/PRP s/VBZ only/RB open/JJ till/IN 9.20pm/PRP ?/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1072564782802652",
+    "post_message": "Extremely unimpressed with tesco. Had a delivery last night with 4 items of meat missing. I called customer services first thing this morning who said they would get my local store manager to call me and see if they could arrange a delivery of missing items for this evening. It s now 2:45pm and still no call. I then used the online chat facility to see if there was an update  only to be told that they were sure the store manager had it in hand and would call me. I explained that I need to know whether I need to replace the items on my way home so that I can cook dinner but this didn t help. Still waiting and still have no idea whether I need to buy the food again on my way home. At no point has anyone offered me any sort of compensation for the calls and time out of my day to sort this  or a refund for the missing items or for the delivery  given that I am likely to have to make a special trip to buy these items when the whole point of me paying to get them delivered last night was so that I didn t have to go to the store myself and would have the food in time to cook this evening s dinner.",
+    "post_published_sql": "2016-04-04 15:53:49",
+    "pos_tagged": "Extremely/JJ unimpressed/JJ with/IN tesco/NN ./. Had/VBD a/DT delivery/NN last/JJ night/NN with/IN 4/CD items/NNS of/IN meat/NN missing/VBG ./. I/PRP called/VBD customer/NN services/NNS first/JJ thing/NN this/DT morning/NN who/WP said/VBD they/PRP would/MD get/VB my/PRP$ local/JJ store/NN manager/NN to/TO call/VB me/PRP and/CC see/VB if/IN they/PRP could/MD arrange/VB a/DT delivery/NN of/IN missing/VBG items/NNS for/IN this/DT evening/NN ./. It/PRP s/VBZ now/RB 2:45pm/JJ and/CC still/RB no/DT call/NN ./. I/PRP then/RB used/VBD the/DT online/JJ chat/NN facility/NN to/TO see/VB if/IN there/EX was/VBD an/DT update/NN only/RB to/TO be/VB told/VBN that/IN they/PRP were/VBD sure/JJ the/DT store/NN manager/NN had/VBD it/PRP in/IN hand/NN and/CC would/MD call/VB me/PRP ./. I/PRP explained/VBD that/IN I/PRP need/VBP to/TO know/VB whether/IN I/PRP need/VBP to/TO replace/VB the/DT items/NNS on/IN my/PRP$ way/NN home/NN so/RB that/IN I/PRP can/MD cook/VB dinner/NN but/CC this/DT didn/NN t/IN help/NN ./. Still/RB waiting/VBG and/CC still/RB have/VBP no/DT idea/NN whether/IN I/PRP need/VBP to/TO buy/VB the/DT food/NN again/RB on/IN my/PRP$ way/NN home/NN ./. At/IN no/DT point/NN has/VBZ anyone/NN offered/VBD me/PRP any/DT sort/NN of/IN compensation/NN for/IN the/DT calls/NNS and/CC time/NN out/IN of/IN my/PRP$ day/NN to/TO sort/VB this/DT or/CC a/DT refund/NN for/IN the/DT missing/VBG items/NNS or/CC for/IN the/DT delivery/NN given/VBN that/IN I/PRP am/VBP likely/JJ to/TO have/VB to/TO make/VB a/DT special/JJ trip/NN to/TO buy/VB these/DT items/NNS when/WRB the/DT whole/JJ point/NN of/IN me/PRP paying/VBG to/TO get/VB them/PRP delivered/VBN last/JJ night/NN was/VBD so/RB that/IN I/PRP didn/VBP t/NN have/VBP to/TO go/VB to/TO the/DT store/NN myself/PRP and/CC would/MD have/VB the/DT food/NN in/IN time/NN to/TO cook/VB this/DT evening/NN s/VBZ dinner/NN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1072456559480141",
+    "post_message": "Hi there  I would just like to give a massive thank you to Ruth who was on checkout 25 at your perth Crieff road store yesterday about 5pm. She could see that my two children were a bit bored and restless as most kids are when grocery shopping  so she let them both scan through our shopping. They both left the store saying that was brilliant and they want to go back to her checkout all the time. Thank you very much Ruth!!!!   Tesco  I feel this should be promoted more in stores as it s excellent customer service!",
+    "post_published_sql": "2016-04-04 11:41:59",
+    "pos_tagged": "Hi/UH there/RB I/PRP would/MD just/RB like/VB to/TO give/VB a/DT massive/JJ thank/VB you/PRP to/TO Ruth/NNP who/WP was/VBD on/IN checkout/NN 25/CD at/IN your/PRP$ perth/NN Crieff/IN road/NN store/NN yesterday/NN about/IN 5pm/JJ ./. She/PRP could/MD see/VB that/IN my/PRP$ two/CD children/NNS were/VBD a/DT bit/NN bored/JJ and/CC restless/JJ as/IN most/JJS kids/NNS are/VBP when/WRB grocery/NN shopping/NN so/RB she/PRP let/VB them/PRP both/DT scan/NN through/IN our/PRP$ shopping/NN ./. They/PRP both/DT left/VBD the/DT store/NN saying/VBG that/DT was/VBD brilliant/JJ and/CC they/PRP want/VBP to/TO go/VB back/RB to/TO her/PRP$ checkout/NN all/PDT the/DT time/NN ./. Thank/VB you/PRP very/RB much/RB Ruth/NNP !/. !/. !/. !/. Tesco/NNP I/PRP feel/VBP this/DT should/MD be/VB promoted/VBN more/RBR in/RB stores/NNS as/IN it/PRP s/VBZ excellent/JJ customer/NN service/NN !/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "yesterday",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1072062559519541",
+    "post_message": "Think this will safely be the last time I use your home delivery. I paid for a slot for today between 10am and 2pm. Received a text saying delivery would be between 11am and 12 noon. 25 past 2 I rang tesco to see where my order was to be told driver had attempted to deliver. Which I know he hadn t. Was told order would be redelivered and I would receive a call telling me approx time. After still hearing nothing I rang again to be told it would be after 6. Rang again at 7.30 to be told it would be here by 9pm. It s now 9.15 and I still have no shopping. Despite several calls to tesco  customer service  I still have no idea where my shopping is or when it will be here and am still awaiting a call telling me when it will be here. And I ve had no apology at any point through any of my phone calls. Think I ll be looking at alternative supermarkets from now on.",
+    "post_published_sql": "2016-04-03 22:17:16",
+    "pos_tagged": "Think/VB this/DT will/MD safely/RB be/VB the/DT last/JJ time/NN I/PRP use/VBP your/PRP$ home/NN delivery/NN ./. I/PRP paid/VBD for/IN a/DT slot/NN for/IN today/NN between/IN 10am/JJ and/CC 2pm/JJ ./. Received/VBN a/DT text/NN saying/VBG delivery/NN would/MD be/VB between/IN 11am/NNP and/CC 12/CD noon/NN ./. 25/CD past/NN 2/CD I/PRP rang/VBD tesco/NN to/TO see/VB where/WRB my/PRP$ order/NN was/VBD to/TO be/VB told/VBN driver/NN had/VBD attempted/VBN to/TO deliver/VB ./. Which/WDT I/PRP know/VBP he/PRP hadn/VBD t/NN ./. Was/VBD told/VBN order/NN would/MD be/VB redelivered/VBN and/CC I/PRP would/MD receive/VB a/DT call/NN telling/VBG me/PRP approx/JJ time/NN ./. After/IN still/RB hearing/VBG nothing/NN I/PRP rang/VBD again/RB to/TO be/VB told/VBN it/PRP would/MD be/VB after/IN 6/CD ./. Rang/NNP again/RB at/IN 7.30/CD to/TO be/VB told/VBN it/PRP would/MD be/VB here/RB by/IN 9pm/NNP ./. It/PRP s/VBZ now/RB 9.15/CD and/CC I/PRP still/RB have/VBP no/DT shopping/NN ./. Despite/IN several/JJ calls/NNS to/TO tesco/VB customer/NN service/NN I/PRP still/RB have/VBP no/DT idea/NN where/WRB my/PRP$ shopping/NN is/VBZ or/CC when/WRB it/PRP will/MD be/VB here/RB and/CC am/VBP still/RB awaiting/VBG a/DT call/NN telling/VBG me/PRP when/WRB it/PRP will/MD be/VB here/RB ./. And/CC I/PRP ve/VBP had/VBD no/DT apology/NN at/IN any/DT point/NN through/IN any/DT of/IN my/PRP$ phone/NN calls/NNS ./. Think/NNP I/PRP ll/MD be/VB looking/VBG at/IN alternative/JJ supermarkets/NNS from/IN now/RB on/IN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1072003909525406",
+    "post_message": "I am completely disgraced in tesco today . I walked into your store at balby Doncaster and my 2 year old tripped up due to the mat that you wipe you feet on being lower than the floor in places . she banged her head and was screaming for a good ten minutes not one member of staff who saw what happened asked me if she was OK and nobody offered any first aid assistance my husband went and told customer services to be told there was nothing they could do about it the manager then gave her a teddy and rung it through to accident support And she was still offered no first aid assistance which according to the person on the phone who my husband spoke to is your policy I then asked for another bear for her twin sister and how much would it be a member of staff gave us the bear and didn t tell me a price or scan it in so I could pay for it I then left the store and was chased out by a member of staff to be told I had to pay for the bear when I had already asked how much it was and was ignored because they could waste one bear not 2 quite frankly I think it s disgusting and the worst bit was no first aider I won t be shopping at tesco again",
+    "post_published_sql": "2016-04-03 20:11:58",
+    "pos_tagged": "I/PRP am/VBP completely/RB disgraced/VBN in/IN tesco/NN today/NN ./. I/PRP walked/VBD into/IN your/PRP$ store/NN at/IN balby/NN Doncaster/NNP and/CC my/PRP$ 2/CD year/NN old/JJ tripped/VBD up/RB due/JJ to/TO the/DT mat/NN that/IN you/PRP wipe/VBP you/PRP feet/NNS on/IN being/VBG lower/JJR than/IN the/DT floor/NN in/IN places/NNS ./. she/PRP banged/VBD her/PRP$ head/NN and/CC was/VBD screaming/VBG for/IN a/DT good/JJ ten/CD minutes/NNS not/RB one/CD member/NN of/IN staff/NN who/WP saw/VBD what/WP happened/VBD asked/VBD me/PRP if/IN she/PRP was/VBD OK/JJ and/CC nobody/NN offered/VBD any/DT first/JJ aid/NN assistance/NN my/PRP$ husband/NN went/VBD and/CC told/VBD customer/NN services/NNS to/TO be/VB told/VBN there/EX was/VBD nothing/NN they/PRP could/MD do/VB about/IN it/PRP the/DT manager/NN then/RB gave/VBD her/PRP a/DT teddy/NN and/CC rung/VBD it/PRP through/IN to/TO accident/NN support/NN And/CC she/PRP was/VBD still/RB offered/VBN no/DT first/JJ aid/NN assistance/NN which/WDT according/VBG to/TO the/DT person/NN on/IN the/DT phone/NN who/WP my/PRP$ husband/NN spoke/VBD to/TO is/VBZ your/PRP$ policy/NN I/PRP then/RB asked/VBD for/IN another/DT bear/NN for/IN her/PRP$ twin/JJ sister/NN and/CC how/WRB much/RB would/MD it/PRP be/VB a/DT member/NN of/IN staff/NN gave/VBD us/PRP the/DT bear/NN and/CC didn/NN t/NN tell/VBP me/PRP a/DT price/NN or/CC scan/NN it/PRP in/IN so/IN I/PRP could/MD pay/VB for/IN it/PRP I/PRP then/RB left/VBD the/DT store/NN and/CC was/VBD chased/VBN out/RP by/IN a/DT member/NN of/IN staff/NN to/TO be/VB told/VBN I/PRP had/VBD to/TO pay/VB for/IN the/DT bear/NN when/WRB I/PRP had/VBD already/RB asked/VBN how/WRB much/RB it/PRP was/VBD and/CC was/VBD ignored/VBN because/IN they/PRP could/MD waste/VB one/CD bear/NN not/RB 2/CD quite/RB frankly/RB I/PRP think/VBP it/PRP s/VBZ disgusting/JJ and/CC the/DT worst/JJS bit/NN was/VBD no/DT first/JJ aider/NN I/PRP won/VBD t/NN be/VB shopping/VBG at/IN tesco/NN again/RB",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1071781686214295",
+    "post_message": "Absolutely appalled at the way I was treated in one of ur stores in Glasgow ... I was asked for i d which I had to go to my car to get  upon arriving back what seemed to be the manager served me but the previous assistant explained that she had asked me for I d .... Talking to the manager I explained I go to the store every morning ... to which the 1st assistant turned to the manager and said  I ve never seen her before  and burst out laughing as I walked out the store. She could have at least waited until I left the store before commenting ... great customer service tesco! !!!!!!",
+    "post_published_sql": "2016-04-03 13:08:44",
+    "pos_tagged": "Absolutely/RB appalled/VBN at/IN the/DT way/NN I/PRP was/VBD treated/VBN in/IN one/CD of/IN ur/NN stores/NNS in/IN Glasgow/NNP .../: I/PRP was/VBD asked/VBN for/IN i/NN d/NN which/WDT I/PRP had/VBD to/TO go/VB to/TO my/PRP$ car/NN to/TO get/VB upon/IN arriving/VBG back/RB what/WP seemed/VBD to/TO be/VB the/DT manager/NN served/VBD me/PRP but/CC the/DT previous/JJ assistant/NN explained/VBD that/IN she/PRP had/VBD asked/VBN me/PRP for/IN I/PRP d/VBD ..../: Talking/VBG to/TO the/DT manager/NN I/PRP explained/VBD I/PRP go/VBP to/TO the/DT store/NN every/DT morning/NN .../: to/TO which/WDT the/DT 1st/JJ assistant/NN turned/VBD to/TO the/DT manager/NN and/CC said/VBD I/PRP ve/VBP never/RB seen/VBN her/PRP before/RB and/CC burst/VBD out/RP laughing/VBG as/IN I/PRP walked/VBD out/IN the/DT store/NN ./. She/PRP could/MD have/VB at/IN least/JJS waited/VBD until/IN I/PRP left/VBD the/DT store/NN before/IN commenting/VBG .../: great/JJ customer/NN service/NN tesco!/NN !/. !/. !/. !/. !/. !/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1071062392952891",
+    "post_message": "Called into my local Tesco this morning .In the entrance was a separate display of a certain newspaper people were snapping up .Apparently a coupon in paper could be redeemed instore today only .For a Toiletries Gift Set .Yet told by customer services they had sold out already .Now whilst waiting in queue had seen 2 handed out from under customer service counter .Another was whipped out by a member of staff leaving store .a college calling out had she bought her newspaper oh yes already got one  . going through checkout yet more of these sets were still been handed to shoppers with a coupon .(but no ordinary shoppers) but staff members .Had staff hijacked the store stock ? And was the obvious vocal exchanges designed to have customers still clamber for the Newspaper .The girl on my till just smiled and said oh yes sorry we are all sold out .",
+    "post_published_sql": "2016-04-02 14:10:18",
+    "pos_tagged": "Called/VBN into/IN my/PRP$ local/JJ Tesco/NNP this/DT morning/NN .In/IN the/DT entrance/NN was/VBD a/DT separate/JJ display/NN of/IN a/DT certain/JJ newspaper/NN people/NNS were/VBD snapping/VBG up/RP .Apparently/RB a/DT coupon/NN in/IN paper/NN could/MD be/VB redeemed/VBN instore/NN today/NN only/RB .For/IN a/DT Toiletries/NNP Gift/NNP Set/NNP .Yet/NNP told/VBD by/IN customer/NN services/NNS they/PRP had/VBD sold/VBN out/RP already/RB .Now/RB whilst/IN waiting/VBG in/IN queue/NN had/VBD seen/VBN 2/CD handed/VBN out/RP from/IN under/IN customer/NN service/NN counter/NN .Another/NN was/VBD whipped/VBN out/RP by/IN a/DT member/NN of/IN staff/NN leaving/VBG store/NN .a/NN college/NN calling/VBG out/RP had/VBD she/PRP bought/VBD her/PRP newspaper/NN oh/UH yes/UH already/RB got/VBD one/CD ./. going/VBG through/IN checkout/NN yet/RB more/JJR of/IN these/DT sets/NNS were/VBD still/RB been/VBN handed/VBN to/TO shoppers/NNS with/IN a/DT coupon/NN .(/NN but/CC no/DT ordinary/JJ shoppers/NNS )/-RRB- but/CC staff/NN members/NNS .Had/VBD staff/NN hijacked/VBD the/DT store/NN stock/NN ?/. And/CC was/VBD the/DT obvious/JJ vocal/NN exchanges/NNS designed/VBN to/TO have/VB customers/NNS still/RB clamber/VBP for/IN the/DT Newspaper/NNP .The/NNP girl/NN on/IN my/PRP$ till/IN just/RB smiled/VBD and/CC said/VBD oh/UH yes/UH sorry/JJ we/PRP are/VBP all/DT sold/VBN out/RP ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1070998812959249",
+    "post_message": "Can you help please.i have been to my local Tesco and spoke to customer services. A ready meal caught fire in my oven and iv sent photos to Tesco of the damage.iv given the packaging to the store.i need my cooker replaced.i cannot use the oven and I have children to cook for.",
+    "post_published_sql": "2016-04-02 11:48:36",
+    "pos_tagged": "Can/MD you/PRP help/VB please/VB .i/NNS have/VB been/VBN to/TO my/PRP$ local/JJ Tesco/NNP and/CC spoke/VBD to/TO customer/NN services/NNS ./. A/DT ready/JJ meal/NN caught/VBD fire/NN in/IN my/PRP$ oven/NN and/CC iv/NN sent/VBD photos/NNS to/TO Tesco/NNP of/IN the/DT damage/NN .iv/NN given/VBN the/DT packaging/NN to/TO the/DT store/NN .i/NNS need/VBP my/PRP$ cooker/NN replaced/VBD .i/NNP cannot/MD use/VB the/DT oven/NN and/CC I/PRP have/VBP children/NNS to/TO cook/VB for/IN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1070471446345319",
+    "post_message": "Want to say a massive thankyou to the wonderful lady on customer services today at Clifton Moor in York helping me get an adapted trolley for my autistic son and for been so wonderful with him.She was phenomenal with him I don t know is she s been trained previously or haa experience with additional needs children but I really wish I had of got her name.And thankyou to tesco for having them available for us to use the first time I used one for my son and what a different boy he really enjoyed shopping today I m so glad I switched to you.And if you could find out who the lady was in the York store today and also the Scottish lady I spoke to on the phone this morning to ask if tesco supply the trollies she was also lovely.I didn t mean to not ask for names I am just a bit absent minded atm due to having one of my horses put to sleep last week then two days later our rabbit broke his leg so a bit ok kindness and helpful staff makes alot of difference atm",
+    "post_published_sql": "2016-04-01 18:11:33",
+    "pos_tagged": "Want/VBP to/TO say/VB a/DT massive/JJ thankyou/NNS to/TO the/DT wonderful/JJ lady/NN on/IN customer/NN services/NNS today/NN at/IN Clifton/NNP Moor/NNP in/IN York/NNP helping/VBG me/PRP get/VB an/DT adapted/VBN trolley/NN for/IN my/PRP$ autistic/JJ son/NN and/CC for/IN been/VBN so/RB wonderful/JJ with/IN him/PRP .She/. was/VBD phenomenal/JJ with/IN him/PRP I/PRP don/VBP t/JJ know/VBP is/VBZ she/PRP s/VBZ been/VBN trained/VBN previously/RB or/CC haa/JJ experience/NN with/IN additional/JJ needs/NNS children/NNS but/CC I/PRP really/RB wish/VBP I/PRP had/VBD of/IN got/VBD her/PRP$ name/NN .And/CC thankyou/NNS to/TO tesco/VB for/IN having/VBG them/PRP available/JJ for/IN us/PRP to/TO use/VB the/DT first/JJ time/NN I/PRP used/VBD one/CD for/IN my/PRP$ son/NN and/CC what/WP a/DT different/JJ boy/NN he/PRP really/RB enjoyed/VBD shopping/NN today/NN I/PRP m/MD so/RB glad/JJ I/PRP switched/VBD to/TO you.And/VB if/IN you/PRP could/MD find/VB out/RP who/WP the/DT lady/NN was/VBD in/IN the/DT York/NNP store/NN today/NN and/CC also/RB the/DT Scottish/JJ lady/NN I/PRP spoke/VBD to/TO on/IN the/DT phone/NN this/DT morning/NN to/TO ask/VB if/IN tesco/NN supply/VBP the/DT trollies/NNS she/PRP was/VBD also/RB lovely/JJ ./. I/PRP didn/VBD t/RB mean/VB to/TO not/RB ask/VB for/IN names/NNS I/PRP am/VBP just/RB a/DT bit/NN absent/JJ minded/JJ atm/NN due/JJ to/TO having/VBG one/CD of/IN my/PRP$ horses/NNS put/VBD to/TO sleep/VB last/JJ week/NN then/RB two/CD days/NNS later/RB our/PRP$ rabbit/NN broke/VBD his/PRP$ leg/NN so/RB a/DT bit/NN ok/NN kindness/NN and/CC helpful/JJ staff/NN makes/VBZ alot/NN of/IN difference/NN atm/NN",
+    "organization": "",
+    "location": "York",
+    "person": "",
+    "date": "today;today;today;last week",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1070265653032565",
+    "post_message": "I see customer service skills are not top of the agenda at your store today.....",
+    "post_published_sql": "2016-04-01 13:48:58",
+    "pos_tagged": "I/PRP see/VBP customer/NN service/NN skills/NNS are/VBP not/RB top/JJ of/IN the/DT agenda/NN at/IN your/PRP$ store/NN today/NN ...../:",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1070165843042546",
+    "post_message": "is there an email to contact tesco bank customer services? I have currently lost my voice but need to speak to them regarding my account. :)",
+    "post_published_sql": "2016-04-01 11:15:57",
+    "pos_tagged": "is/VBZ there/RB an/DT email/NN to/TO contact/NN tesco/NN bank/NN customer/NN services/NNS ?/. I/PRP have/VBP currently/RB lost/VBN my/PRP$ voice/NN but/CC need/VBP to/TO speak/VB to/TO them/PRP regarding/VBG my/PRP$ account/NN ./. :/: )/-RRB-",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1173201162739013",
+    "post_message": "Having shopped at Tesco every day of my holiday in St Ives great food  great service - I was shocked today on taking mmy 10 receipts in to be told that I could only redeem points off 2 bills at a time even though I had been told by staff - don t worry you have forgotten your club card - just redeem points when got home! TESCOS actually trying to stop me put on my points - not good customer service",
+    "post_published_sql": "2016-08-31 02:02:56",
+    "pos_tagged": "Having/VBG shopped/VBN at/IN Tesco/NNP every/DT day/NN of/IN my/PRP$ holiday/NN in/IN St/NNP Ives/NNP great/JJ food/NN great/JJ service/NN -/: I/PRP was/VBD shocked/VBN today/NN on/IN taking/VBG mmy/JJ 10/CD receipts/NNS in/IN to/TO be/VB told/VBN that/IN I/PRP could/MD only/RB redeem/VB points/NNS off/RP 2/CD bills/NNS at/IN a/DT time/NN even/RB though/IN I/PRP had/VBD been/VBN told/VBN by/IN staff/NN -/: don/IN t/NN worry/VBP you/PRP have/VBP forgotten/VBN your/PRP$ club/NN card/NN -/: just/RB redeem/VB points/NNS when/WRB got/VBD home/NN !/. TESCOS/. actually/RB trying/VBG to/TO stop/VB me/PRP put/VB on/RP my/PRP$ points/NNS -/: not/RB good/JJ customer/NN service/NN",
+    "organization": "",
+    "location": "St Ives",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1173105812748548",
+    "post_message": "i d like tesco s customer service complaint department email but cannot find it on the webpage. could you be so kind and point it out to me please?",
+    "post_published_sql": "2016-08-30 22:42:47",
+    "pos_tagged": "i/FW d/VBD like/IN tesco/NN s/VBZ customer/NN service/NN complaint/NN department/NN email/NN but/CC cannot/MD find/VB it/PRP on/IN the/DT webpage/NN ./. could/MD you/PRP be/VB so/RB kind/JJ and/CC point/NN it/PRP out/RP to/TO me/PRP please/VB ?/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1172117356180727",
+    "post_message": "Hello tesco <ed><U+00A0><U+00BD><ed><U+00B4><U+0086> I am from weston super mare and today my delivery didn t come <ed><U+00A0><U+00BD><ed><U+00B8><U+0094> there was a terrible accident on the M5 which affected your delivery driver. I was informed by text twice of new delivery times then telephoned to say it wasn t coming I arranged to go and collect it ... Customer service were lovely and helpful and sent me vouchers by email to apologise quote  \u00a310 for the inconvenience and \u00a310 so you can get a take away  lol I got to the store and the duty manager was lovely and gave me flowers and wine! Love getting my shopping delivered there s rarely any problems and this def couldn t be helped! Hope the delivery driver gets a good rest I imagine his day was stressful and thank you for the lovely gestures xx",
+    "post_published_sql": "2016-08-29 20:23:57",
+    "pos_tagged": "Hello/UH tesco/NN <ed><U+00A0><U+00BD>/NN <ed><U+00B4><U+0086>/IN I/PRP am/VBP from/IN weston/JJ super/JJ mare/NN and/CC today/NN my/PRP$ delivery/NN didn/NN t/NN come/VBN <ed><U+00A0><U+00BD>/RB <ed><U+00B8><U+0094>/IN there/EX was/VBD a/DT terrible/JJ accident/NN on/IN the/DT M5/NNP which/WDT affected/VBD your/PRP$ delivery/NN driver/NN ./. I/PRP was/VBD informed/VBN by/IN text/NN twice/RB of/IN new/JJ delivery/NN times/NNS then/RB telephoned/VBD to/TO say/VB it/PRP wasn/IN t/NN coming/VBG I/PRP arranged/VBD to/TO go/VB and/CC collect/VB it/PRP .../: Customer/JJ service/NN were/VBD lovely/JJ and/CC helpful/JJ and/CC sent/VBD me/PRP vouchers/NNS by/IN email/NN to/TO apologise/VB quote/NN \u00a310/IN for/IN the/DT inconvenience/NN and/CC \u00a310/VBD so/IN you/PRP can/MD get/VB a/DT take/NN away/RB lol/IN I/PRP got/VBD to/TO the/DT store/NN and/CC the/DT duty/NN manager/NN was/VBD lovely/JJ and/CC gave/VBD me/PRP flowers/NNS and/CC wine/NN !/. Love/VB getting/VBG my/PRP$ shopping/NN delivered/VBN there/RB s/VBZ rarely/RB any/DT problems/NNS and/CC this/DT def/NN couldn/MD t/RB be/VB helped/VBN !/. Hope/VB the/DT delivery/NN driver/NN gets/VBZ a/DT good/JJ rest/NN I/PRP imagine/VBP his/PRP$ day/NN was/VBD stressful/JJ and/CC thank/VB you/PRP for/IN the/DT lovely/JJ gestures/NNS xx/CC",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1171912746201188",
+    "post_message": "We are extremely disappointed with the service we received from tesco. We purchased a patio umbrella using TescoDirect on the 14/08/16  we paid an additional fee of 5.95 for express delivery (due 16/08/16)  we received an incorrect item  and despite a number of phonecalls and e-mails to the customer services  we have received neither the correct umbrella  nor a refund.",
+    "post_published_sql": "2016-08-29 15:38:45",
+    "pos_tagged": "We/PRP are/VBP extremely/RB disappointed/JJ with/IN the/DT service/NN we/PRP received/VBD from/IN tesco/NN ./. We/PRP purchased/VBD a/DT patio/NN umbrella/NN using/VBG TescoDirect/NNP on/IN the/DT 14/08/16/CD we/PRP paid/VBD an/DT additional/JJ fee/NN of/IN 5.95/CD for/IN express/JJ delivery/NN (/-LRB- due/JJ 16/08/16/CD )/-RRB- we/PRP received/VBD an/DT incorrect/JJ item/NN and/CC despite/IN a/DT number/NN of/IN phonecalls/NNS and/CC e-mails/NNS to/TO the/DT customer/NN services/NNS we/PRP have/VBP received/VBN neither/RB the/DT correct/JJ umbrella/NN nor/CC a/DT refund/NN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1171820532877076",
+    "post_message": "It great to see that Tesco Buckingham keeps it constant - no customer service and extremely poor relations with it clients",
+    "post_published_sql": "2016-08-29 13:54:06",
+    "pos_tagged": "It/PRP great/JJ to/TO see/VB that/DT Tesco/NNP Buckingham/NNP keeps/VBZ it/PRP constant/JJ -/: no/DT customer/NN service/NN and/CC extremely/RB poor/JJ relations/NNS with/IN it/PRP clients/NNS",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1170933259632470",
+    "post_message": "I d just like to mention that some of the staff in the Tindale Bishop Auckland store could really use some customer service training. Went through the checkout this morning and the guy didn t say a word to me the whole transaction! No  hello  please  thankyou  i even had to ask HIM how much i owed as he just sat there looking vacant after everything went through. I understand its not the best job in the world but when you work with the public  like i do myself as management  you HAVE to make an effort. Its really annoyed me all day  i really wish i d went to customer services at the time.",
+    "post_published_sql": "2016-08-28 16:53:58",
+    "pos_tagged": "I/PRP d/VBD just/RB like/VB to/TO mention/VB that/IN some/DT of/IN the/DT staff/NN in/IN the/DT Tindale/NNP Bishop/NNP Auckland/NNP store/NN could/MD really/RB use/VB some/DT customer/NN service/NN training/NN ./. Went/VBD through/IN the/DT checkout/NN this/DT morning/NN and/CC the/DT guy/NN didn/NN t/NN say/VBP a/DT word/NN to/TO me/PRP the/DT whole/JJ transaction/NN !/. No/UH hello/UH please/VB thankyou/IN i/NN even/RB had/VBD to/TO ask/VB HIM/NNP how/WRB much/JJ i/NN owed/VBN as/IN he/PRP just/RB sat/VBD there/EX looking/VBG vacant/JJ after/IN everything/NN went/VBD through/IN ./. I/PRP understand/VBP its/PRP$ not/RB the/DT best/JJS job/NN in/IN the/DT world/NN but/CC when/WRB you/PRP work/VBP with/IN the/DT public/JJ like/IN i/PRP do/VBP myself/PRP as/IN management/NN you/PRP HAVE/VBP to/TO make/VB an/DT effort/NN ./. Its/PRP$ really/RB annoyed/VBD me/PRP all/DT day/NN i/VBZ really/RB wish/VB i/VBP d/VBN went/VBD to/TO customer/NN services/NNS at/IN the/DT time/NN ./.",
+    "organization": "HIM",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1170832886309174",
+    "post_message": "So  I ordered clubcard boost vouchers for Alton Towers to use on bank holiday monday. I ordered them on friday and am still waiting for the email to print off the voucher. At this rate I am wondering if the voucher will arrive at all. Tesco customer service  please help!!!",
+    "post_published_sql": "2016-08-28 14:28:56",
+    "pos_tagged": "So/IN I/PRP ordered/VBD clubcard/NN boost/NN vouchers/NNS for/IN Alton/NNP Towers/NNP to/TO use/VB on/IN bank/NN holiday/NN monday/NN ./. I/PRP ordered/VBD them/PRP on/IN friday/NN and/CC am/VBP still/RB waiting/VBG for/IN the/DT email/NN to/TO print/NN off/IN the/DT voucher/NN ./. At/IN this/DT rate/NN I/PRP am/VBP wondering/VBG if/IN the/DT voucher/NN will/MD arrive/VB at/IN all/DT ./. Tesco/NNP customer/NN service/NN please/VBP help/NN !/. !/. !/.",
+    "organization": "Tesco",
+    "location": "",
+    "person": "Alton Towers",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1170289633030166",
+    "post_message": "Not too impressed with the customer service I have received following a query about F and F trousers. The size that I want are out of stock in my local store and on the website so I emailed customer services to ask when they would be back in. I was told they weren t able to tell me that but as soon as they were back in  they would be available on the website. I checked every day for two weeks but still none available. I then emailed customer services again just to ask whether the trousers would definitely be coming back into stock  only to be told they also couldn t tell me that but as soon as they were  they would be available on the website. However I could try visiting some other tesco extra stores to see if they have them in. Helpful. Surely someone knows if they will come back into stock eventually or could check stores  stock and order me a pair to collect?",
+    "post_published_sql": "2016-08-27 22:40:12",
+    "pos_tagged": "Not/RB too/RB impressed/VBN with/IN the/DT customer/NN service/NN I/PRP have/VBP received/VBN following/VBG a/DT query/NN about/IN F/NNP and/CC F/NNP trousers/NNS ./. The/DT size/NN that/IN I/PRP want/VBP are/VBP out/IN of/IN stock/NN in/IN my/PRP$ local/JJ store/NN and/CC on/IN the/DT website/NN so/IN I/PRP emailed/VBD customer/NN services/NNS to/TO ask/VB when/WRB they/PRP would/MD be/VB back/RB in/IN ./. I/PRP was/VBD told/VBN they/PRP weren/MD t/VB able/JJ to/TO tell/VB me/PRP that/DT but/CC as/RB soon/RB as/IN they/PRP were/VBD back/RB in/IN they/PRP would/MD be/VB available/JJ on/IN the/DT website/NN ./. I/PRP checked/VBD every/DT day/NN for/IN two/CD weeks/NNS but/CC still/RB none/NN available/JJ ./. I/PRP then/RB emailed/VBD customer/NN services/NNS again/RB just/RB to/TO ask/VB whether/IN the/DT trousers/NNS would/MD definitely/RB be/VB coming/VBG back/RB into/IN stock/NN only/RB to/TO be/VB told/VBN they/PRP also/RB couldn/MD t/VB tell/VB me/PRP that/DT but/CC as/RB soon/RB as/IN they/PRP were/VBD they/PRP would/MD be/VB available/JJ on/IN the/DT website/NN ./. However/RB I/PRP could/MD try/VB visiting/VBG some/DT other/JJ tesco/NN extra/JJ stores/NNS to/TO see/VB if/IN they/PRP have/VBP them/PRP in/IN ./. Helpful/JJ ./. Surely/RB someone/NN knows/VBZ if/IN they/PRP will/MD come/VB back/RB into/IN stock/NN eventually/RB or/CC could/MD check/VB stores/NNS stock/NN and/CC order/VB me/PRP a/DT pair/NN to/TO collect/VB ?/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1170276153031514",
+    "post_message": "On Thursday I did an online shop to be delivered on Friday 26th August between 19:00-21:00 hrs  19:05 Tesco. At transit way phoned to say they would be an hour late  90 mins after due delivery they still hadn t delivered my groceries   my husband phoned customer service  who couldn t be bothered to pick the phone  they said they would phone him back  but never did  hence there was no delivery   I m 97 pounds out of pocket  and no food or money for the weekend  I then received an email from yourselves  telling how much I saved  it s now 21:09 on 27th of AUGUST STILL NO GROCERIES AND EXPLANATION OF WHERE MY GROCERIES  WHAT DO YOU INTEND TO DO ABOUT IT  I m going to post this message on Twitter as well",
+    "post_published_sql": "2016-08-27 22:13:51",
+    "pos_tagged": "On/IN Thursday/NNP I/PRP did/VBD an/DT online/NN shop/NN to/TO be/VB delivered/VBN on/IN Friday/NNP 26th/IN August/NNP between/IN 19:00-21:00/CD hrs/NNS 19:05/IN Tesco/NNP ./. At/IN transit/NN way/NN phoned/VBD to/TO say/VB they/PRP would/MD be/VB an/DT hour/NN late/RB 90/CD mins/NNS after/IN due/JJ delivery/NN they/PRP still/RB hadn/VBD t/IN delivered/VBN my/PRP$ groceries/NNS my/PRP$ husband/NN phoned/VBD customer/NN service/NN who/WP couldn/MD t/NN be/VB bothered/VBN to/TO pick/VB the/DT phone/NN they/PRP said/VBD they/PRP would/MD phone/VB him/PRP back/RB but/CC never/RB did/VBD hence/RB there/EX was/VBD no/DT delivery/NN I/PRP m/VBP 97/CD pounds/NNS out/IN of/IN pocket/NN and/CC no/DT food/NN or/CC money/NN for/IN the/DT weekend/NN I/PRP then/RB received/VBD an/DT email/NN from/IN yourselves/PRP telling/VBG how/WRB much/JJ I/PRP saved/VBD it/PRP s/VBZ now/RB 21:09/CD on/IN 27th/JJ of/IN AUGUST/NNP STILL/NNP NO/DT GROCERIES/NNPS AND/CC EXPLANATION/NNPS OF/IN WHERE/JJ MY/JJ GROCERIES/NNS WHAT/WDT DO/VB YOU/PRP INTEND/NN TO/TO DO/VB ABOUT/NNP IT/PRP I/PRP m/VBP going/VBG to/TO post/VB this/DT message/NN on/IN Twitter/NNP as/RB well/RB",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "Thursday;Friday;26th August;19:05;21:09",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1170138113045318",
+    "post_message": "hi their is a member of staff on the customer service in Ruthin tesco s id like to make a complaint about whats the best way to go about this pleases thanks",
+    "post_published_sql": "2016-08-27 18:38:58",
+    "pos_tagged": "hi/IN their/PRP$ is/VBZ a/DT member/NN of/IN staff/NN on/IN the/DT customer/NN service/NN in/IN Ruthin/NNP tesco/NN s/VBZ id/JJ like/IN to/TO make/VB a/DT complaint/NN about/IN whats/WP the/DT best/JJS way/NN to/TO go/VB about/IN this/DT pleases/NNS thanks/NNS",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1169660463093083",
+    "post_message": "DO NOT WASTE MONEY GO TO SPECSAVERS Ok so after waiting almost 6 weeks I ve had enough. I paid \u00a3197 for two pairs of glasses they arrived to start with fairly quickly. I advised them three times (by going into store and calling the main head office) that I couldn t see. Finally I am told by the head office just pop back to the store they ll retest you yeah right!  No I had to come back a few days later after a major operation I did not need to be making my fourth trip to the optician. But I did to find out that the optician had written the axis as 15 instead of 115 I was offered a bunch of flowers for my trouble at the time I just wanted my glasses so I said no please just get my glasses sorted. Now I have made several calls to the rubbish liars at customer services head office as in the mean time I ve had to love house but my glasses have to go to the original store first.  20 days later my clear pair arrive at Northampton I m called as they need to send them to Ely. They get to Ely three days later to find out that the sun glasses (bearing in mind the hot weather is almost over now) haven t been made yet!!! So I call customer rubbish sorry services again at head office no they haven t been made no due date I ll get a regional manager to call you here I am 5 days later no call!!! Ha ha ha then I m asked to do a customer satisfaction questionnaire are you kidding me!!! Yes in still 26 days later have no second pair no idea when they will arrive and no customer service at all. The clear pair are uncomfortable and not worth the money  My advice better service and glasses at Specsavers don t even bother with Tescos!!! I played nice till now and now I ve had enough please feel free to share my experience as I would hate for other people to suffer such a poor service.",
+    "post_published_sql": "2016-08-27 04:39:03",
+    "pos_tagged": "DO/VB NOT/NNP WASTE/NNP MONEY/NNP GO/NNP TO/TO SPECSAVERS/NNP Ok/NN so/RB after/IN waiting/VBG almost/RB 6/CD weeks/NNS I/PRP ve/VBP had/VBD enough/RB ./. I/PRP paid/VBD \u00a3197/CD for/IN two/CD pairs/NNS of/IN glasses/NNS they/PRP arrived/VBD to/TO start/VB with/IN fairly/RB quickly/RB ./. I/PRP advised/VBD them/PRP three/CD times/NNS (/-LRB- by/IN going/VBG into/IN store/NN and/CC calling/VBG the/DT main/JJ head/NN office/NN )/-RRB- that/IN I/PRP couldn/MD t/RB see/VB ./. Finally/RB I/PRP am/VBP told/VBN by/IN the/DT head/NN office/NN just/RB pop/VBP back/RB to/TO the/DT store/NN they/PRP ll/MD retest/VB you/PRP yeah/UH right/RB !/. No/DT I/PRP had/VBD to/TO come/VB back/RB a/DT few/JJ days/NNS later/RB after/IN a/DT major/JJ operation/NN I/PRP did/VBD not/RB need/VB to/TO be/VB making/VBG my/PRP$ fourth/JJ trip/NN to/TO the/DT optician/NN ./. But/CC I/PRP did/VBD to/TO find/VB out/RP that/IN the/DT optician/NN had/VBD written/VBN the/DT axis/NN as/IN 15/CD instead/RB of/IN 115/CD I/PRP was/VBD offered/VBN a/DT bunch/NN of/IN flowers/NNS for/IN my/PRP$ trouble/NN at/IN the/DT time/NN I/PRP just/RB wanted/VBD my/PRP$ glasses/NNS so/IN I/PRP said/VBD no/DT please/VBP just/RB get/VB my/PRP$ glasses/NNS sorted/VBD ./. Now/RB I/PRP have/VBP made/VBN several/JJ calls/NNS to/TO the/DT rubbish/NN liars/NNS at/IN customer/NN services/NNS head/NN office/NN as/IN in/IN the/DT mean/JJ time/NN I/PRP ve/VBP had/VBD to/TO love/VB house/NN but/CC my/PRP$ glasses/NNS have/VBP to/TO go/VB to/TO the/DT original/JJ store/NN first/RB ./. 20/CD days/NNS later/RBR my/PRP$ clear/JJ pair/NN arrive/VBP at/IN Northampton/NNP I/PRP m/MD called/VBN as/IN they/PRP need/VBP to/TO send/VB them/PRP to/TO Ely/NNP ./. They/PRP get/VBP to/TO Ely/NNP three/CD days/NNS later/RB to/TO find/VB out/RP that/IN the/DT sun/NN glasses/NNS (/-LRB- bearing/NN in/IN mind/NN the/DT hot/JJ weather/NN is/VBZ almost/RB over/IN now/RB )/-RRB- haven/NN t/NN been/VBN made/VBN yet/RB !/. !/. !/. So/RB I/PRP call/VBP customer/NN rubbish/NN sorry/JJ services/NNS again/RB at/IN head/NN office/NN no/RB they/PRP haven/NN t/NN been/VBN made/VBN no/DT due/JJ date/NN I/PRP ll/MD get/VB a/DT regional/JJ manager/NN to/TO call/VB you/PRP here/RB I/PRP am/VBP 5/CD days/NNS later/RB no/DT call/NN !/. !/. !/. Ha/NNP ha/WP ha/WP then/RB I/PRP m/MD asked/VBD to/TO do/VB a/DT customer/NN satisfaction/NN questionnaire/NN are/VBP you/PRP kidding/VBG me/PRP !/. !/. !/. Yes/RB in/IN still/RB 26/CD days/NNS later/RB have/VBP no/DT second/JJ pair/NN no/DT idea/NN when/WRB they/PRP will/MD arrive/VB and/CC no/DT customer/NN service/NN at/IN all/DT ./. The/DT clear/JJ pair/NN are/VBP uncomfortable/JJ and/CC not/RB worth/JJ the/DT money/NN My/PRP$ advice/NN better/RB service/NN and/CC glasses/NNS at/IN Specsavers/NNS don/IN t/NN even/RB bother/VB with/IN Tescos/NNP !/. !/. !/. I/PRP played/VBD nice/JJ till/IN now/RB and/CC now/RB I/PRP ve/VBP had/VBD enough/RB please/VB feel/VB free/JJ to/TO share/VB my/PRP$ experience/NN as/IN I/PRP would/MD hate/VB for/IN other/JJ people/NNS to/TO suffer/VB such/JJ a/DT poor/JJ service/NN ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1169436733115456",
+    "post_message": "Yesterday I was an absolute idiot and put unleaded in my diesel car at Bracknell North Tesco station at 6.20pm  I have to sing the praises of Mary (Brownlee I think) who works there and went above and beyond the call of duty to help me - as I was panicking she made me coffee  charged my phone and offered to let me use their phone to call my kids  even offered to watch my car whilst I shopped in Tesco - I want to ensure her amazing customer service is recognised",
+    "post_published_sql": "2016-08-26 23:04:19",
+    "pos_tagged": "Yesterday/NN I/PRP was/VBD an/DT absolute/JJ idiot/NN and/CC put/VBD unleaded/VBN in/IN my/PRP$ diesel/NN car/NN at/IN Bracknell/NNP North/NNP Tesco/NNP station/NN at/IN 6.20pm/NN I/PRP have/VBP to/TO sing/VB the/DT praises/NNS of/IN Mary/NNP (/-LRB- Brownlee/NNP I/PRP think/VBP )/-RRB- who/WP works/VBZ there/RB and/CC went/VBD above/RB and/CC beyond/IN the/DT call/NN of/IN duty/NN to/TO help/VB me/PRP -/: as/IN I/PRP was/VBD panicking/VBG she/PRP made/VBD me/PRP coffee/NN charged/VBD my/PRP$ phone/NN and/CC offered/VBD to/TO let/VB me/PRP use/VB their/PRP$ phone/NN to/TO call/VB my/PRP$ kids/NNS even/RB offered/VBD to/TO watch/VB my/PRP$ car/NN whilst/IN I/PRP shopped/VBD in/IN Tesco/NNP -/: I/PRP want/VBP to/TO ensure/VB her/PRP$ amazing/JJ customer/NN service/NN is/VBZ recognised/VBN",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "Yesterday",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1169249733134156",
+    "post_message": "Not very impressed with the Redditch branch  we went upstairs to get the new madden game the game was on the shelf there are signs to tell you to take it to checkout to make  shopping easier . We come down stairs go to checkout to be told need to take to customer services at the other end of the store. So misleading information already then when we get to customer service the BRAND NEW GAME is out of stock if this was the case why is it on the shelf!!! Thanks for nothing Tesco Redditch we will order from Amazon",
+    "post_published_sql": "2016-08-26 18:46:11",
+    "pos_tagged": "Not/RB very/RB impressed/VBN with/IN the/DT Redditch/NNP branch/NN we/PRP went/VBD upstairs/RB to/TO get/VB the/DT new/JJ madden/JJ game/NN the/DT game/NN was/VBD on/IN the/DT shelf/NN there/EX are/VBP signs/NNS to/TO tell/VB you/PRP to/TO take/VB it/PRP to/TO checkout/VB to/TO make/VB shopping/NN easier/JJR ./. We/PRP come/VBP down/IN stairs/NNS go/VBP to/TO checkout/VB to/TO be/VB told/VBN need/NN to/TO take/VB to/TO customer/NN services/NNS at/IN the/DT other/JJ end/NN of/IN the/DT store/NN ./. So/IN misleading/JJ information/NN already/RB then/RB when/WRB we/PRP get/VBP to/TO customer/NN service/NN the/DT BRAND/NNP NEW/NNP GAME/NNP is/VBZ out/IN of/IN stock/NN if/IN this/DT was/VBD the/DT case/NN why/WRB is/VBZ it/PRP on/IN the/DT shelf/NN !/. !/. !/. Thanks/NNS for/IN nothing/NN Tesco/NNP Redditch/NNP we/PRP will/MD order/VB from/IN Amazon/NNP",
+    "organization": "",
+    "location": "Amazon",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1169223693136760",
+    "post_message": "Dear Tesco. This afternoon in your Dundee Kingsway store  I recieved excellent customer service from one of your store members named Miguel. He seen me struggling with my shopping items while using my crutch and took the items from me at the checkout and scanned them for me and packed my bag. A wonderful act of kindness from this man to a disabled woman having a hard day  please reward him in some way. Many thanks Miguel  you are a star!  Vikki",
+    "post_published_sql": "2016-08-26 18:13:59",
+    "pos_tagged": "Dear/NNP Tesco/NNP ./. This/DT afternoon/NN in/IN your/PRP$ Dundee/NNP Kingsway/NNP store/NN I/PRP recieved/VBD excellent/JJ customer/NN service/NN from/IN one/CD of/IN your/PRP$ store/NN members/NNS named/VBN Miguel/NNP ./. He/PRP seen/VBD me/PRP struggling/VBG with/IN my/PRP$ shopping/NN items/NNS while/IN using/VBG my/PRP$ crutch/NN and/CC took/VBD the/DT items/NNS from/IN me/PRP at/IN the/DT checkout/NN and/CC scanned/VBD them/PRP for/IN me/PRP and/CC packed/VBD my/PRP$ bag/NN ./. A/DT wonderful/JJ act/NN of/IN kindness/NN from/IN this/DT man/NN to/TO a/DT disabled/JJ woman/NN having/VBG a/DT hard/JJ day/NN please/VB reward/VB him/PRP in/IN some/DT way/NN ./. Many/JJ thanks/NNS Miguel/IN you/PRP are/VBP a/DT star/NN !/. Vikki/.",
+    "organization": "",
+    "location": "",
+    "person": "Miguel.",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1169144943144635",
+    "post_message": "Was in your Tesco branch today in Beverley and was shocked that your couldn t order anything from your customer service desk unless you had a bank card because they don t do cash purchases went ordering things  As a person who doesn t use a bank or debit card it was shock and a pain in bum to be honest.",
+    "post_published_sql": "2016-08-26 17:03:32",
+    "pos_tagged": "Was/VBD in/IN your/PRP$ Tesco/NNP branch/NN today/NN in/IN Beverley/NNP and/CC was/VBD shocked/VBN that/IN your/PRP$ couldn/NNS t/IN order/NN anything/NN from/IN your/PRP$ customer/NN service/NN desk/NN unless/IN you/PRP had/VBD a/DT bank/NN card/NN because/IN they/PRP don/VBP t/NN do/VBP cash/NN purchases/NNS went/VBD ordering/VBG things/NNS As/IN a/DT person/NN who/WP doesn/VBZ t/NN use/VB a/DT bank/NN or/CC debit/NN card/NN it/PRP was/VBD shock/NN and/CC a/DT pain/NN in/IN bum/NN to/TO be/VB honest/JJ ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1168938423165287",
+    "post_message": "Thank you Tesco just had a very helpful customer service call  hopefully my order will be with my this afternoon :)",
+    "post_published_sql": "2016-08-26 11:54:25",
+    "pos_tagged": "Thank/VB you/PRP Tesco/NNP just/RB had/VBD a/DT very/RB helpful/JJ customer/NN service/NN call/NN hopefully/RB my/PRP$ order/NN will/MD be/VB with/IN my/PRP$ this/DT afternoon/NN :/: )/-RRB-",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1168898146502648",
+    "post_message": "feeling really annoyed i bought  my grandchildren a  paddling pool in store in Great horton Bradford (it was reduced in price). tried to fill up and find holes in it rang our local store in Skegness to be told they have none in stock but they can order me one from Tesco direct but i would have to pay the full price i think this is really unfair   Tesco that is NOT what i would call great customer service",
+    "post_published_sql": "2016-08-26 10:32:59",
+    "pos_tagged": "feeling/NN really/RB annoyed/VBD i/PRP bought/VBD my/PRP$ grandchildren/NNS a/DT paddling/NN pool/NN in/IN store/NN in/IN Great/NNP horton/NN Bradford/NNP (/-LRB- it/PRP was/VBD reduced/VBN in/IN price/NN )/-RRB- ./. tried/VBD to/TO fill/VB up/RP and/CC find/VB holes/NNS in/IN it/PRP rang/VBD our/PRP$ local/JJ store/NN in/IN Skegness/NNP to/TO be/VB told/VBN they/PRP have/VBP none/NN in/IN stock/NN but/CC they/PRP can/MD order/VB me/PRP one/CD from/IN Tesco/NNP direct/JJ but/CC i/FW would/MD have/VB to/TO pay/VB the/DT full/JJ price/NN i/IN think/VB this/DT is/VBZ really/RB unfair/JJ Tesco/NNP that/WDT is/VBZ NOT/NNP what/WP i/FW would/MD call/VB great/JJ customer/NN service/NN",
+    "organization": "",
+    "location": "Great;Bradford",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ],
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1168499923209137",
+    "post_message": "Fantastic customer service tonight  missed my delivery but the wonderful driver popped my shopping back. Very happy customer",
+    "post_published_sql": "2016-08-25 23:06:44",
+    "pos_tagged": "Fantastic/NNP customer/NN service/NN tonight/RB missed/VBN my/PRP$ delivery/NN but/CC the/DT wonderful/JJ driver/NN popped/VBD my/PRP$ shopping/NN back/RB ./. Very/RB happy/JJ customer/NN",
+    "organization": "Fantastic",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "delivery",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1168477126544750",
+    "post_message": "Very disappointed in the service I received today from Tesco! I ordered a set of golf clubs for my sons birthday which is today. I paid an extra \u00a32 to collect them at my local store (20 miles away) only to get an email after I arrived in Inverness to say they d been deliver to the wrong store! I phoned customer service and the nice lady told me the store in which they d been delivered too would hold them till Sunday but I will have to collect  it s an hour and a half away!! The golf clubs are no longer in stock so I can t re-order. Very disappointed to tell our 7 year old that part of his birthday present hasn t come <ed><U+00A0><U+00BD><ed><U+00B8><U+00A5> <ed><U+00A0><U+00BD><ed><U+00B8><U+00A1><ed><U+00A0><U+00BD><ed><U+00B8><U+00A1>",
+    "post_published_sql": "2016-08-25 22:22:14",
+    "pos_tagged": "Very/RB disappointed/VBN in/IN the/DT service/NN I/PRP received/VBD today/NN from/IN Tesco!/NNP I/PRP ordered/VBD a/DT set/NN of/IN golf/NN clubs/NNS for/IN my/PRP$ sons/NNS birthday/NN which/WDT is/VBZ today/NN ./. I/PRP paid/VBD an/DT extra/JJ \u00a32/NN to/TO collect/VB them/PRP at/IN my/PRP$ local/JJ store/NN (/-LRB- 20/CD miles/NNS away/RB )/-RRB- only/RB to/TO get/VB an/DT email/NN after/IN I/PRP arrived/VBD in/IN Inverness/NNP to/TO say/VB they/PRP d/VBD been/VBN deliver/VBP to/TO the/DT wrong/JJ store/NN !/. I/PRP phoned/VBD customer/NN service/NN and/CC the/DT nice/JJ lady/NN told/VBD me/PRP the/DT store/NN in/IN which/WDT they/PRP d/VBD been/VBN delivered/VBN too/RB would/MD hold/VB them/PRP till/IN Sunday/NNP but/CC I/PRP will/MD have/VB to/TO collect/VB it/PRP s/VBZ an/DT hour/NN and/CC a/DT half/NN away/RB !/. !/. The/DT golf/NN clubs/NNS are/VBP no/RB longer/RB in/IN stock/NN so/IN I/PRP can/MD t/VB re-order/NN ./. Very/RB disappointed/JJ to/TO tell/VB our/PRP$ 7/CD year/NN old/JJ that/IN part/NN of/IN his/PRP$ birthday/NN present/JJ hasn/NN t/NN come/VBN <ed><U+00A0><U+00BD>/RB <ed><U+00B8><U+00A5>/RB <ed><U+00A0><U+00BD><ed><U+00B8><U+00A1>/JJ <ed><U+00A0><U+00BD>/NN <ed><U+00B8><U+00A1>/.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "today;today;Sunday",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "store",
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "type": "status",
+    "post_id": "112463368812803_1168340209891775",
+    "post_message": "I would like to commend the Tesco Optical department in Dunstable  they gave first class service and really helped me out as my glasses had been broken  their customer service went far beyond what I could have expected from any establishment  I am now a Tesco grocery shopper again after years of shopping at Asda. If there is any way of reward and recognition please pass this on so that they are acknowledged. Thank you.",
+    "post_published_sql": "2016-08-25 18:40:14",
+    "pos_tagged": "I/PRP would/MD like/VB to/TO commend/VB the/DT Tesco/NNP Optical/NNP department/NN in/IN Dunstable/NNP they/PRP gave/VBD first/JJ class/NN service/NN and/CC really/RB helped/VBD me/PRP out/RP as/IN my/PRP$ glasses/NNS had/VBD been/VBN broken/VBN their/PRP$ customer/NN service/NN went/VBD far/RB beyond/IN what/WP I/PRP could/MD have/VB expected/VBN from/IN any/DT establishment/NN I/PRP am/VBP now/RB a/DT Tesco/NNP grocery/NN shopper/NN again/RB after/IN years/NNS of/IN shopping/NN at/IN Asda/NNP ./. If/IN there/EX is/VBZ any/DT way/NN of/IN reward/NN and/CC recognition/NN please/VBP pass/VB this/DT on/RP so/RB that/IN they/PRP are/VBP acknowledged/VBN ./. Thank/VB you/PRP ./.",
+    "organization": "",
+    "location": "",
+    "person": "",
+    "date": "",
+    "money": "",
+    "sentiments": [
+      [
+        "Customer Service",
+        "tesco",
+        "unknown"
+      ]
+    ]
+  }
+]
