@@ -1,5 +1,6 @@
 import json
 import nltk
+from tqdm import tqdm
 
 POSTSFILE = "../tagging/complete_tagged.json"
 INFILE = "products.json"
@@ -62,7 +63,9 @@ def merge_similar_entities(entities):
 		for aspect in aspects:
 			parts = aspect.split()
 			aspect = " ".join(lemmatizer.lemmatize(part) for part in parts)
-			if aspect not in merged_aspects:
+			product_parts = product.lower().split()
+
+			if aspect not in merged_aspects and aspect not in product_parts:
 				merged_aspects.append(aspect)
 		result[product] = merged_aspects
 
@@ -75,17 +78,17 @@ if __name__ == "__main__":
 		posts = json.load(postf)
 
 	with open(INFILE, "r") as inf:
-		with open(OUTFILE, "w") as outf:
-			products = json.load(inf)
-			for idx, product in enumerate(products):
-				print("Processing product {}".format(idx))
-				aspects = find_aspects(product, posts)
-				if len(aspects) == 0:
-					continue
+		products = json.load(inf)
+		for product in tqdm(products):
+			aspects = find_aspects(product, posts)
+			if len(aspects) == 0:
+				continue
 
-				dictionary[product] = ["general"]
-				dictionary[product] += aspects
-			
-			print("Merging similar products and aspects")
-			dictionary = merge_similar_entities(dictionary)
-			json.dump(dictionary, outf, indent=2)
+			dictionary[product] = ["general"]
+			dictionary[product] += aspects
+		
+		print("Merging similar products and aspects")
+		dictionary = merge_similar_entities(dictionary)
+
+	with open(OUTFILE, "w") as outf:
+		json.dump(dictionary, outf, indent=2)

@@ -1,25 +1,20 @@
 {
   "Tesco": [
     "general",
-    "tesco",
     "store"
   ],
   "Tesco Express": [
     "general",
-    "tesco",
-    "express",
     "store",
     "road",
     "staff"
   ],
   "Tesco Direct": [
     "general",
-    "tesco",
     "order",
     "customer",
     "service",
     "delivery",
-    "direct",
     "store"
   ],
   "Customer Service": [
@@ -30,7 +25,6 @@
   ],
   "Store": [
     "general",
-    "store",
     "customer",
     "tesco",
     "staff",
@@ -38,12 +32,10 @@
   ],
   "TESCO": [
     "general",
-    "tesco",
     "store"
   ],
   "Apple": [
     "general",
-    "apple",
     "tesco",
     "year",
     "fruit",
@@ -53,14 +45,12 @@
   "Express": [
     "general",
     "tesco",
-    "express",
     "store",
     "road",
     "staff"
   ],
   "TV": [
     "general",
-    "tv",
     "tesco",
     "store",
     "cctv"
@@ -68,7 +58,6 @@
   "School": [
     "general",
     "today",
-    "school",
     "child",
     "tesco",
     "year",
@@ -77,7 +66,6 @@
   ],
   "BBC": [
     "general",
-    "bbc",
     "shape",
     "news",
     "clock",
@@ -90,7 +78,6 @@
   ],
   "Toshiba": [
     "general",
-    "toshiba",
     "tv",
     "month",
     "tesco",
@@ -108,7 +95,6 @@
   ],
   "BBQ": [
     "general",
-    "bbq",
     "store",
     "chicken",
     "bbqs",
@@ -121,16 +107,11 @@
     "general",
     "alternative",
     "complaint",
-    "advertising",
-    "standard",
-    "authority",
     "vegan",
     "society"
   ],
   "Tesco Metro": [
     "general",
-    "tesco",
-    "metro",
     "store",
     "staff",
     "self",
@@ -142,7 +123,6 @@
     "general",
     "tesco",
     "store",
-    "bristol",
     "today",
     "road",
     "eastville",
@@ -151,7 +131,6 @@
   ],
   "CCTV": [
     "general",
-    "cctv",
     "security",
     "police",
     "tesco",
@@ -163,7 +142,6 @@
   "Union": [
     "general",
     "product",
-    "union",
     "flag",
     "jack",
     "tesco",
@@ -182,7 +160,6 @@
   ],
   "DVD": [
     "general",
-    "dvd",
     "tesco",
     "security",
     "today",
@@ -195,8 +172,6 @@
   ],
   "Red Tractor": [
     "general",
-    "red",
-    "tractor",
     "logo",
     "standard",
     "tesco",
@@ -213,7 +188,6 @@
   "Arrow": [
     "general",
     "courier",
-    "arrow",
     "delivery",
     "tesco",
     "xl",
@@ -226,7 +200,6 @@
     "week",
     "advice",
     "dominican",
-    "republic",
     "tablet",
     "atovaquone",
     "hydrochloride",
@@ -270,7 +243,6 @@
   "Tiger": [
     "general",
     "bacon",
-    "tiger",
     "bread",
     "price",
     "moq",
@@ -294,7 +266,6 @@
   ],
   "Shopping": [
     "general",
-    "shopping",
     "store",
     "tesco",
     "today",
@@ -302,14 +273,12 @@
   ],
   "GF": [
     "general",
-    "gf",
     "tesco",
     "food",
     "bread"
   ],
   "Samsung": [
     "general",
-    "samsung",
     "phone",
     "tablet",
     "christmas",
@@ -329,8 +298,6 @@
     "joy",
     "shopping",
     "paddington",
-    "metro",
-    "branch",
     "tesco",
     "staff",
     "(vice",
@@ -371,15 +338,12 @@
     "beard",
     "store",
     "mind",
-    "bear",
     "tesco",
     "bearing"
   ],
   "Paw Patrol": [
     "general",
     "year",
-    "paw",
-    "patrol",
     "store",
     "boy",
     "girl",
@@ -400,7 +364,6 @@
   ],
   "BOGOF": [
     "general",
-    "bogof",
     "bogof.",
     "tesco",
     "pampers",
@@ -424,8 +387,6 @@
     "company",
     "tesco",
     "delivery",
-    "arrow",
-    "xl",
     "sofa",
     "xl.",
     "courier",
@@ -449,8 +410,6 @@
   ],
   "Coca Cola": [
     "general",
-    "coca",
-    "cola",
     "brand",
     "store",
     "today",
@@ -469,7 +428,6 @@
   "GM": [
     "general",
     "tesco",
-    "gm",
     "acknowledgment"
   ],
   "Best": [
@@ -485,7 +443,6 @@
     "chocolate",
     "cooky",
     "time",
-    "disney",
     "princess",
     "spaghetti",
     "store",
@@ -505,7 +462,6 @@
   "Coke": [
     "general",
     "can",
-    "coke",
     "tesco",
     "deal",
     "diet",
@@ -516,17 +472,12 @@
   ],
   "Tesco Customer Service": [
     "general",
-    "customer",
-    "service",
-    "tesco",
     "store",
     "delivery"
   ],
   "Redmere Farm": [
     "general",
     "packaging",
-    "farm",
-    "redmere",
     "cabbage",
     "spain",
     "great",
@@ -538,7 +489,6 @@
   "Metro": [
     "general",
     "tesco",
-    "metro",
     "store",
     "staff",
     "paddington"
@@ -550,12 +500,10 @@
     "delivery",
     "customer",
     "service",
-    "direct",
     "store"
   ],
   "Dairy": [
     "general",
-    "dairy",
     "store",
     "milk",
     "tesco",
@@ -569,7 +517,6 @@
   ],
   "DPD": [
     "general",
-    "dpd",
     "day",
     "week",
     "email",
@@ -596,7 +543,6 @@
     "general",
     "partner",
     "company",
-    "hughes",
     "vacuum",
     "cleaner",
     "month",
@@ -642,13 +588,11 @@
     "store"
   ],
   "Tescos": [
-    "general",
-    "tescos"
+    "general"
   ],
   "Sony": [
     "general",
     "tesco",
-    "sony",
     "tv",
     "month",
     "game",
@@ -660,8 +604,6 @@
   ],
   "Royal Mail": [
     "general",
-    "royal",
-    "mail",
     "postcode",
     "address",
     "delivery",
@@ -682,7 +624,6 @@
   ],
   "Team": [
     "general",
-    "team",
     "tesco",
     "store",
     "customer",
@@ -701,7 +642,6 @@
     "nurse",
     "man",
     "life",
-    "cpr",
     "defibrillator",
     "chance",
     "anyone",
@@ -739,8 +679,6 @@
     "general",
     "apple",
     "pay",
-    "american",
-    "express",
     "card",
     "visa",
     "block",
@@ -753,7 +691,6 @@
     "general",
     "people",
     "tesco",
-    "tobacco",
     "counter",
     "lottery",
     "milk",
@@ -772,12 +709,10 @@
   "Apple Pay": [
     "general",
     "contactless",
-    "pay",
     "store",
     "time",
     "limit",
     "payment",
-    "apple",
     "customer",
     "amount",
     "tesco",
@@ -800,9 +735,7 @@
     "general",
     "clubcard",
     "voucher",
-    "pizza",
     "code",
-    "express",
     "store"
   ],
   "Vegan Society": [
@@ -810,8 +743,6 @@
     "jimmy",
     "pierson",
     "spokesperson",
-    "vegan",
-    "society",
     "letter",
     "advertsing",
     "tesco",
@@ -827,8 +758,6 @@
     "paddington",
     "metro",
     "tesco",
-    "daily",
-    "express",
     "mail",
     "newspaper",
     "magazine",
@@ -846,7 +775,6 @@
   ],
   "Epic": [
     "general",
-    "epic",
     "lol",
     "tesco",
     "customer",
@@ -870,7 +798,6 @@
   "Carlisle": [
     "general",
     "tesco",
-    "carlisle",
     "customer",
     "service",
     "home",
@@ -897,7 +824,6 @@
     "general",
     "customer",
     "service",
-    "fab",
     "store",
     "tesco",
     "<ed><u+00a0><u+00bd>"
@@ -906,7 +832,6 @@
     "general",
     "product",
     "suggestion",
-    "mayo",
     "brand",
     "uk",
     "shelf",
@@ -916,7 +841,6 @@
   ],
   "FB": [
     "general",
-    "fb",
     "page",
     "tesco",
     "service"
@@ -930,12 +854,10 @@
     "time",
     "delivery",
     "order",
-    "pm",
     "customer"
   ],
   "Life": [
     "general",
-    "life",
     "tesco"
   ],
   "Dot": [
@@ -946,7 +868,6 @@
     "order",
     "tesco",
     "delivery",
-    "dot",
     "time",
     "com",
     "today",
@@ -968,7 +889,6 @@
   "Health": [
     "general",
     "store",
-    "health",
     "safety",
     "tesco"
   ],
@@ -980,7 +900,6 @@
     "yesterday",
     "evening",
     "tesco",
-    "kodak",
     "twin",
     "pack",
     "price",
@@ -1036,7 +955,6 @@
   "Community": [
     "general",
     "store",
-    "community",
     "tesco",
     "champion"
   ],
@@ -1069,7 +987,6 @@
     "gym",
     "gear",
     "someone",
-    "bmw",
     "initial",
     "number",
     "plate",
@@ -1087,7 +1004,6 @@
     "general",
     "volunteer",
     "fundraiser",
-    "macmillan",
     "ball",
     "september",
     "fund",
@@ -1131,15 +1047,12 @@
   "Fish": [
     "general",
     "tesco",
-    "fish",
     "counter",
     "store",
     "meat"
   ],
   "Trading Standard": [
     "general",
-    "trading",
-    "standard",
     "tesco",
     "item"
   ],
@@ -1149,8 +1062,6 @@
     "space",
     "shelf",
     "coffee",
-    "quaker",
-    "oat",
     "ginsters",
     "pasty",
     "money",
@@ -1177,7 +1088,6 @@
     "bad",
     "request",
     "header",
-    "cookie",
     "cant",
     "nginx",
     "android",
@@ -1188,7 +1098,6 @@
     "website",
     "tesco",
     "school",
-    "navy",
     "material",
     "quality",
     "one",
@@ -1204,9 +1113,6 @@
   ],
   "Health And Safety Executive": [
     "general",
-    "health",
-    "safety",
-    "executive",
     "bicycle",
     "rider"
   ],
@@ -1216,12 +1122,6 @@
     "lewis",
     "complaint",
     "staff",
-    "tesco",
-    "express",
-    "store",
-    "ripple",
-    "road",
-    "barking",
     "ig11",
     "tony",
     "franshamdear"
@@ -1229,8 +1129,6 @@
   "St Austell": [
     "general",
     "tesco",
-    "st",
-    "austell",
     "branch",
     "cafe",
     "<ed><u+00a0><u+00bd>",
@@ -1268,9 +1166,7 @@
   ],
   "Extra Store": [
     "general",
-    "store",
     "tesco",
-    "extra",
     "today"
   ],
   "PIN": [
@@ -1296,7 +1192,6 @@
     "cooker",
     "recall",
     "unit",
-    "kdj",
     "plug",
     "batch",
     "number",
@@ -1347,7 +1242,6 @@
   "Tesco Personal Finance Team": [
     "general",
     "offer",
-    "tesco",
     "saving",
     "user",
     "february",
@@ -1357,7 +1251,6 @@
   "Medium": [
     "general",
     "tesco",
-    "medium",
     "beef",
     "bread",
     "range",
@@ -1393,9 +1286,6 @@
   ],
   "Customer Service Desk": [
     "general",
-    "customer",
-    "service",
-    "desk",
     "today",
     "tesco",
     "store",
@@ -1405,7 +1295,6 @@
   "Tescos Express": [
     "general",
     "staff",
-    "tescos",
     "victoria",
     "street",
     "belfast",
@@ -1419,7 +1308,6 @@
     "thanks",
     "guy",
     "price",
-    "express",
     "lady",
     "daughter",
     "beaulieu",
@@ -1456,20 +1344,16 @@
     "company",
     "delivery",
     "arrow",
-    "xl",
     "order",
     "size",
     "week",
     "june"
   ],
   "Tesco Store": [
-    "general",
-    "tesco",
-    "store"
+    "general"
   ],
   "ATM": [
     "general",
-    "atm",
     "tesco",
     "customer",
     "treatment",
@@ -1487,7 +1371,6 @@
     "god",
     "sweet",
     "baby",
-    "jesus",
     "present",
     "brand",
     "drawer",
@@ -1515,7 +1398,6 @@
   "Aldi": [
     "general",
     "tesco",
-    "aldi",
     "lidl"
   ],
   "NI": [
@@ -1529,10 +1411,8 @@
     "general",
     "phone",
     "case",
-    "samsung",
     "galaxy3",
     "mini",
-    "galaxy",
     "cat",
     "num",
     "spec",
@@ -1583,7 +1463,6 @@
     "general",
     "health",
     "glyphosate",
-    "council",
     "tesco",
     "store"
   ],
@@ -1591,8 +1470,6 @@
     "general",
     "ben",
     "martin",
-    "animal",
-    "aid",
     "product",
     "list",
     "vegan",
@@ -1605,8 +1482,6 @@
   "Coke Life": [
     "general",
     "tesco",
-    "coke",
-    "life",
     "can",
     "time",
     "healing",
@@ -1633,8 +1508,6 @@
   "St Stephen": [
     "general",
     "tesco",
-    "st",
-    "stephen",
     "hull",
     "service",
     "manager",
@@ -1654,7 +1527,6 @@
   ],
   "Scotch": [
     "general",
-    "scotch",
     "meat",
     "whisky",
     "egg",
@@ -1679,7 +1551,6 @@
     "glyphosate",
     "carcinogen",
     "eu",
-    "monsanto",
     "licence",
     "europe",
     "brighton",
@@ -1744,7 +1615,6 @@
   "Social Medium": [
     "general",
     "tesco",
-    "medium",
     "store",
     "customer",
     "campaign",
@@ -1753,14 +1623,11 @@
   ],
   "Choice": [
     "general",
-    "choice",
     "tesco",
     "store"
   ],
   "Home Shopping": [
     "general",
-    "home",
-    "shopping",
     "time",
     "tesco",
     "driver",
@@ -1770,14 +1637,12 @@
   ],
   "White": [
     "general",
-    "white",
     "tesco",
     "bread",
     "store"
   ],
   "RSPCA": [
     "general",
-    "rspca",
     "trading",
     "card",
     "pls",
@@ -1842,7 +1707,6 @@
     "product",
     "goujon",
     "fillet",
-    "piri",
     "eu",
     "country",
     "thailand",
@@ -1864,8 +1728,6 @@
   "Toshiba Hdd": [
     "general",
     "day",
-    "toshiba",
-    "hdd",
     "tesco",
     "box",
     "description"
@@ -1896,14 +1758,11 @@
     "general",
     "tesco",
     "research",
-    "store",
-    "search"
+    "store"
   ],
   "Butcher Choice": [
     "general",
     "standard",
-    "butcher",
-    "choice",
     "beef",
     "sausage",
     "casing",
@@ -1938,8 +1797,6 @@
     "contacted",
     "customer",
     "service",
-    "business",
-    "team",
     "hour",
     "doesnt",
     "sense",
@@ -1950,8 +1807,6 @@
   "Contacted Customer Service": [
     "general",
     "refund",
-    "customer",
-    "service",
     "one",
     "stock",
     "email",
@@ -1959,7 +1814,6 @@
     "driver",
     "delivery",
     "detail",
-    "contacted",
     "business",
     "team",
     "hour",
@@ -1976,7 +1830,6 @@
     "service",
     "car",
     "cleaner",
-    "yiewsley",
     "store",
     "tesco",
     "fall",
@@ -1997,8 +1850,6 @@
     "policy",
     "april",
     "year",
-    "north",
-    "wale",
     "thanks",
     "staff",
     "tesco",
@@ -2021,7 +1872,6 @@
   ],
   "WINTER": [
     "general",
-    "winter",
     "tesco",
     "coat",
     "store",
@@ -2031,7 +1881,6 @@
     "general",
     "tesco",
     "shopping",
-    "shop",
     "fruit",
     "kid",
     "idea",
@@ -2098,7 +1947,6 @@
   "TIGER": [
     "general",
     "bacon",
-    "tiger",
     "bread",
     "price",
     "moq",
@@ -2154,14 +2002,11 @@
     "product",
     "palm",
     "oil",
-    "rspo",
     "world",
     "manufacturer"
   ],
   "Elmers End": [
     "general",
-    "elmers",
-    "end",
     "day",
     "today",
     "kent",
@@ -2185,8 +2030,6 @@
   "Roll Mix": [
     "general",
     "soft",
-    "roll",
-    "mix",
     "finger",
     "cover",
     "photo"
@@ -2195,7 +2038,6 @@
     "general",
     "tesco",
     "store",
-    "gluten",
     "range",
     "product",
     "dairy",
@@ -2210,14 +2052,12 @@
     "tesco",
     "shopping",
     "staff",
-    "today",
-    "roll"
+    "today"
   ],
   "Nestle": [
     "general",
     "tesco",
     "disease",
-    "nestle",
     "cornflakes",
     "kellogg",
     "ballymena",
@@ -2253,8 +2093,6 @@
     "complaint",
     "pharmacy",
     "cheshunt",
-    "brookfield",
-    "farm",
     "store",
     "information",
     "optician",
@@ -2301,9 +2139,7 @@
     "meal",
     "deal",
     "piece",
-    "strip",
-    "southern",
-    "fried"
+    "strip"
   ],
   "Disney Lego": [
     "general",
@@ -2313,8 +2149,6 @@
     "desk",
     "chichester",
     "tonight",
-    "disney",
-    "lego",
     "year",
     "daughter",
     "cheshire",
@@ -2332,8 +2166,6 @@
     "varifocals",
     "year",
     "customer",
-    "vision",
-    "express",
     "eye",
     "test",
     "quote",
@@ -2346,9 +2178,6 @@
   "Boswell Farm Beef": [
     "general",
     "bought",
-    "boswell",
-    "farm",
-    "beef",
     "lidl",
     "kilo",
     "tesco",
@@ -2367,7 +2196,6 @@
     "store",
     "service",
     "delivery",
-    "call",
     "customer",
     "phone",
     "order"
@@ -2375,9 +2203,6 @@
   "Mukisa Girl Foundation": [
     "general",
     "tesco",
-    "mukisa",
-    "girl",
-    "foundation",
     "uganda",
     "need",
     "porage",
@@ -2388,8 +2213,6 @@
   "Team Leader": [
     "general",
     "service",
-    "team",
-    "leader",
     "tesco",
     "situation",
     "store",
@@ -2412,9 +2235,6 @@
     "petrol",
     "station",
     "nothing",
-    "esso",
-    "training",
-    "school",
     "car",
     "park"
   ],
@@ -2439,8 +2259,6 @@
     "madam",
     "complaint",
     "experience",
-    "larkfield",
-    "store",
     "disappointment",
     "incident",
     "christmas",
@@ -2452,7 +2270,6 @@
     "general",
     "gift",
     "card",
-    "microsoft",
     "state",
     "voucher",
     "code",
@@ -2482,9 +2299,6 @@
     "general",
     "minimum",
     "fee",
-    "tesco",
-    "direct",
-    "click",
     "collect",
     "thing",
     "son"
@@ -2492,7 +2306,6 @@
   "Friday": [
     "general",
     "delivery",
-    "friday",
     "night",
     "tesco",
     "store"
@@ -2500,7 +2313,6 @@
   "White Bread": [
     "general",
     "variety",
-    "bread",
     "sandwich",
     "yesterday",
     "cheese",
@@ -2516,7 +2328,6 @@
     "mr",
     "people",
     "disease",
-    "white",
     "others",
     "shop",
     "morrison",
@@ -2562,8 +2373,6 @@
     "general",
     "store",
     "smell",
-    "health",
-    "environmental",
     "bo",
     "ness",
     "council",
@@ -2579,8 +2388,6 @@
   "European Union": [
     "general",
     "citizen",
-    "european",
-    "union",
     "home",
     "country",
     "behavior",
@@ -2593,17 +2400,12 @@
     "store",
     "shop",
     "shopping",
-    "online",
     "tesco",
     "order"
   ],
   "Tesco Customer Service Team": [
     "general",
     "manager",
-    "tesco",
-    "customer",
-    "service",
-    "team",
     "david",
     "petrey",
     "lorraine",
@@ -2652,7 +2454,6 @@
   "THOMY": [
     "general",
     "europe",
-    "thomy",
     "french",
     "dressing",
     "product",
@@ -2665,8 +2466,6 @@
     "xmas",
     "food",
     "delivery",
-    "morning",
-    "tesco!",
     "month",
     "carrier",
     "bag",
@@ -2684,7 +2483,6 @@
   "Bath": [
     "general",
     "bathroom",
-    "bath",
     "tesco",
     "bathgate",
     "store",
@@ -2695,7 +2493,6 @@
     "general",
     "delivery",
     "today",
-    "day",
     "store",
     "tesco",
     "yesterday"
@@ -2707,8 +2504,6 @@
     "delivery",
     "jan",
     "company",
-    "arrow",
-    "xl.",
     "text",
     "courier",
     "star",
@@ -2719,7 +2514,6 @@
   "CSD": [
     "general",
     "lady",
-    "csd",
     "giftcard",
     "employee",
     "difference",
@@ -2736,7 +2530,6 @@
   ],
   "F&F": [
     "general",
-    "f&f",
     "delivery",
     "tesco",
     "clothing",
@@ -2758,8 +2551,6 @@
   "Phone Shop": [
     "general",
     "thanks",
-    "phone",
-    "shop",
     "tesco",
     "staff",
     "extra",
@@ -2785,8 +2576,6 @@
     "phone",
     "bill",
     "copy",
-    "data",
-    "protection",
     "resons",
     "agent",
     "husband",
@@ -2824,7 +2613,6 @@
     "visa",
     "electron",
     "card",
-    "mastercard",
     "tesco",
     "travel",
     "exchange",
@@ -2894,8 +2682,6 @@
   ],
   "Tesco Ltd": [
     "general",
-    "tesco",
-    "ltd",
     "contact",
     "people",
     "customer",
@@ -2916,8 +2702,6 @@
   "St Rollox": [
     "general",
     "tesco",
-    "st",
-    "rollox",
     "lad",
     "self",
     "service",
@@ -2973,8 +2757,6 @@
     "general",
     "april",
     "edition",
-    "food",
-    "family",
     "magazine",
     "tescos",
     "january",
@@ -2984,7 +2766,6 @@
     "bowl",
     "plate",
     "oat",
-    "living",
     "february"
   ],
   "GET": [
@@ -3016,7 +2797,6 @@
   ],
   "Royal": [
     "general",
-    "royal",
     "tesco",
     "year",
     "service",
@@ -3029,7 +2809,6 @@
   "Bursledon": [
     "general",
     "staff",
-    "bursledon",
     "southampton",
     "today",
     "tesco",
@@ -3054,7 +2833,6 @@
     "customer",
     "service",
     "day",
-    "superb",
     "delivery",
     "credit",
     "store",
@@ -3063,8 +2841,6 @@
   "Parent & Child": [
     "general",
     "tesco",
-    "parent",
-    "child",
     "parking",
     "people",
     "car",
@@ -3080,10 +2856,8 @@
   "Free Range": [
     "general",
     "egg",
-    "range",
     "tesco",
-    "hen",
-    "free"
+    "hen"
   ],
   "Im": [
     "general",
@@ -3112,7 +2886,6 @@
     "flavour",
     "green",
     "curry",
-    "thai",
     "tesco",
     "dear",
     "welfare",
@@ -3130,7 +2903,6 @@
     "experience",
     "today",
     "ipswich",
-    "toy",
     "toilet",
     "cafe",
     "disappointment",
@@ -3161,8 +2933,6 @@
     "item",
     "people",
     "customer",
-    "food",
-    "bank",
     "date",
     "tesco",
     "collection",
@@ -3177,9 +2947,6 @@
   ],
   "Disaster Relief Alliance": [
     "general",
-    "disaster",
-    "relief",
-    "alliance",
     "engagement",
     "sector",
     "activity",
@@ -3188,8 +2955,6 @@
   ],
   "Red Cross": [
     "general",
-    "red",
-    "cross",
     "website",
     "crisis",
     "page",
@@ -3223,7 +2988,6 @@
   ],
   "Charity": [
     "general",
-    "charity",
     "food",
     "tesco",
     "store"
@@ -3231,10 +2995,6 @@
   "Tescos Finest Alcohol Free Chenin": [
     "general",
     "week",
-    "tescos",
-    "alcohol",
-    "free",
-    "chenin",
     "blanc"
   ],
   "Sun": [
@@ -3245,9 +3005,7 @@
   ],
   "White Chocolate": [
     "general",
-    "chocolate",
     "cooky",
-    "white",
     "tesco",
     "cake",
     "brand",
@@ -3256,7 +3014,6 @@
   ],
   "APPLE": [
     "general",
-    "apple",
     "tesco",
     "year",
     "fruit",
@@ -3268,7 +3025,6 @@
     "website",
     "tesco",
     "school",
-    "navy",
     "material",
     "quality",
     "one",
@@ -3289,9 +3045,6 @@
     "lid",
     "barbara",
     "daly",
-    "bd",
-    "trade",
-    "secret",
     "tesco",
     "week",
     "direct",
@@ -3306,8 +3059,6 @@
     "time",
     "shop",
     "woodford",
-    "green",
-    "express",
     "east",
     "london",
     "section",
@@ -3333,14 +3084,11 @@
   "Church Road Bristol!": [
     "general",
     "tesco",
-    "church",
-    "road",
     "bristol"
   ],
   "Tower": [
     "general",
     "alton",
-    "tower",
     "today",
     "shopping",
     "park",
@@ -3357,8 +3105,6 @@
     "family",
     "friend",
     "college",
-    "bassetlaw",
-    "hospital",
     "arrest",
     "store",
     "staff",
@@ -3420,8 +3166,6 @@
     "grocery",
     "delivery",
     "slot",
-    "alfreton",
-    "store",
     "notice",
     "santa",
     "elf",
@@ -3453,13 +3197,10 @@
   "British": [
     "general",
     "tesco",
-    "farmer",
-    "british"
+    "farmer"
   ],
   "Union Jack": [
     "general",
-    "union",
-    "jack",
     "country",
     "strawberry",
     "english",
@@ -3484,7 +3225,6 @@
     "ice",
     "lolly",
     "bbc",
-    "diy",
     "so",
     "project",
     "welwyn",
@@ -3523,8 +3263,6 @@
     "redmere",
     "farm",
     "name",
-    "great",
-    "britain",
     "british",
     "farmer",
     "christian",
@@ -3574,8 +3312,6 @@
     "general",
     "britain",
     "product",
-    "union",
-    "flag",
     "tesco",
     "removal",
     "saltire",
@@ -3610,7 +3346,6 @@
   ],
   "ANYTHING": [
     "general",
-    "anything",
     "tesco",
     "store"
   ],
@@ -3627,14 +3362,12 @@
     "number",
     "document",
     "name",
-    "imei",
     "sn",
     "date",
     "price"
   ],
   "hudl2": [
     "general",
-    "hudl2",
     "year",
     "hudl",
     "charge",
@@ -3656,7 +3389,6 @@
     "example",
     "aaa",
     "game",
-    "division",
     "member",
     "uckfield",
     "(via",
@@ -3714,9 +3446,6 @@
     "<u+feff>",
     "a<u+feff>pril",
     "email",
-    "tesco",
-    "store",
-    "limited",
     "company",
     "number",
     "vat",
@@ -3730,8 +3459,6 @@
   ],
   "Samsung Tv": [
     "general",
-    "samsung",
-    "tv",
     "tesco",
     "month",
     "screen",
@@ -3751,14 +3478,12 @@
   ],
   "Sainsburys": [
     "general",
-    "sainsburys",
     "tesco",
     "shopping"
   ],
   "Formula": [
     "general",
     "tesco",
-    "formula",
     "price",
     "baby",
     "today",
@@ -3771,9 +3496,6 @@
     "general",
     "trolly",
     "man",
-    "tesco",
-    "burgess",
-    "hill",
     "yesterday",
     "morning",
     "customer",
@@ -3802,8 +3524,6 @@
   "Virgin Medium": [
     "general",
     "customer",
-    "virgin",
-    "medium",
     "issue",
     "email",
     "others",
@@ -3850,15 +3570,12 @@
   "Park Express Store": [
     "general",
     "tesco",
-    "express",
     "petrol",
-    "store",
     "thornton",
     "heath",
     "london",
     "road",
     "new",
-    "park",
     "email",
     "address",
     "complaint",
@@ -3871,16 +3588,12 @@
     "andrex",
     "toilet",
     "tissue",
-    "roll",
-    "aloe",
-    "vera",
     "offer"
   ],
   "Energy": [
     "general",
     "staff",
     "tesco",
-    "energy",
     "week",
     "sugar",
     "drink",
@@ -3901,7 +3614,6 @@
   "Gillingham": [
     "general",
     "service",
-    "gillingham",
     "tesco",
     "kent",
     "store",
@@ -3920,8 +3632,6 @@
     "christmas",
     "xbox",
     "tv",
-    "service",
-    "tesco",
     "click",
     "station",
     "sign",
@@ -3949,8 +3659,6 @@
     "beard",
     "trimmer",
     "receipt",
-    "tesco",
-    "guarantee",
     "product",
     "year"
   ],
@@ -3960,9 +3668,6 @@
     "tunnock",
     "tea",
     "cake",
-    "hendon",
-    "express",
-    "store",
     "may"
   ],
   "Oxford Road": [
@@ -3970,8 +3675,6 @@
     "afternoon",
     "tesco",
     "express",
-    "oxford",
-    "road",
     "abingdon",
     "thanks",
     "staff",
@@ -3987,14 +3690,11 @@
   ],
   "Bournemouth University": [
     "general",
-    "way",
-    "bournemouth",
-    "university"
+    "way"
   ],
   "TOTAL": [
     "general",
-    "tesco",
-    "total"
+    "tesco"
   ],
   "Pom": [
     "general",
@@ -4030,7 +3730,6 @@
     "one",
     "home",
     "price",
-    "pom",
     "offer",
     "tesco!",
     "tak",
@@ -4062,10 +3761,7 @@
     "general",
     "easy",
     "entertaining",
-    "yesterday",
-    "afternoon",
-    "tea",
-    "party"
+    "yesterday"
   ],
   "IS": [
     "general",
@@ -4080,7 +3776,6 @@
   ],
   "Horse": [
     "general",
-    "horse",
     "today",
     "driver",
     "voucher",
@@ -4093,8 +3788,6 @@
     "tesco",
     "shopping",
     "jar",
-    "shop",
-    "scan",
     "store",
     "service",
     "check"
@@ -4102,9 +3795,6 @@
   "Tesco Direct Id": [
     "general",
     "steve",
-    "tesco",
-    "direct",
-    "id",
     "number",
     "abe29"
   ],
@@ -4138,27 +3828,18 @@
     "tesco",
     "branch",
     "yesterday",
-    "bogof",
-    "pampers",
-    "activ",
-    "fit",
     "size",
     "pack",
     "\u00a38"
   ],
   "MISTAKE": [
     "general",
-    "mistake",
     "tesco",
     "store"
   ],
   "Montessori Autism Care Centre": [
     "general",
     "hope",
-    "montessori",
-    "autism",
-    "care",
-    "centre",
     "fundraising",
     "ball",
     "business",
@@ -4178,9 +3859,6 @@
     "bag",
     "soaking",
     "degree",
-    "work",
-    "apple",
-    "mac",
     "laptop"
   ],
   "Hp Deskjet": [
@@ -4188,8 +3866,6 @@
     "yesterday",
     "morning",
     "price",
-    "hp",
-    "deskjet",
     "online"
   ],
   "Human Centi-peach": [
@@ -4207,7 +3883,6 @@
     "mile",
     "load",
     "vehicle",
-    "nissan",
     "plant",
     "sunderland",
     "site",
@@ -4236,7 +3911,6 @@
     "tesco",
     "gift",
     "card",
-    "svm",
     "global",
     "ltd.",
     "setup",
@@ -4270,9 +3944,6 @@
     "grey",
     "rooibos",
     "tea",
-    "bear",
-    "alphabites",
-    "cocoa",
     "cereal",
     "<ed><u+00b8><u+0095>",
     "chance",
@@ -4343,9 +4014,6 @@
   ],
   "Customer Service Manager": [
     "general",
-    "customer",
-    "service",
-    "manager",
     "item",
     "week",
     "october",
@@ -4368,13 +4036,6 @@
   ],
   "Bird Eye Gastro Pub Beer Battered Cod": [
     "general",
-    "bird",
-    "eye",
-    "gastro",
-    "pub",
-    "beer",
-    "battered",
-    "cod",
     "rating",
     "batter",
     "pollack"
@@ -4383,7 +4044,6 @@
     "general",
     "bread",
     "sainsbury",
-    "wenzels",
     "corner",
     "department",
     "class",
@@ -4395,9 +4055,6 @@
   "Tesco Express Stokenchurch": [
     "general",
     "alarm",
-    "tesco",
-    "express",
-    "stokenchurch",
     "night",
     "week"
   ],
@@ -4409,9 +4066,6 @@
   "Widnes Extra Store": [
     "general",
     "mum",
-    "widnes",
-    "extra",
-    "store",
     "card",
     "stamp",
     "change",
@@ -4445,10 +4099,7 @@
     "meltdown"
   ],
   "Tesco Grocery Delivery": [
-    "general",
-    "tesco",
-    "grocery",
-    "delivery"
+    "general"
   ],
   "Coopers": [
     "general",
@@ -4485,24 +4136,17 @@
     "battery",
     "banking",
     "card",
-    "reader",
-    "eco",
-    "aa"
+    "reader"
   ],
   "Accident Management Team": [
     "general",
     "thanks",
     "response",
     "christie",
-    "accident",
-    "management",
-    "team",
     "one"
   ],
   "Tesco Aldershot": [
     "general",
-    "tesco",
-    "aldershot",
     "week",
     "row",
     "oen",
@@ -4516,7 +4160,6 @@
     "general",
     "tesco",
     "today",
-    "school",
     "child",
     "year",
     "trolley",
@@ -4531,14 +4174,11 @@
   "Bristol X": [
     "general",
     "thanks",
-    "yate",
-    "bristol"
+    "yate"
   ],
   "Early Learning Centre": [
     "general",
     "tesco",
-    "learning",
-    "centre",
     "entertainer",
     "order",
     "stock",
@@ -4558,7 +4198,6 @@
   "University": [
     "general",
     "tesco",
-    "university",
     "order",
     "daughter",
     "service",
@@ -4573,7 +4212,6 @@
   "Springhill": [
     "general",
     "tesco",
-    "springhill",
     "today",
     "box",
     "paracetamol",
@@ -4611,14 +4249,11 @@
     "tesco",
     "shop",
     "price",
-    "quaker",
     "oat"
   ],
   "Alver Village": [
     "general",
     "store",
-    "alver",
-    "village",
     "gosport",
     "superstore",
     "magazine"
@@ -4629,7 +4264,6 @@
     "sauce",
     "st",
     "peter",
-    "worcester",
     "store",
     "member",
     "staff",
@@ -4646,7 +4280,6 @@
   "Norton": [
     "general",
     "midsomer",
-    "norton",
     "branch",
     "store",
     "tesco",
@@ -4659,7 +4292,6 @@
   "Lincoln": [
     "general",
     "lincolnshire",
-    "lincoln",
     "tesco",
     "store",
     "wragby",
@@ -4678,7 +4310,6 @@
   ],
   "Taste": [
     "general",
-    "taste",
     "tesco"
   ],
   "ANYMORE": [
@@ -4691,10 +4322,6 @@
     "rapid",
     "relief",
     "team",
-    "aberdeen",
-    "clan",
-    "cancer",
-    "sponsored",
     "walk"
   ],
   "BABS": [
@@ -4710,7 +4337,6 @@
     "meal",
     "<ed><u+00a0><u+00bd>",
     "message",
-    "babs",
     "customer",
     "service",
     "phone"
@@ -4721,7 +4347,6 @@
     "space",
     "shelf",
     "coffee",
-    "quaker",
     "oat",
     "ginsters",
     "pasty",
@@ -4765,7 +4390,6 @@
     "work",
     "day",
     "company",
-    "umc",
     "usb"
   ],
   "OR": [
@@ -4786,8 +4410,6 @@
     "christine",
     "tesco",
     "extra",
-    "irvine",
-    "store",
     "magazine",
     "ayr",
     "easter",
@@ -4827,7 +4449,6 @@
   "SEACROFT": [
     "general",
     "tesco",
-    "seacroft",
     "leeds",
     "today",
     "staff",
@@ -4836,16 +4457,11 @@
     "store"
   ],
   "Tesco Online Service": [
-    "general",
-    "tesco",
-    "online",
-    "service"
+    "general"
   ],
   "First Earlswood": [
     "general",
     "behalf",
-    "first",
-    "earlswood",
     "rainbow",
     "nicky",
     "gillian",
@@ -4859,8 +4475,6 @@
   ],
   "Red Bounty": [
     "general",
-    "red",
-    "bounty",
     "bar",
     "chocolate"
   ],
@@ -4868,7 +4482,6 @@
     "general",
     "day",
     "toshiba",
-    "hdd",
     "fact",
     "box",
     "tesco",
@@ -4879,8 +4492,6 @@
   ],
   "Bridgewater Service": [
     "general",
-    "bridgewater",
-    "service",
     "today",
     "exhaust",
     "box",
@@ -4895,8 +4506,6 @@
     "relation",
     "world",
     "sport",
-    "electronic",
-    "art",
     "football",
     "game",
     "day",
@@ -4910,8 +4519,6 @@
     "son",
     "bit",
     "incident",
-    "castlereagh",
-    "store",
     "belfast"
   ],
   "Disney Princess": [
@@ -4933,8 +4540,6 @@
     "cooky",
     "hate",
     "time",
-    "disney",
-    "princess",
     "spaghetti",
     "car",
     "photo",
@@ -4956,12 +4561,7 @@
     "peter",
     "mitchell",
     "alex",
-    "mckenzie",
-    "tesco",
-    "direct",
-    "customer",
-    "service",
-    "team"
+    "mckenzie"
   ],
   "Junction Store": [
     "general",
@@ -4971,8 +4571,6 @@
     "deluxe",
     "edition",
     "llandudno",
-    "junction",
-    "store",
     "copy"
   ],
   "Place Store": [
@@ -4983,8 +4581,6 @@
     "week",
     "leeds",
     "bridgewater",
-    "place",
-    "store",
     "morning",
     "car",
     "park",
@@ -4998,7 +4594,6 @@
     "company",
     "streatham",
     "store",
-    "2episodes",
     "theft",
     "day",
     "nothing"
@@ -5014,9 +4609,6 @@
     "general",
     "sushi",
     "morning",
-    "ravenside",
-    "store",
-    "bexhill",
     "sea",
     "lunch",
     "date",
@@ -5027,20 +4619,16 @@
     "thankyou",
     "member",
     "scunthorpe",
-    "team",
-    "big"
+    "team"
   ],
   "Scunthorpe Team": [
     "general",
     "member",
-    "scunthorpe",
-    "team",
     "big"
   ],
   "Scunthorpe": [
     "general",
     "store",
-    "scunthorpe",
     "extra",
     "tesco",
     "lady",
@@ -5076,7 +4664,6 @@
   "Pauline": [
     "general",
     "thanks",
-    "pauline",
     "murray",
     "electrical",
     "store",
@@ -5122,18 +4709,12 @@
     "pack",
     "yellow",
     "polo",
-    "shirt",
-    "daughter",
-    "school",
-    "uniform",
     "understatement"
   ],
   "Amazing Service": [
     "general",
-    "service",
     "tesco",
-    "today",
-    "amazing"
+    "today"
   ],
   "SM": [
     "general",
@@ -5142,20 +4723,12 @@
   ],
   "Classic Kitchen Chicken Roast Dinner": [
     "general",
-    "tesco",
-    "classic",
-    "kitchen",
-    "chicken",
-    "roast",
-    "dinner"
+    "tesco"
   ],
   "Cod Fish Finger": [
     "general",
     "tesco",
     "free",
-    "cod",
-    "fish",
-    "finger",
     "range"
   ],
   "From": [
@@ -5167,7 +4740,6 @@
   "Guildford": [
     "general",
     "section",
-    "guildford",
     "store",
     "tesco",
     "bridge",
@@ -5184,7 +4756,6 @@
     "gentleman",
     "lady",
     "silver",
-    "honda",
     "tesco",
     "petrol",
     "station",
@@ -5198,16 +4769,12 @@
   "Apple Store": [
     "general",
     "proof",
-    "picture",
-    "apple",
-    "store"
+    "picture"
   ],
   "Fake Apple": [
     "general",
     "tesco",
     "lakeside",
-    "fake",
-    "apple",
     "iphone",
     "charger",
     "complaint",
@@ -5216,8 +4783,6 @@
   ],
   "Three Tesco": [
     "general",
-    "three",
-    "tesco",
     "store",
     "house",
     "terry",
@@ -5227,7 +4792,6 @@
   ],
   "LEGO": [
     "general",
-    "lego",
     "son",
     "tesco",
     "store"
@@ -5235,27 +4799,16 @@
   "Broughton Rd Superstore": [
     "general",
     "question",
-    "manager",
-    "broughton",
-    "rd",
-    "superstore"
+    "manager"
   ],
   "Tesco Express Compton Acre": [
     "general",
     "staff",
-    "tesco",
-    "express",
-    "compton",
-    "acre",
     "nottingham"
   ],
   "Kepong Village Mall Incident": [
     "general",
     "location",
-    "kepong",
-    "village",
-    "mall",
-    "incident",
     "boyfriend",
     "toilet",
     "ground",
@@ -5340,7 +4893,6 @@
     "website",
     "partner",
     "company",
-    "comfy",
     "day",
     "box",
     "living",
@@ -5350,7 +4902,6 @@
   ],
   "Thanks": [
     "general",
-    "thanks",
     "tesco"
   ],
   "PASICS": [
@@ -5361,7 +4912,6 @@
     "office",
     "fund",
     "charity",
-    "pasics",
     "call",
     "email",
     "advice"
@@ -5372,9 +4922,6 @@
     "baby",
     "club",
     "oct",
-    "st",
-    "john",
-    "ambulance",
     "crp",
     "awareness",
     "store",
@@ -5386,10 +4933,8 @@
     "general",
     "trip",
     "tescos",
-    "store",
     "service",
     "customer",
-    "oakham",
     "yesterday",
     "lady",
     "help",
@@ -5422,17 +4967,12 @@
   ],
   "James Paget Hospital": [
     "general",
-    "james",
-    "paget",
-    "hospital",
     "gorleston",
     "great",
     "yarmouth"
   ],
   "Samsung Tab A": [
     "general",
-    "samsung",
-    "tab",
     "tablet",
     "christmas"
   ],
@@ -5443,8 +4983,6 @@
     "mill",
     "crust",
     "bread",
-    "mark",
-    "farm",
     "braintree",
     "today",
     "audi",
@@ -5489,8 +5027,6 @@
   "Sweet Chilli Chicken": [
     "general",
     "thing",
-    "chilli",
-    "chicken",
     "pizza",
     "product",
     "southern",
@@ -5503,10 +5039,6 @@
     "general",
     "friday",
     "7th",
-    "october",
-    "hampden",
-    "weir",
-    "rafc",
     "fundraising",
     "race",
     "night",
@@ -5530,7 +5062,6 @@
     "lady",
     "fuss",
     "daughter",
-    "annabelle",
     "nose",
     "trolly",
     "store",
@@ -5561,16 +5092,10 @@
   ],
   "Nobbys Nut Tangy Bbq": [
     "general",
-    "nobbys",
-    "nut",
-    "tangy",
-    "bbq",
     "flavour"
   ],
   "Tuscan Bean": [
     "general",
-    "tuscan",
-    "bean",
     "soup",
     "grocery",
     "order",
@@ -5597,18 +5122,15 @@
     "hobnobs",
     "staff",
     "checkout",
-    "night",
-    "pj"
+    "night"
   ],
   "Well Done Tesco": [
     "general",
-    "tesco",
     "<ed><u+00a0><u+00bd>",
     "unilever"
   ],
   "Unilever": [
     "general",
-    "unilever",
     "product",
     "tesco",
     "price"
@@ -5631,20 +5153,13 @@
     "voucher",
     "donation",
     "pick",
-    "equipment",
-    "cadoxton",
-    "conservation",
-    "group"
+    "equipment"
   ],
   "Community Champion Adele Stephenson": [
     "general",
     "big",
     "huge",
     "thank",
-    "community",
-    "champion",
-    "adele",
-    "stephenson",
     "tesco",
     "port",
     "rd",
@@ -5677,7 +5192,6 @@
     "return",
     "day",
     "purchase",
-    "lenovo",
     "morning",
     "behalf",
     "health",
@@ -5730,11 +5244,7 @@
     "project",
     "soil",
     "sensory",
-    "garden",
-    "big",
-    "red",
-    "food",
-    "shed"
+    "garden"
   ],
   "White Beauty": [
     "general",
@@ -5743,18 +5253,13 @@
     "product",
     "consumer",
     "fair",
-    "lovely",
-    "white",
-    "beauty"
+    "lovely"
   ],
   "Hewitts Circus Store": [
     "general",
     "thanks",
     "lady",
     "team",
-    "hewitts",
-    "circus",
-    "store",
     "cleethorpes"
   ],
   "Ashton": [
@@ -5762,7 +5267,6 @@
     "kew",
     "southport",
     "store",
-    "ashton",
     "parson",
     "teething",
     "powder",
@@ -5787,7 +5291,6 @@
     "bottom",
     "bin",
     "thomas",
-    "glow",
     "mini",
     "tesco",
     "book",
@@ -5850,9 +5353,6 @@
     "tesco",
     "due",
     "requirement",
-    "mattessons",
-    "turkey",
-    "rasher",
     "store",
     "week",
     "product",
@@ -5862,31 +5362,23 @@
   "MARMITE": [
     "general",
     "cheese",
-    "marmite",
     "product",
     "tesco"
   ],
   "Brand": [
     "general",
     "tesco",
-    "brand",
     "product",
     "store",
     "animal"
   ],
   "Tesco Express Bilston": [
     "general",
-    "tesco",
-    "express",
-    "bilston",
     "date",
     "guy"
   ],
   "Tesco Toy Tester": [
     "general",
-    "tesco",
-    "toy",
-    "tester",
     "friendliest",
     "herd",
     "horse",
@@ -5911,8 +5403,6 @@
     "general",
     "call",
     "duty",
-    "modern",
-    "warfare",
     "tesco",
     "direct",
     "weekend",
@@ -5933,11 +5423,6 @@
     "wolverhampton",
     "food",
     "donation",
-    "tab",
-    "kitchen",
-    "tabernacle",
-    "baptist",
-    "church",
     "dunstall",
     "guest",
     "thursday",
@@ -5953,10 +5438,6 @@
   ],
   "Tesco Express Penn Road": [
     "general",
-    "tesco",
-    "express",
-    "penn",
-    "road",
     "wolverhampton",
     "food",
     "donation",
@@ -5988,15 +5469,11 @@
   ],
   "Tesco Welsh Butter": [
     "general",
-    "tesco",
-    "welsh",
-    "butter",
     "england"
   ],
   "Double Discount": [
     "general",
     "weekend",
-    "discount",
     "week",
     "stock",
     "privilege",
@@ -6011,7 +5488,6 @@
     "delivery",
     "preference",
     "isn",
-    "double",
     "everything",
     "out",
     "stock.",
@@ -6024,17 +5500,12 @@
     "female",
     "employeee",
     "week",
-    "leeds",
-    "bridgewater",
     "place",
     "store"
   ],
   "St Stephen Hull": [
     "general",
     "tesco",
-    "st",
-    "stephen",
-    "hull",
     "self",
     "service",
     "customer",
@@ -6142,8 +5613,7 @@
     "page",
     "today",
     "monday",
-    "company",
-    "beta"
+    "company"
   ],
   "AFTER": [
     "general",
@@ -6159,9 +5629,6 @@
     "tesco",
     "extra",
     "redruth",
-    "costa",
-    "coffee",
-    "cafe",
     "team"
   ],
   "Ravenside Store": [
@@ -6171,8 +5638,6 @@
     "jane",
     "fishmonger",
     "bexhill",
-    "ravenside",
-    "store",
     "yesterday",
     "afternoon",
     "sushi",
@@ -6185,8 +5650,6 @@
     "general",
     "tesco",
     "hardwick",
-    "king",
-    "lynn",
     "gaywood",
     "fund",
     "car",
@@ -6210,7 +5673,6 @@
   ],
   "Leicester": [
     "general",
-    "leicester",
     "narborough",
     "road",
     "store",
@@ -6233,23 +5695,16 @@
   ],
   "Bristol Brislington": [
     "general",
-    "bristol",
-    "brislington",
     "optician",
     "manager"
   ],
   "Bell Family Xxx": [
     "general",
-    "bell",
-    "family",
-    "xxx",
     "anyone",
     "wendy"
   ],
   "Eu Tesco": [
     "general",
-    "eu",
-    "tesco",
     "shopping",
     "bill",
     "case"
@@ -6257,14 +5712,11 @@
   "Bean Soup": [
     "general",
     "tuscan",
-    "bean",
-    "soup",
     "tesco",
     "chilli"
   ],
   "Chilli": [
     "general",
-    "chilli",
     "tesco",
     "chicken",
     "store",
@@ -6287,14 +5739,12 @@
     "popcorn",
     "customer",
     "cupcake",
-    "pc",
     "point"
   ],
   "American Spirit": [
     "general",
     "anyone",
     "supply",
-    "spirit",
     "tobacco"
   ],
   "SEALED": [
@@ -6317,7 +5767,6 @@
   ],
   "Good Job": [
     "general",
-    "job",
     "tesco",
     "store",
     "staff"
@@ -6360,19 +5809,12 @@
   "Tab Kitchen Tabernacle Baptist Church Dunstall Road": [
     "general",
     "penn",
-    "road",
     "birch",
     "barn",
     "express",
     "store",
     "food",
     "donation",
-    "tab",
-    "kitchen",
-    "tabernacle",
-    "baptist",
-    "church",
-    "dunstall",
     "wolverhampton",
     "men",
     "woman",
@@ -6386,8 +5828,6 @@
     "experience",
     "lea",
     "bridge",
-    "road",
-    "express",
     "london",
     "penn",
     "birch",
@@ -6410,10 +5850,6 @@
   "Girlguiding Dorset Senior Section": [
     "general",
     "happy",
-    "girlguiding",
-    "dorset",
-    "senior",
-    "section",
     "member",
     "food",
     "event"
@@ -6432,7 +5868,6 @@
   "Jet": [
     "general",
     "delivery",
-    "jet",
     "mummy",
     "time",
     "jetters",
@@ -6459,8 +5894,6 @@
     "journey",
     "home",
     "thru",
-    "stone",
-    "cross",
     "west",
     "bromwich",
     "tea-time",
@@ -6481,11 +5914,7 @@
   ],
   "Ilkeston Extra Store Cafe": [
     "general",
-    "lady",
-    "ilkeston",
-    "extra",
-    "store",
-    "cafe"
+    "lady"
   ],
   "Thai Sweet Chicken": [
     "general",
@@ -6496,9 +5925,6 @@
     "pack",
     "flavour",
     "chilli",
-    "thai",
-    "sweet",
-    "chicken",
     "2nd",
     "king",
     "prawn",
@@ -6513,16 +5939,10 @@
   ],
   "Tesco Direct Price Match Page": [
     "general",
-    "tesco",
-    "direct",
-    "direction",
-    "price",
-    "match",
-    "page"
+    "direction"
   ],
   "HOME": [
     "general",
-    "home",
     "store",
     "delivery",
     "tesco",
@@ -6530,8 +5950,6 @@
   ],
   "Toffee Apple": [
     "general",
-    "toffee",
-    "apple",
     "bag",
     "peanut",
     "nut",
@@ -6565,17 +5983,11 @@
   ],
   "Toffee Apple Ham": [
     "general",
-    "toffee",
-    "apple",
-    "ham",
     "tesco"
   ],
   "Tesco Express Glen Road Plympton": [
     "general",
-    "tesco",
     "staff",
-    "road",
-    "plympton",
     "member",
     "greg",
     "steve"
@@ -6583,9 +5995,6 @@
   "National Autistic Society": [
     "general",
     "money",
-    "national",
-    "autistic",
-    "society",
     "son",
     "autism",
     "cause",
@@ -6594,8 +6003,6 @@
   ],
   "Dairy Free Chilled": [
     "general",
-    "dairy",
-    "free",
     "section",
     "valley",
     "nottingham"
@@ -6607,8 +6014,6 @@
     "delivery",
     "driver",
     "dave",
-    "clay",
-    "cross",
     "chesterfield",
     "store",
     "cat",
@@ -6642,9 +6047,6 @@
   ],
   "Tesco Hipperholme & Brighouse": [
     "general",
-    "tesco",
-    "hipperholme",
-    "brighouse",
     "charity",
     "night",
     "overgate",
@@ -6652,7 +6054,6 @@
   ],
   "Alpro": [
     "general",
-    "alpro",
     "price",
     "litre",
     "dairy",
@@ -6681,7 +6082,6 @@
     "loaf",
     "wrapping",
     "sourdough",
-    "bloomer",
     "packet",
     "packaging",
     "right",
@@ -6705,7 +6105,6 @@
   "JET": [
     "general",
     "delivery",
-    "jet",
     "mummy",
     "time",
     "jetters",
@@ -6729,7 +6128,6 @@
     "general",
     "team",
     "tesco",
-    "arena",
     "park",
     "coventry",
     "girl",
@@ -6756,10 +6154,7 @@
   "Tesco Arena Coventry": [
     "general",
     "today",
-    "tesco",
     "shop",
-    "arena",
-    "coventry",
     "entrance",
     "candy",
     "crush",
@@ -6789,7 +6184,6 @@
   "Strawberry -": [
     "general",
     "scottish",
-    "strawberry",
     "saltire",
     "re",
     "product",
@@ -6803,24 +6197,17 @@
     "terrible",
     "customer",
     "service",
-    "manager",
-    "purley",
-    "store"
+    "manager"
   ],
   "Tesco Claim Department": [
     "general",
     "morning",
-    "phonecall",
-    "tesco",
-    "claim",
-    "department"
+    "phonecall"
   ],
   "Alvaston Express": [
     "general",
     "order",
     "book",
-    "alvaston",
-    "express",
     "friday",
     "visited",
     "branch",
@@ -6836,17 +6223,12 @@
     "tesco",
     "bedford",
     "riverside",
-    "joint",
-    "ace",
     "offer",
     "day",
     "shelf"
   ],
   "Tesco Bedford Riverside": [
     "general",
-    "tesco",
-    "bedford",
-    "riverside",
     "joint",
     "ace",
     "offer",
@@ -6855,7 +6237,6 @@
   ],
   "Charming": [
     "general",
-    "charming",
     "way",
     "woman"
   ],
@@ -6868,8 +6249,6 @@
   ],
   "Toy For Clubcard": [
     "general",
-    "toy",
-    "clubcard",
     "voucher",
     "christmas",
     "year"
@@ -6877,7 +6256,6 @@
   "Karen": [
     "general",
     "shopping",
-    "karen",
     "way",
     "round",
     "money",
@@ -6919,12 +6297,9 @@
     "door",
     "veteran",
     "friend",
-    "royal",
-    "british",
-    "legion",
     "caveat",
     "millionaire",
-    "boss",
+    "bos",
     "people",
     "look",
     "box",
@@ -6950,18 +6325,12 @@
     "aylesbury",
     "community",
     "room",
-    "tesco",
-    "cancer",
-    "care",
-    "haematology",
-    "fund"
+    "tesco"
   ],
   "Community Room": [
     "general",
     "lady",
     "son",
-    "community",
-    "room",
     "altrincham",
     "tesco",
     "morning",
@@ -7020,9 +6389,6 @@
   "Bognor Regis Store": [
     "general",
     "shopping",
-    "bognor",
-    "regis",
-    "store",
     "area",
     "collection",
     "signpost",
@@ -7048,15 +6414,11 @@
     "safety",
     "regulation",
     "i\u2019ve",
-    "matter",
-    "broxbourne",
-    "council"
+    "matter"
   ],
   "Health & Safety": [
     "general",
     "violation",
-    "health",
-    "safety",
     "concern",
     "world",
     "trust",
@@ -7083,8 +6445,6 @@
   "Old Pond": [
     "general",
     "cheshunt",
-    "old",
-    "pond",
     "branch",
     "herts",
     "email",
@@ -7104,14 +6464,11 @@
     "year",
     "son",
     "disney",
-    "lion",
-    "guard",
     "figure"
   ],
   "Sarah": [
     "general",
     "thanks",
-    "sarah",
     "team",
     "tesco",
     "store",
@@ -7123,8 +6480,6 @@
     "tesco",
     "mythos",
     "lager",
-    "aldershot",
-    "store",
     "month",
     "dear",
     "dash",
@@ -7151,9 +6506,6 @@
     "general",
     "horrified",
     "tesco",
-    "park",
-    "farm",
-    "ashford",
     "kent",
     "sugar",
     "crush",
@@ -7172,10 +6524,6 @@
     "sophie",
     "cadet",
     "money",
-    "royal",
-    "british",
-    "legion",
-    "poppy",
     "appeal"
   ],
   "l": [
@@ -7199,7 +6547,6 @@
     "box",
     "tesco",
     "packet",
-    "srp",
     "pallet",
     "customer",
     "cost",
@@ -7213,15 +6560,12 @@
   ],
   "Tesco Infant Paracetamol": [
     "general",
-    "tesco",
     "min",
     "hotel",
     "<ed><u+00a0><u+00bd>",
     "<ed><u+00b8><u+0080>",
     "night",
-    "bottle",
-    "infant",
-    "paracetamol"
+    "bottle"
   ],
   "St George": [
     "general",
@@ -7232,8 +6576,6 @@
     "shame",
     "sign",
     "anything",
-    "st",
-    "george",
     "day",
     "salford",
     "effort",
@@ -7290,16 +6632,11 @@
     "point",
     "food",
     "collection",
-    "bramcote",
-    "animal",
-    "rescue"
+    "bramcote"
   ],
   "Russian Standard Vodka": [
     "general",
     "bottle",
-    "russian",
-    "standard",
-    "vodka",
     "lewisham",
     "store"
   ],
@@ -7310,7 +6647,6 @@
     "service",
     "manager",
     "ian",
-    "johnson",
     "dan",
     "surname",
     "wrexham",
@@ -7335,7 +6671,6 @@
   "BFPO": [
     "general",
     "delivery",
-    "bfpo",
     "home",
     "comfort",
     "<ed><u+00a0><u+00bd>",
@@ -7359,7 +6694,6 @@
     "general",
     "time",
     "tesco",
-    "burnley",
     "store",
     "customer",
     "shopping",
@@ -7373,7 +6707,6 @@
   ],
   "MUSLIM": [
     "general",
-    "muslim",
     "tesco",
     "london",
     "soldier",
@@ -7384,7 +6717,6 @@
   ],
   "Euro": [
     "general",
-    "euro",
     "tesco",
     "europe",
     "ireland"
@@ -7395,18 +6727,11 @@
     "express",
     "store",
     "penn",
-    "rd",
     "birch",
     "barn",
     "wolverhampton",
     "food",
     "donation",
-    "tab",
-    "kitchen",
-    "tabernacle",
-    "baptist",
-    "church",
-    "dunstall",
     "guest",
     "thursday",
     "dianne"
@@ -7416,8 +6741,6 @@
     "tesco",
     "express",
     "store",
-    "penn",
-    "rd",
     "birch",
     "barn",
     "wolverhampton",
@@ -7435,8 +6758,6 @@
   ],
   "Welsh Dragon": [
     "general",
-    "welsh",
-    "dragon",
     "butter",
     "uk"
   ],
@@ -7459,14 +6780,10 @@
     "shout",
     "staff",
     "morning",
-    "tesco",
-    "express",
-    "granville",
     "st"
   ],
   "Arla Best Of": [
     "general",
-    "arla",
     "milk"
   ],
   "Bulgarian": [
@@ -7487,15 +6804,11 @@
   "Bud Light": [
     "general",
     "plan",
-    "bud",
-    "light",
     "summer",
     "beer"
   ],
   "Jelly Fish": [
     "general",
-    "jelly",
-    "fish",
     "vinegar",
     "tesco"
   ],
@@ -7508,16 +6821,11 @@
     "general",
     "thanks",
     "tesco",
-    "bread",
-    "megan",
-    "gill"
+    "bread"
   ],
   "Transit Way Plymouth": [
     "general",
     "tesco",
-    "transit",
-    "way",
-    "plymouth",
     "help",
     "support",
     "evening",
@@ -7548,26 +6856,18 @@
     "miss",
     "charity",
     "heart",
-    "vale",
-    "white",
-    "horse"
+    "vale"
   ],
   "Charity Heart Vale": [
     "general",
     "thanks",
     "miss",
-    "charity",
-    "heart",
-    "vale",
     "white",
     "horse"
   ],
   "Oxford Brick Art": [
     "general",
     "raffle",
-    "oxford",
-    "brick",
-    "art",
     "stall",
     "christmas",
     "present",
@@ -7575,9 +6875,6 @@
   ],
   "British Heart Foundation": [
     "general",
-    "british",
-    "heart",
-    "foundation",
     "charity",
     "italian",
     "buffet-",
@@ -7608,11 +6905,6 @@
   ],
   "British Heart Foundation Charity Italian": [
     "general",
-    "british",
-    "heart",
-    "foundation",
-    "charity",
-    "italian",
     "buffet-",
     "nov",
     "abingdon",
@@ -7640,8 +6932,6 @@
     "clifton",
     "road",
     "stock",
-    "king",
-    "ginger",
     "liquor"
   ],
   "Christmas Party": [
@@ -7649,8 +6939,6 @@
     "massive",
     "tesco",
     "wishaw",
-    "christmas",
-    "party",
     "resident",
     "jumper",
     "son",
@@ -7674,28 +6962,23 @@
   "Spray Carnation": [
     "general",
     "bunch",
-    "rose",
-    "spray",
-    "carnation"
+    "rose"
   ],
   "AKTYWNEGO": [
     "general",
     "prosze",
     "podanie",
-    "numeru",
-    "aktywnego"
+    "numeru"
   ],
   "Green Shield": [
     "general",
     "staff",
     "company",
-    "shield",
     "information"
   ],
   "Anglican": [
     "general",
     "reason",
-    "anglican",
     "prayer",
     "day",
     "christmas",
@@ -7706,12 +6989,10 @@
     "exemplary",
     "service",
     "knowledge",
-    "samsung",
     "everything",
     "complaint",
     "aftercare",
     "i\u2019ve",
-    "s6",
     "champagne",
     "gold",
     "week",
@@ -7735,21 +7016,17 @@
   "Facebook": [
     "general",
     "tesco",
-    "facebook",
     "page",
     "store"
   ],
   "Chocolate": [
     "general",
     "tesco",
-    "chocolate",
     "store"
   ],
   "Metro Store": [
     "general",
     "tesco",
-    "metro",
-    "store",
     "city",
     "centre",
     "doughnut",
@@ -7759,7 +7036,6 @@
   "CARD": [
     "general",
     "gift",
-    "card",
     "tesco",
     "clubcard",
     "boost",
@@ -7771,8 +7047,6 @@
   "Bourne End": [
     "general",
     "tesco",
-    "bourne",
-    "end",
     "branch",
     "today",
     "smell",
@@ -7796,23 +7070,16 @@
     "general",
     "staff",
     "cumbernauld",
-    "town",
-    "centre",
-    "tesco",
     "photo"
   ],
   "Turdy Tring Rd Tesco": [
     "general",
-    "tesco",
     "sort",
     "god",
     "smell",
-    "tring",
     "road",
     "aylesbury",
-    "store",
-    "turdy",
-    "rd"
+    "store"
   ],
   "Hatchimals Toy": [
     "general",
@@ -7820,8 +7087,6 @@
     "visit",
     "store",
     "attempt",
-    "hatchimals",
-    "toy",
     "christmas",
     "gift",
     "time",
@@ -7837,8 +7102,6 @@
     "friend",
     "birthday",
     "january",
-    "twix",
-    "cheese",
     "cake",
     "uk",
     "store",
@@ -7858,19 +7121,13 @@
   "Value Pineapple Piece": [
     "general",
     "tesco",
-    "pineapple",
     "slice",
     "juice",
-    "value",
-    "piece",
     "syrup"
   ],
   "Plymouth Transit Way": [
     "general",
     "store",
-    "plymouth",
-    "transit",
-    "way",
     "time",
     "tesco",
     "bank",
@@ -7890,10 +7147,7 @@
     "folk",
     "example",
     "brewing",
-    "kudos",
-    "brooklyn",
-    "east",
-    "ipa"
+    "kudos"
   ],
   "NON": [
     "general",
@@ -7903,8 +7157,6 @@
   ],
   "Operation Christmas": [
     "general",
-    "operation",
-    "christmas",
     "child",
     "thing",
     "thinking",
@@ -7915,8 +7167,6 @@
   ],
   "Tesco Hednesford": [
     "general",
-    "tesco",
-    "hednesford",
     "child",
     "intimidator",
     "security",
@@ -7949,18 +7199,15 @@
     "january",
     "information",
     "update",
-    "fsa",
     "chip"
   ],
   "Celiac Disease": [
     "general",
     "people",
-    "disease",
     "bread",
     "eating",
     "gluten",
     "free",
-    "celiac",
     "body",
     "attack",
     "intestine",
@@ -7996,7 +7243,6 @@
     "sarah",
     "jessamine",
     "tesco",
-    "thetford",
     "farm",
     "fork",
     "tour",
@@ -8056,8 +7302,6 @@
     "prize",
     "christmas",
     "fair",
-    "ysgol",
-    "rhiwlas",
     "\u00a3640"
   ],
   "Christmas Fair": [
@@ -8068,7 +7312,6 @@
     "westville",
     "house",
     "school",
-    "christmas",
     "week",
     "donation",
     "source",
@@ -8077,17 +7320,12 @@
     "bangor",
     "raffle",
     "prize",
-    "fair",
     "ysgol",
     "rhiwlas",
     "\u00a3640"
   ],
   "Tesco Finest Chicken Madeira": [
     "general",
-    "tesco",
-    "finest",
-    "chicken",
-    "madeira",
     "rice",
     "triumph",
     "bag",
@@ -8180,7 +7418,6 @@
   "CV": [
     "general",
     "computer",
-    "cv",
     "question",
     "job",
     "biscuit",
@@ -8192,10 +7429,6 @@
   "Tesco Store Cheshunt Gb.": [
     "general",
     "account",
-    "tesco",
-    "store",
-    "cheshunt",
-    "gb.",
     "card",
     "evidence",
     "money"
@@ -8216,8 +7449,6 @@
     "bakery",
     "manager",
     "staff",
-    "st",
-    "leonard",
     "churchwood",
     "drive",
     "store",
@@ -8225,16 +7456,12 @@
     "loaf",
     "muck",
     "pat",
-    "brazier",
-    "church"
+    "brazier"
   ],
   "Click & Collect Desk": [
     "general",
     "store",
     "today",
-    "click",
-    "collect",
-    "desk",
     "inverness",
     "inshes",
     "service",
@@ -8258,12 +7485,9 @@
   ],
   "Kettering Tesco Extra": [
     "general",
-    "tesco",
     "staff",
     "phone",
     "shop",
-    "kettering",
-    "extra",
     "today",
     "patience",
     "cashier",
@@ -8282,10 +7506,7 @@
     "today",
     "night",
     "daughter",
-    "grandson",
-    "sheffield",
-    "child",
-    "hospital"
+    "grandson"
   ],
   "Coggeshall": [
     "general",
@@ -8293,7 +7514,6 @@
     "baby",
     "milk",
     "store",
-    "coggeshall",
     "road",
     "braintree",
     "mark",
@@ -8305,8 +7525,6 @@
   "Bell Green": [
     "general",
     "sainsburys",
-    "bell",
-    "green",
     "tesco",
     "elmers",
     "end",
@@ -8325,7 +7543,6 @@
     "visa",
     "electron",
     "card",
-    "mastercard",
     "tesco",
     "travel",
     "exchange",
@@ -8396,7 +7613,6 @@
   "ACTIFIT": [
     "general",
     "pampers",
-    "actifit",
     "bogof",
     "promotion"
   ],
@@ -8404,7 +7620,6 @@
     "general",
     "son",
     "school",
-    "jake",
     "neverland",
     "pirate",
     "doc",
@@ -8457,8 +7672,6 @@
     "cafe",
     "gilesgate",
     "store",
-    "county",
-    "durham",
     "aycliffe",
     "action"
   ],
@@ -8470,8 +7683,6 @@
     "time",
     "kitchen",
     "appliance",
-    "tesco",
-    "partner",
     "teppanyaki",
     "grill",
     "thanks",
@@ -8503,7 +7714,6 @@
   ],
   "No Tesco": [
     "general",
-    "tesco",
     "store",
     "order",
     "call",
@@ -8514,7 +7724,6 @@
   ],
   "Superstore": [
     "general",
-    "superstore",
     "tesco",
     "shopping",
     "store"
@@ -8531,9 +7740,6 @@
     "british",
     "summer",
     "fruit",
-    "plum",
-    "red",
-    "apple",
     "chance",
     "variety",
     "mango",
@@ -8541,12 +7747,10 @@
   ],
   "Inside Tesco": [
     "general",
-    "tesco",
     "meal",
     "deal",
     "stage",
     "booth",
-    "inside",
     "cashier",
     "note",
     "photo",
@@ -8561,7 +7765,6 @@
     "will",
     "course",
     "provision",
-    "claim",
     "court",
     "right",
     "head",
@@ -8581,9 +7784,6 @@
   "Tesco Tech Support": [
     "general",
     "hello...",
-    "tesco",
-    "tech",
-    "support",
     "today",
     "item",
     "copy",
@@ -8614,8 +7814,6 @@
   ],
   "Transit Way": [
     "general",
-    "transit",
-    "way",
     "service",
     "delivery",
     "grocery",
@@ -8636,26 +7834,18 @@
     "general",
     "company",
     "rspca",
-    "rabbit",
-    "welfare",
-    "association",
     "guideline",
     "information"
   ],
   "Tesco Bangor North Wale": [
     "general",
     "thanks",
-    "staff",
-    "tesco",
-    "bangor",
-    "north",
-    "wale"
+    "staff"
   ],
   "Cheese &": [
     "general",
     "change",
     "anything",
-    "cheese",
     "onion",
     "sod",
     "tesco",
@@ -8673,10 +7863,6 @@
   ],
   "Everyday Value Malt Wheat": [
     "general",
-    "everyday",
-    "value",
-    "malt",
-    "wheat",
     "vegan"
   ],
   "Vw Golf": [
@@ -8703,9 +7889,6 @@
   ],
   "Tesco Express Exmouth": [
     "general",
-    "tesco",
-    "express",
-    "exmouth",
     "date",
     "food"
   ],
@@ -8716,7 +7899,6 @@
   ],
   "WWE": [
     "general",
-    "wwe",
     "chester",
     "road",
     "stretford",
@@ -8744,7 +7926,6 @@
   ],
   "Hi Vi": [
     "general",
-    "hi",
     "lichfield",
     "store",
     "today",
@@ -8753,11 +7934,6 @@
   ],
   "Tesco Ready Rolled Round Pizza Dough Base": [
     "general",
-    "tesco",
-    "round",
-    "pizza",
-    "dough",
-    "base",
     "brand"
   ],
   "When": [
@@ -8770,9 +7946,6 @@
     "battered",
     "strawberry",
     "pack",
-    "pink",
-    "lady",
-    "apple",
     "mouldy",
     "hole",
     "bruise",
@@ -8793,16 +7966,11 @@
     "bank",
     "insurance",
     "response",
-    "policy",
-    "royal",
-    "sun",
-    "alliance"
+    "policy"
   ],
   "House Insurance": [
     "general",
     "contact",
-    "house",
-    "insurance",
     "today",
     "haven",
     "confirmation",
@@ -8834,7 +8002,6 @@
   ],
   "Transit": [
     "general",
-    "transit",
     "way",
     "service",
     "delivery",
@@ -8855,8 +8022,6 @@
   ],
   "Abbey View": [
     "general",
-    "abbey",
-    "view",
     "waltham",
     "afternoon"
   ],
@@ -8876,8 +8041,6 @@
     "general",
     "bought",
     "pack",
-    "nurofen",
-    "joint",
     "tablet",
     "friday",
     "pharmacy",
@@ -8889,8 +8052,6 @@
     "april",
     "ps4",
     "click-and-collect",
-    "manford",
-    "way",
     "tesco",
     "express",
     "e-mail",
@@ -8920,7 +8081,6 @@
   "Barkingside": [
     "general",
     "staff",
-    "barkingside",
     "store",
     "ps4",
     "customer",
@@ -8947,17 +8107,12 @@
     "general",
     "fun",
     "day",
-    "worthy",
-    "sport",
-    "social",
-    "club",
     "july"
   ],
   "Winchester": [
     "general",
     "service",
     "staff",
-    "winchester",
     "tesco",
     "extra",
     "winnall",
@@ -8977,9 +8132,6 @@
   ],
   "Public Health England": [
     "general",
-    "public",
-    "health",
-    "england",
     "people",
     "weight",
     "discount",
@@ -8998,9 +8150,6 @@
   "Coca Cola Can": [
     "general",
     "online",
-    "coca",
-    "cola",
-    "can",
     "pack",
     "store"
   ],
@@ -9016,14 +8165,11 @@
   "Holiday Insurance": [
     "general",
     "anybody",
-    "holiday",
-    "insurance",
     "tesco"
   ],
   "Customer": [
     "general",
     "store",
-    "customer",
     "service",
     "tesco",
     "staff"
@@ -9032,7 +8178,6 @@
     "general",
     "tesco",
     "clubcard",
-    "boost",
     "club",
     "card",
     "point",
@@ -9042,14 +8187,11 @@
   "Tesco Finance": [
     "general",
     "praise",
-    "tesco",
-    "finance",
     "help"
   ],
   "Armed Force": [
     "general",
     "tesco",
-    "force",
     "bikers",
     "fundraising",
     "need",
@@ -9070,8 +8212,7 @@
     "post",
     "someone",
     "...it",
-    "member",
-    "armed"
+    "member"
   ],
   "Mayo": [
     "general",
@@ -9079,7 +8220,6 @@
     "tesco",
     "store",
     "egg",
-    "mayo",
     "sandwich",
     "mayonaise",
     "chicken",
@@ -9096,8 +8236,6 @@
     "christmas",
     "gift",
     "parcel",
-    "post",
-    "office",
     "concession",
     "store",
     "way",
@@ -9140,7 +8278,6 @@
     "general",
     "tesco",
     "avocado",
-    "ocado",
     "delivery"
   ],
   "Animal Cordless": [
@@ -9159,7 +8296,6 @@
     "today",
     "way",
     "stratford",
-    "avon",
     "cinnamon",
     "raisin",
     "tesco",
@@ -9167,8 +8303,6 @@
   ],
   "Rude Health": [
     "general",
-    "rude",
-    "health",
     "organic",
     "almond",
     "milk",
@@ -9184,8 +8318,6 @@
     "store",
     "packet",
     "kellogg",
-    "ancient",
-    "grain",
     "cereal",
     "product",
     "occasion"
@@ -9206,8 +8338,7 @@
   ],
   "Fordham": [
     "general",
-    "nita",
-    "fordham"
+    "nita"
   ],
   "Ex Tesco": [
     "general",
@@ -9233,22 +8364,17 @@
     "shopping",
     "sainsbury",
     "beaconsfield",
-    "....",
-    "ex",
-    "tesco"
+    "...."
   ],
   "Tesco Apple": [
     "general",
-    "tesco",
     "custard",
-    "donut",
-    "apple"
+    "donut"
   ],
   "High School": [
     "general",
     "hero",
     "girl",
-    "school",
     "sale",
     "son",
     "age",
@@ -9256,14 +8382,12 @@
     "store",
     "choice",
     "child",
-    "high",
     "comment",
     "fact",
     "milk"
   ],
   "WINE": [
     "general",
-    "wine",
     "bottle",
     "order",
     "store",
@@ -9271,9 +8395,6 @@
   ],
   "Tesco Embroidery Service": [
     "general",
-    "tesco",
-    "embroidery",
-    "service",
     "son",
     "school",
     "jumper",
@@ -9290,9 +8411,6 @@
     "today",
     "offer",
     "kind",
-    "sugary",
-    "coca",
-    "cola",
     "drink",
     "\u00a32",
     "diet",
@@ -9305,8 +8423,6 @@
     "milk",
     "brand",
     ".e",
-    "avonmore",
-    "full",
     "fat",
     "litre",
     "tetra",
@@ -9321,20 +8437,12 @@
     "e200ah",
     "tesco",
     "bradgate",
-    "mall",
-    "beaumont",
-    "shopping",
-    "centre",
-    "ley",
-    "leicester"
+    "mall"
   ],
   "Tesco Express Cafe": [
     "general",
     "praise",
     "service",
-    "tesco",
-    "express",
-    "cafe",
     "gorton"
   ],
   "RHS": [
@@ -9358,7 +8466,6 @@
   "Shell": [
     "general",
     "tesco",
-    "shell",
     "time",
     "fruit",
     "shellac",
@@ -9374,15 +8481,11 @@
     "station",
     "car",
     "fuel",
-    "momentum",
-    "shell",
-    "vpower"
+    "momentum"
   ],
   "Plexus Insurance": [
     "general",
-    "driver",
-    "plexus",
-    "insurance"
+    "driver"
   ],
   "Delivered": [
     "general",
@@ -9395,9 +8498,7 @@
   ],
   "Clubcard Credit": [
     "general",
-    "clubcard",
     "account",
-    "credit",
     "card",
     "statement",
     "isn",
@@ -9406,8 +8507,6 @@
   ],
   "Tesco On Line": [
     "general",
-    "tesco",
-    "line",
     "drawer",
     "son",
     "bedroom",
@@ -9449,8 +8548,6 @@
   "Store Locator": [
     "general",
     "website",
-    "store",
-    "locator",
     "birmingham",
     "city",
     "centre",
@@ -9459,8 +8556,6 @@
   "Virgin Holiday": [
     "general",
     "chance",
-    "virgin",
-    "holiday",
     "customer"
   ],
   "Greyhound Gap": [
@@ -9471,8 +8566,6 @@
     "event",
     "yesterday",
     "evening",
-    "greyhound",
-    "gap",
     "huge",
     "thanks",
     "sadie",
@@ -9493,9 +8586,6 @@
     "store",
     "charity",
     "event",
-    "macmillan",
-    "cancer",
-    "support",
     "collection",
     "tomorrow",
     "customer",
@@ -9515,9 +8605,6 @@
     "welfare",
     "standard",
     "producer",
-    "tractor",
-    "assurance",
-    "scheme",
     "lifetime",
     "shopping",
     "battery",
@@ -9536,7 +8623,6 @@
     "meat",
     "production",
     "process",
-    "red",
     "zachary",
     "chicken",
     "tescos",
@@ -9547,8 +8633,6 @@
     "bought",
     "tomato",
     "morning",
-    "salford",
-    "store",
     "rest",
     "customer",
     "service",
@@ -9615,8 +8699,6 @@
     "town",
     "behalf",
     "yorkshire",
-    "air",
-    "ambulance",
     "morley",
     "leeds",
     "honour",
@@ -9652,7 +8734,6 @@
     "people",
     "difference",
     "sugar",
-    "food",
     "nut",
     "allergy",
     "gluten",
@@ -9664,8 +8745,7 @@
     "halal",
     "chinese",
     "fookds",
-    "indian",
-    "diabetic"
+    "indian"
   ],
   "Polish Food Halal Food Chinese Fookds Indian Food": [
     "general",
@@ -9676,13 +8756,8 @@
     "diet",
     "low",
     "calorie",
-    "food",
     "sugar",
     "not",
-    "halal",
-    "chinese",
-    "fookds",
-    "indian",
     "diabetic"
   ],
   "Not Diabetic": [
@@ -9696,12 +8771,10 @@
     "calorie",
     "food",
     "sugar",
-    "not",
     "halal",
     "chinese",
     "fookds",
-    "indian",
-    "diabetic"
+    "indian"
   ],
   "Calorie Food Low Sugar": [
     "general",
@@ -9710,10 +8783,6 @@
     "gluten",
     "free",
     "diet",
-    "low",
-    "calorie",
-    "food",
-    "sugar",
     "not",
     "halal",
     "chinese",
@@ -9731,8 +8800,6 @@
     "drayton",
     "park",
     "islington",
-    "n7",
-    "store",
     ":45pm",
     "march",
     "altercation",
@@ -9741,8 +8808,6 @@
   ],
   "Kettering Store": [
     "general",
-    "kettering",
-    "store",
     "evening",
     "scanner",
     "nobody",
@@ -9770,7 +8835,6 @@
   ],
   "Chester-le-Street": [
     "general",
-    "chester-le-street",
     "durham",
     "extra",
     "store"
@@ -9782,7 +8846,6 @@
   ],
   "Buxton": [
     "general",
-    "buxton",
     "difference",
     "volvic",
     "service",
@@ -9806,7 +8869,6 @@
     "general",
     "partner",
     "branch",
-    "service",
     "store",
     "home",
     "care",
@@ -9829,9 +8891,7 @@
     "lane",
     "store",
     "morning",
-    "browse",
-    "disney",
-    "tsum"
+    "browse"
   ],
   "PAYED": [
     "general",
@@ -9871,8 +8931,6 @@
   "Bank World": [
     "general",
     "tesco",
-    "bank",
-    "world",
     "mastercard",
     "income",
     "result",
@@ -9885,14 +8943,11 @@
     "voucher",
     "tesco",
     "book",
-    "weekend",
-    "best",
-    "western"
+    "weekend"
   ],
   "Waitrose": [
     "general",
     "shopping",
-    "waitrose",
     "tesco",
     "customer"
   ],
@@ -9908,7 +8963,6 @@
   ],
   "Waste": [
     "general",
-    "waste",
     "time",
     "food",
     "tesco",
@@ -9919,9 +8973,6 @@
     "dear",
     "tesco",
     "year",
-    "wyedean",
-    "business",
-    "study",
     "student",
     "enterprise",
     "idea",
@@ -9936,7 +8987,6 @@
     "sauce",
     "line",
     "beef",
-    "carne",
     "tesco!",
     "medium",
     "spicy",
@@ -9961,7 +9011,6 @@
   ],
   "Foreign Exchange": [
     "general",
-    "exchange",
     "hartlepool",
     "pound",
     "lira",
@@ -9969,7 +9018,6 @@
     "dont",
     "stirling",
     "service",
-    "foreign",
     "tesco",
     "yarrow",
     "rd",
@@ -9980,8 +9028,6 @@
     "density",
     "store",
     "london",
-    "tower",
-    "bridge",
     "area",
     "tesco",
     "home",
@@ -9991,23 +9037,17 @@
   "Bad Cake.": [
     "general",
     "message",
-    "bad",
-    "cake.",
     "item"
   ],
   "Health Centre": [
     "general",
     "morning",
     "aylesbury",
-    "road",
-    "health",
-    "centre"
+    "road"
   ],
   "Oxford Rd": [
     "general",
     "haddenham",
-    "oxford",
-    "rd",
     "driver",
     "road"
   ],
@@ -10021,8 +9061,6 @@
   "Phoned Customer Service": [
     "general",
     "driver",
-    "customer",
-    "service",
     "store",
     "tesco",
     "order"
@@ -10044,7 +9082,6 @@
   ],
   "ps4": [
     "general",
-    "ps4",
     "tesco",
     "game",
     "store",
@@ -10060,15 +9097,12 @@
   "Refugee Aid Network Charity": [
     "general",
     "food",
-    "charity",
     "tesco"
   ],
   "Wheat & Dairy": [
     "general",
     "<u+2764>",
     "gluten",
-    "wheat",
-    "dairy",
     "stuff",
     "<u+fe0f>"
   ],
@@ -10080,8 +9114,6 @@
   ],
   "Brentwood Express": [
     "general",
-    "brentwood",
-    "express",
     "store",
     "opening",
     "time",
@@ -10091,14 +9123,12 @@
   ],
   "Free Fish": [
     "general",
-    "fish",
     "finger",
     "idea",
     "outcome",
     "sharp",
     "object",
     "gluten",
-    "free",
     "tesco",
     "page",
     "way",
@@ -10110,7 +9140,6 @@
   "Kerrie": [
     "general",
     "friend",
-    "kerrie",
     "serena",
     "tesco",
     "egg"
@@ -10122,9 +9151,6 @@
     "violation",
     "tesco",
     "withernsea",
-    "uk",
-    "infant",
-    "formula",
     "follow-on",
     "regulation",
     "company",
@@ -10145,9 +9171,6 @@
     "tesco",
     "store",
     "ilkeston",
-    "warburtons",
-    "potato",
-    "cake",
     "seeded",
     "bread",
     "snyders",
@@ -10160,10 +9183,6 @@
     "bakery",
     "manager",
     "staff",
-    "st",
-    "leonard",
-    "churchwood",
-    "drive",
     "store",
     "mixer",
     "loaf",
@@ -10173,10 +9192,6 @@
     "general",
     "today",
     "text",
-    "tesco",
-    "express",
-    "burnt",
-    "oak",
     "collection"
   ],
   "INSTRUCTIONS": [
@@ -10189,7 +9204,6 @@
   "MNDA": [
     "general",
     "fund",
-    "mnda",
     "easter",
     "egg",
     "raffle"
@@ -10238,8 +9252,6 @@
     "guildford",
     "branch",
     "tesco",
-    "royal",
-    "surrey",
     "hospital",
     "university",
     "a3",
@@ -10247,7 +9259,6 @@
   ],
   "Front": [
     "general",
-    "front",
     "car",
     "staff",
     "tesco",
@@ -10257,15 +9268,10 @@
   ],
   "Tesco Wine Co Buy": [
     "general",
-    "tesco",
-    "wine",
-    "co",
-    "buy",
     "scheme"
   ],
   "Absolute Joke Tesco!": [
-    "general",
-    "joke"
+    "general"
   ],
   "Velindre Cancer Centre": [
     "general",
@@ -10275,16 +9281,11 @@
     "easter",
     "chick",
     "fund",
-    "velindre",
-    "cancer",
-    "centre",
     "cardiff"
   ],
   "Culverhouse Cross": [
     "general",
     "tesco",
-    "culverhouse",
-    "cross",
     "angela",
     "ma10",
     "id",
@@ -10337,15 +9338,10 @@
     "offerandrex",
     "toilet",
     "tissue",
-    "roll",
-    "white",
-    "save"
+    "roll"
   ],
   "Sport Relief Event": [
     "general",
-    "sport",
-    "relief",
-    "event",
     "weekend",
     "st",
     "bee",
@@ -10359,7 +9355,6 @@
   "ALDI": [
     "general",
     "tesco",
-    "aldi",
     "lidl"
   ],
   "Fat Hard Cheese": [
@@ -10381,9 +9376,6 @@
     "egg",
     "emmental",
     "medium",
-    "fat",
-    "hard",
-    "cheese",
     "mozzarella",
     "extra",
     "virgin",
@@ -10434,9 +9426,6 @@
   "Wholemeal Hot Cross": [
     "general",
     "tescos",
-    "wholemeal",
-    "hot",
-    "cross",
     "bun",
     "mile",
     "way",
@@ -10450,11 +9439,7 @@
   ],
   "Free Hot Cross Bun": [
     "general",
-    "code",
-    "free",
-    "hot",
-    "cross",
-    "bun"
+    "code"
   ],
   "Brill": [
     "general",
@@ -10468,7 +9453,6 @@
   "Bonnyrigg": [
     "general",
     "tesco",
-    "bonnyrigg",
     "rd",
     "dalkeith",
     "joke"
@@ -10477,7 +9461,6 @@
     "general",
     "tesco",
     "uckfield",
-    "entertainment",
     "game",
     "release",
     "selection",
@@ -10492,8 +9475,6 @@
   "Boswell Farm": [
     "general",
     "bit",
-    "boswell",
-    "farm",
     "beef",
     "mince",
     "wednesday",
@@ -10559,8 +9540,6 @@
   "Hewlett Packard": [
     "general",
     "cleverboxes",
-    "hewlett",
-    "packard",
     "problem",
     "work",
     "repair",
@@ -10578,8 +9557,6 @@
   "Hot Cross Bun": [
     "general",
     "tesco",
-    "cross",
-    "bun",
     "total",
     "shopping",
     "shop",
@@ -10587,7 +9564,6 @@
     "cafe",
     "citrus",
     "blueberry",
-    "hot",
     "none",
     "bakery",
     "year",
@@ -10598,7 +9574,6 @@
     "general",
     "tesco",
     "carrot",
-    "corriander",
     "soup",
     "water",
     "sugar",
@@ -10606,9 +9581,6 @@
   ],
   "Tesco Carrot & Corriander": [
     "general",
-    "tesco",
-    "carrot",
-    "corriander",
     "soup"
   ],
   "PMMCG": [
@@ -10620,17 +9592,13 @@
   "Tesco / Tescomobile": [
     "general",
     "record",
-    "tesco",
-    "tescomobile",
     "customer",
     "scam",
     "money"
   ],
   "Tesco Online": [
     "general",
-    "online",
     "today",
-    "tesco",
     "delivery",
     "time",
     "shopping",
@@ -10643,15 +9611,12 @@
     "house",
     "son",
     "smile",
-    "delivery",
-    "vanessa",
-    "strutton"
+    "delivery"
   ],
   "Easter": [
     "general",
     "egg",
     "word",
-    "easter",
     "tesco",
     "store"
   ],
@@ -10670,8 +9635,6 @@
     "shop",
     "staff",
     "member",
-    "white",
-    "audi",
     "uniform",
     "space"
   ],
@@ -10679,8 +9642,6 @@
     "general",
     "tesco",
     "express",
-    "dixons",
-    "bank",
     "parking",
     "bay",
     "shop",
@@ -10693,8 +9654,6 @@
   ],
   "Nightingale Farm": [
     "general",
-    "nightingale",
-    "farm",
     "round",
     "lettuce",
     "freshest",
@@ -10735,12 +9694,10 @@
     "trowbridge",
     "store",
     "today",
-    "world",
     "ice",
     "cream",
     "sugar",
     "haribo",
-    "perfect",
     "ala",
     "rollox"
   ],
@@ -10756,8 +9713,6 @@
     "customer",
     "service",
     "line",
-    "help",
-    "please.",
     "problem",
     "to.claim",
     "square",
@@ -10776,23 +9731,15 @@
     "sat",
     "wife",
     "bottle",
-    "lion",
-    "gate",
-    "cabernet",
-    "sauvignon",
-    "shiraz",
     "night",
     "yesterday"
   ],
   "Mayo Free Chicken": [
     "general",
-    "mayo",
     "hater",
     "cheese",
     "hope",
     "sandwich",
-    "free",
-    "chicken",
     "bacon",
     "hemel",
     "store"
@@ -10804,8 +9751,6 @@
     "member",
     "staff",
     "job",
-    "customer",
-    "service",
     "point",
     "laugh",
     "smell",
@@ -10817,9 +9762,6 @@
   "Tesco Express Verwood": [
     "general",
     "staff",
-    "tesco",
-    "express",
-    "verwood",
     "dorset",
     "debit",
     "card",
@@ -10827,7 +9769,6 @@
   ],
   "Kingsmill": [
     "general",
-    "kingsmill",
     "muffin",
     "pack",
     "warburtons",
@@ -10867,9 +9808,6 @@
     "shop",
     "tesco",
     "weekend",
-    "beef",
-    "red",
-    "wine",
     "casserole",
     "gristle",
     "fat",
@@ -10881,7 +9819,6 @@
   ],
   "SDR": [
     "general",
-    "sdr",
     "capturing",
     "shot",
     "aisle"
@@ -10895,8 +9832,6 @@
     "general",
     "brand",
     "product",
-    "palm",
-    "oil",
     "tesco",
     "forest",
     "use",
@@ -10919,8 +9854,6 @@
     "general",
     "visit",
     "new",
-    "milton",
-    "store",
     "friday",
     "father",
     "law",
@@ -10969,7 +9902,6 @@
     "general",
     "opportunity",
     "country",
-    "team",
     "spectacle",
     "tesco",
     "exciing",
@@ -10977,24 +9909,18 @@
     "year",
     "northern",
     "ireland",
-    "national",
     "france",
     "euro"
   ],
   "Tesco Express Brayton": [
     "general",
     "pump",
-    "tesco",
-    "express",
-    "brayton",
     "fuel"
   ],
   "Northern Ireland": [
     "general",
-    "ireland",
     "store",
     "tesco",
-    "northern",
     "product",
     "delivery",
     "chair",
@@ -11007,7 +9933,6 @@
     "store",
     "stock",
     "oldham",
-    "huddersfield",
     "road",
     "tesco",
     "staff",
@@ -11016,7 +9941,6 @@
   ],
   "Courier": [
     "general",
-    "courier",
     "tv",
     "tesco",
     "day",
@@ -11038,9 +9962,6 @@
   ],
   "Lazy Spa Paris": [
     "general",
-    "lazy",
-    "spa",
-    "paris",
     "stock",
     "tesco",
     "direct"
@@ -11055,7 +9976,6 @@
     "driver",
     "reg",
     "pk12",
-    "sff",
     "boy",
     "road",
     "saddler",
@@ -11085,7 +10005,6 @@
     "money",
     "tesco",
     "service",
-    "shoddy",
     "repair",
     "customer"
   ],
@@ -11094,8 +10013,6 @@
     "couple",
     "thing",
     "tesco",
-    "tv",
-    "advert",
     "customer",
     "exchange",
     "food",
@@ -11111,19 +10028,15 @@
     "general",
     "nottinghamshire",
     "store",
-    "blueberry",
-    "vinigrette",
     "salad"
   ],
   "Hot Cross": [
     "general",
     "shop",
-    "cross",
     "bun",
     "tesco",
     "store",
     "cafe",
-    "hot",
     "year"
   ],
   "Research/haven House Hospice": [
@@ -11139,8 +10052,6 @@
     "generosity",
     "cancer",
     "research",
-    "house",
-    "hospice",
     "event",
     "week"
   ],
@@ -11157,32 +10068,20 @@
     "opportunity",
     "work",
     "donation",
-    "trussell",
-    "trust",
     "others"
   ],
   "Tesco Store Cheshunt Gb": [
     "general",
-    "tesco",
-    "store",
-    "cheshunt",
-    "gb",
     "card"
   ],
   "Cheshunt Old Pond": [
     "general",
-    "cheshunt",
-    "old",
-    "pond",
     "branch",
     "herts"
   ],
   "Health & Safety Concern": [
     "general",
     "violation",
-    "health",
-    "safety",
-    "concern",
     "world",
     "trust",
     "anyone",
@@ -11216,16 +10115,11 @@
   "Royston Express": [
     "general",
     "lewis",
-    "royston",
-    "express",
     "store",
     "today"
   ],
   "Tesco Store Ff": [
     "general",
-    "tesco",
-    "store",
-    "ff",
     "manageress",
     "reduction",
     "date",
@@ -11234,8 +10128,6 @@
   ],
   "Banbury Store": [
     "general",
-    "banbury",
-    "store",
     "bit",
     "year",
     "son",
@@ -11268,7 +10160,6 @@
   "AA": [
     "general",
     "tesco",
-    "aa",
     "<ed><u+00a0><u+00bc>"
   ],
   "Rowlinson Garden Product": [
@@ -11291,16 +10182,12 @@
     "year",
     "bottle",
     "prosecco",
-    "jervis",
-    "shopping",
-    "center",
     "dublin",
     "manager"
   ],
   "Prosecco": [
     "general",
     "bottle",
-    "prosecco",
     "shopping",
     "tesco",
     "customer",
@@ -11327,28 +10214,21 @@
     "general",
     "hour",
     "fridge",
-    "sandwich",
-    "again",
-    "brady",
-    "coleslaw"
+    "sandwich"
   ],
   "Clifton Chilli Club": [
     "general",
     "jar",
     "habanero",
-    "chilli",
     "relish",
     "range",
     "boyz",
-    "girl",
-    "clifton",
-    "club"
+    "girl"
   ],
   "COSHH": [
     "general",
     "tesco",
     "time",
-    "coshh",
     "data",
     "sheet",
     "response",
@@ -11357,7 +10237,6 @@
   "UNIFORM": [
     "general",
     "school",
-    "uniform",
     "tesco",
     "store",
     "service",
@@ -11376,7 +10255,6 @@
     "computer",
     "pricing",
     "kindest",
-    "carla",
     "scam",
     "something",
     "system",
@@ -11386,7 +10264,6 @@
     "general",
     "thing",
     "scan",
-    "lady",
     "toy",
     "want",
     "paw",
@@ -11413,9 +10290,6 @@
     "tesco",
     "new",
     "milton",
-    "store",
-    "petrol",
-    "station",
     "today",
     "way",
     "member",
@@ -11441,9 +10315,7 @@
   ],
   "Scotch Egg": [
     "general",
-    "scotch",
     "whisky",
-    "egg",
     "sausage",
     "meat",
     "mind",
@@ -11475,7 +10347,6 @@
   ],
   "CUSTARD": [
     "general",
-    "custard",
     "tesco",
     "pack",
     "cream",
@@ -11489,7 +10360,6 @@
     "general",
     "tesco",
     "aldi",
-    "lidl",
     "store",
     "customer"
   ],
@@ -11497,7 +10367,6 @@
     "general",
     "delivery",
     "company",
-    "g2s",
     "tesco",
     "contact",
     "detail"
@@ -11518,16 +10387,11 @@
     "moon",
     "playgym",
     "baby",
-    "health",
-    "beauty",
     "toy"
   ],
   "Tesco Head Office": [
     "general",
     "point",
-    "tesco",
-    "head",
-    "office",
     "customer",
     "service",
     "<ed><u+00a0><u+00bd><ed><u+00b1><u+008e>",
@@ -11562,10 +10426,7 @@
   ],
   "Metro Levenshulme Manchester Evening News": [
     "general",
-    "tesco",
-    "metro",
-    "levenshulme",
-    "manchester"
+    "tesco"
   ],
   "EE": [
     "general",
@@ -11583,8 +10444,6 @@
     "africa",
     "italy",
     "chile",
-    "pink",
-    "lady",
     "pkt",
     "apple",
     "home",
@@ -11612,19 +10471,11 @@
   ],
   "Tesco Diced Chicken Breast Fillet": [
     "general",
-    "tesco",
-    "diced",
-    "chicken",
-    "breast",
-    "fillet",
     "1gram",
     "dextose"
   ],
   "Salford Extra Store": [
     "general",
-    "salford",
-    "store",
-    "extra",
     "assistance",
     "maintenence"
   ],
@@ -11632,8 +10483,6 @@
     "general",
     "post",
     "week",
-    "community",
-    "news",
     "section",
     "sylvia",
     "crocker",
@@ -11654,7 +10503,6 @@
   "Post": [
     "general",
     "tesco",
-    "post",
     "store"
   ],
   "WI": [
@@ -11668,7 +10516,6 @@
     "tesco",
     "store",
     "llansamlet",
-    "swansea",
     "car",
     "today",
     "yesterday",
@@ -11683,19 +10530,16 @@
     "load",
     "people",
     "problem",
-    "play",
     "store"
   ],
   "WAY": [
     "general",
-    "way",
     "tesco",
     "store",
     "staff"
   ],
   "Android": [
     "general",
-    "android",
     "update",
     "anyone",
     "problem",
@@ -11717,11 +10561,6 @@
   "St Laurences Primary School Ptfa": [
     "general",
     "thanks",
-    "st",
-    "laurences",
-    "primary",
-    "school",
-    "ptfa",
     "chorley"
   ],
   "Rd Hodge Hill": [
@@ -11729,15 +10568,11 @@
     "tesco",
     "store",
     "coshill",
-    "rd",
-    "hodge",
-    "hill",
     "accident",
     "fault"
   ],
   "Montrose": [
     "general",
-    "montrose",
     "branch",
     "store",
     "friday",
@@ -11755,20 +10590,15 @@
   ],
   "HACCP": [
     "general",
-    "tescos",
-    "haccp"
+    "tescos"
   ],
   "Great Service": [
     "general",
-    "service",
     "delivery",
-    "tesco",
-    "great"
+    "tesco"
   ],
   "Tower Park": [
     "general",
-    "tower",
-    "park",
     "store",
     "tesco",
     "baby",
@@ -11786,8 +10616,6 @@
   "Bristol Henleaze": [
     "general",
     "tesco",
-    "bristol",
-    "henleaze",
     "store",
     "yesterday",
     "petrol",
@@ -11797,17 +10625,10 @@
   ],
   "Tesco Spicy Chicken Pasta": [
     "general",
-    "tesco",
-    "spicy",
-    "chicken",
-    "pasta",
     "pot.....just"
   ],
   "Tesco Express Store": [
     "general",
-    "tesco",
-    "express",
-    "store",
     "complaint",
     "road",
     "staff",
@@ -11816,7 +10637,6 @@
   ],
   "HERMES": [
     "general",
-    "hermes",
     "store",
     "time",
     "line",
@@ -11833,9 +10653,6 @@
   ],
   "Pu Trouser For Senior Girl": [
     "general",
-    "pu",
-    "trouser",
-    "girl",
     "page",
     "booklet",
     "fabric",
@@ -11845,9 +10662,6 @@
   ],
   "F&f School Shop": [
     "general",
-    "f&f",
-    "school",
-    "shop",
     "booklet",
     "post",
     "couple",
@@ -11855,14 +10669,10 @@
   ],
   "Anyone": [
     "general",
-    "anyone",
     "tesco"
   ],
   "Nature Store Free From": [
     "general",
-    "nature",
-    "store",
-    "free",
     "milk",
     "chocolate",
     "rice",
@@ -11871,7 +10681,6 @@
   ],
   "ASOS": [
     "general",
-    "asos",
     "gift",
     "card",
     "birthday",
@@ -11883,14 +10692,11 @@
     "general",
     "clair",
     "longman",
-    "behalf",
-    "heathland",
-    "school"
+    "behalf"
   ],
   "Irlam Extra": [
     "general",
     "message",
-    "irlam",
     "store",
     "pat",
     "way",
@@ -11899,7 +10705,6 @@
     "magazine",
     "thursday",
     "week",
-    "extra",
     "guy",
     "trip",
     "phone",
@@ -11920,8 +10725,6 @@
     "change",
     "supplier",
     "finest",
-    "pork",
-    "loin",
     "steak",
     "complaint",
     "home",
@@ -11975,9 +10778,6 @@
     "juice",
     "bar",
     "today",
-    "cancer",
-    "research",
-    "race",
     "life",
     "blackheath",
     "runner",
@@ -11993,8 +10793,6 @@
     "recipe",
     "yogurt",
     "sauce",
-    "inspired",
-    "chicken",
     "pomegranate",
     "salad"
   ],
@@ -12010,7 +10808,6 @@
     "az",
     "christmas",
     "nie",
-    "mia",
     "lebara",
     "sim"
   ],
@@ -12019,14 +10816,11 @@
     "year",
     "delivery",
     "online",
-    "groicery",
-    "shopping",
     "auchterarder",
     "mistake"
   ],
   "Wimbledon": [
     "general",
-    "wimbledon",
     "branch",
     "customer",
     "snack",
@@ -12060,16 +10854,11 @@
     "general",
     "comment",
     "voucher",
-    "reply",
-    "home",
-    "shopping",
-    "service"
+    "reply"
   ],
   "Fish Counter": [
     "general",
     "tesco",
-    "fish",
-    "counter",
     "store",
     "today",
     "meat",
@@ -12090,12 +10879,7 @@
     "maidstone",
     "me15",
     "9fp",
-    "stock",
-    "spring",
-    "home",
-    "tyj",
-    "roll",
-    "pastry"
+    "stock"
   ],
   "JAPANESE": [
     "general",
@@ -12108,7 +10892,6 @@
     "dear",
     "tesco",
     "muddling",
-    "japanese",
     "ingredient",
     "stretford",
     "store",
@@ -12116,8 +10899,6 @@
   ],
   "Good Grain Puffed": [
     "general",
-    "grain",
-    "puffed",
     "wheat",
     "supermarket",
     "week"
@@ -12129,18 +10910,11 @@
   ],
   "Samworth Brother": [
     "general",
-    "samworth",
-    "brother",
     "supplier"
   ],
   "Everyday Value Dried Skimmed Milk": [
     "general",
-    "tesco",
-    "everyday",
-    "value",
-    "dried",
-    "skimmed",
-    "milk"
+    "tesco"
   ],
   "BT": [
     "general",
@@ -12159,7 +10933,6 @@
     "general",
     "tesco",
     "seacroft",
-    "leeds",
     "today",
     "staff",
     "food",
@@ -12167,10 +10940,8 @@
   ],
   "Dairy Cow": [
     "general",
-    "dairy",
     "pint",
     "care",
-    "cow",
     "state",
     "contrary",
     "milk",
@@ -12183,8 +10954,6 @@
   "Royal Bank": [
     "general",
     "reaction",
-    "royal",
-    "bank",
     "scotland",
     "note",
     "one"
@@ -12200,8 +10969,6 @@
     "member",
     "staff",
     "parent",
-    "space",
-    "child",
     "car",
     "park",
     "parking",
@@ -12215,8 +10982,6 @@
   "Rang Customer Service": [
     "general",
     "tesco",
-    "customer",
-    "service",
     "hold",
     "driver",
     "store",
@@ -12235,11 +11000,6 @@
     "general",
     "hi",
     "tesco",
-    "bd",
-    "trade",
-    "secret",
-    "face",
-    "lift",
     "cream"
   ],
   "Metro Tesco": [
@@ -12249,18 +11009,11 @@
     "town",
     "comment",
     "staff",
-    "metro",
-    "tesco",
     "linlithgow"
   ],
   "Tesco Express Shenley Brook End": [
     "general",
     "fall",
-    "tesco",
-    "express",
-    "shenley",
-    "brook",
-    "end",
     "friday",
     "eve"
   ],
@@ -12270,15 +11023,11 @@
     "staff",
     "cefn",
     "mawr",
-    "wrexham",
-    "n.",
-    "wale"
+    "wrexham"
   ],
   "Park Farm": [
     "general",
     "ashford",
-    "park",
-    "farm",
     "tesco",
     "branch",
     "week",
@@ -12292,7 +11041,6 @@
   ],
   "Boullieon": [
     "general",
-    "boullieon",
     "granule",
     "taste",
     "salt"
@@ -12313,15 +11061,10 @@
     "staff",
     "refresher",
     "course",
-    "paying",
     "customer"
   ],
   "Rude Health Organic Almond": [
     "general",
-    "rude",
-    "health",
-    "organic",
-    "almond",
     "milk",
     "cosham",
     "branch"
@@ -12337,18 +11080,15 @@
     "year",
     "silverside",
     "steak",
-    "steaking",
-    "not."
+    "steaking"
   ],
   "TESCOS": [
-    "general",
-    "tescos"
+    "general"
   ],
   "Havant Store": [
     "general",
     "pet",
     "cauliflower",
-    "store",
     "saturday",
     "bit",
     "fast",
@@ -12357,7 +11097,6 @@
     "kitchen",
     "wall",
     "cauliflower.",
-    "havant",
     "son",
     "point",
     "card",
@@ -12388,11 +11127,6 @@
     "experience",
     "item",
     "neil",
-    "tesco",
-    "direct",
-    "customer",
-    "service",
-    "dundee",
     "ownership",
     "step",
     "way"
@@ -12408,8 +11142,6 @@
     "today",
     "lady",
     "sampling",
-    "sun",
-    "bite",
     "popcorn"
   ],
   "Thankyou": [
@@ -12417,13 +11149,10 @@
     "tesco",
     "today",
     "staff",
-    "store",
-    "thankyou"
+    "store"
   ],
   "Wale Ape": [
     "general",
-    "wale",
-    "ape",
     "monkey",
     "sanctuary",
     "hr",
@@ -12469,11 +11198,7 @@
   "King Cross Tesco Halifax": [
     "general",
     "apple",
-    "juice",
-    "king",
-    "cross",
-    "tesco",
-    "halifax"
+    "juice"
   ],
   "Strood Express": [
     "general",
@@ -12485,14 +11210,11 @@
     "grandparent",
     "lee",
     "laura",
-    "strood",
-    "express",
     "branch",
     "saturday"
   ],
   "Quorn": [
     "general",
-    "quorn",
     "tesco",
     "vegan",
     "product",
@@ -12507,8 +11229,6 @@
     "home",
     "ice",
     "cream",
-    "shefford",
-    "express",
     "store",
     "bottom"
   ],
@@ -12520,7 +11240,6 @@
     "ciagle",
     "problemy",
     "student",
-    "bsl",
     "od",
     "jakiegos",
     "czasu",
@@ -12533,8 +11252,6 @@
   ],
   "Na Cymru": [
     "general",
-    "na",
-    "cymru",
     "support",
     "adult",
     "community"
@@ -12542,9 +11259,6 @@
   "Tesco Value Chopped": [
     "general",
     "tin",
-    "tesco",
-    "value",
-    "chopped",
     "tomato",
     "week",
     "night",
@@ -12552,8 +11266,6 @@
   ],
   "Baby Medicine": [
     "general",
-    "baby",
-    "medicine",
     "branch"
   ],
   "Jinxless": [
@@ -12564,14 +11276,7 @@
     "general",
     "tesco",
     "clothing",
-    "range",
-    "lady",
-    "stretch",
-    "super",
-    "skinny",
-    "mid",
-    "rise",
-    "jean"
+    "range"
   ],
   "Desperate": [
     "general",
@@ -12582,7 +11287,6 @@
   ],
   "RNLI": [
     "general",
-    "rnli",
     "city",
     "manchester",
     "branch",
@@ -12604,21 +11308,17 @@
   ],
   "DVLA": [
     "general",
-    "dvla",
     "licence",
     "picture"
   ],
   "Save Life": [
-    "general",
-    "life"
+    "general"
   ],
   "Long Bean &": [
     "general",
     "rm",
     "kg",
     "gram",
-    "long",
-    "bean",
     "offer",
     "price",
     "@kg"
@@ -12628,16 +11328,13 @@
     "tesco",
     "customer",
     "delivery",
-    "service",
-    "wow"
+    "service"
   ],
   "Naas Store": [
     "general",
     "kid",
     "mag",
-    "ure",
-    "naas",
-    "store"
+    "ure"
   ],
   "MY": [
     "general",
@@ -12661,8 +11358,6 @@
     "watch",
     "rugby",
     "time",
-    "bbc",
-    "radio",
     "news",
     "programming",
     "door",
@@ -12671,22 +11366,18 @@
   ],
   "SOMEONE": [
     "general",
-    "someone",
     "store",
     "tesco"
   ],
   "Everyday Value": [
     "general",
     "tesco",
-    "everyday",
-    "value",
     "range",
     "cat",
     "pack"
   ],
   "GOODBYE": [
     "general",
-    "goodbye",
     "tesco",
     "item",
     "week",
@@ -12703,8 +11394,6 @@
   ],
   "Customer Care": [
     "general",
-    "customer",
-    "care",
     "team",
     "tesco",
     "service",
@@ -12713,7 +11402,6 @@
   ],
   "DONT": [
     "general",
-    "dont",
     "store",
     "tesco",
     "time"
@@ -12721,9 +11409,6 @@
   "Morrocan Spiced Chicken": [
     "general",
     "day",
-    "morrocan",
-    "spiced",
-    "chicken",
     "soup",
     "sell",
     "date",
@@ -12746,7 +11431,6 @@
     "tesco",
     "today",
     "stop",
-    "hangry",
     "child",
     "caf\u00e9",
     "lady",
@@ -12779,9 +11463,6 @@
   ],
   "Tesco Mickleover Store": [
     "general",
-    "tesco",
-    "mickleover",
-    "store",
     "recycling",
     "car",
     "park",
@@ -12820,7 +11501,6 @@
     "tesco",
     "saltire",
     "produce",
-    "scottish",
     "product",
     "strawberry",
     "flag",
@@ -12829,19 +11509,14 @@
   ],
   "Contact Customer Service": [
     "general",
-    "customer",
-    "service",
     "order",
     "delivery",
-    "ink",
-    "contact"
+    "ink"
   ],
   "Click & Collect": [
     "general",
     "tesco",
-    "click",
     "delivery",
-    "collect",
     "today",
     "item",
     "order",
@@ -12853,7 +11528,6 @@
     "website",
     "tesco",
     "school",
-    "navy",
     "material",
     "quality",
     "one",
@@ -12869,7 +11543,6 @@
   ],
   "BLACK": [
     "general",
-    "black",
     "tesco",
     "store",
     "friday"
@@ -12880,8 +11553,6 @@
     "staff",
     "card",
     "bladder",
-    "bowel",
-    "foundation",
     "people",
     "condition",
     "access",
@@ -12892,14 +11563,11 @@
     "douwe",
     "egbert",
     "coffee",
-    "medium",
-    "roast",
     "shelf"
   ],
   "White Wine": [
     "general",
     "bottle",
-    "wine",
     "order",
     "feel",
     "valentine",
@@ -12924,7 +11592,6 @@
     "help",
     "thanks",
     "english",
-    "white",
     "marque",
     "shelf",
     "staff",
@@ -12962,10 +11629,6 @@
     "trust",
     "tesco",
     "brand",
-    "house",
-    "content",
-    "insurance",
-    "renewal",
     "quote",
     "rip",
     "customer",
@@ -12975,7 +11638,6 @@
   "GOOLE": [
     "general",
     "tesco",
-    "goole",
     "store",
     "staff",
     "lady",
@@ -12988,7 +11650,6 @@
   "WiFi": [
     "general",
     "stock",
-    "wifi",
     "tesco",
     "home",
     "hudl2",
@@ -13003,7 +11664,6 @@
     "general",
     "store",
     "balby",
-    "doncaster",
     "year",
     "delivery",
     "branch",
@@ -13017,8 +11677,6 @@
   "Care Team": [
     "general",
     "customer",
-    "care",
-    "team",
     "delivery",
     "level",
     "service",
@@ -13037,7 +11695,6 @@
     "son",
     "child",
     "money",
-    "primary",
     "st",
     "bakery",
     "charity",
@@ -13048,7 +11705,6 @@
   "NCB": [
     "general",
     "year",
-    "ncb",
     "hike",
     "sixty",
     "cent",
@@ -13069,12 +11725,7 @@
   ],
   "Gillette Fusion Power Razor Blade": [
     "general",
-    "stock",
-    "gillette",
-    "fusion",
-    "power",
-    "razor",
-    "blade"
+    "stock"
   ],
   "DIFFERENT": [
     "general",
@@ -13097,15 +11748,12 @@
     "general",
     "binweevil",
     "card",
-    "neices",
-    "tesco",
-    "limavady"
+    "neices"
   ],
   "Carrs": [
     "general",
     "security",
     "guard",
-    "carrs",
     "lane",
     "birmingham",
     "lot",
@@ -13136,10 +11784,7 @@
     "6am"
   ],
   "Milton Abbot School": [
-    "general",
-    "milton",
-    "abbot",
-    "school"
+    "general"
   ],
   "Tango": [
     "general",
@@ -13158,7 +11803,6 @@
     "kind",
     "workplace",
     "accident",
-    "tango",
     "factory",
     "year",
     "boy",
@@ -13190,7 +11834,6 @@
     "playstation",
     "rory",
     "mcllroy",
-    "pga",
     "tour)",
     "price",
     "rep",
@@ -13198,10 +11841,6 @@
   ],
   "Grocery Team Contact Form": [
     "general",
-    "grocery",
-    "team",
-    "contact",
-    "form",
     "email",
     "saturday",
     "product...",
@@ -13229,15 +11868,11 @@
   ],
   "Tesco Express Alarm": [
     "general",
-    "tesco",
-    "express",
-    "alarm",
     "area"
   ],
   "BLANDFORD": [
     "general",
     "home",
-    "blandford",
     "shop",
     "fleetsbridge",
     "poole",
@@ -13254,7 +11889,6 @@
     "team",
     "homeless",
     "street",
-    "bristol",
     "week",
     "year",
     "rain"
@@ -13271,7 +11905,6 @@
     "son",
     "info",
     "voucher",
-    "toysrus",
     "etc",
     "shame",
     "credit",
@@ -13305,7 +11938,6 @@
     "general",
     "service",
     "today",
-    "street",
     "deputy",
     "manager",
     "security",
@@ -13316,7 +11948,6 @@
     "control",
     "liverpool",
     "dale",
-    "express",
     "dissatisfaction",
     "team",
     "whitley",
@@ -13325,8 +11956,6 @@
   ],
   "Lego Scooby-doo": [
     "general",
-    "lego",
-    "scooby-doo",
     "mansion"
   ],
   "Allan High St Express": [
@@ -13335,10 +11964,6 @@
     "stirling",
     "day",
     "bridge",
-    "allan",
-    "high",
-    "st",
-    "express",
     "henderson"
   ],
   "Bridge": [
@@ -13347,14 +11972,11 @@
     "staff",
     "cambridge",
     "tesco",
-    "bridge",
     "today",
     "road"
   ],
   "University Of Stirling": [
     "general",
-    "university",
-    "stirling",
     "day",
     "bridge",
     "allan",
@@ -13365,8 +11987,6 @@
   ],
   "National Trust": [
     "general",
-    "national",
-    "trust",
     "membership"
   ],
   "OAP": [
@@ -13387,7 +12007,6 @@
   "Heritage": [
     "general",
     "english",
-    "heritage",
     "membership",
     "tesco",
     "clubcard",
@@ -13406,7 +12025,6 @@
   "Tonight": [
     "general",
     "tesco",
-    "tonight",
     "store",
     "delivery",
     "shopping",
@@ -13427,9 +12045,6 @@
   "Fentimans Curiosity Cola": [
     "general",
     "stocking",
-    "fentimans",
-    "curiosity",
-    "cola",
     "abingdon",
     "extra",
     "store"
@@ -13438,8 +12053,6 @@
     "general",
     "bit",
     "yesterday",
-    "seaton",
-    "store",
     "member",
     "staff",
     "uniform",
@@ -13461,7 +12074,6 @@
   "Aberdeenshire": [
     "general",
     "banff",
-    "aberdeenshire",
     "easter",
     "egg",
     "today",
@@ -13473,8 +12085,6 @@
   ],
   "Dairy Industry": [
     "general",
-    "dairy",
-    "industry",
     "milk",
     "way",
     "male",
@@ -13506,18 +12116,12 @@
     "general",
     "thing",
     "inquiry",
-    "serious",
-    "fraud",
-    "office",
     "accounting",
     "irregularity",
     "fine"
   ],
   "Time Business News": [
     "general",
-    "time",
-    "business",
-    "news",
     "today",
     "tesco",
     "step",
@@ -13529,8 +12133,6 @@
     "warburtons",
     "bread",
     "style",
-    "value",
-    "cat",
     "food",
     "pouch",
     "brandy",
@@ -13564,8 +12166,6 @@
     "registration",
     "number",
     "gb",
-    "tesco",
-    "plc",
     "site",
     "food",
     "charity",
@@ -13591,21 +12191,15 @@
     "site",
     "support",
     "rainbow",
-    "trust",
     "cracker",
     "drink",
     "co.",
     "profit",
-    "child",
-    "charity",
     "family"
   ],
   "Lego Marvel Avenger": [
     "general",
     "bit",
-    "lego",
-    "marvel",
-    "avenger",
     "today",
     "postman",
     "game",
@@ -13628,8 +12222,6 @@
     "trick",
     "veggie",
     "nottingham",
-    "valley",
-    "store",
     "goodness",
     "sainsbury",
     "tesco",
@@ -13642,17 +12234,12 @@
     "general",
     "clarice",
     "davy",
-    "clubcard",
-    "customer",
-    "service",
     "point"
   ],
   "Value Cherry": [
     "general",
     "experience",
     "pack",
-    "value",
-    "cherry",
     "bakewells"
   ],
   "DNS": [
@@ -13661,7 +12248,6 @@
     "supermarket",
     "message",
     "app",
-    "dns",
     "failure",
     "everytime",
     "shop",
@@ -13670,7 +12256,6 @@
   ],
   "Tesco S": [
     "general",
-    "tesco",
     "staff",
     "store"
   ],
@@ -13683,15 +12268,12 @@
   "MAGGOT": [
     "general",
     "strawberry",
-    "maggot",
     "today",
     "tesco",
     "jack"
   ],
   "Animal Welfare": [
     "general",
-    "animal",
-    "welfare",
     "standard",
     "tesco",
     "egg",
@@ -13706,8 +12288,6 @@
   "Lewisham Store": [
     "general",
     "till",
-    "lewisham",
-    "store",
     "thursday",
     "evening",
     "pigeon",
@@ -13723,7 +12303,6 @@
   ],
   "Parent": [
     "general",
-    "parent",
     "tesco",
     "child",
     "store",
@@ -13738,8 +12317,6 @@
     "cracker",
     "spring",
     "roll",
-    "egg",
-    "rice",
     "chicken",
     "nut",
     "sauce",
@@ -13753,7 +12330,6 @@
     "living",
     "sweet",
     "sour",
-    "fried",
     "tonight"
   ],
   "Sour Chicken": [
@@ -13764,7 +12340,6 @@
     "roll",
     "egg",
     "rice",
-    "chicken",
     "nut",
     "fruit",
     "veg",
@@ -13773,7 +12348,6 @@
     "tesco",
     "living",
     "sweet",
-    "sour",
     "fried",
     "tonight",
     "brand",
@@ -13793,19 +12367,12 @@
   ],
   "Everyday Value Electric Chair": [
     "general",
-    "chance",
-    "everyday",
-    "value",
-    "electric",
-    "chair"
+    "chance"
   ],
   "Hudl Tech Support": [
     "general",
     "tesco",
     "direct",
-    "hudl",
-    "tech",
-    "support",
     "date",
     "replacement",
     "refund",
@@ -13814,7 +12381,6 @@
   ],
   "MR": [
     "general",
-    "mr",
     "tesco",
     "store",
     "dear",
@@ -13845,7 +12411,6 @@
     "xmas",
     "yr",
     "laptop",
-    "hudls",
     "nothing",
     "problem",
     "daughter",
@@ -13904,7 +12469,6 @@
   "Boston": [
     "general",
     "tescos",
-    "boston",
     "lincolnshire",
     "store",
     "car",
@@ -13930,20 +12494,14 @@
   ],
   "Tesco Slow Cooker": [
     "general",
-    "tesco",
-    "cooker",
     "stock",
     "product",
     "recall",
-    "notice",
-    "slow"
+    "notice"
   ],
   "Jarmans Parkin Hemel Hempstead": [
     "general",
     "store",
-    "jarmans",
-    "parkin",
-    "hemel",
     "nothing",
     "receipt",
     "food",
@@ -13952,8 +12510,6 @@
   "Tesco Hucknall": [
     "general",
     "shopper",
-    "tesco",
-    "hucknall",
     "nottingham",
     "store",
     "child",
@@ -13988,26 +12544,19 @@
     "general",
     "everyday",
     "value",
-    "item",
-    "tesco",
-    "express",
-    "normanby"
+    "item"
   ],
   "American Slang": [
     "general",
     "tesco",
     "excuse",
     "daddy",
-    "slang",
     "baby",
     "clothes"
   ],
   "Hungry Horse Voucher": [
     "general",
     "clubcard",
-    "voucher",
-    "hungry",
-    "horse",
     "pub",
     "ie",
     "cant",
@@ -14018,8 +12567,6 @@
     "clubcard",
     "voucher",
     "hungry",
-    "horse",
-    "pub",
     "ie",
     "cant",
     "site"
@@ -14037,7 +12584,6 @@
     "general",
     "tesco",
     "store",
-    "good",
     "service"
   ],
   "Knorr Veg Stock Cube": [
@@ -14050,10 +12596,6 @@
     "pity",
     "out",
     "date",
-    "knorr",
-    "veg",
-    "stock",
-    "cube",
     "store"
   ],
   "G & T": [
@@ -14107,15 +12649,11 @@
     "general",
     "express",
     "store",
-    "fernside",
-    "st",
-    "leonard",
     "stink"
   ],
   "Your Express": [
     "general",
     "store",
-    "express",
     "tesco",
     "road"
   ],
@@ -14126,8 +12664,6 @@
   "Professional Lumberjack": [
     "general",
     "pre",
-    "professional",
-    "lumberjack",
     "november",
     "ur",
     "site",
@@ -14144,9 +12680,7 @@
     "general",
     "order",
     "tesco",
-    "dot",
     "shopping",
-    "com",
     "delivery",
     "today",
     "customer",
@@ -14161,38 +12695,27 @@
   ],
   "Hm Passport Office": [
     "general",
-    "passport",
     "parent",
     "birth",
     "certificate",
     "time",
-    "hm",
-    "office",
     "application"
   ],
   "Work": [
     "general",
     "tesco",
-    "work",
     "store",
     "staff"
   ],
   "Tesco Express Clarkston": [
     "general",
-    "tesco",
-    "express",
-    "clarkston",
     "customer"
   ],
   "Tesco Express Herne Bay": [
     "general",
     "staff",
     "reply",
-    "age",
-    "tesco",
-    "express",
-    "herne",
-    "bay"
+    "age"
   ],
   "Local": [
     "general",
@@ -14203,8 +12726,6 @@
     "general",
     "delay",
     "point",
-    "virgin",
-    "atlantic",
     "way",
     "day",
     "account",
@@ -14219,15 +12740,12 @@
     "general",
     "store",
     "hatfield",
-    "st",
     "albans",
-    "bernadenes",
     "place",
     "grocery"
   ],
   "Duty": [
     "general",
-    "duty",
     "manager",
     "call",
     "service",
@@ -14240,17 +12758,12 @@
   "Customer Service Mayflower Tesco": [
     "general",
     "been",
-    "customer",
-    "service",
-    "mayflower",
-    "tesco",
     "minute",
     "new",
     "voucher"
   ],
   "PORK": [
     "general",
-    "pork",
     "sausage",
     "tesco",
     "today",
@@ -14260,7 +12773,6 @@
   ],
   "MILK": [
     "general",
-    "milk",
     "baby",
     "tesco",
     "cow",
@@ -14271,25 +12783,16 @@
   ],
   "Dene Park Sport Club": [
     "general",
-    "dene",
-    "park",
-    "sport",
-    "club",
     "tesco"
   ],
   "Tropicana Apple": [
     "general",
     "lack",
-    "tropicana",
-    "apple",
     "juice"
   ],
   "Tropicana Apple Juice": [
     "general",
-    "lack",
-    "tropicana",
-    "apple",
-    "juice"
+    "lack"
   ],
   "Addenbrookes Charitable Trust": [
     "general",
@@ -14299,20 +12802,12 @@
     "nicholas",
     "hospice",
     "care",
-    "oncology",
-    "addenbrookes",
-    "charitable",
-    "trust"
+    "oncology"
   ],
   "St Nicholas Hospice Care And Oncology": [
     "general",
     "company",
     "charity",
-    "st",
-    "nicholas",
-    "hospice",
-    "care",
-    "oncology",
     "addenbrookes",
     "charitable",
     "trust"
@@ -14322,7 +12817,6 @@
     "staff",
     "tesco",
     "hook",
-    "hampshire",
     "complaint",
     "security",
     "store",
@@ -14330,8 +12824,6 @@
   ],
   "Self Scan": [
     "general",
-    "self",
-    "scan",
     "time",
     "tesco",
     "store",
@@ -14347,9 +12839,6 @@
   "England Cricket Team": [
     "general",
     "product",
-    "england",
-    "cricket",
-    "team",
     "series",
     "pakistan"
   ],
@@ -14368,10 +12857,6 @@
     "follow",
     "milk",
     "bought",
-    "newcastle",
-    "store",
-    "opened",
-    "morning",
     "than"
   ],
   "Askham Bar York": [
@@ -14379,9 +12864,6 @@
     "need",
     "delivery",
     "driver",
-    "askham",
-    "bar",
-    "york",
     "store",
     "mission",
     "tea",
@@ -14398,25 +12880,16 @@
   ],
   "Welsh Lamb Rump": [
     "general",
-    "counter",
-    "lamb",
-    "rump"
+    "counter"
   ],
   "Jack Daniel Barbecue Glaze": [
     "general",
     "sale",
-    "bottle",
-    "jack",
-    "daniel",
-    "barbecue",
-    "glaze"
+    "bottle"
   ],
   "Marriott Marzyy Newberry": [
     "general",
     "son",
-    "marriott",
-    "marzyy",
-    "newberry",
     "tesco",
     "yeovil",
     "eye",
@@ -14427,8 +12900,6 @@
   "Evesham Express": [
     "general",
     "croissant",
-    "evesham",
-    "express",
     "store",
     "degree",
     "curvature"
@@ -14442,20 +12913,17 @@
     "general",
     "tesco",
     "peanut",
-    "butter",
     "price",
     "welsh",
     "store"
   ],
   "THANKS": [
     "general",
-    "thanks",
     "tesco"
   ],
   "Cardiff": [
     "general",
     "tesco",
-    "cardiff",
     "store",
     "service",
     "avenue",
@@ -14467,9 +12935,6 @@
     "security",
     "guard",
     "yogi",
-    "tesco",
-    "express",
-    "kingsmead",
     "store"
   ],
   "Churchtown Express": [
@@ -14478,8 +12943,6 @@
     "caring",
     "gentleman",
     "chris",
-    "churchtown",
-    "express",
     "store"
   ],
   "HD": [
@@ -14493,7 +12956,6 @@
   "Home Shop": [
     "general",
     "store",
-    "home",
     "shopping",
     "time",
     "tesco",
@@ -14506,9 +12968,6 @@
     "general",
     "hi",
     "tesco",
-    "natural",
-    "clean",
-    "cat",
     "litter"
   ],
   "Girl Paw Patrol": [
@@ -14520,9 +12979,6 @@
     "section",
     "f&f",
     "year",
-    "girl",
-    "paw",
-    "patrol",
     "pjs"
   ],
   "BOYS": [
@@ -14537,15 +12993,12 @@
   "Poodle Group": [
     "general",
     "friend",
-    "poodle",
-    "group",
     "toy",
     "smudge",
     "popcorn"
   ],
   "OCTOBER": [
     "general",
-    "october",
     "christmas",
     "tesco",
     "store",
@@ -14553,7 +13006,6 @@
   ],
   "Brockworth": [
     "general",
-    "brockworth",
     "tesco",
     "gloucester",
     "store",
@@ -14578,8 +13030,6 @@
     "tesco",
     "gift",
     "card",
-    "svm",
-    "global",
     "ltd.",
     "setup"
   ],
@@ -14589,9 +13039,6 @@
     "tesco",
     "gift",
     "card",
-    "svm",
-    "global",
-    "ltd.",
     "setup"
   ],
   "GREAT": [
@@ -14599,8 +13046,7 @@
     "customer",
     "service",
     "tesco",
-    "store",
-    "great"
+    "store"
   ],
   "PR": [
     "general",
@@ -14614,9 +13060,6 @@
     "shop",
     "tesco",
     "store",
-    "barn",
-    "hen",
-    "eggs.",
     "supermarket",
     "egg"
   ],
@@ -14627,10 +13070,6 @@
     "standard",
     "right",
     "thing",
-    "only",
-    "sell",
-    "free",
-    "range",
     "petition",
     "egg"
   ],
@@ -14644,10 +13083,7 @@
     "service",
     "tesco",
     "abingdon",
-    "extra",
-    "assistant",
-    "store",
-    "manager"
+    "extra"
   ],
   "Loose Leaf": [
     "general",
@@ -14655,8 +13091,6 @@
     "tesco",
     "finest",
     "assam",
-    "loose",
-    "leaf",
     "tea",
     "granules.not"
   ],
@@ -14667,8 +13101,6 @@
     "brent",
     "park",
     "store",
-    "f&f",
-    "department",
     "till",
     "tesco",
     "highwoods",
@@ -14677,8 +13109,6 @@
   ],
   "Oxford English": [
     "general",
-    "oxford",
-    "english",
     "dictionary"
   ],
   "Vax Tesco": [
@@ -14691,25 +13121,19 @@
     "zan2011az",
     "fault",
     "unsafe",
-    "vax",
-    "tesco",
-    "us",
+    "u",
     "ad",
     "refund"
   ],
   "Air Speed Lite Pet": [
     "general",
     "zanussi",
-    "air",
-    "speed",
-    "lite",
-    "pet",
     "zan2011az",
     "fault",
     "unsafe",
     "vax",
     "tesco",
-    "us",
+    "u",
     "ad",
     "refund"
   ],
@@ -14728,7 +13152,6 @@
     "flavour",
     "green",
     "curry",
-    "thai",
     "tesco",
     "dear",
     "welfare",
@@ -14744,7 +13167,6 @@
     "wigston",
     "store",
     "yesterday",
-    "hallmark",
     "christmas",
     "card",
     "cartoon",
@@ -14758,19 +13180,12 @@
     "big",
     "ilkley",
     "store",
-    "westville",
-    "house",
-    "school",
-    "christmas"
+    "westville"
   ],
   "Tesco Express Brixham Devon": [
     "general",
     "security",
     "guard",
-    "tesco",
-    "express",
-    "brixham",
-    "devon",
     "....he",
     "display",
     "mince",
@@ -14789,8 +13204,6 @@
   ],
   "Security Guard": [
     "general",
-    "security",
-    "guard",
     "store",
     "today",
     "manager",
@@ -14820,16 +13233,12 @@
     "snow",
     "machine",
     "organization",
-    "ryan",
-    "tilly",
     "charlie",
     "freya",
     "xmas"
   ],
   "Tesco Cola": [
     "general",
-    "tesco",
-    "cola",
     "water",
     "lemonade",
     "sugar",
@@ -14842,12 +13251,10 @@
   ],
   "Hdu Tesco": [
     "general",
-    "tesco",
     "son",
     "truro",
     "hospital",
     "while",
-    "hdu",
     "staff",
     "present",
     "child",
@@ -14870,17 +13277,12 @@
     "use",
     "date",
     "product",
-    "shelf",
-    "chesterfield",
-    "extra",
-    "store"
+    "shelf"
   ],
   "Sindy Beauty": [
     "general",
     "hi",
     "tesco",
-    "sindy",
-    "beauty",
     "salon",
     "stock",
     "any",
@@ -14897,7 +13299,6 @@
   ],
   "Laptop": [
     "general",
-    "laptop",
     "tesco",
     "stock",
     "store",
@@ -14921,8 +13322,6 @@
   "Tesco Grocery": [
     "general",
     "app",
-    "tesco",
-    "grocery",
     "delivery",
     "service",
     "customer",
@@ -14937,7 +13336,6 @@
   ],
   "Hospital": [
     "general",
-    "hospital",
     "home",
     "tesco",
     "store",
@@ -14961,9 +13359,6 @@
     "roll",
     "charity",
     "event",
-    "macmillan",
-    "cancer",
-    "care",
     "dundee",
     "tesco"
   ],
@@ -14980,9 +13375,6 @@
   ],
   "Food Bank Collection": [
     "general",
-    "food",
-    "bank",
-    "collection",
     "box",
     "store",
     "winchester",
@@ -15001,12 +13393,10 @@
     "plan",
     "breakfast",
     "today",
-    "birthday",
-    "my"
+    "birthday"
   ],
   "Good Morning": [
     "general",
-    "morning",
     "tesco",
     "store",
     "<u+263a>"
@@ -15022,12 +13412,10 @@
     "time",
     "only",
     "wheat",
-    "egg",
-    "dairy"
+    "egg"
   ],
   "Dairy Free": [
     "general",
-    "dairy",
     "ice",
     "cream",
     "range",
@@ -15041,7 +13429,6 @@
   ],
   "Wheat": [
     "general",
-    "wheat",
     "dairy",
     "tesco",
     "store",
@@ -15059,11 +13446,6 @@
     "general",
     "!f&f",
     "sparkle",
-    "bell",
-    "sleeve",
-    "dress",
-    "catalogue",
-    "number",
     "eaton",
     "store",
     "week",
@@ -15076,10 +13458,6 @@
     "linda",
     "mccartney",
     "substitute",
-    "tesco",
-    "meat",
-    "free",
-    "sausage",
     "picker",
     "note",
     "vegetarian",
@@ -15094,15 +13472,10 @@
     "store",
     "bottle",
     "wine",
-    "my",
-    "burn",
-    "club",
-    "fundraiser",
     "yesterday"
   ],
   "Hermes": [
     "general",
-    "hermes",
     "store",
     "time",
     "line",
@@ -15119,7 +13492,6 @@
   ],
   "Internet": [
     "general",
-    "internet",
     "tesco",
     "shopping",
     "day",
@@ -15129,16 +13501,11 @@
   "Classic Cola": [
     "general",
     "hi",
-    "tesco",
-    "classic",
-    "cola"
+    "tesco"
   ],
   "Tesco Danestone Aberdeen": [
     "general",
     "gordon",
-    "tesco",
-    "danestone",
-    "aberdeen",
     "petrol",
     "station",
     "car",
@@ -15167,7 +13534,6 @@
     "delivery",
     "service",
     "clubcard",
-    "fbi",
     "crime",
     "police",
     "month",
@@ -15178,9 +13544,6 @@
   ],
   "Tesco Transit Way": [
     "general",
-    "tesco",
-    "transit",
-    "way",
     "plymouth",
     "help",
     "support",
@@ -15202,9 +13565,6 @@
   ],
   "Call Customer Service": [
     "general",
-    "customer",
-    "service",
-    "call",
     "order",
     "day",
     "problem",
@@ -15229,8 +13589,6 @@
     "tesco",
     "iver",
     "heath",
-    "esso",
-    "express",
     "can",
     "drink",
     "kind",
@@ -15257,8 +13615,6 @@
     "food",
     "stuff",
     "egg",
-    "carmarthen",
-    "store",
     "week",
     "way",
     "recycling",
@@ -15278,10 +13634,6 @@
     "idea",
     "tesco",
     "warehouse",
-    "nature",
-    "valley",
-    "crunchy",
-    "oat",
     "honey",
     "bar"
   ],
@@ -15320,7 +13672,6 @@
     "week",
     "evening",
     "store",
-    "nine",
     "year",
     "tree",
     "canine",
@@ -15334,8 +13685,6 @@
     "evelina",
     "child",
     "unit",
-    "st",
-    "thomas",
     "london",
     "name",
     "friend",
@@ -15348,9 +13697,6 @@
   ],
   "Shoreham Holmbush Store": [
     "general",
-    "shoreham",
-    "holmbush",
-    "store",
     "today",
     "manager",
     "free",
@@ -15363,7 +13709,6 @@
   ],
   "ORGANIC": [
     "general",
-    "organic",
     "fruit",
     "tesco",
     "range",
@@ -15373,8 +13718,6 @@
   "Visa Electron": [
     "general",
     "tesco",
-    "visa",
-    "electron",
     "card",
     "shopping",
     "direct"
@@ -15387,8 +13730,6 @@
   "Silverburn Store": [
     "general",
     "tesco",
-    "silverburn",
-    "store",
     "monday",
     "december",
     "minute",
@@ -15443,14 +13784,10 @@
   "Fratton Store": [
     "general",
     "hooray",
-    "mandi",
-    "fratton",
-    "store"
+    "mandi"
   ],
   "Fire Hd": [
     "general",
-    "fire",
-    "hd",
     "tablet"
   ],
   "It S All Got": [
@@ -15467,7 +13804,6 @@
   "BRIE": [
     "general",
     "staff",
-    "brie",
     "time",
     "briefly",
     "ice",
@@ -15486,9 +13822,6 @@
   "John Radcliffe Hospital": [
     "general",
     "mother",
-    "john",
-    "radcliffe",
-    "hospital",
     "minute",
     "idea",
     "budget",
@@ -15501,7 +13834,6 @@
   "Ilkeston": [
     "general",
     "staff",
-    "ilkeston",
     "tesco",
     "store",
     "stock",
@@ -15517,7 +13849,6 @@
     "general",
     "customer",
     "service",
-    "department",
     "store",
     "tesco",
     "staff"
@@ -15526,8 +13857,6 @@
     "general",
     "tesco",
     "store",
-    "bishop",
-    "cleeve",
     "dob",
     "school",
     "grade",
@@ -15537,8 +13866,6 @@
   ],
   "Bristol Tomorrow": [
     "general",
-    "bristol",
-    "tomorrow",
     "<ed><u+00a0><u+00bd>"
   ],
   "Salvation Army": [
@@ -15556,8 +13883,6 @@
     "shelter",
     "programme",
     "run",
-    "salvation",
-    "army",
     "charity",
     "blaina",
     "squadron",
@@ -15577,9 +13902,6 @@
     "cliftonville",
     "ingredient",
     "people",
-    "st",
-    "paul",
-    "church",
     "part",
     "thanet",
     "shelter",
@@ -15592,10 +13914,6 @@
     "general",
     "tinker",
     "bridge",
-    "tesco",
-    "express",
-    "milton",
-    "keynes",
     "contribution",
     "food",
     "community",
@@ -15616,7 +13934,6 @@
     "general",
     "tesco(",
     "bedford",
-    "cardington",
     "bit",
     "team",
     "lottery",
@@ -15629,7 +13946,6 @@
   "Click": [
     "general",
     "tesco",
-    "click",
     "store",
     "service",
     "order",
@@ -15647,7 +13963,6 @@
     "little",
     "everything",
     "substituted",
-    "date",
     "<ed><u+00a0><u+00bd>",
     "fab",
     "prob",
@@ -15665,15 +13980,10 @@
   ],
   "Tesco Express Group": [
     "general",
-    "tesco",
-    "express",
-    "group",
     "london"
   ],
   "General Hospital": [
-    "general",
     "mum",
-    "hospital",
     "tesco",
     "patient",
     "kettering",
@@ -15683,7 +13993,6 @@
     "general",
     "tesco",
     "store",
-    "sheckters",
     "energy",
     "drink"
   ],
@@ -15703,19 +14012,13 @@
     "donation",
     "washing-up",
     "liquid",
-    "centre",
     "bin",
     "front",
-    "rspca",
-    "east",
-    "winch",
-    "wildlife",
     "building"
   ],
   "AYR": [
     "general",
     "tesco",
-    "ayr",
     "irvine",
     "school",
     "fayre",
@@ -15747,15 +14050,12 @@
   "Regis Forum": [
     "general",
     "bognor",
-    "regis",
-    "forum",
     "regard",
     "pharmacist",
     "story"
   ],
   "Bognor": [
     "general",
-    "bognor",
     "regis",
     "forum",
     "regard",
@@ -15797,13 +14097,9 @@
   "Tesco Express Galmington Store": [
     "general",
     "dear",
-    "tesco",
     "staff",
     "ali",
     "steve",
-    "express",
-    "galmington",
-    "store",
     "customer",
     "service",
     "care",
@@ -15816,10 +14112,7 @@
   "Samsung Galaxy3 Mini": [
     "general",
     "phone",
-    "case",
-    "samsung",
-    "galaxy3",
-    "mini"
+    "case"
   ],
   "HAPPY": [
     "general",
@@ -15832,7 +14125,6 @@
     "member",
     "staff",
     "esso",
-    "express",
     "whalley",
     "range",
     "fruit",
@@ -15844,7 +14136,6 @@
     "dear",
     "tesco",
     "store",
-    "lockheed",
     "close",
     "banbury",
     "oxon"
@@ -15861,7 +14152,6 @@
   "CEO": [
     "general",
     "tesco",
-    "ceo",
     "time",
     "today",
     "email",
@@ -15876,8 +14166,6 @@
   "Health And Safety": [
     "general",
     "store",
-    "health",
-    "safety",
     "customer",
     "issue",
     "staff",
@@ -15892,7 +14180,6 @@
   ],
   "INFLATION": [
     "general",
-    "inflation",
     "customer",
     "manner",
     "tesco",
@@ -15925,7 +14212,6 @@
   ],
   "INDIVIDUAL": [
     "general",
-    "individual",
     "tesco",
     "store",
     "delivery",
@@ -15934,8 +14220,6 @@
   "St Helen": [
     "general",
     "store",
-    "st",
-    "helen",
     "shopping",
     "today",
     "tesco",
@@ -15977,9 +14261,6 @@
   "St Helen Extra": [
     "general",
     "mum",
-    "st",
-    "helen",
-    "extra",
     "tesco",
     "christmas",
     "return",
@@ -15990,13 +14271,11 @@
   ],
   "Dairy Milk": [
     "general",
-    "milk",
     "freddo",
     "selection",
     "box",
     "christmas",
     "store",
-    "dairy",
     "minute",
     "repair",
     "pint",
@@ -16010,15 +14289,11 @@
   ],
   "Bristol Eastville": [
     "general",
-    "bristol",
-    "eastville",
     "tomorrow"
   ],
   "St Peter": [
     "general",
     "meal",
-    "st",
-    "peter",
     "worcester",
     "favourite",
     "hour",
@@ -16033,8 +14308,6 @@
   "Tesco Middleton.": [
     "general",
     "petrol",
-    "tesco",
-    "middleton.",
     "today",
     "pump",
     "after",
@@ -16045,8 +14318,6 @@
     "general",
     "flour",
     "stuff",
-    "dove",
-    "farm",
     "while",
     "morrison",
     "rice",
@@ -16080,7 +14351,6 @@
   "Broadfield": [
     "general",
     "hope",
-    "broadfield",
     "scout",
     "hut",
     "group",
@@ -16118,18 +14388,12 @@
   ],
   "Tesco School Uniform Embroidery": [
     "general",
-    "tesco",
-    "school",
-    "uniform",
-    "embroidery",
     "service",
     "quality",
     "fabric"
   ],
   "Resident Association": [
     "general",
-    "resident",
-    "association",
     "estate",
     "hygiene",
     "standard",
@@ -16145,7 +14409,6 @@
   ],
   "Chicken": [
     "general",
-    "chicken",
     "tesco",
     "store",
     "date",
@@ -16153,13 +14416,10 @@
   ],
   "Wake Arm": [
     "general",
-    "roundabout",
-    "wake",
-    "arm"
+    "roundabout"
   ],
   "EVERYONE": [
     "general",
-    "everyone",
     "staff",
     "tesco",
     "store"
@@ -16167,8 +14427,6 @@
   "Clubcard Team": [
     "general",
     "phone",
-    "clubcard",
-    "team",
     "lady",
     "christmas",
     "boost",
@@ -16210,14 +14468,12 @@
     "kind",
     "man",
     "boy",
-    "egg",
     "tesco",
     "express",
     "oakridge",
     "road",
     "basingstoke",
     "click",
-    "kinder",
     "grand",
     "daughter",
     "today",
@@ -16248,8 +14504,6 @@
   "King Edward": [
     "general",
     "bag",
-    "king",
-    "edward",
     "branch",
     "potato",
     "first",
@@ -16270,7 +14524,6 @@
   ],
   "RWAF": [
     "general",
-    "rwaf",
     "info",
     "website",
     "rabbit",
@@ -16287,15 +14540,12 @@
   "Layz": [
     "general",
     "tesco",
-    "layz",
     "spa"
   ],
   "Dairy Farmer": [
     "general",
     "milk",
     "tesco",
-    "dairy",
-    "farmer",
     "british",
     "price",
     "something",
@@ -16323,9 +14573,7 @@
     "general",
     "goodness",
     "staff",
-    "manager",
-    "murraygate",
-    "store"
+    "manager"
   ],
   "Clippers": [
     "general",
@@ -16341,8 +14589,6 @@
     "burgh",
     "studio",
     "album",
-    "better",
-    "world",
     "amazon",
     "cd",
     "mp3",
@@ -16355,7 +14601,6 @@
   ],
   "SHOPPING": [
     "general",
-    "shopping",
     "store",
     "tesco",
     "today",
@@ -16368,14 +14613,10 @@
     "fruit",
     "slip",
     "hazard",
-    "health",
-    "safety",
-    "act",
     "re-thinking"
   ],
   "MSC": [
     "general",
-    "msc",
     "fish",
     "tesco",
     "yesterday",
@@ -16393,17 +14634,12 @@
     "bus",
     "lane",
     "minute",
-    "incident",
-    "parking",
-    "enforcement",
-    "officer"
+    "incident"
   ],
   "Hand Car": [
     "general",
     "won",
     "tesco",
-    "hand",
-    "car",
     "wash",
     "friday",
     "king",
@@ -16443,8 +14679,6 @@
   "Always Weighs": [
     "general",
     "potato",
-    "always",
-    "weighs",
     "kg"
   ],
   "Town Lane Kew": [
@@ -16452,10 +14686,7 @@
     "delivery",
     "driver",
     "southport",
-    "extra",
-    "town",
-    "lane",
-    "kew"
+    "extra"
   ],
   "DRY": [
     "general",
@@ -16468,8 +14699,6 @@
   "Brilliant Customer Care": [
     "general",
     "steffan",
-    "customer",
-    "care",
     "staff",
     "poem",
     "jeffrey",
@@ -16480,9 +14709,6 @@
   ],
   "Customer Service Skill": [
     "general",
-    "customer",
-    "service",
-    "skill",
     "tesco",
     "store",
     "staff"
@@ -16490,8 +14716,6 @@
   "Road Store": [
     "general",
     "tesco",
-    "road",
-    "store",
     "service",
     "today",
     "customer",
@@ -16504,7 +14728,6 @@
     "care",
     "team",
     "raise<ed><u+00a0><u+00bd><ed><u+00b8><u+0082>",
-    "delight",
     "deal",
     "done",
     "tesco",
@@ -16518,8 +14741,6 @@
   ],
   "Tutti Frutti": [
     "general",
-    "tutti",
-    "frutti",
     "ice",
     "cream"
   ],
@@ -16533,8 +14754,6 @@
     "general",
     "so...",
     "brand",
-    "nacho",
-    "chicken",
     "pizza"
   ],
   "Fully": [
@@ -16552,9 +14771,6 @@
     "general",
     "complaint",
     "breach",
-    "environmental",
-    "health",
-    "regulation",
     "bo",
     "ness",
     "store",
@@ -16568,7 +14784,6 @@
     "back",
     "wrist",
     "day",
-    "a&e",
     "donut",
     "staff",
     "msg",
@@ -16585,9 +14800,6 @@
     "period",
     "deliberation",
     "bottle",
-    "franziskaner",
-    "hefe",
-    "weissbier",
     "item",
     "cashier",
     "identification",
@@ -16608,8 +14820,6 @@
     "partner",
     "shop",
     "bottle",
-    "blue",
-    "lagoon",
     "cocktail",
     "mix",
     "vol",
@@ -16622,10 +14832,6 @@
     "general",
     "girlfriend",
     "policy",
-    "tesco",
-    "bank",
-    "box",
-    "insurance",
     "partner",
     "driver",
     "point"
@@ -16633,7 +14839,6 @@
   "Stockport": [
     "general",
     "customer",
-    "stockport",
     "store",
     "tesco",
     "extra",
@@ -16660,8 +14865,6 @@
     "favourite",
     "barry",
     "section",
-    "world",
-    "food",
     "carfin",
     "year",
     "coffee",
@@ -16709,10 +14912,6 @@
     "friendliness",
     "driver",
     "derek",
-    "dunfermline",
-    "fire",
-    "station",
-    "store",
     "explanation",
     "refusal",
     "item",
@@ -16722,7 +14921,6 @@
     "general",
     "database",
     "tesco",
-    "data",
     "protection",
     "customer",
     "store"
@@ -16749,13 +14947,10 @@
     "hey",
     "tesco",
     "donation",
-    "raffle",
-    "breast",
-    "cancer"
+    "raffle"
   ],
   "Amanda": [
     "general",
-    "amanda",
     "daughter",
     "tesco",
     "customer",
@@ -16770,14 +14965,12 @@
   "DISGUSTING": [
     "general",
     "tesco",
-    "disgusting",
     "store",
     "service"
   ],
   "Milton": [
     "general",
     "store",
-    "milton",
     "staff",
     "tesco",
     "new",
@@ -16788,14 +14981,10 @@
   ],
   "Ricoh Arena Tescos": [
     "general",
-    "ricoh",
-    "arena",
-    "tescos",
     "friday"
   ],
   "Home": [
     "general",
-    "home",
     "store",
     "delivery",
     "tesco",
@@ -16806,7 +14995,6 @@
     "suggestion",
     "pattern",
     "point",
-    "magazine",
     "customer"
   ],
   "Homemaker": [
@@ -16828,7 +15016,6 @@
     "scence",
     "school",
     "fire",
-    "academy",
     "yesterday",
     "mass",
     "pupil",
@@ -16845,10 +15032,6 @@
   "Everyday Value Chicken Roll": [
     "general",
     "tesco",
-    "everyday",
-    "value",
-    "chicken",
-    "roll",
     "227g"
   ],
   "PAC": [
@@ -16866,8 +15049,6 @@
     "general",
     "tesco",
     "increase",
-    "value",
-    "cornflakes",
     "today"
   ],
   "St George S": [
@@ -16875,8 +15056,6 @@
     "tesco",
     "salford",
     "effort",
-    "st",
-    "george",
     "day",
     "row",
     "sandwich",
@@ -16910,7 +15089,6 @@
     "general",
     "stevenage",
     "question",
-    "macaroni",
     "pasta",
     "shop",
     "thanks"
@@ -16922,10 +15100,7 @@
     "product",
     "union",
     "jack",
-    "flag",
-    "st",
-    "george",
-    "cross"
+    "flag"
   ],
   "FOREIGN": [
     "general",
@@ -16946,9 +15121,6 @@
     "home",
     "holiday",
     "letter",
-    "motor",
-    "insurance",
-    "bureau",
     "record",
     "vehicle",
     "database"
@@ -16957,11 +15129,6 @@
     "general",
     "night",
     "partner",
-    "tesco",
-    "express",
-    "hayling",
-    "island",
-    "po11",
     "0eg.",
     "chocolate",
     "bar",
@@ -16990,15 +15157,11 @@
     "general",
     "click",
     "st",
-    "aldates",
-    "store",
     "oxford",
     "day"
   ],
   "Scotch Beef": [
     "general",
-    "scotch",
-    "beef",
     "someone",
     "thistle",
     "rebrand",
@@ -17060,10 +15223,7 @@
     "taxi",
     "charity",
     "trip",
-    "cleethorpes",
-    "rotherham",
-    "parent",
-    "forum"
+    "cleethorpes"
   ],
   "Charity Trip": [
     "general",
@@ -17078,8 +15238,6 @@
     "crisp",
     "etc",
     "taxi",
-    "charity",
-    "trip",
     "cleethorpes",
     "rotherham",
     "parent",
@@ -17102,7 +15260,6 @@
   ],
   "HUDL": [
     "general",
-    "hudl",
     "screen",
     "daughter",
     "tesco",
@@ -17122,7 +15279,6 @@
     "fork",
     "tour",
     "store",
-    "beaver",
     "scout",
     "yesterday",
     "monday",
@@ -17189,15 +15345,10 @@
     "friend",
     "list",
     "shopping",
-    "bottle",
-    "captain",
-    "morgan"
+    "bottle"
   ],
   "Sunderland Bridge Store": [
     "general",
-    "sunderland",
-    "bridge",
-    "store",
     "bottle",
     "delight",
     "work"
@@ -17210,16 +15361,11 @@
     "tesco",
     "oat",
     "crispies",
-    "green",
-    "giant",
-    "express",
-    "sweetcorn"
+    "green"
   ],
   "Scunthorpe Extra": [
     "general",
     "store",
-    "scunthorpe",
-    "extra",
     "tesco",
     "oat",
     "crispies",
@@ -17249,10 +15395,6 @@
     "collectng",
     "behlaf",
     "macintyre",
-    "mk",
-    "play",
-    "association",
-    "tesco",
     "kind",
     "donation",
     "fund",
@@ -17265,7 +15407,6 @@
     "general",
     "tescos",
     "churchdown",
-    "church",
     "langley",
     "store",
     "tesco",
@@ -17292,8 +15433,6 @@
     "item",
     "order",
     "partner",
-    "expressco",
-    "direct",
     "issue",
     ".excuse",
     "me",
@@ -17326,9 +15465,6 @@
   "Vevay Rd Bray": [
     "general",
     "something",
-    "vevay",
-    "rd",
-    "bray",
     "today",
     "pm"
   ],
@@ -17337,8 +15473,6 @@
     "supplier",
     "one",
     "magdalen",
-    "st",
-    "oxford",
     "store",
     "september"
   ],
@@ -17346,7 +15480,6 @@
     "general",
     "supplier",
     "one",
-    "magdalen",
     "st",
     "oxford",
     "store",
@@ -17380,27 +15513,18 @@
   "Tesco Express London Road Southampton": [
     "general",
     "sandwich",
-    "tesco",
-    "express",
-    "london",
-    "road",
-    "southampton",
     "delivery",
     "door"
   ],
   "Asda Sainsbury": [
     "general",
     "fuel",
-    "asda",
-    "sainsbury",
     "morrison",
     "cant"
   ],
   "Town Council": [
     "general",
     "cullompton",
-    "town",
-    "council",
     "glyphosate",
     "weed",
     "councillor",
@@ -17414,7 +15538,6 @@
     "world",
     "health",
     "organisation",
-    "glyphosate",
     "carcinogen",
     "eu",
     "monsanto",
@@ -17426,7 +15549,6 @@
     "decision",
     "ban",
     "use",
-    "waitrose",
     "withdraw",
     "weedkiller",
     "store",
@@ -17444,9 +15566,6 @@
     "monsanto",
     "licence",
     "europe",
-    "brighton",
-    "hove",
-    "council",
     "decision",
     "ban",
     "use",
@@ -17459,9 +15578,6 @@
   ],
   "World Health Organisation": [
     "general",
-    "world",
-    "health",
-    "organisation",
     "glyphosate",
     "carcinogen",
     "eu",
@@ -17489,7 +15605,6 @@
     "cullompton",
     "store",
     "weedkiller",
-    "glyphosate",
     "tesco",
     "brand",
     "world",
@@ -17530,16 +15645,10 @@
     "connelly",
     "nikki",
     "stephenson",
-    "bhsg",
     "name"
   ],
   "Tesco Express Clifton Moor York": [
     "general",
-    "tesco",
-    "express",
-    "clifton",
-    "moor",
-    "york",
     "donation",
     "big",
     "heart",
@@ -17549,7 +15658,6 @@
   "Salford": [
     "general",
     "tesco",
-    "salford",
     "store",
     "today",
     "customer",
@@ -17564,8 +15672,6 @@
     "yes",
     "question",
     "tesco",
-    "willow",
-    "farm",
     "produce",
     "animal",
     "born",
@@ -17610,8 +15716,6 @@
   "Finger Nail.": [
     "general",
     "something",
-    "finger",
-    "nail.",
     "nail",
     "inspection"
   ],
@@ -17620,9 +15724,6 @@
     "driver",
     "van",
     "delivery",
-    "porlock",
-    "vale",
-    "house",
     "march",
     "slot",
     ":00",
@@ -17640,10 +15741,7 @@
     "member",
     "staff",
     "tesco",
-    "express",
-    "weston",
-    "way",
-    "kingswood"
+    "express"
   ],
   "Tesco Plc Group": [
     "general",
@@ -17659,7 +15757,6 @@
     "welcome",
     "store",
     "staff",
-    "community",
     "pembroke",
     "dock",
     "branch",
@@ -17686,11 +15783,7 @@
   ],
   "Tesco Mouthwash Alcohol Free": [
     "general",
-    "cap",
-    "tesco",
-    "mouthwash",
-    "alcohol",
-    "free"
+    "cap"
   ],
   "Tar": [
     "general",
@@ -17702,8 +15795,6 @@
     "today",
     "child",
     "store",
-    "copdock",
-    "ipswich",
     "cant",
     "beat",
     "that",
@@ -17730,8 +15821,6 @@
   "St Neots": [
     "general",
     "tesco",
-    "st",
-    "neots",
     "sat",
     "day",
     "packet",
@@ -17770,7 +15859,6 @@
   "Diabetes": [
     "general",
     "type",
-    "diabetes",
     "advert",
     "store",
     "tesco",
@@ -17785,17 +15873,13 @@
     "ward",
     "uchw",
     "walsgrave",
-    "coventry",
-    "teenage",
-    "cancer",
-    "trust"
+    "coventry"
   ],
   "UCHW": [
     "general",
     "money",
     "memory",
     "ward",
-    "uchw",
     "walsgrave",
     "coventry",
     "teenage",
@@ -17804,15 +15888,10 @@
   ],
   "Tesco Crystal Palace": [
     "general",
-    "tesco",
-    "crystal",
-    "palace",
     "yesterday"
   ],
   "Tesco Petrol": [
     "general",
-    "tesco",
-    "petrol",
     "station",
     "store",
     "member",
@@ -17825,9 +15904,6 @@
     "debit",
     "card",
     "tesco",
-    "culver",
-    "house",
-    "cross",
     "night"
   ],
   "Whoever": [
@@ -17847,7 +15923,6 @@
   ],
   "Swedish Glace": [
     "general",
-    "glace",
     "dairy",
     "ice",
     "cream",
@@ -17885,14 +15960,10 @@
     "limit",
     "point",
     "harness",
-    "kid",
-    "embrace",
     "line"
   ],
   "Good Samaritan": [
     "general",
-    "good",
-    "samaritan",
     "customer",
     "service",
     "roborough",
@@ -17901,9 +15972,7 @@
     "afternoon"
   ],
   "Honestly Customer Service": [
-    "general",
-    "customer",
-    "service"
+    "general"
   ],
   "LOVELY": [
     "general",
@@ -17918,7 +15987,6 @@
   ],
   "VEGETARIAN": [
     "general",
-    "vegetarian",
     "tesco",
     "section",
     "food",
@@ -17928,15 +15996,12 @@
   "Cirencester Metro": [
     "general",
     "matt",
-    "cirencester",
-    "metro",
     "store",
     "way",
     "today"
   ],
   "Asda S": [
     "general",
-    "asda",
     "tesco",
     "store",
     "veg",
@@ -17945,9 +16010,6 @@
   "Home Delivery Service": [
     "general",
     "tesco",
-    "home",
-    "delivery",
-    "service",
     "today",
     "shopping",
     "customer",
@@ -17965,7 +16027,6 @@
     "general",
     "tesco",
     "food",
-    "finance",
     "hen",
     "halal",
     "today",
@@ -17984,16 +16045,10 @@
     "general",
     "kew",
     "southport",
-    "store",
-    "ashton",
-    "parson",
-    "teething",
-    "powder"
+    "store"
   ],
   "Tesco Magazine": [
     "general",
-    "tesco",
-    "magazine",
     "coupon",
     "delivery",
     "customer",
@@ -18005,8 +16060,6 @@
     "mention",
     "disappointment",
     "reduction",
-    "scotch",
-    "burger",
     "meat",
     "counter",
     "year",
@@ -18014,7 +16067,6 @@
   ],
   "Indesit": [
     "general",
-    "indesit",
     "washing",
     "machine",
     "today",
@@ -18051,7 +16103,6 @@
     "place",
     "merchandise",
     "offer",
-    "guinness",
     "pity",
     "effort",
     "potato",
@@ -18067,9 +16118,7 @@
     "razor",
     "cartridge",
     "metro",
-    "store",
-    "murraygate",
-    "dundee"
+    "store"
   ],
   "King Lynn Hardwick": [
     "general",
@@ -18078,9 +16127,6 @@
     "service",
     "shopping",
     "morning",
-    "king",
-    "lynn",
-    "hardwick",
     "tesco",
     "part"
   ],
@@ -18125,8 +16171,7 @@
     "rate",
     "profit",
     "margin",
-    "consumer",
-    "ohj"
+    "consumer"
   ],
   "Financial": [
     "general",
@@ -18153,11 +16198,7 @@
     "shop",
     "team",
     "advice",
-    "support",
-    "warminster",
-    "military",
-    "wife",
-    "choir"
+    "support"
   ],
   "Amazing Amesbury": [
     "general",
@@ -18165,8 +16206,6 @@
     "thanks",
     "sarah",
     "young",
-    "amazing",
-    "amesbury",
     "phone",
     "shop",
     "team",
@@ -18179,7 +16218,6 @@
   ],
   "CHILD": [
     "general",
-    "child",
     "store",
     "today",
     "car",
@@ -18198,8 +16236,6 @@
   "Clubcard Boost": [
     "general",
     "tesco",
-    "clubcard",
-    "boost",
     "voucher",
     "event",
     "christmas"
@@ -18221,8 +16257,6 @@
     "gaywood",
     "onwards",
     "fund",
-    "heart",
-    "research",
     "help"
   ],
   "Tesco Gaywood King Lynn": [
@@ -18230,12 +16264,8 @@
     "mark",
     "malamute",
     "chinook",
-    "tesco",
     "hardwick",
-    "king",
-    "lynn",
     "april",
-    "gaywood",
     "onwards",
     "fund",
     "heart",
@@ -18247,10 +16277,6 @@
     "mark",
     "malamute",
     "chinook",
-    "tesco",
-    "hardwick",
-    "king",
-    "lynn",
     "april",
     "gaywood",
     "onwards",
@@ -18267,7 +16293,6 @@
     "product",
     "demand-side",
     "snore",
-    "tldr",
     "stock",
     "bogroll",
     "shop"
@@ -18275,9 +16300,6 @@
   "St Peter Worcester": [
     "general",
     "hour",
-    "st",
-    "peter",
-    "worcester",
     "store",
     "today",
     "kid",
@@ -18290,9 +16312,6 @@
     "general",
     "somebody",
     "trollies",
-    "spring",
-    "bank",
-    "estate",
     "aachen",
     "way",
     "halifax",
@@ -18313,12 +16332,10 @@
   "GIRL": [
     "general",
     "store",
-    "girl",
     "tesco"
   ],
   "Way": [
     "general",
-    "way",
     "tesco",
     "store",
     "staff"
@@ -18351,14 +16368,11 @@
     "facebook",
     "group",
     "area",
-    "bangor",
-    "co",
     "problem"
   ],
   "GP": [
     "general",
     "prescription",
-    "gp",
     "day",
     "surgery",
     "someone",
@@ -18383,33 +16397,23 @@
     "cheese",
     "stock",
     "variety",
-    "bute",
-    "island",
-    "food"
+    "bute"
   ],
   "Larkmead School": [
     "general",
     "today",
     "bucket",
     "shake",
-    "larkmead",
-    "school",
     "abingdon",
     "money",
     "summer",
     "child"
   ],
   "Tesco Technology": [
-    "general",
-    "tesco",
-    "technology"
+    "general"
   ],
   "Tesco Express Petrol Store": [
     "general",
-    "tesco",
-    "express",
-    "petrol",
-    "store",
     "thornton",
     "heath",
     "london",
