@@ -1,5 +1,5 @@
 Vue.component("product", {
-    template: "#product-template",
+    template: "#product-templates",
     props: {
         product: {
             type: Object,
