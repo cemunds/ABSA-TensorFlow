@@ -12,11 +12,29 @@ def index():
 
 @app.route("/visualizations")
 def visualizations():
-	return render_template("visualizations.html", data=None)
+	data = [
+		{
+			"name": "iPhone",
+			"aspects": [
+				{
+					"name": "battery",
+					"negative": 5,
+					"positive": 2,
+					"neutral": 3,
+					"posts": ["[...] the battery does not last long enough [...]"]
+				}
+			]
+		}
+	]
+	return render_template("visualizations.html", data=jsonify(data))  # TODO: passing data does not work
 
-@app.route("/data", methods=["GET"])
+@app.route("/data")
+def data():
+	return render_template("data.html")
+
+@app.route("/get_data", methods=["GET"])
 @cross_origin(origin='localhost',headers=['Content-Type','Authorization'])
-def serve_data():
+def get_data():
 	with open(SENTWORDSFILE, "r") as sf:
 		sentimentwords = json.load(sf)
 
@@ -27,7 +45,6 @@ def serve_data():
 		"sentimentwords": sentimentwords,
 		"products": data
 	}
-
 	return jsonify(result)
 
 if __name__ == '__main__':
