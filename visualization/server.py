@@ -1,10 +1,12 @@
 from flask import Flask, jsonify, render_template
 from flask_cors import cross_origin
 import json
-app = Flask(__name__)
+import os
 
-SENTWORDSFILE = "data/sentimentwords.json"
-DATAFILE = "data/aggregated_opinions.json"
+app = Flask(__name__)
+MYDIR = os.path.dirname(__file__)
+SENTWORDSFILE =  os.path.join(MYDIR, "data/sentimentwords.json")
+DATAFILE = os.path.join(MYDIR,"data/aggregated_opinions.json")
 
 @app.route("/")
 def index():
