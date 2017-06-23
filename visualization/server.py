@@ -9,25 +9,7 @@ DATAFILE = "data/aggregated_opinions.json"
 @app.route("/")
 def index():
 	return render_template("index.html")
-
-@app.route("/visualizations")
-def visualizations():
-	data = [
-		{
-			"name": "iPhone",
-			"aspects": [
-				{
-					"name": "battery",
-					"negative": 5,
-					"positive": 2,
-					"neutral": 3,
-					"posts": ["[...] the battery does not last long enough [...]"]
-				}
-			]
-		}
-	]
-	return render_template("visualizations.html", data=jsonify(data))  # TODO: passing data does not work
-
+	
 @app.route("/data")
 def data():
 	return render_template("data.html")
