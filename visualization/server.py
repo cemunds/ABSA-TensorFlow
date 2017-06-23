@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-from flask.ext.cors import cross_origin
+from flask_cors import cross_origin
 import json
 app = Flask(__name__)
 
@@ -21,3 +21,6 @@ def serve_data():
 	}
 
 	return jsonify(result)
+
+if __name__ == '__main__':
+	app.run()
