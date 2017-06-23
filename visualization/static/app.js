@@ -2,13 +2,17 @@ Vue.component("sentiment-chart", {
     template:"<svg class='chart'></svg>",
     props: ["data"],
     mounted: function() {
+        this.renderSentiment();
+    },
+    methods:{
+        renderSentiment: function() {
         var margin = {
             top: 20,
             right: 30,
             bottom: 30,
             left: 40
         };
-
+    console.log(this.data);
         var width = 420 - margin.left - margin.right;
         var height = 250 - margin.top - margin.bottom;
 
@@ -38,20 +42,32 @@ Vue.component("sentiment-chart", {
             .attr("class", "y axis")
             .call(yAxis);
 
-        var bars = chart.selectAll(".bar")
+        this.bars = chart.selectAll(".bar")
             .data(this.data);
 
-        bars.enter().append("rect")
+        this.bars.enter().append("rect")
             .attr("class", "bar")
             .attr("transform", "translate(25, 0)")
             .attr("height", function(d) { return height - y(d.value); })
             .attr("width", x.step() - 50)
-        .merge(bars)
+        .merge(this.bars)
             .attr("x", function(d) { return x(d.label); })
             .attr("y", function(d) { return y(d.value); });
 
-        bars.exit().remove();
+
+        this.bars.exit().remove();
+
+
     }
+    },
+    watch:{
+        data:function(){
+            d3.select(this.$el).html("");
+            this.renderSentiment();
+        }
+    }
+
+
 });
 
 Vue.component("post", {
@@ -102,5 +118,6 @@ new Vue({
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
         });
+
     }
 })
