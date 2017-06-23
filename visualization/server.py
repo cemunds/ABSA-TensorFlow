@@ -4,10 +4,12 @@ import pandas as pd
 from bokeh.charts import Bar
 from bokeh.embed import components
 import json
-app = Flask(__name__)
+import os
 
-SENTWORDSFILE = "data/sentimentwords.json"
-DATAFILE = "data/aggregated_opinions.json"
+app = Flask(__name__)
+MYDIR = os.path.dirname(__file__)
+SENTWORDSFILE =  os.path.join(MYDIR, "data/sentimentwords.json")
+DATAFILE = os.path.join(MYDIR,"data/aggregated_opinions.json")
 
 def create_figure(feature_name):
 	df = pd.DataFrame.from_dict({
