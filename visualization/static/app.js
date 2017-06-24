@@ -71,31 +71,33 @@ Vue.component("sentiment-chart", {
 });
 
 Vue.component("post", {
-    template: "<div class='post' v-html='message'></div>",
+    template: "<div class='post' v-html='negative(message, sentimentwords, product, aspect)'> </div>",
     props: ["message", "sentimentwords", "product", "aspect"],
-    mounted: function() {
-        var tokens = this.message.split(" ");
-        var result = "";
+    methods:{
+        negative: function(words, sentimentwords, product, aspect){
+         var tokens = words.split(" ");
+         var result = "";
+         for(var i = 0; i < tokens.length; i++) {
+            var token = tokens[i].toLowerCase();
 
-        for(var i = 0; i < tokens.length; i++) {
-            token = tokens[i].toLowerCase();
-
-            if(this.sentimentwords.positive.indexOf(token) !== -1) {
+            if(sentimentwords.positive.indexOf(token) !== -1) {
                 result += "<span class='positive'>" + tokens[i] + "</span> ";
-            } else if(this.sentimentwords.negative.indexOf(token) !== -1) {
+            } else if(sentimentwords.negative.indexOf(token) !== -1) {
                 result += "<span class='negative'>" + tokens[i] + "</span> ";
-            } else if(token === this.product.toLowerCase()) {
+            } else if(token === product.toLowerCase()) {
                 result += "<span class='product'>" + tokens[i] + "</span> ";
-            } else if(token === this.aspect.toLowerCase()) {
+            } else if(token === aspect.toLowerCase()) {
                 result += "<span class='aspect'>" + tokens[i] + "</span> ";
             } else {
                 result += token + " "
             }
         }
-
-        this.message = result;
+        return result;
+        }
     }
 });
+
+
 
 new Vue({
     el: "#app",
@@ -115,6 +117,7 @@ new Vue({
                     value: product
                 };
             });
+            console.log(that.products);
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
         });
