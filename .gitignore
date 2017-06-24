@@ -228,3 +228,5 @@ $RECYCLE.BIN/
 *.lnk
 
 stanford-corenlp-python/model-tree-train+dev.obj
+*.xml
+*.iml
