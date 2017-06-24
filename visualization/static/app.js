@@ -78,18 +78,36 @@ Vue.component("post", {
          var tokens = words.split(" ");
          var result = "";
          for(var i = 0; i < tokens.length; i++) {
-            var token = tokens[i].toLowerCase();
-
+            var token = tokens[i].toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"");
+            var highlighted = false;
             if(sentimentwords.positive.indexOf(token) !== -1) {
                 result += "<span class='positive'>" + tokens[i] + "</span> ";
-            } else if(sentimentwords.negative.indexOf(token) !== -1) {
+                highlighted = true;
+            }
+            if(!highlighted && sentimentwords.negative.indexOf(token) !== -1) {
                 result += "<span class='negative'>" + tokens[i] + "</span> ";
-            } else if(token === product.toLowerCase()) {
+                highlighted = true;
+            }
+            if(!highlighted && token === product.toLowerCase()) {
                 result += "<span class='product'>" + tokens[i] + "</span> ";
-            } else if(token === aspect.toLowerCase()) {
+                highlighted = true;
+            }
+            if(!highlighted && token == aspect.toLowerCase()) {
                 result += "<span class='aspect'>" + tokens[i] + "</span> ";
-            } else {
-                result += token + " "
+                highlighted = true;
+            }
+
+            if(!highlighted && product.toLowerCase().indexOf(token.substring(0, token.length-1))!== -1 && token.length>4) {
+                result += "<span class='product'>" + tokens[i] + "</span> ";
+                highlighted = true;
+            }
+            if(!highlighted && aspect.toLowerCase().indexOf(token.substring(0, token.length-1))!== -1 && token.length>4) {
+                result += "<span class='aspect'>" + tokens[i] + "</span> ";
+                highlighted = true;
+            }
+
+            if (!highlighted) {
+                result += tokens[i] + " "
             }
         }
         return result;
