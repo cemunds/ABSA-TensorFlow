@@ -117,7 +117,8 @@ Vue.component("post", {
 
 productNameToObjectMap = {};
 
-new Vue({
+
+app = new Vue({
     el: "#app",
     data: {
         products: [],
@@ -126,9 +127,10 @@ new Vue({
         },
         sentimentwords: []
     },
-    mounted: function() {
-        var that = this;
-        $.get("http://127.0.0.1:5000/get_data", function(data) {
+    methods:{
+        initializeApp: function () {
+            var that = this;
+            $.get("http://127.0.0.1:5000/get_data", function(data) {
             that.products = _.map(data.products, function(product) {
                 productNameToObjectMap[product.name] = product;
                 return {
@@ -139,6 +141,7 @@ new Vue({
             console.log(that.products);
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
+            
             $.each(that.products, function(key, value) {
 		$('#copy').append($('<option></option>').attr('value', value.value).text(value.label));
             });
@@ -160,6 +163,4 @@ new Vue({
 	    });
 
         });
-
-    }
 })
