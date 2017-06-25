@@ -27,7 +27,7 @@
 	\tableofcontents
 	
 	\section{Introduction}
-	The project presented in this document focusses on finding and analyzing customers' opinions on products and their aspects from social media posts. This project plan describes the required background knowledge and the related work that we are going to build on. We present the current state of the project and explain what has been done so far. Finally, we define the goals for our project and give a schedule for the upcoming tasks.
+	The project presented in this document focusses on finding and analyzing customers' opinions on products and their aspects from social media posts. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
 	
 	\section{Related work}
 	
@@ -114,6 +114,8 @@
 	
 	\section{Preprocessing}
 	
+	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
+	
 	\section{Co-Reference Resolution}
 	
 	\section{Extracting entities and aspects}
@@ -125,10 +127,10 @@
 	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words.
 	
 	\section{Determining sentiment polarities}
-	For determining the sentiment polarities, we will focus on two approaches. The first one will be a supervised method, while the second is an unsupervised approach.
+	For determining the sentiment polarities, we used the Lexicon-based approach which will the describe in the following.
 	
 		\subsection{Lexicon-based approach}
-		An approach to determine sentiment polarities is the lexicon-based approach which has been used.
+		An approach to determine sentiment polarities is the lexicon-based approach.
 		
 		We applied a method by \cite{Ding:2008:HLA:1341531.1341561}, which can be broken down to the following four steps: 
 		
@@ -144,21 +146,25 @@
 		\end{displaymath}
 		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
 	
-		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}.
+		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}. Due to limited time however this approach was not followed.
 
 	\section{Results}
-	So far, we built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we will use as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
 	
-	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
+	% Has to be enhanced => NLTK => OpenNLP
+	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we used as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
 	
+	
+	% Has to be rewritten	
 	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project \cite{pennington2014glove}.
+	
+	\subsection{Visualization}
 
 	\section{Previously defined goals and their fulfillment}
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 	
-	We aim to build a database with opinions and statistics on several products and their aspects. For a visualization of the results we will build a simple dashboard with state-of-the-art web technologies.
+	We build a database with opinions and statistics on several products and their aspects. For a visualization of the results we build a simple dashboard with state-of-the-art web technologies.
 
-	Based on these goals we will be concerned with the following research questions:
+	Based on these goals the following research questions were defined:
 
 	\begin{itemize}
 	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts?
@@ -170,9 +176,12 @@
 		\end{itemize}
 	\end{itemize}
 	
-	Figure \ref{fig:gantt} shows a Gantt chart of our scheduled tasks for the second block. At first, we will need to extract entities and aspects from the post data. This is done in three steps: First, we use the POS-Tagger and the dependency parse in SyntaxNet to annotate the posts. Second, we start finding entities and aspects by extracting frequent nouns and noun phrases. Third, we identify infrequent entities and aspects as mentioned in Section \ref{sec:extraction}. After the second step, we can already start building a database of the found entities and aspects.
 	
-	\section{Conclusion}
+	
+	\section{The code pipeline}
+	To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
+	
+	\section{Conclusion and Future Work}
 	
 	\newpage
 	
