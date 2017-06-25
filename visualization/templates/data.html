@@ -17,9 +17,12 @@
                 </br>
                 {% raw %}
                 <div id="app">
-                    <select class="form-control" v-model="selectedProduct" style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" id="productselector">
+                    <select class="form-control" v-model="selectedProduct" style="border-top-left-radius: 4px; border-bottom-left-radius: 4px; display: none;" id="productselector">
                         <option v-for="product in products" :value="product.value">{{ product.label }}</option>
                     </select>
+                    <select class="form-control" id="copy">
+
+		    </select>
                     <div>
                         <h2>{{selectedProduct.name}}</h2>
                         <div v-for="aspect in selectedProduct.aspects">

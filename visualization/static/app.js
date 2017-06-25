@@ -115,7 +115,7 @@ Vue.component("post", {
     }
 });
 
-
+productNameToObjectMap = {};
 
 new Vue({
     el: "#app",
@@ -130,6 +130,7 @@ new Vue({
         var that = this;
         $.get("http://127.0.0.1:5000/get_data", function(data) {
             that.products = _.map(data.products, function(product) {
+                productNameToObjectMap[product.name] = product;
                 return {
                     label: product.name,
                     value: product
@@ -138,7 +139,26 @@ new Vue({
             console.log(that.products);
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
-            $("#productselector").select2();
+            $.each(that.products, function(key, value) {
+		$('#copy').append($('<option></option>').attr('value', value.value).text(value.label));
+            });
+            $('#copy').select2();
+            $("#copy").on('change', function (event) {
+
+		text = $('#copy option:selected').text();
+
+
+		$('#productselector option').each(function() {
+    	            option = $(this);	
+                    if(option[0].text == text) {
+       			option.attr('selected', 'selected');
+    	            }
+        	});
+
+                that.selectedProduct = productNameToObjectMap[text];
+                $('#productselector').trigger('change');
+	    });
+
         });
 
     }
