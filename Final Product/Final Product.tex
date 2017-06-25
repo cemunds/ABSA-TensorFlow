@@ -28,6 +28,7 @@
 	
 	\section{Introduction}
 	The project presented in this document focusses on finding and analyzing customers' opinions on products and their aspects from social media posts. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
+	% TODO probably enhance a little on the exact process
 	
 	\section{Related work}
 	
@@ -91,6 +92,7 @@
 		
 		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
 
+% TODO Can be possibly thrown out
 		\subsection{Dependency parsing}
 		
 		Dependency parsing is a method of building up context in a sentence.
@@ -112,11 +114,17 @@
 		
 		This example has been taken from \cite{dependency}.
 	
+% TODO Any other Related Work?
+	
 	\section{Preprocessing}
 	
 	We preprocessed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
 	
+	% TODO Maybe a bit more on the practical implementation
+	
 	\section{Co-Reference Resolution}
+	
+% TODO Has to be filled, if we even want to talk about it
 	
 	\section{Extracting entities and aspects}
 	\label{sec:extraction}
@@ -125,6 +133,8 @@
 	First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
 	
 	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words.
+	
+	% TODO Maybe a bit more on the practical implementation
 	
 	\section{Determining sentiment polarities}
 	For determining the sentiment polarities, we used the Lexicon-based approach which will the describe in the following.
@@ -148,16 +158,24 @@
 	
 		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}. Due to limited time however this approach was not followed.
 
+	% TODO Maybe a bit more on the practical implementation
+
 	\section{Results}
 	
-	% Has to be enhanced => NLTK => OpenNLP
+	% TODO Has to be enhanced => NLTK => OpenNLP
 	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we used as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
 	
 	
-	% Has to be rewritten	
+	% TODO Has to be rewritten	
 	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project \cite{pennington2014glove}.
 	
+	% TODO Maybe a bit more on the practical implementation
+	
+	% TODO Show the statistic on how well it does vs our evaluations
+	
 	\subsection{Visualization}
+
+	% TODO Talk about the visualization (pictures and interpretation)
 
 	\section{Previously defined goals and their fulfillment}
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
@@ -176,12 +194,16 @@
 		\end{itemize}
 	\end{itemize}
 	
-	
+	% TODO Talk about the fulfillment of the goals, what we managed to accomplish and what not
 	
 	\section{The code pipeline}
 	To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
 	
+	% TODO Add the Code Pipeline
+	
 	\section{Conclusion and Future Work}
+	
+	% TODO Add conclusion and talk about future work
 	
 	\newpage
 	
