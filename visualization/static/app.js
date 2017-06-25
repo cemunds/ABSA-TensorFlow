@@ -138,6 +138,7 @@ new Vue({
             console.log(that.products);
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
+            $("#productselector").select2();
         });
 
     }
