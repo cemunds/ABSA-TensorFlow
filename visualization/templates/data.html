@@ -17,7 +17,7 @@
                 </br>
                 {% raw %}
                 <div id="app">
-                    <select class="form-control" v-model="selectedProduct" style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" id="productselector">
+                    <select class="form-control" v-model="selectedProduct"  v-selecttwo="selectedProduct" style="border-top-left-radius: 4px; border-bottom-left-radius: 4px" id="productselector">
                         <option v-for="product in products" :value="product.value">{{ product.label }}</option>
                     </select>
                     <div>

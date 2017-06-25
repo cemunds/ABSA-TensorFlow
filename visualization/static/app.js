@@ -117,7 +117,11 @@ Vue.component("post", {
 
 
 
-new Vue({
+
+
+
+
+app = new Vue({
     el: "#app",
     data: {
         products: [],
@@ -126,9 +130,10 @@ new Vue({
         },
         sentimentwords: []
     },
-    mounted: function() {
-        var that = this;
-        $.get("http://127.0.0.1:5000/get_data", function(data) {
+    methods:{
+        initializeApp: function () {
+            var that = this;
+            $.get("http://127.0.0.1:5000/get_data", function(data) {
             that.products = _.map(data.products, function(product) {
                 return {
                     label: product.name,
@@ -138,8 +143,15 @@ new Vue({
             console.log(that.products);
             that.selectedProduct = that.products[0].value;
             that.sentimentwords = data.sentimentwords;
-            $("#productselector").select2();
-        });
 
+        });
+        }
+    },
+    mounted: function() {
+            this.initializeApp();
+           // var vm = this;
+         //   $("#productselector").select2().on('change', function(){
+          //      vm.$forceUpdate();
+         //   });
     }
 })
