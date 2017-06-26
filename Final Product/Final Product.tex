@@ -71,23 +71,24 @@
 		\subsection{Extracting entities and aspects}
 		\label{sec:entityextraction}
 		POS-tagging and Named Entity Extraction with OpenNLP
-		We consider everything tagged as \textit{Organization} as product or service.
+		
+		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organizations. Because most nouns in the English language are written in lower case, but organizations as well as products contain capital letters, the OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service.
 		% Uses maximum entropy?
 		% Mainly Dominik's part
 
 		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product.
 
-		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This has the effect that for example \textit{Customer Service} and \textit{Customer Services} are considered the same entity. The entities' aspect lists are merged accordingly. We throw out all aspects that occur in the entitiy's name. This causes for instance that the aspects \textit{tesco} and \textit{express} to be filtered out from the list of aspects of the entity \textit{Tesco Express}.
+		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This results in a reduction of entities, e.g. \textit{Customer Service} and \textit{Customer Services} are considered as the same entity. The entities' aspect lists are merged accordingly. All aspects that are also part of the entity's name are removed from the aspect list. Amongst other things, this removes the aspects \textit{tesco} and \textit{express} from the list of aspects for the entity \textit{Tesco Express}.
 
-		% Here I was especially lazy to formulate proper sentences
-		If for any entity no aspects can be found, it is removed from the final list. Every entity that makes it is also given the aspect \textit{general}.
+		If no aspects can be found for a specific entity, it is removed from the final list of entities.
+		For every entity that is part of the final list, the aspect \textit{general} is added as well.
 
 		\subsection{Determining sentiment polarities}
 		nltk's Vader module
 		Specifically developed for social media
 
 	\section{Results}
-		We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains (Tesco and Sainsbury) (but only dealt with one).
+		We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains Tesco and Sainsbury. However, we decided to perform our approach only on the Tesco data set.
 
 		The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 
@@ -123,13 +124,13 @@
 		\end{figure}
 	
 	\section{Discussion and Conclusion}
-	The accuracy of 54.72\% as mentioned in the Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure).
+	The accuracy of 54.72\% as mentioned in Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure).
 
 	We do not account for multi token aspects, since we only identify common nouns, which are single words.
 
-	Like mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has of course many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
+	Like mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
 	% Furthermore we take absolutely every "organization" into account and do use a frequency threshold, which might clean up the result a lot
-	
+	Moreover, the results could be improved by finding a model that has been trained on products, which would result in more accurate entities and aspects.
 	\section{Appendix}
 	%TODO: Make proper appendix, don't know the commands from the top of my head
 		
