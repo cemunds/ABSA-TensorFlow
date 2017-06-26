@@ -126,7 +126,11 @@
 	
 	\section{Co-Reference Resolution}
 	
-% TODO Has to be filled, if we even want to talk about it
+	To identify more relations in a sentence the sentences can be modified by a method called co-reference resolution. This methods replaces pronouns and other parts of the sentence with their definition. For example a sentence with the structure \textit{My son is young. He is in fourth grade.} will be resolved to \textit{My son is young. My son is in fourth grade.} which has the \textit{He} replaced with \textit{My son}.
+	
+	Using OpenNLP and a Python wrapper for it, we implemented co-reference resolution for all preprocessed posts. The posts are parsed into OpenNLP and from the results the pronouns and other parts are replaced with their proper definition. Due to time issues however this method was not used in the final results, so the differences in precision can not be shown.
+	
+% TODO Do we even want to talk about it?<dcföpv bhn NM
 	
 	\section{Extracting entities and aspects}
 	\label{sec:extraction}
@@ -178,32 +182,34 @@
 	\subsection{Visualization}
 
 	% TODO Talk about the visualization (pictures and interpretation)
-	Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with ... . On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
-	
+	Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
 	
 	For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
 	
 	The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure~\ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
 	
 	\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.7\linewidth]{data/barchart}
-			\caption{Bar chart displaying the sentiments regarding the customer service with aspect 'store'}
-			\label{fig:barchart}
-		\end{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{data/barchart}
+		\caption{Bar chart displaying the sentiments regarding the customer service with aspect 'store'}
+		\label{fig:barchart}
+	\end{figure}
 		
 	An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure~\ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
 		
 	\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.9\linewidth]{data/posts}
-			\caption{Highlighted posts regarding the customer service with aspect 'store'}
-			\label{fig:posts}
-		\end{figure}
-		
+		\centering
+		\includegraphics[width=0.9\linewidth]{data/posts}
+		\caption{Highlighted posts regarding the customer service with aspect 'store'}
+		\label{fig:posts}
+	\end{figure}
+	
 	
 
 	\section{Previously defined goals and their fulfillment}
+	
+	\subsection{Goals and research questions}
+	
 	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 	
 	We build a database with opinions and statistics on several products and their aspects. For a visualization of the results we build a simple dashboard with state-of-the-art web technologies.
@@ -220,9 +226,12 @@
 		\end{itemize}
 	\end{itemize}
 	
+	\subsection{Fulfillment}
+	
+	As can be seen from our results state of the art techniques in sentiment analysis can provide valuable results when applied to Facebook posts. The precision with our applied methods however hints to a high error rate when trying to read valuable information from provided text. The valuable information contains the sentiment an user has to a specific aspect.
+	
+	Due to time issues the supervised and unsupervised methods could not be compared.
 	% TODO Talk about the fulfillment of the goals, what we managed to accomplish and what not
-	
-	
 	
 	\section{The code pipeline}
 	To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
