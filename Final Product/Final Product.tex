@@ -8,7 +8,7 @@
 \usepackage{apacite}
 \usepackage{url}
 
-\title{{\Huge Sentiment Analysis for Social Media Comments}}
+\title{\Huge{Sentiment Analysis for Social Media Comments}}
 \author{Christoph Emunds, Benedikt Heinrichs, Dominik Nerger, Richard Polzin}
 \date{\today}
 
@@ -18,7 +18,7 @@
 	\begin{abstract}
 	Analyzing customer experience offers valuable data for Business Intelligence. Especially in e-commerce, where users write reviews about products and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strengths and weaknesses of the product or service.
 
-	Our work focuses on evaluating customer experience through the application of aspect-based sentiment analysis on social media posts. The data set contains a year's worth of Facebook comments on the pages of two supermarket chains (Tesco and Sainsbury). The goal is to extract as many triplets (e, a, s) as possible, where e is an entity (product or service), a is an aspect of this entity (performance, battery, politeness, etc.), and s is the sentiment polarity label (negative, neutral, positive).
+	Our work focuses on evaluating customer experience through the application of aspect-based sentiment analysis on social media posts. The data set contains a year's worth of Facebook comments on the pages of two supermarket chains (Tesco and Sainsbury). The goal is to extract as many triplets $(e, a, s)$ as possible, where $e$ is an entity (product or service), $a$ is an aspect of this entity (performance, battery, politeness, etc.), and $s$ is the sentiment polarity label (negative, neutral, positive).
 
 	To accomplish this task, many different subtasks need to be solved. After a rudimentary preprocessing routine, the posts need to be POS tagged, Named Entity Recognition (NER) must be applied and sentiment words need to be detected and evaluated. During these tasks we face many challenges, as a significant number of social media texts do not follow the grammatical rules or contain a lot of misspellings. With the completed analysis we identify potential products and services, their corresponding aspects and sentiment words, which are scored and aggregated into an opinion.
 
@@ -30,20 +30,16 @@
 	\newpage
 
 	\section{Introduction}
-	In today's world, Social Media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of customers/people interacting with companies, celebrities, sports teams etc.
+	In today's world, social media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of customers/people interacting with companies, celebrities, sports teams etc.
 	People can review companies or comment on their news feed, allowing interaction between the two entities. These comments or reviews are often filled with positive or negative sentiments because they mostly occur after a really positive or negative experience with the company. Through the comments, it should therefore be possible to extract sentiments about products or aspects of the company.
-	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
+
+	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain.
 	
 	\section{Related work}
+	The related work presented here should give a quick overview over two of the main techniques that we used to identify entities and their aspects.
 		
 		\subsection{POS-Tagging}
-		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. 
-
-		Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
-
-		Frequent nouns or noun phrases often describe aspects of products and the vocabulary that is used to describe those usually converges. With such an approach many important aspects can easily be found, but on a more general scheme grammatical based relationships can be used to extract important aspects.
-
-		For example words that express opinion on something, like 'great' or 'bad' can be incorporated in rules to extract aspects. To sum it up POS-Tagging is an important part of sentiment analysis.
+		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
 		
 		While being important POS-Tagging is also a complex problem. Word-forms in natural language are often ambiguous. For example the word 'dogs' is usually thought of as a plural noun, but can be used as a verb as well:
 
@@ -63,35 +59,50 @@
 			[Tim Cook]$_{[Person]}$ has a Net worth of [785 million USD]$_{[Monetary Value]}$ as of [March 16. 2017]$_{[Time]}$.
 		\end{quote}
 		
-		Often the task of NER-Tagging is separated into two. In the first part names are detected and in the second part these names are classified. 
-		
 		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
 	
 	\section{Approach}
+
 		\subsection{Preprocessing}
-	
-		We pre-processed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
+		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
 	
 		\subsection{Extracting entities and aspects}
+		\label{sec:entityextraction}
 		POS-tagging and Named Entity Extraction with OpenNLP
+		We consider everything tagged as \textit{Organization} as product or service.
+		% Uses maximum entropy?
+		% Mainly Dominik's part
 
-		First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
+		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product.
+
+		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This has the effect that for example \textit{Customer Service} and \textit{Customer Services} are considered the same entity. The entities' aspect lists are merged accordingly. We throw out all aspects that occur in the entitiy's name. This causes for instance that the aspects \textit{tesco} and \textit{express} to be filtered out from the list of aspects of the entity \textit{Tesco Express}.
+
+		% Here I was especially lazy to formulate proper sentences
+		If for any entity no aspects can be found, it is removed from the final list. Every entity that makes it is also given the aspect \textit{general}.
 
 		\subsection{Determining sentiment polarities}
 		nltk's Vader module
 		Specifically developed for social media
 
 	\section{Results}
-		The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
+		We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains (Tesco and Sainsbury) (but only dealt with one).
+
+		The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
+
+		However, from the data set that was given to us, it was not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time a certain sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services.
+
+		We labeled a small subset of posts concerning the entity \textit{Customer Service} by hand. This includes 200 posts with 254 extracted sentiment triples with unknown sentiment.
+
+		After labeling these triples with the Vader module, 139 of the 254 triples (i.e. 54.72\%) result in the same sentiment.
 
 		\subsection{Visualization}
 		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
 
-		Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
+		On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
 	
 		For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
 	
-		The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure~\ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
+		The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure \ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
 	
 		\begin{figure}[h]
 			\centering
@@ -100,7 +111,7 @@
 			\label{fig:barchart}
 		\end{figure}
 			
-		An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure~\ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
+		An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure \ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
 			
 		\begin{figure}[h]
 			\centering
@@ -110,6 +121,12 @@
 		\end{figure}
 	
 	\section{Discussion and Conclusion}
+	The accuracy of 54.72\% as mentioned in the Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure).
+
+	We do not account for multi token aspects, since we only identify common nouns, which are single words.
+
+	Like mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has of course many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
+	% Furthermore we take absolutely every "organization" into account and do use a frequency threshold, which might clean up the result a lot
 	
 	\section{Appendix}
 	%TODO: Make proper appendix, don't know the commands from the top of my head
