@@ -7,13 +7,8 @@
 \usepackage{tikz}
 \usepackage{apacite}
 \usepackage{url}
-\usepackage[left=3.00cm, right=3.00cm, top=3.00cm, bottom=3.00cm]{geometry}
-%\usepackage[printwatermark]{xwatermark}
-%\usepackage{xcolor}
 
-%\newwatermark[allpages,color=red!40,angle=45,scale=4,xpos=0,ypos=0]{DRAFT}
-
-\title{{\Huge Sentiment Analysis for Social Media comments}}
+\title{{\Huge Sentiment Analysis for Social Media Comments}}
 \author{Christoph Emunds, Benedikt Heinrichs, Dominik Nerger, Richard Polzin}
 \date{\today}
 
@@ -21,49 +16,27 @@
 	\maketitle
 	
 	\begin{abstract}
-		\input{abstract}
+	Analyzing customer experience offers valuable data for Business Intelligence. Especially in e-commerce, where users write reviews about products and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strengths and weaknesses of the product or service.
+
+	Our work focuses on evaluating customer experience through the application of aspect-based sentiment analysis on social media posts. The data set contains a year's worth of Facebook comments on the pages of two supermarket chains (Tesco and Sainsbury). The goal is to extract as many triplets (e, a, s) as possible, where e is an entity (product or service), a is an aspect of this entity (performance, battery, politeness, etc.), and s is the sentiment polarity label (negative, neutral, positive).
+
+	To accomplish this task, many different subtasks need to be solved. After a rudimentary preprocessing routine, the posts need to be POS tagged, Named Entity Recognition (NER) must be applied and sentiment words need to be detected and evaluated. During these tasks we face many challenges, as a significant number of social media texts do not follow the grammatical rules or contain a lot of misspellings. With the completed analysis we identify potential products and services, their corresponding aspects and sentiment words, which are scored and aggregated into an opinion.
+
+	The results obtained from this analysis are visualized to get a better understanding of the customers' feelings towards these products, services, and their aspects. The visualization supports businesses in a wide range of decisions, such as product positioning and pricing. This can lead to better customer satisfaction, faster reactions to trends and overall revenue growth.
 	\end{abstract}
 	
+	\newpage
 	\tableofcontents
-	
+	\newpage
+
 	\section{Introduction}
 	In today's world, Social Media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of customers/people interacting with companies, celebrities, sports teams etc.
 	People can review companies or comment on their news feed, allowing interaction between the two entities. These comments or reviews are often filled with positive or negative sentiments because they mostly occur after a really positive or negative experience with the company. Through the comments, it should therefore be possible to extract sentiments about products or aspects of the company.
 	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
-	% TODO probably enhance a little on the exact process
 	
 	\section{Related work}
-	
-		\subsection{Word embeddings}
-		Word embeddings are numeric representations of words where similar words have similar vectors. Today, word embeddings are used as input to a lot of natural language processing (NLP) tasks, which is the reason why the process of training these vectors is sometimes called pre-training.
-		
-		Word embeddings are generally more concise and have a lower dimensionality than the usual \textit{bag of words} model with one-hot encoded vectors. Depending on the amount of words in the vocabulary, these one-hot vectors have a huge dimensionality, while being sparse (i.e. only one component of each vector is set to 1 and the others to 0) and wasting a lot of space. Such simple models also fail to incorporate meaning of and similarities between words. For example in the sentences
-		\begin{quote}
-			the cat got squashed in the garden on friday
-		\end{quote}
-		\begin{quote}
-			the dog got flattened in the yard on monday
-		\end{quote}
-		simple language models do not capture the similarities between the word pairs \textit{cat/dog}, \textit{squashed/ flattened}, \textit{garden/yard} and \textit{friday/monday}.
-		
-		A famous example for the expressive power of word embeddings is the following:
-		\begin{displaymath}
-			king-man+woman \approx queen
-		\end{displaymath}
-		
-		This equation shows that if one were to subtract the vector representation for the word \textit{man} from the vector for \textit{king} and add the vector for \textit{woman}, this would result in a point near to the vector for the word \textit{queen}.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.8\linewidth]{data/man_woman}
-			\caption{Representation of words relating to the differentiation between man and woman}
-			\label{fig:wordembeddings}
-		\end{figure}
-		
-		The high dimensional vector representations of the words can be processed with the \textit{t-SNE} dimensionality reduction algorithm to be able to plot them in a two dimensional vector space. Figure \ref{fig:wordembeddings} shows a section of the vector space.
 		
 		\subsection{POS-Tagging}
-
 		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. 
 
 		Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
@@ -93,159 +66,58 @@
 		Often the task of NER-Tagging is separated into two. In the first part names are detected and in the second part these names are classified. 
 		
 		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
+	
+	\section{Approach}
+		\subsection{Preprocessing}
+	
+		We pre-processed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
+	
+		\subsection{Extracting entities and aspects}
+		POS-tagging and Named Entity Extraction with OpenNLP
 
-% TODO Can be possibly thrown out
-		\subsection{Dependency parsing}
-		
-		Dependency parsing is a method of building up context in a sentence.
-		It looks on the relations each word has with the other words and tries to create a meaning out of a sentence by that.
-		
-		For example the sentence \textit{I saw a girl with a telescope} has two times the combination of an object with the word \textit{a}. 
-		The word \textit{girl} is specified by the verb \textit{saw} and the object \textit{telescope} is specified by the word \textit{with} with references to the verb \textit{saw}. 
-		The verb \textit{saw} relates then to the noun \textit{I} as it is the subject. 		
-		A visualization can be seen in the following.
-		This is however just one method of analyzing this sentence.
-		Another way of seeing this sentence would be to relate the word \textit{with} with the object \textit{girl} which is possible in the language and gives the whole sentence a different meaning.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[width=0.8\linewidth]{data/dependency}
-			\caption{The dependency parsing example}
-			\label{fig:dependency}
-		\end{figure}
-		
-		This example has been taken from \cite{dependency}.
-	
-% TODO Any other Related Work?
-	
-	\section{Preprocessing}
-	
-	We pre-processed the data by extracting the actual text of the posts into separate files, which can be processed by SyntaxNet. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
-	
-	% TODO Maybe a bit more on the practical implementation
-	
-	\section{Co-Reference Resolution}
-	
-	To identify more relations in a sentence the sentences can be modified by a method called co-reference resolution. This methods replaces pronouns and other parts of the sentence with their definition. For example a sentence with the structure \textit{My son is young. He is in fourth grade.} will be resolved to \textit{My son is young. My son is in fourth grade.} which has the \textit{He} replaced with \textit{My son}.
-	
-	Using OpenNLP and a Python wrapper for it, we implemented co-reference resolution for all preprocessed posts. The posts are parsed into OpenNLP and from the results the pronouns and other parts are replaced with their proper definition. Due to time issues however this method was not used in the final results, so the differences in precision can not be shown.
-	
-% TODO Do we even want to talk about it?<dcföpv bhn NM
-	
-	\section{Extracting entities and aspects}
-	\label{sec:extraction}
-	To be able to determine the customers' opinions on certain entities and their aspects, we first need to extract possible entities and aspects from the given dataset. For this task, we will use a method proposed by \cite{Hu:2004:MSC:1014052.1014073}, which consists of the following two steps:
-	
-	First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
-	
-	However, since the first step can miss quite a lot of important aspects, the next step tries to find some of them by exploiting the relationships between aspects and opinion words.
-	
-	% TODO Maybe a bit more on the practical implementation
-	
-	\section{Determining sentiment polarities}
-	For determining the sentiment polarities, we use a lexicon based approach that is executed with dictionaries to rate the sentiments that are expressed.
-	
-		\subsection{Lexicon-based approach}
-		An approach to determine sentiment polarities is the lexicon-based sentiment analysis.
-		
-		We applied a method by \cite{Ding:2008:HLA:1341531.1341561}, which can be broken down to the following four steps: 
-		
-		In the first step, all sentiment words and phrases in the text will be marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
-		
-		In the second step, sentiment shifters will be applied. A sentiment shifter can be described as a word that negates the value that has been applied in the first step, changing its value from positive to negative or the other way around. Typically, these words are negation words like \textit{not}. 
-		
-		In the third step, but-clauses and further contrary words are handled. With these contrary words, sentences can be split up into two parts. Depending on the value of the sentiments mentioned in the first part, the sentiments in the second part receive the opposite value.
-		
-		In the fourth and last step, the opinions need to be aggregated according to the following function:
-		\begin{displaymath}
-			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
-		\end{displaymath}
-		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
-	
-		This method can be made more effective by applying dependency parsing to the sentences, such that the scope of each individual sentiment word can be determined more accurately. This allows us to discover the sentiment orientation of context dependent words \cite{Liu12sentimentanalysis}. Due to limited time however this approach was not followed.
+		First, we identify frequent nouns and noun phrases with a POS-Tagger. Since people commenting on aspects of a product usually use a limited vocabulary, this process should yield a first set of possible entities and aspects. The frequency threshold needs to be chosen experimentally.
 
-	% TODO Maybe a bit more on the practical implementation
+		\subsection{Determining sentiment polarities}
+		nltk's Vader module
+		Specifically developed for social media
 
 	\section{Results}
-	
-	% TODO Has to be enhanced => NLTK => OpenNLP
-	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we used as a POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
-	
-	
-	% TODO Has to be rewritten	
-	We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Moreover, we will use pre-trained word embeddings from the GloVe project \cite{pennington2014glove}.
-	
-	% TODO Maybe a bit more on the practical implementation
-	
-	% TODO Show the statistic on how well it does vs our evaluations
-	
-	\subsection{Visualization}
+		The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 
-	% TODO Talk about the visualization (pictures and interpretation)
-	Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
+		\subsection{Visualization}
+		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
+
+		Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
 	
-	For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
+		For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
 	
-	The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure~\ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
+		The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure~\ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
 	
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.7\linewidth]{data/barchart}
-		\caption{Bar chart displaying the sentiments regarding the customer service with aspect 'store'}
-		\label{fig:barchart}
-	\end{figure}
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{data/barchart}
+			\caption{Bar chart displaying the sentiments regarding the customer service with aspect 'store'}
+			\label{fig:barchart}
+		\end{figure}
+			
+		An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure~\ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
+			
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\linewidth]{data/posts}
+			\caption{Highlighted posts regarding the customer service with aspect 'store'}
+			\label{fig:posts}
+		\end{figure}
+	
+	\section{Discussion and Conclusion}
+	
+	\section{Appendix}
+	%TODO: Make proper appendix, don't know the commands from the top of my head
 		
-	An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure~\ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
-		
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=0.9\linewidth]{data/posts}
-		\caption{Highlighted posts regarding the customer service with aspect 'store'}
-		\label{fig:posts}
-	\end{figure}
-	
-	
+		\subsection{Using the code}
+		To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
 
-	\section{Previously defined goals and their fulfillment}
-	
-	\subsection{Goals and research questions}
-	
-	The overall goal is to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
-	
-	We build a database with opinions and statistics on several products and their aspects. For a visualization of the results we build a simple dashboard with state-of-the-art web technologies.
-
-	Based on these goals the following research questions were defined:
-
-	\begin{itemize}
-	\item Do state of the art techniques in sentiment analysis provide valuable results when applied to Facebook posts?
-	\item How do supervised (LSTM-Network) and unsupervised (Lexicon-based) techniques for sentiment analysis compare?
-		\begin{itemize}
-		\item Is it possible to apply the LSTM-Network approach proposed by \cite{hongsentiment} on an aspect level, rather than document level?
-		\item Which technique offers better results, how does it compare to the effort required to use that technique?
-		\item How does a combination of the techniques affect performance?
-		\end{itemize}
-	\end{itemize}
-	
-	\subsection{Fulfillment}
-	
-	As can be seen from our results state of the art techniques in sentiment analysis can provide valuable results when applied to Facebook posts. The precision with our applied methods however hints to a high error rate when trying to read valuable information from provided text. The valuable information contains the sentiment an user has to a specific aspect.
-	
-	Due to time issues the supervised and unsupervised methods could not be compared.
-	% TODO Talk about the fulfillment of the goals, what we managed to accomplish and what not
-	
-	\section{The code pipeline}
-	To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
-	
-	% TODO Add the Code Pipeline
-	
-	\section{Conclusion and Future Work}
-	
-	% TODO Add conclusion and talk about future work
-	
 	\newpage
-	
-	\nocite{Zhang2014}
-	\nocite{syntaxnet}
 
 	\bibliography{rp}
 	\bibliographystyle{apacite}
