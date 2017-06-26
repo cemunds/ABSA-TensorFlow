@@ -27,7 +27,9 @@
 	\tableofcontents
 	
 	\section{Introduction}
-	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
+	In today's world, Social Media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of customers/people interacting with companies, celebrities, sports teams etc.
+	People can review companies or comment on their news feed, allowing interaction between the two entities. These comments or reviews are often filled with positive or negative sentiments because they mostly occur after a really positive or negative experience with the company. Through the comments, it should therefore be possible to extract sentiments about products or aspects of the company.
+	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain. This report describes the required background knowledge and the related work that we build upon. We present how we used the available components to try and fulfill our task. For this task we review the previously defined research questions and evaluate their success or failure.
 	% TODO probably enhance a little on the exact process
 	
 	\section{Related work}
@@ -137,10 +139,10 @@
 	% TODO Maybe a bit more on the practical implementation
 	
 	\section{Determining sentiment polarities}
-	For determining the sentiment polarities, we used the Lexicon-based approach which will the describe in the following.
+	For determining the sentiment polarities, we use a lexicon based approach that is executed with dictionaries to rate the sentiments that are expressed.
 	
 		\subsection{Lexicon-based approach}
-		An approach to determine sentiment polarities is the lexicon-based approach.
+		An approach to determine sentiment polarities is the lexicon-based sentiment analysis.
 		
 		We applied a method by \cite{Ding:2008:HLA:1341531.1341561}, which can be broken down to the following four steps: 
 		
@@ -163,7 +165,7 @@
 	\section{Results}
 	
 	% TODO Has to be enhanced => NLTK => OpenNLP
-	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we used as POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
+	We built and tested the syntax parser \textit{Parsey McParseface} (aka SyntaxNet) by Google, which we used as a POS-Tagger for extracting entities and aspects and as dependency parser for several other tasks. SyntaxNet is easy to use and yields state-of-the art results. Moreover, it is based on Google's Deep Learning Framework TensorFlow and therefore integrates nicely into the rest of our implementation. The implemented models are explained in detail in \cite{DBLP:journals/corr/AndorAWSPGPC16}.
 	
 	
 	% TODO Has to be rewritten	
@@ -176,7 +178,29 @@
 	\subsection{Visualization}
 
 	% TODO Talk about the visualization (pictures and interpretation)
-	Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with ... . On the client side, we use the JavaScript libraries D3.js, Vue.js and jQuery
+	Because it is time consuming to take the results and derive a meaning from them by hand, we decided to visualize the results in a web application. On the server side, we use Python with ... . On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
+	
+	
+	For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
+	
+	The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure~\ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
+	
+	\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.7\linewidth]{data/barchart}
+			\caption{Bar chart displaying the sentiments regarding the customer service with aspect 'store'}
+			\label{fig:barchart}
+		\end{figure}
+		
+	An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure~\ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
+		
+	\begin{figure}[h]
+			\centering
+			\includegraphics[width=0.9\linewidth]{data/posts}
+			\caption{Highlighted posts regarding the customer service with aspect 'store'}
+			\label{fig:posts}
+		\end{figure}
+		
 	
 
 	\section{Previously defined goals and their fulfillment}
@@ -197,6 +221,8 @@
 	\end{itemize}
 	
 	% TODO Talk about the fulfillment of the goals, what we managed to accomplish and what not
+	
+	
 	
 	\section{The code pipeline}
 	To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
