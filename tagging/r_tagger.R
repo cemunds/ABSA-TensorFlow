@@ -31,7 +31,7 @@ tagPOS <-  function(x, ...) {
 data_frame[,"pos_tagged"] <- NA
 
 for (i in 1:nrow(data_frame)){
-  data_frame$pos_tagged[i] <- tagPOS(data_frame$post_message_lowered[i])$POStagged
+  data_frame$pos_tagged[i] <- tagPOS(data_frame$post_message[i])$POStagged
 }
 
 
@@ -72,8 +72,8 @@ namevector <-c('person','location','organization','sents', 'date', 'money')
 data_frame[,"sents"] <- NULL
 
 for (i in 1:nrow(data_frame)){
-  annotations <- annotate(data_frame$post_message_lowered[i], pipeline)
-  doc <- AnnotatedPlainTextDocument(data_frame$post_message_lowered[i], annotations)
+  annotations <- annotate(data_frame$post_message[i], pipeline)
+  doc <- AnnotatedPlainTextDocument(data_frame$post_message[i], annotations)
   data_frame$organization[i] <- paste(entities(doc, kind = "organization"), collapse = ";")
   data_frame$location[i] <-paste(entities(doc, kind = "location"), collapse = ";")
   data_frame$person[i]<-paste(entities(doc, kind = "person"), collapse = ";")
