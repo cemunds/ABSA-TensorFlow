@@ -78,12 +78,15 @@
 	
 		\subsection{Extracting entities and aspects}
 		\label{sec:entityextraction}
-		POS-tagging and Named Entity Extraction with OpenNLP
+		For each post, the POS tags as well as different entities are obtained, with the entities being created through different Named Entity Recognition models. Both POS-tagging and Named Entity Extraction are accomplished with OpenNLP.
+		They use maximum entropy, which takes the data and classifies it, while not assuming anything about the probability distribution, besides the things that have been observed. 
 		
-		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organizations. Because most nouns in the English language are written in lower case, but organizations as well as products contain capital letters, the OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service.
-		% Uses maximum entropy?
-		% Mainly Dominik's part
-
+		The Named Entity Recognition in the English language is available for different entities, each with their own model. We utilized the following models: \textit{person}, \textit{location}, \textit{organization}, \textit{date} and \textit{money}.
+		
+		
+		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organization to appropriately tag these. Most nouns in the English language are written in lower case, but organizations as well as products contain capital letters. The OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services because of this. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service.
+		
+		
 		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product.
 
 		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This results in a reduction of entities, e.g. \textit{Customer Service} and \textit{Customer Services} are considered as the same entity. The entities' aspect lists are merged accordingly. All aspects that are also part of the entity's name are removed from the aspect list. Amongst other things, this removes the aspects \textit{tesco} and \textit{express} from the list of aspects for the entity \textit{Tesco Express}.
@@ -115,7 +118,7 @@
 	After labeling these triples with the Vader module, 139 of the 254 triples (i.e. 54.72\%) result in the same sentiment.
 
 		\subsection{Visualization}
-		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
+		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes misspellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
 
 		On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
 	
