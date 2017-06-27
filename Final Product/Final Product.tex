@@ -117,8 +117,18 @@
 		For every entity that is part of the final list, the aspect \textit{general} is added as well.
 
 		\subsection{Determining sentiment polarities}
-		nltk's Vader module
-		Specifically developed for social media \cite{vader}
+		\label{sec:sentimentpolarities}
+		
+		Since for every Facebook post sentiment analysis has to be applied, a model which deals with the problem of having social media texts is largely favored. A model for lexicon and rule-based sentiment analysis of social media text is VADER \cite{vader}. This model is included in the Python library NLTK and was for these reasons the chosen one in the final implementation. 
+		
+		For applying the VADER model the tagged posts, their entities and their aspects are being used. Every posts gets parsed into the VADER model and the polarity of each post gets calculated. For determining the polarities for each entity, we look if an entity appears in a some sentence of the post. If it does, the general polarity of that sentence gets calculated. For then calculating the polarity towards the entity, the following formula is applied:
+		
+		If the polarity towards positive is the highest and the compound polarity is greater than 0.3, this sentence gets the polarity \textit{positive}. If the polarity towards negative is the highest and the compound polarity is smaller than 0.3, this sentence gets the polarity \textit{negative}. Every other case receives the polarity \textit{neutral}.
+		
+		After applying that formula we look if an aspects appears in that particular sentence. If it does, the collection of entity, aspect and polarity gets added to the sentiment list. If it does not, the entity and polarity get added to the sentiment list under the aspect \textit{general}.
+		
+		The evaluated posts then create a new list containing the name of an entity and their positive, negative and neutral score by summing the occurences of a positive, negative or neutral polarity.
+		
 	\section{Results}
 	\label{sec:results}
 	
