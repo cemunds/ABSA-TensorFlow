@@ -98,18 +98,18 @@
 
 	\section{Results}
 	\label{sec:results}
-	% len(posts) = 37701
-	% len(preprocessed_posts) = 22395
-	
-	% len(products_original) = 1598
-	% len(products) = 1379 (after removing some by hand)
-	% len(products_and_aspects) = 1256
 	
 	We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains Tesco and Sainsbury. However, we decided to perform our approach only on the Tesco data set.
+	
+	Through performing our pre-processing tasks of removing posts with less than 20 characters or an image, we were able to reduce the amount of posts by 40.6\%, from 37701 original posts down to 22395 afterwards.
+
+	By executing the POS- and NER-tagger, we came up with 1598 products that were mentioned in the posts. Because there were a lot of products that did not make sense, we removed some of them by hand, resulting in 1379 products. Furthermore, products that did not possess an aspect were removed as well. Therefore, 1256 products that at least contain one aspect were identified, decreasing the product list by 21.5\%. 
 
 	The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 
 	However, from the data set that was given to us, it was not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time a certain sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services.
+	
+	
 
 	We labeled a small subset of posts concerning the entity \textit{Customer Service} by hand. This includes 200 posts with 254 extracted sentiment triples with unknown sentiment.
 
