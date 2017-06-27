@@ -1,5 +1,7 @@
 # Aspect Based Entity Analysis (ABSA)
 
+
+
 ## Overview
 ```
 ├── data  # The Data and Preprocessing Scripts
@@ -57,10 +59,13 @@ Set up a Python3.6 virtual environment and install the supplied requirements.
 
 ## Setting up R
 Set up R on your operating system, for Ubuntu:
+
 - Install R `sudo apt-get install r-base r-base-dev`
 - Install Dependencies `sudo R`, then interactively
     - `install.packages(c("rjson","dplyr","NLP","openNLP","jsonlite","stringr","dplyr"))`
     - `install.packages("openNLPmodels.en", repos = "http://datacube.wu.ac.at/", type = "source")`
+
+Alternatively use [R-Studio](https://www.rstudio.com/) and comment in the first lines to install dependencies.
 
 ## Recreate Project Results
 
