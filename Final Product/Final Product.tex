@@ -6,6 +6,7 @@
 \usepackage{array}
 \usepackage{tikz}
 \usepackage{apacite}
+\usepackage{placeins}
 \usepackage{url}
 
 \title{\Huge{Sentiment Analysis for Social Media Comments}}
@@ -153,7 +154,7 @@
 			\label{fig:barchart}
 		\end{figure}
 			
-		An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure \ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.
+	An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure \ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting.	
 			
 		\begin{figure}[h]
 			\centering
@@ -161,13 +162,34 @@
 			\caption{Highlighted posts regarding the customer service with aspect 'store'}
 			\label{fig:posts}
 		\end{figure}
+		
+				
+		The products with the most mentions are \textit{Tesco}, \textit{Tesco Express}, \textit{Tesco Direct}, \textit{Customer Service} and \textit{Store}.
+		
+		\FloatBarrier
+		\begin{figure}[!h]
+  \centering
+  \begin{minipage}[b]{0.455\textwidth}
+    \includegraphics[width=\textwidth]{data/custService1}
+    \caption{ Aspects general and store for the customer service}
+	\label{fig:custServ1}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{data/custService2}
+    \caption{Aspects tesco and delivery for the customer service}
+	\label{fig:custServ2}
+  \end{minipage}
+\end{figure}		
+		
+		For the customer service (compare Figures~\ref{fig:custServ1} and~\ref{fig:custServ2}), it is interesting to note that the aspects 'general', 'store' and 'tesco' have more positive than negative expressed sentiments, while the aspect 'delivery' has about the same amount of positive and negative sentiments. This might be because of late deliveries, which can happen through circumstances out of the company's reach.
 	
 	\section{Discussion and Conclusion}
 	The accuracy of 54.72\% as mentioned in Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure).
 
 	We do not account for multi token aspects, since we only identify common nouns, which are single words.
 
-	Like mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
+	As mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
 	% Furthermore we take absolutely every "organization" into account and do use a frequency threshold, which might clean up the result a lot
 	Moreover, the results could be improved by finding a model that has been trained on products, which would result in more accurate entities and aspects.
 	%We use the sentiment of the whole sentence to determine the sentiment towards the aspect
