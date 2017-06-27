@@ -47,7 +47,7 @@
 	 It should therefore be possible to collect the information in these posts and extract sentiments about products or aspects of the company that offer valuable insight. Our approach on a solution will be presented in this report, starting with a description of the related work that already exists. Afterwards, our approach and the single steps that are performed will be introduced. Then, the results that have been obtained will be discussed, as well as the visualization that has been implemented. To finish up the report, a conclusion will be drawn.
 		
 	\section{Related work}
-	The related work presented in this section gives an overview over the main techniques that are used to identify entities and their aspects.
+	The related work presented in this section should give a quick overview over two of the main techniques that we used to identify entities and their aspects.
 		
 		\subsection{POS-Tagging}		
 		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
@@ -58,7 +58,7 @@
 			The sailor dogs the hatch.
 		\end{quote}
 
-		Due to the complexity, machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm \cite{Viterbi:2006:EBC:2263262.2267502}, the Brill tagger \cite{Brill:1992:SRP:974499.974526} or the Baum-Welch algorithm \cite{baumwelch} work with techniques such as dynamic programming, supervised learning or hidden Markov models.
+		Due to the complexity, machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm, the Brill tagger or the Baum-Welch algorithm work with techniques such as dynamic programming, supervised learning or hidden Markov models.
 		
 		\subsection{NER-Tagging}
 		
@@ -70,7 +70,25 @@
 			[Tim Cook]$_{[Person]}$ has a Net worth of [785 million USD]$_{[Monetary Value]}$ as of [March 16. 2017]$_{[Time]}$.
 		\end{quote}
 		
-		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for \cite{ner}. 
+		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
+		
+		\subsection{Lexicon-based sentiment analysis}
+		An approach to determine sentiment polarities is the lexicon-based sentiment analysis.
+		
+		The method created by \cite{Ding:2008:HLA:1341531.1341561} can be broken down to the following four steps: 
+		
+		In the first step, all sentiment words and phrases in the text are marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
+		
+		In the second step, sentiment shifters will be applied. A sentiment shifter can be described as a word that negates the value that has been applied in the first step, changing its value from positive to negative or the other way around. Typically, these words are negation words like \textit{not}. 
+		
+		In the third step, but-clauses and further contrary words are handled. With these contrary words, sentences can be split up into two parts. Depending on the value of the sentiments mentioned in the first part, the sentiments in the second part receive the opposite value.
+		
+		In the fourth and last step, the opinions are aggregated according to the following function:
+		\begin{displaymath}
+			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
+		\end{displaymath}
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
+	
 	
 	\section{Approach}
 	% Which steps are necessary?
@@ -161,7 +179,8 @@
 		To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
 
 	\newpage
-
+	
+		
 	\bibliography{rp}
 	\bibliographystyle{apacite}
 \end{document}
