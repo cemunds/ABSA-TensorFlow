@@ -1,0 +1,6 @@
+Flask==0.12.2
+flask_cors==3.0.2
+nltk==3.2.4
+numpy==1.13.0
+pandas==0.20.2
+tqdm==4.14.0
