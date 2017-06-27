@@ -1,6 +1,6 @@
 # Aspect Based Entity Analysis (ABSA)
 
-
+[![ Git Visualization : ABSA-TensorFlow](http://img.youtube.com/vi/hXmepuX1Aq0/0.jpg)](http://www.youtube.com/watch?v=hXmepuX1Aq0)
 
 ## Overview
 ```
