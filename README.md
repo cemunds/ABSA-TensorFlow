@@ -48,21 +48,21 @@
         └── index.html
 ```
 
-To obtain the showcased results:
-
+## Setting up Python
 Set up a Python3.6 virtual environment and install the supplied requirements.
 
 - Create Virtual Environment `virtualenv -p python3.6 venv`
 - Activate it `source venv/bin/activate`
 - Install dependencies `python3.6 -m pip install -r requirements.txt`
 
+## Setting up R
 Set up R on your operating system, for Ubuntu:
 - Install R `sudo apt-get install r-base r-base-dev`
 - Install Dependencies `sudo R`, then interactively
     - `install.packages(c("rjson","dplyr","NLP","openNLP","jsonlite","stringr","dplyr"))`
     - `install.packages("openNLPmodels.en", repos = "http://datacube.wu.ac.at/", type = "source")`
 
-Execute the following steps and ajdust the scripts as needed.
+## Recreate Project Results
 
 - Preprocessing
     - Execute `python3.6 data/data_parser.py` to generate `posts.json` from `data/Tesco/`
