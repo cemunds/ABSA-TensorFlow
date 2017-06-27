@@ -13,8 +13,9 @@
 \date{\today}
 
 \begin{document}
+	\pagenumbering{gobble}
+	
 	\maketitle
-	\thispagestyle{empty}
 	\begin{abstract}
 	Analyzing customer experience offers valuable data for Business Intelligence. Especially in e-commerce, where users write reviews about products and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strengths and weaknesses of the product or service.
 
@@ -27,20 +28,26 @@
 	
 	\newpage
 	\tableofcontents
-	\thispagestyle{empty}
 	\newpage
-	\clearpage
-	\setcounter{page}{1}
-	\section{Introduction}
-	In today's world, social media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of customers/people interacting with companies, celebrities, sports teams etc.
-	People can review companies or comment on their news feed, allowing interaction between the two entities. These comments or reviews are often filled with positive or negative sentiments because they mostly occur after a really positive or negative experience with the company. Through the comments, it should therefore be possible to extract sentiments about products or aspects of the company.
-
-	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain.
 	
-	\section{Related work}
-	The related work presented here should give a quick overview over two of the main techniques that we used to identify entities and their aspects.
+	\pagenumbering{arabic}
+	\section{Introduction}
+	% What is sentiment analysis?
+	% What does "aspect-based" mean?
+	% What do we show?
+	
+	Sentiment analysis or opinion mining uses techniques from natural language processing (NLP), text analysis, and computational linguistics to extract subjective information from texts. In applications that involve analyzing customer experience, this subjective information typically represents the position of a person towards a certain entity. Quantifying feelings and opinions that customers have towards products and services offers valuable information for the company.
+	
+	% Copied from websites, needs rephrasing
+	%In this context, Aspect Based Sentiment Analysis (ABSA) - i.e., mining and summarizing opinions from text about specific entities and their aspects - can help consumers decide what to purchase and businesses to better monitor their reputation and understand the needs of the market.
+	%Sentiment analysis is increasingly viewed as a vital task both from an academic and a commercial standpoints. The majority of current approaches, however, attempts to detect the overall polarity of a sentence, paragraph, or text span, regardless of the entities mentioned (e.g., laptops, restaurants) and their aspects (e.g., battery, screen; food, service). By contrast, this task is concerned with aspect based sentiment analysis, where the goal is to identify the aspects of given target entities and the sentiment expressed towards each aspect.
+	
+	The project presented in this document focuses on finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain. In today's world, social media is a big part of the social life. On social networks like Facebook, besides personal accounts there are corporate accounts as well, with the possibility of people interacting with e.g. companies, celebrities, or sports teams. People can review companies or comment on their news feed. These comments or reviews are often filled with positive or negative sentiments, since they mostly occur after a really positive or negative experience with the company. Through the comments, it should therefore be possible to extract sentiments about products or aspects of the company.
 		
-		\subsection{POS-Tagging}
+	\section{Related work}
+	The related work presented in this section should give a quick overview over two of the main techniques that we used to identify entities and their aspects.
+		
+		\subsection{POS-Tagging}		
 		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
 		
 		While being important POS-Tagging is also a complex problem. Word-forms in natural language are often ambiguous. For example the word 'dogs' is usually thought of as a plural noun, but can be used as a verb as well:
@@ -64,6 +71,7 @@
 		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for.
 	
 	\section{Approach}
+	% Which steps are necessary?
 
 		\subsection{Preprocessing}
 		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
@@ -88,15 +96,23 @@
 		Specifically developed for social media
 
 	\section{Results}
-		We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains Tesco and Sainsbury. However, we decided to perform our approach only on the Tesco data set.
+	\label{sec:results}
+	% len(posts) = 37701
+	% len(preprocessed_posts) = 22395
+	
+	% len(products_original) = 1598
+	% len(products) = 1379 (after removing some by hand)
+	% len(products_and_aspects) = 1256
+	
+	We were given a data set containing a year's worth of Facebook comments on the pages of two supermarket chains Tesco and Sainsbury. However, we decided to perform our approach only on the Tesco data set.
 
-		The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
+	The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 
-		However, from the data set that was given to us, it was not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time a certain sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services.
+	However, from the data set that was given to us, it was not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time a certain sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services.
 
-		We labeled a small subset of posts concerning the entity \textit{Customer Service} by hand. This includes 200 posts with 254 extracted sentiment triples with unknown sentiment.
+	We labeled a small subset of posts concerning the entity \textit{Customer Service} by hand. This includes 200 posts with 254 extracted sentiment triples with unknown sentiment.
 
-		After labeling these triples with the Vader module, 139 of the 254 triples (i.e. 54.72\%) result in the same sentiment.
+	After labeling these triples with the Vader module, 139 of the 254 triples (i.e. 54.72\%) result in the same sentiment.
 
 		\subsection{Visualization}
 		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes mis-spellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
@@ -131,6 +147,8 @@
 	Like mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases.
 	% Furthermore we take absolutely every "organization" into account and do use a frequency threshold, which might clean up the result a lot
 	Moreover, the results could be improved by finding a model that has been trained on products, which would result in more accurate entities and aspects.
+	%We use the sentiment of the whole sentence to determine the sentiment towards the aspect
+	
 	\section{Appendix}
 	%TODO: Make proper appendix, don't know the commands from the top of my head
 		
