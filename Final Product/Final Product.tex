@@ -94,8 +94,9 @@
 	
 	\section{Approach}
 	% Which steps are necessary?
-	In the following section, our approach towards the aspect based sentiment analysis will be presented. To only look at relevant data, our methods of pre-processing will be discussed first. Then, we will show how the products and aspects are extracted. Afterwards, the nltk module \textit{VADER} is used to determine the sentiment polarities that are present in the specific Facebook posts.
-			\subsection{Pre-processing}
+	In the following section, our approach towards the aspect based sentiment analysis will be presented. To only look at relevant data, our methods of pre-processing will be discussed first. Then, we will show how the products and aspects are extracted. Afterwards, the NLTK module \textit{VADER} is used to determine the sentiment polarities that are present in the specific Facebook posts.
+			
+		\subsection{Pre-processing}
 		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content. With these pre-processing tasks, we only look at posts where some sentiments should be present.
 			
 		\subsection{Extracting entities and aspects}
@@ -119,11 +120,15 @@
 		\subsection{Determining sentiment polarities}
 		\label{sec:sentimentpolarities}
 		
-		Since for every Facebook post sentiment analysis has to be applied, a model which deals with the problem of having social media texts is largely favored. A model for lexicon and rule-based sentiment analysis of social media text is VADER \cite{vader}. This model is included in the Python library NLTK and was for these reasons the chosen one in the final implementation. 
+		Since for every Facebook post sentiment analysis has to be applied, a model which deals with the problem of having social media texts is largely favored. A model for lexicon and rule-based sentiment analysis of social media text is VADER \cite{vader}. This model is included in the Python library NLTK and was for these reasons the chosen in the final implementation. 
 		
-		For applying the VADER model the tagged posts, their entities and their aspects are being used. Every posts gets parsed into the VADER model and the polarity of each post gets calculated. For determining the polarities for each entity, we look if an entity appears in a some sentence of the post. If it does, the general polarity of that sentence gets calculated. For then calculating the polarity towards the entity, the following formula is applied:
+		For applying the VADER model the tagged posts, their entities and their aspects are being used. Every posts gets parsed into the VADER model and the polarity of each post gets calculated. For determining the polarities for each entity, we look if an entity appears in some sentence of the post. If it does, the general polarity of that sentence gets calculated. For then calculating the polarity towards the entity, the following formula is applied:
 		
-		If the polarity towards positive is the highest and the compound polarity is greater than 0.3, this sentence gets the polarity \textit{positive}. If the polarity towards negative is the highest and the compound polarity is smaller than 0.3, this sentence gets the polarity \textit{negative}. Every other case receives the polarity \textit{neutral}.
+		If the polarity towards positive is the highest and the compound polarity is greater than 0.3, this sentence gets the polarity \textit{positive}. The threshold of 0.3 for the compound polarity was chosen because only checking whether the polarity towards positive is the highest is not enough to be accurate. If for example the polarity towards positive is 0.5001 and the polarity towards negative 0.4999, this would not be a representative positive sentence. For this example the compound value would be low which is why we included the 0.3 threshold to ensure that only posts which have a reasonable difference between the positive and negative polarity are labeled as \textit{positive}. 
+		
+		If the polarity towards negative is the highest and the compound polarity is smaller than -0.3, this sentence gets the polarity \textit{negative}. The threshold of -0.3 was chosen for the same reasons explained above for the polarity \textit{positive} with the only difference that we now want a very low compound value to ensure that the negative polarity is reasonably bigger than the positive one. 
+		
+		Every other case receives the polarity \textit{neutral} since it can not be defined as either \textit{positive} or \textit{negative}.
 		
 		After applying that formula we look if an aspects appears in that particular sentence. If it does, the collection of entity, aspect and polarity gets added to the sentiment list. If it does not, the entity and polarity get added to the sentiment list under the aspect \textit{general}.
 		
