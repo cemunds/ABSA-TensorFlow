@@ -37,9 +37,9 @@
 	% What does "aspect-based" mean?
 	% What do we show?
 	
-	Sentiment analysis or opinion mining uses techniques from natural language processing (NLP), text analysis, and computational linguistics to extract subjective information from texts. In applications that involve analyzing customer experience, this subjective information typically represents the position of a person towards a certain entity. Quantifying feelings and opinions that customers possess towards products and services offers valuable information for the company. 
+	Sentiment analysis and opinion mining use techniques from natural language processing (NLP), text analysis, and computational linguistics to extract subjective information from texts. In applications that involve analyzing customer experience, this subjective information typically represents the position of a person towards a certain entity. Quantifying feelings and opinions that customers possess towards products and services offers valuable information for the company. 
 	
-	Such information can be used to monitor their reputation or improve the understanding of the market's needs. In contrast to generic sentiment analysis, this information can only be acquired by precisely identifying the entities and aspects towards which a sentiment is expressed. This specific task is referred to as  Aspect Based Sentiment Analysis (ABSA).
+	Such information can be used to monitor their reputation or improve the understanding of the market's needs. In contrast to generic sentiment analysis, this information can only be acquired by precisely identifying the entities and aspects towards which a sentiment is expressed. This specific task is referred to as Aspect Based Sentiment Analysis (ABSA).
 	
 	The project presented in this document focuses on ABSA, finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain.
 	
@@ -48,7 +48,7 @@
 	 It should therefore be possible to collect the information in these posts and extract sentiments about products or aspects of the company that offer valuable insight. Our approach on a solution will be presented in this report, starting with a description of the related work that already exists. Afterwards, our approach and the single steps that are performed will be introduced. Then, the results that have been obtained will be discussed, as well as the visualization that has been implemented. To finish up the report, a conclusion will be drawn.
 		
 	\section{Related work}
-	The related work presented in this section should give a quick overview over the main techniques that we used to identify entities and their aspects, as well as determining the sentiments.
+	The related work presented in this section gives a quick overview over the main techniques that we used to identify entities and their aspects, as well as determining the sentiments.
 		
 		\subsection{POS-Tagging}		
 		POS-Tagging (part-of-speech tagging), also called grammatical tagging or word-category disambiguation, refers to the process of identifying particular parts of speech like nouns or verbs. Identifying the role of a certain word within a sentence is important for the task of sentiment analysis, as identifying entities and their corresponding aspects can be handled much easier relying on certain assumptions about the part of speech of words.
@@ -81,7 +81,7 @@
 		
 		In the first step, all sentiment words and phrases in the text are marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
 		
-		In the second step, sentiment shifters will be applied. A sentiment shifter can be described as a word that negates the value that has been applied in the first step, changing its value from positive to negative or the other way around. Typically, these words are negation words like \textit{not}. 
+		In the second step, sentiment shifters are applied. A sentiment shifter can be described as a word that negates the value that has been applied in the first step, changing its value from positive to negative or the other way around. Typically, these words are negation words like \textit{not}. 
 		
 		In the third step, but-clauses and further contrary words are handled. With these contrary words, sentences can be split up into two parts. Depending on the value of the sentiments mentioned in the first part, the sentiments in the second part receive the opposite value.
 		
@@ -89,15 +89,15 @@
 		\begin{displaymath}
 			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
 		\end{displaymath}
-		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score neither positive or negative, it is a neutral aspect.
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score is neither positive or negative, it is a neutral aspect.
 	
 	
 	\section{Approach}
 	% Which steps are necessary?
-
-		\subsection{Preprocessing}
-		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
-	
+	In the following section, our approach towards the aspect based sentiment analysis will be presented. To only look at relevant data, our methods of pre-processing will be discussed first. Then, we will show how the products and aspects are extracted. Afterwards, the nltk module \textit{VADER} is used to determine the sentiment polarities that are present in the specific Facebook posts.
+			\subsection{Pre-processing}
+		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content. With these pre-processing tasks, we only look at posts where some sentiments should be present.
+			
 		\subsection{Extracting entities and aspects}
 		\label{sec:entityextraction}
 		For each post, the POS tags as well as different entities are obtained, with the entities being created through different Named Entity Recognition models. Both POS-tagging and Named Entity Extraction are accomplished with OpenNLP.
@@ -106,10 +106,10 @@
 		The Named Entity Recognition in the English language is available for different entities, each with their own model. We utilized the following models: \textit{person}, \textit{location}, \textit{organization}, \textit{date} and \textit{money}.
 		
 		
-		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organization to appropriately tag these. Most nouns in the English language are written in lower case, but organizations as well as products contain capital letters. The OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services because of this. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service.
+		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organization to appropriately tag these. Most nouns in the English language are written in lower case, but organizations as well as products often contain capital letters. The OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services because of this. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service. This will lead to noise of non-fitting nouns tagged as a product/service. 
 		
 		
-		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product.
+		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product. To reduce the impact of this noise, we decided to remove some of the products by hand.
 
 		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This results in a reduction of entities, e.g. \textit{Customer Service} and \textit{Customer Services} are considered as the same entity. The entities' aspect lists are merged accordingly. All aspects that are also part of the entity's name are removed from the aspect list. Amongst other things, this removes the aspects \textit{tesco} and \textit{express} from the list of aspects for the entity \textit{Tesco Express}.
 
