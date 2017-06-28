@@ -123,7 +123,7 @@
 		Our sentiment analysis has to be applied for every comment on the Facebook page of Tesco. Therefore, a model which deals with the problem of having social media texts is largely favored. A tool for lexicon and rule-based sentiment analysis of social media text is VADER, which is the abbreviation for \textit{Valence Aware Dictionary and sEntiment Reasoner} \cite{vader}. This model is included in the Python library NLTK and enables us to use a lexicon and rule-based sentiment analysis tool that has been developed to specifically understand the sentiments expressed in social media channels, e.g. by understanding emoticons as well as slang words.
 		
 				
-		To apply VADER model, the tagged posts as well as their entities and aspects are used. Every posts is parsed into the VADER model and the polarity of each post is calculated. To determine the polarity of each entity, we look whether the entity appears in a sentence of the post. If it does, the general polarity of that sentence will becalculated. To calculate the polarity towards the entity, the following formula is applied:
+		To apply VADER model, the tagged posts as well as their entities and aspects are used. Every posts is parsed into the VADER model and the polarity of each post is calculated. To determine the polarity of each entity, we look whether the entity appears in a sentence of the post. If it does, the general polarity of that sentence will be calculated. To calculate the polarity towards the entity, the following formula is applied:
 		
 		If the positive polarity is bigger and the compound polarity is greater than 0.3, this sentence gets the polarity \textit{positive}. The threshold of 0.3 for the compound polarity was chosen because only checking whether the polarity towards positive is the highest is not enough to be accurate. If for example the polarity towards positive is 0.5001 and the polarity towards negative 0.4999, this would not be a representative positive sentence. For this example the compound value would be low which is the reason the 0.3 threshold is included in our formula. This ensures that only posts which have a reasonable difference between the positive and negative polarity are labeled as \textit{positive}. 
 		
@@ -133,7 +133,7 @@
 		
 		After applying this formula we look whether an aspect appears in that particular sentence. If it does, the collection of entity, aspect and polarity gets added to the sentiment list. If it does not, the entity and polarity get added to the sentiment list under the aspect \textit{general}.
 		
-		The evaluated posts then create a new list containing the name of an entity and their positive, negative and neutral score by summing the occurences of a positive, negative or neutral polarity.
+		The evaluated posts then create a new list containing the name of an entity and their positive, negative and neutral score by summing the occurrences of a positive, negative or neutral polarity.
 		
 	\section{Results}
 	\label{sec:results}
@@ -198,7 +198,7 @@
 		
 		For the customer service (compare Figures~\ref{fig:custServ1} and~\ref{fig:custServ2}), it is interesting to note that the aspects 'general', 'store' and 'tesco' have more positive than negative expressed sentiments, while the aspect 'delivery' has about the same amount of positive and negative sentiments. This might be because of late deliveries, which can happen through circumstances out of the company's reach.
 		
-		Such results can be found for many products and aspects, e.g delivering insights into which Tesco stores receive mostly good or bad feedback if the threshold for the occurence of aspects is lowered from 10\%.
+		Such results can be found for many products and aspects, e.g delivering insights into which Tesco stores receive mostly good or bad feedback if the threshold for the occurrence of aspects is lowered from 10\%.
 	
 	\section{Discussion and Conclusion}
 	The accuracy of 54.72\% as mentioned in Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure). 
