@@ -10,7 +10,7 @@
 \usepackage{url}
 
 \title{\Huge{Sentiment Analysis for Social Media Comments}}
-\author{Christoph Emunds, Benedikt Heinrichs, Dominik Nerger, Richard Polzin}
+\author{Christoph Emunds, Richard Polzin,\\Dominik Nerger, Benedikt Heinrichs}
 \date{\today}
 
 \begin{document}
@@ -18,9 +18,9 @@
 	
 	\maketitle
 	\begin{abstract}
-	Analyzing customer experience offers valuable data for Business Intelligence. Especially in e-commerce, where users write reviews about products and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strengths and weaknesses of the product or service.
+	Analyzing customer experience offers valuable data for Business Intelligence. Especially in e-commerce, where users write reviews about pro\-ducts and services, the analysis of the customers' sentiment towards these entities yields significant insights into potential strengths and weaknesses of the product or service.
 
-	Our work focuses on evaluating customer experience through the application of aspect-based sentiment analysis on social media posts. The data set contains a year's worth of Facebook comments on the pages of the two supermarket chains Tesco and Sainsbury. The goal is to extract as many triplets $(e, a, s)$ as possible, where $e$ is an entity (product or service), $a$ is an aspect of this entity (performance, battery, politeness, etc.), and $s$ is the sentiment polarity label (negative, neutral, positive).
+	Our work focuses on evaluating customer experience through the application of aspect-based sentiment analysis on social media posts. The data set contains a year's worth of Facebook comments on the pages of the two supermarket chains Tesco and Sainsbury. The goal is to extract as many triplets $(e_{i}, a_{ij}, s_{ij})$ as possible, where $e_{i}$ is an entity (product or service), $a_{ij}$ is an aspect (performance, battery, politeness, etc.) of this entity , and $s_{ij}$ is the sentiment polarity label (negative, neutral, positive) for this entity-aspect combination.
 
 	To accomplish this task, many different subtasks need to be solved. After a rudimentary preprocessing routine, the posts need to be identify the part of speech (POS) category for every word. Then Named Entity Recognition (NER) must be applied and words containing sentiment need to be detected and evaluated. As a significant number of social media texts do not follow the grammatical rules or contain a lot of misspellings the complexity of those tasks is increased significantly. With the completed analysis we identify potential products and services, their corresponding aspects and sentiment words, which are scored and aggregated into opinions.
 
@@ -32,20 +32,14 @@
 	\newpage
 	
 	\pagenumbering{arabic}
-	\section{Introduction}
-	% What is sentiment analysis?
-	% What does "aspect-based" mean?
-	% What do we show?
+	\section{Introduction}	
+	Sentiment analysis uses techniques from natural language processing (NLP), text analysis, and computational linguistics to extract subjective information from texts. In applications that involve analyzing customer experience, this subjective information typically represents the opinion of a person about a certain entity. Quantifying the feelings and opinions that customers possess towards products and services offers valuable information for the company. 
 	
-	Sentiment analysis and opinion mining use techniques from natural language processing (NLP), text analysis, and computational linguistics to extract subjective information from texts. In applications that involve analyzing customer experience, this subjective information typically represents the position of a person towards a certain entity. Quantifying feelings and opinions that customers possess towards products and services offers valuable information for the company. 
+	Such information can be used to monitor reputation or improve understanding of the market's needs. In contrast to generic sentiment analysis, this information can only be acquired by precisely identifying the entities and aspects towards which a sentiment is expressed. This specific task is referred to as Aspect Based Sentiment Analysis (ABSA). The project presented in this document focuses on ABSA, finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain.
 	
-	Such information can be used to monitor their reputation or improve the understanding of the market's needs. In contrast to generic sentiment analysis, this information can only be acquired by precisely identifying the entities and aspects towards which a sentiment is expressed. This specific task is referred to as Aspect Based Sentiment Analysis (ABSA).
-	
-	The project presented in this document focuses on ABSA, finding and analyzing customers' opinions on products and their aspects from social media posts of a supermarket chain.
-	
-	 In today's world, social media is a big part of the social life. On social networks like Facebook, many companies represent themselves through a corporate account. This opens up the possibility for many people to interact with those companies. Everyone can leave a comment on the page of a company, celebrity or a sports teams. People can review or comment with a lot of context. General posts can be created, as well as reactions to news or a posting that concerns a specific product. These comments or reviews are often filled with positive or negative sentiments. 
+	In today's world, social media is a big part of the social life. On social networks like Facebook, many companies represent themselves through a corporate account. This opens up the possibility for many people to interact with those companies. Everyone can leave a comment on the page of a company, celebrity or a sports teams. People can review or comment with a lot of context. General posts can be created, as well as reactions to news or a posting that concerns a specific product. These comments or reviews are often filled with positive or negative sentiments. 
 	 
-	 It should therefore be possible to collect the information in these posts and extract sentiments about products or aspects of the company that offer valuable insight. Our approach on a solution will be presented in this report, starting with a description of the related work that already exists. Afterwards, our approach and the single steps that are performed will be introduced. Then, the results that have been obtained will be discussed, as well as the visualization that has been implemented. To finish up the report, a conclusion will be drawn.
+	It should therefore be possible to collect the information in these posts and extract sentiments about products or aspects of the company. Our approach on a solution will be presented in this report, starting with a description of the related work that already exists. Afterwards, our approach and the single steps that are performed will be introduced. Then, the results that have been obtained will be discussed, as well as the visualization that has been implemented. To finish up the report, a conclusion will be drawn.
 		
 	\section{Related work}
 	The related work presented in this section gives a quick overview over the main techniques that we used to identify entities and their aspects, as well as determining the sentiments.
@@ -61,9 +55,7 @@
 
 		Due to the complexity, machine learning techniques are often applied in POS-Taggers. Popular approaches such as the Viterbi algorithm \cite{Viterbi:2006:EBC:2263262.2267502}, the Brill tagger \cite{Brill:1992:SRP:974499.974526} or the Baum-Welch algorithm \cite{baumwelch} work with techniques such as dynamic programming, supervised learning or hidden Markov models.
 
-		
 		\subsection{NER-Tagging}
-		
 		Named-Entity recognition (NER) is a task that seeks to locate and classify specific information in text. This information is called a named entity and can refer to categories such as the names of persons, locations, times or many others.
 
 		An annotated sentence could look like this :
@@ -75,9 +67,7 @@
 		While state-of-the-art NER-Taggers perform very well and produce near-human performance they are also brittle and do not perform well in domains they were not designed for \cite{ner}.
 		
 		\subsection{Lexicon-based sentiment analysis}
-		An approach to determine sentiment polarities is the lexicon-based sentiment analysis.
-		
-		The method created by \cite{Ding:2008:HLA:1341531.1341561} can be broken down to the following four steps: 
+		An approach to determine sentiment polarities is the lexicon-based sentiment analysis. The method created by \cite{Ding:2008:HLA:1341531.1341561} can be broken down to the following four steps: 
 		
 		In the first step, all sentiment words and phrases in the text are marked with the help of a sentiment lexicon. This is done by assigning positive or negative values to those sentiments, e.g. [+1] for a positive or [-1] for a negative sentiment.
 		
@@ -89,77 +79,48 @@
 		\begin{displaymath}
 			score(a_i,s) = \sum_{ow_j \in s} \frac{sw_j.so}{dist(sw_j,a_i)}
 		\end{displaymath}
-		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$.  Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score is neither positive or negative, it is a neutral aspect.
-	
+		where $sw_j$ is a sentiment word in s, $dist(sw_j, a_i)$ is the distance between aspect $a_i$ and sentiment word $sw_j$ in $s$. $sw_j.so$ is the sentiment score of $sw_i$. Depending on the score, it can be determined whether the opinion on the aspect $a_i$ in $s$ is positive or negative. If the final score is neither positive or negative, it is a neutral aspect.
 	
 	\section{Approach}
-	% Which steps are necessary?
-	In the following section, our approach towards the aspect based sentiment analysis will be presented. To only look at relevant data, our methods of pre-processing will be discussed first. Then, we will show how the products and aspects are extracted. Afterwards, the NLTK module \textit{VADER} is used to determine the sentiment polarities that are present in the specific Facebook posts.
+	In the following section, the approach towards aspect based sentiment analysis will be presented. First preprocessing will be discussed. Then, we will show how the products and aspects are extracted. Afterwards, the NLTK module \textit{VADER} is used to determine the sentiment polarities that are present in the Facebook posts.
 			
-		\subsection{Pre-processing}
-		We pre-processed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content. With these pre-processing tasks, we only look at posts where some sentiments should be present.
+		\subsection{Preprocessing}
+		We preprocessed the data by extracting the actual text of the posts into separate files. We decided to exclude posts that are less than 20 characters long or include images. This is due to the fact that posts which are too short do not yield much information most of the time. Furthermore, posts that include images often refer to objects in the image, which makes it hard to understand the author's sentiment without analyzing the image content.
 			
 		\subsection{Extracting entities and aspects}
 		\label{sec:entityextraction}
-		For each post, the POS tags as well as different entities are obtained, with the entities being created through different Named Entity Recognition models. Both POS-tagging and Named Entity Extraction are accomplished with OpenNLP.
-		They use maximum entropy, which takes the data and classifies it, while not assuming anything about the probability distribution, besides the things that have been observed. 
+		For each post, the POS tags as well as different entities are obtained, with the entities being created through different Named Entity Recognition models. Both POS-tagging and Named Entity Extraction are accomplished with OpenNLP. The Named Entity Recognition in the English language is available for different entities, each with their own model. We utilized the following models: \textit{person}, \textit{location}, \textit{organization}, \textit{date} and \textit{money}.
 		
-		The Named Entity Recognition in the English language is available for different entities, each with their own model. We utilized the following models: \textit{person}, \textit{location}, \textit{organization}, \textit{date} and \textit{money}.
+		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organization to approximately tag these. Most nouns in the English language are written in lower case, but organizations as well as products often contain capital letters. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service.
 		
-		
-		Because no pre-trained model exists for the Named Entity Recognition of products or services, we decided to use the OpenNLP model for organization to appropriately tag these. Most nouns in the English language are written in lower case, but organizations as well as products often contain capital letters. The OpenNLP model for organizations is a fitting alternative to bypass the non-existent models for products and services because of this. Therefore, we consider everything that is tagged as \textit{Organization} as a product or service. This will lead to noise of non-fitting nouns tagged as a product/service. 
-		
-		
-		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider the ones to be real aspects that occur at least in 10\% of the posts that mentioned the product. To reduce the impact of this noise, we decided to remove some of the products by hand.
+		Searching for aspects is done by iterating over the complete set of posts for each entity. If a post contains the product, we identify the sentences it appears in. We then look for other nouns in these sentences and count their frequency. From those potential aspects, we consider those that occur in at least 10\% of the posts that mentioned the product. To reduce the impact of noise, we decided to remove some of the products by hand.
 
-		After identifying a set of aspects for each entity, we merge similar entities and their aspect lists by tokenizing the entities' names and lemmatizing them. This results in a reduction of entities, e.g. \textit{Customer Service} and \textit{Customer Services} are considered as the same entity. The entities' aspect lists are merged accordingly. All aspects that are also part of the entity's name are removed from the aspect list. Amongst other things, this removes the aspects \textit{tesco} and \textit{express} from the list of aspects for the entity \textit{Tesco Express}.
+		After identifying a set of aspects for each entity, we merge similar entities and their aspects by tokenizing the entities' names and lemmatizing them. This results in a reduction of entities, e.g. \textit{Customer Service} and \textit{Customer Services} are considered as the same entity. The entities' aspects are merged accordingly. Moreover, all aspects that are part of the entity's name are removed from the aspect list. For instance, this removes the aspects \textit{tesco} and \textit{express} from the list of aspects for the entity \textit{Tesco Express}.
 
-		If no aspects can be found for a specific entity, it is removed from the final list of entities.
-		For every entity that is part of the final list, the aspect \textit{general} is added as well.
+		If no aspects can be found for a specific entity, it is removed from the final list of entities. For every entity that is part of the final list, the aspect \textit{general} is added as well.
 
 		\subsection{Determining sentiment polarities}
 		\label{sec:sentimentpolarities}
+		Liu (2012) defines an opinion as a quintuple $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
 		
-		Our sentiment analysis has to be applied for every comment on the Facebook page of Tesco. Therefore, a model which deals with the problem of having social media texts is largely favored. A tool for lexicon and rule-based sentiment analysis of social media text is VADER, which is the abbreviation for \textit{Valence Aware Dictionary and sEntiment Reasoner} \cite{vader}. This model is included in the Python library NLTK and enables us to use a lexicon and rule-based sentiment analysis tool that has been developed to specifically understand the sentiments expressed in social media channels, e.g. by understanding emoticons as well as slang words.
+		However, from the given data set, it is not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time at which the sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services.
 		
-				
-		To apply VADER model, the tagged posts as well as their entities and aspects are used. Every posts is parsed into the VADER model and the polarity of each post is calculated. To determine the polarity of each entity, we look whether the entity appears in a sentence of the post. If it does, the general polarity of that sentence will be calculated. To calculate the polarity towards the entity, the following formula is applied:
-		
-		If the positive polarity is bigger and the compound polarity is greater than 0.3, this sentence gets the polarity \textit{positive}. The threshold of 0.3 for the compound polarity was chosen because only checking whether the polarity towards positive is the highest is not enough to be accurate. If for example the polarity towards positive is 0.5001 and the polarity towards negative 0.4999, this would not be a representative positive sentence. For this example the compound value would be low which is the reason the 0.3 threshold is included in our formula. This ensures that only posts which have a reasonable difference between the positive and negative polarity are labeled as \textit{positive}. 
-		
-		Likewise, if the negative polarity is bigger and the compound polarity is smaller than -0.3, this sentence gets the polarity \textit{negative}. The threshold of -0.3 was chosen for the same reasons as above, with the only difference being that now a very low compound value is wanted to ensure that the negative is bigger than the positive polarity. 
-		
-		Every other case receives the polarity \textit{neutral} since it can not be defined as either \textit{positive} or \textit{negative}.
-		
-		After applying this formula we look whether an aspect appears in that particular sentence. If it does, the collection of entity, aspect and polarity gets added to the sentiment list. If it does not, the entity and polarity get added to the sentiment list under the aspect \textit{general}.
-		
-		The evaluated posts then create a new list containing the name of an entity and their positive, negative and neutral score by summing the occurrences of a positive, negative or neutral polarity.
+		Our approach aims to extract opinion triples $(e_{i}, a_{ij}, s_{ij})$. For each post we first identify the sentences a certain entity-aspect combination appears in. Afterwards, we score these sentences with VADER (\textit{Valence Aware Dictionary and sEntiment Reasoner}) \cite{vader}, which is a tool for lexicon and rule-based sentiment analysis. It is included in the NLTK Python library and was specifically designed to be used on social media texts, e.g. by understanding emoticons and slang words.
+
+		After obtaining the opinion triples for each post, they are aggregated by entity and aspect to be more comprehensible. This creates an overview over the customers' sentiments towards the products and services. We also incorporate excerpts from the posts into the summarization, i.e. the sentences that an entity-aspect combination appears in. These excerpts are only used for the visualization later on, where the product, aspect and sentiment words are color coded.
 		
 	\section{Results}
 	\label{sec:results}
+	We were given a data set containing a year's worth of Facebook comments on the pages of the two supermarket chains Tesco and Sainsbury. However, we mainly focused on the Tesco data set, since it is bigger and the developed pipeline can easily be applied to other data sets.
 	
-	We were given a data set containing a year's worth of Facebook comments on the pages of the two supermarket chains Tesco and Sainsbury. However, we decided to perform our approach on the Tesco data set only.
-	
-	Through performing our pre-processing tasks of removing posts with less than 20 characters or an image, we were able to reduce the amount of posts by 40.6\%, from 37701 original posts down to 22395 afterwards.
+	Through the pre-processing we reduced the amount of posts by 40.6\%, from 37701 original posts down to 22395. The entity extraction resulted in 1598 products. After removing some of them by hand, we ended up with 1379 products. Furthermore, products for which no aspect was found were removed. Finally, 1256 products that at least contain one aspect were identified, decreasing the product list by 21.5\%. 
 
-	By executing the POS- and NER-tagger, we came up with 1598 products that were mentioned in the posts. Because there were a lot of products that did not make sense, we removed some of them by hand, resulting in 1379 products. Furthermore, products that did not possess an aspect were removed as well. Therefore, 1256 products that at least contain one aspect were identified, decreasing the product list by 21.5\%. 
-
-	The original goal was to extract as many quintuples $(e_i, a_{ij}, s_{ijkl}, h_k, t_l)$ as possible, where $e_i$ is the $i$'th entity and $a_{ij}$ is the $j$'th aspect of entity $i$ the opinion is expressed on. $s_{ijkl}$ is the sentiment polarity, which can take on the values \textit{positive} or \textit{negative}. $h_k$ describes the opinion holder and $t_l$ the time at which the opinion was expressed.
-
-	However, from the data set that was given to us, it was not possible to determine the person that wrote a post. Moreover, we did not focus on extracting the time a certain sentiment was expressed, as we did not aim to provide a temporal overview over the shifting of opinions towards the products and services. 
-
-	We labeled a small subset of posts concerning the entity \textit{Customer Service} by hand. This includes 200 posts with 254 extracted sentiment triples with unknown sentiment.
-
-	After labeling these triples with the VADER module, 139 of the 254 triples (i.e. 54.72\%) result in the same sentiment.
+	We labeled 200 posts concerning the entity \textit{Customer Service} by hand. From these 200 posts, we extracted 254 opinion triples, in which we filled in the sentiment manually. Comparison with VADER's results showed that 139 of the 254 triples (i.e. 54.72\%) match.
 
 		\subsection{Visualization}
-		We will use the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}, which includes misspellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words.
-
-		On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
-	
-		For the visualization, we use the \textit{JSON} file containing the aggregated opinions that are the result of executing the pipeline as well as a \textit{JSON} containing the positive and negative sentiment words that are provided by the lexicon-based sentiment analysis.
-	
-		The data is visualized with each product having its own page that is loaded from a dropdown menu and each aspect of the product being visualized with a bar chart as well as the specific posts being shown below the bar chart. The bar chart can be seen in Figure \ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments regarding the combination of product and aspect.
+		For the visualization, we use the aggregated opinions that are the result of executing the pipeline and the sentiment lexicon by \cite{Hu:2004:MSC:1014052.1014073}. On the server side, we use Python with the library Flask. On the client side, we use the JavaScript libraries d3.js, vue.js and jQuery.
+		
+		The data is visualized with each product having its own page. Each aspect of the product is visualized with a bar chart and the corresponding post excerpts. The bar chart can be seen in Figure \ref{fig:barchart}. It shows the amount of negative, neutral and positive sentiments for the aspect \textit{store} of the entity \textit{Customer Service}.
 	
 		\begin{figure}[h]
 			\centering
@@ -168,7 +129,7 @@
 			\label{fig:barchart}
 		\end{figure}
 			
-	An excerpt of posts regarding the combination of product and aspect is shown below each bar chart, with a maximum of 10 posts per aspect. In Figure \ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted in colors green and red, respectively. Mentions of the product are highlighted in orange and the aspect is shown with a cyan highlighting. This ensures that the relevant parts of each post can be found instantly.
+		An excerpt of posts regarding the combination of product and aspect is shown, with a maximum of 10 posts per aspect. In Figure \ref{fig:posts}, the highlighted posts can be seen. Positive and negative sentiments are highlighted using the sentiment lexicon. This particular sentiment lexicon includes misspellings, morphological variants, slang and social-media mark-up of 2006 positive and 4783 negative words. Positive and negative sentiments are colored green and red, respectively. Products are highlighted in orange and Aspects in cyan.
 			
 		\begin{figure}[h]
 			\centering
@@ -177,51 +138,36 @@
 			\label{fig:posts}
 		\end{figure}
 		
-				
-		The products with the most mentions are \textit{Tesco}, \textit{Tesco Express}, \textit{Tesco Direct}, \textit{Customer Service} and \textit{Store}.
-		
 		\FloatBarrier
 		\begin{figure}[!h]
-  \centering
-  \begin{minipage}[b]{0.455\textwidth}
-    \includegraphics[width=\textwidth]{data/custService1}
-    \caption{ Aspects general and store for the customer service}
-	\label{fig:custServ1}
-  \end{minipage}
-  \hfill
-  \begin{minipage}[b]{0.48\textwidth}
-    \includegraphics[width=\textwidth]{data/custService2}
-    \caption{Aspects tesco and delivery for the customer service}
-	\label{fig:custServ2}
-  \end{minipage}
-\end{figure}		
+		  \centering
+		  \begin{minipage}[b]{0.455\textwidth}
+		    \includegraphics[width=\textwidth]{data/custService1}
+		  \end{minipage}
+		  \hfill
+		  \begin{minipage}[b]{0.48\textwidth}
+		    \includegraphics[width=\textwidth]{data/custService2}
+		  \end{minipage}
+		  \caption{Sentiment charts for different aspects of Customer Service}
+		  \label{fig:custServ}
+		\end{figure}		
 		
-		For the customer service (compare Figures~\ref{fig:custServ1} and~\ref{fig:custServ2}), it is interesting to note that the aspects 'general', 'store' and 'tesco' have more positive than negative expressed sentiments, while the aspect 'delivery' has about the same amount of positive and negative sentiments. This might be because of late deliveries, which can happen through circumstances out of the company's reach.
-		
-		Such results can be found for many products and aspects, e.g delivering insights into which Tesco stores receive mostly good or bad feedback if the threshold for the occurrence of aspects is lowered from 10\%.
+		For a subset of the sentiment charts for the entity \textit{Customer Service} see Figure \ref{fig:custServ}. The aspects 'general', 'store' and 'tesco' have a more positive sentiment, while the aspect 'delivery' has about the same amount of positive and negative sentiments. One potential insight might be that improving delivery should be prioritized over improvements of the store.
 	
-	\section{Discussion and Conclusion}
-	The accuracy of 54.72\% as mentioned in Section \ref{sec:results} leaves a lot of potential for improvement. Several factors contribute to this rather bad accuracy score. First of all, the 200 posts that were labeled by hand are by no means indicative of the actual data set. Furthermore, we did not test different target functions for the polarity determination. Due to the lack of time, each of the four contributors tagged 50 posts. There is no guarantee that two people agree with what the other person labeled (would need Kappa measure). 
+	\section{Conclusion}
+	The accuracy of 54.72\% as mentioned in Section \ref{sec:results} leaves a lot of potential for improvement. Several factors could be related. For example, the baseline for comparison only consists of 200 posts that were labeled by hand. These are by no means indicative of the actual data set. In the scope of this project, each of the four contributors tagged 50 posts. To ensure a proper test set for validation, each contributor would have to label the same set of posts, such that the Kappa measure could be derived. Due to time constraints, this was not a priority.
 
-	We do not account for multi token aspects, since we only identify common nouns, which are single words.
+	Furthermore, the function for the sentiment polarity determination was not evaluated extensively. The different parameters were mainly set by intuition and no detailed analysis was conducted.
+
+	A general shortcoming of the proposed pipeline is that we do not handle multi token aspects. The developed system is based on identifying common nouns as aspects. These, by definition, do not span multiple tokens.
 
 	As mentioned in Section \ref{sec:entityextraction}, we consider every organization found as product or service. This has many caveats. For one, it is required that services like \textit{Customer Service} actually appear capitalized in our data set at least once to be found. Moreover, a lot of things that are not actually organizations are tagged as such. This could be improved by incorporating more knowledge regarding common nouns and noun phrases, creating our own Named Entity Recognition model.
-	% Furthermore we take absolutely every "organization" into account and do use a frequency threshold, which might clean up the result a lot
-	Moreover, the results could be improved by finding a model that has been trained on products, which would result in more accurate entities and aspects.
-	%We use the sentiment of the whole sentence to determine the sentiment towards the aspect
 	
-	
-	% Basic appendix with Appendix as the headline to differentiate it from the rest. If not needed just remove the "\section*{Appendix}" row.
-	\appendix
-	
-	\section*{Appendix}
-			
-	\section{Using the code}
-		To reproduce our work, the provided code has to be executed in a certain sequence. The following will talk about the needed steps.
+	Another potential source of improvement would be the incorporation of dependency parsing to determine the sentiment towards an entity-aspect combination on a more detailed level. Currently, we use the sentiment of the whole sentence as a foundation for the sentiment polarity determination.
 
 	\newpage
-	
-		
+
+	\nocite{Liu12sentimentanalysis}
 	\bibliography{rp}
 	\bibliographystyle{apacite}
 \end{document}
